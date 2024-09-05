@@ -1,24 +1,50 @@
-import Link from 'next/link'
-import React from 'react'
-import MobileMenu from './MobileMenu'
+import Link from "next/link";
+import React from "react";
+import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
+  const navLinks = [
+    { name: "Hakkımızda", path: "/hakkimizda" },
+    { name: "Ekibimiz", path: "/ekibimiz" },
+    { name: "Hizmetler", path: "/hizmetler" },
+    { name: "Yayınlar", path: "/yayinlar" },
+    { name: "Kariyer", path: "/kariyer" },
+    { name: "İletişim", path: "/iletisim" },
+    { name: "E-Tahsilat", path: "/e-tahsilat" }
+  ];
+
   return (
-    <div className='h-24 flex items-center justify-between'>
+    <div className="h-24 flex items-center justify-between ">
       {/* LEFT */}
-      <div className=''>
-        <Link href="/" className='font-bold text-xl text-blue-600'>SANCAR HUKUK</Link>
+      <div className="md:hidden lg:block">
+        <Link href="/" className="font-extrabold text-xl text-gray-800">
+          SANCAR HUKUK
+        </Link>
       </div>
 
       {/* CENTER */}
-      <div className='hidden'></div>
+      <div className="hidden md:flex justify-end">
+        {/* LINKS */}
+        <div className="flex gap-6 text-gray-600">
+          {navLinks.map((link, index) => (
+            <Link href={link.path} key={index} className="hover:text-gray-950  duration-500 items-center font-semiboldbold">
+              {link.name}
+            </Link>
+          ))}
+        </div>
+      </div>
 
       {/* RIGHT */}
-      <div className=''>
-        <MobileMenu/>
+      <div className="flex items-center justify-end gap-4 text-xs font-bold">
+        <div className="flex gap-2  ">
+          <span className="cursor-pointer">TR</span>
+          |
+          <span className="cursor-pointer">ENG</span>
+        </div>
+        <MobileMenu />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
