@@ -1,6 +1,6 @@
-import Link from "next/link";
 import React from "react";
 import MobileMenu from "./MobileMenu";
+import { Link } from "@/navigation";
 
 const Navbar = () => {
   const navLinks = [
@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="flex gap-2  ">
           <span className="cursor-pointer">TR</span>
           |
-          <span className="cursor-pointer">ENG</span>
+          <span className="cursor-pointer">EN</span>
         </div>
         <MobileMenu />
       </div>
