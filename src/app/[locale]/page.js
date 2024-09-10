@@ -1,10 +1,12 @@
-import { useTranslations } from "next-intl"
+import ParallaxCarousel from "@/components/ParallaxCarousel";
+
+
 
 export default function Home() {
-  const t = useTranslations("indexpage")
+  
   return (
-    <div className="flex justify-center items-center gap-2">
-      Hello
+    <div className="w-full">
+      <ParallaxCarousel/>
     </div>
   )
 }

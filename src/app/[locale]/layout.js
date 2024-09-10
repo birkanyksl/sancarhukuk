@@ -18,7 +18,7 @@ export default async function RootLayout({ children,params:{locale} }) {
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
 
-        <div className="w-full bg-white px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-64 shadow-sm">
+        <div className="w-full bg-white px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-64 ">
         <Navbar/>
         </div> 
         {children}

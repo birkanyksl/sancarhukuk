@@ -2,3 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
+.embla {
+  overflow: hidden;
+  position: relative;
+  height: 50vh;
+}
+
+.embla__container {
+  display: flex;
+  height: 100%;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  height: 100%;
+  position: relative;
+}
+
+.embla__image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.embla__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.embla__controls {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.embla__prev, .embla__next {
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+.embla__dots {
+  display: flex;
+  gap: 10px;
+}
+
+.embla__dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(83, 72, 72, 0.322);
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+
+.embla__dot--active {
+  background-color: black;
+}

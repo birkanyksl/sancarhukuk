@@ -18,7 +18,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="h-24 flex items-center justify-between ">
+    <div className="h-24 flex items-center justify-between  ">
       {/* LEFT */}
       <div className="md:hidden lg:block">
         <Link href="/" className="font-extrabold text-xl text-gray-800">
