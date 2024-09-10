@@ -1,18 +1,20 @@
 import React from "react";
 import MobileMenu from "./MobileMenu";
 import { Link } from "@/navigation";
-
+import { useTranslations } from "next-intl";
 import LocaleSwitcher from "./LocaleSwitcher";
 
 const Navbar = () => {
+  const t = useTranslations("navbarlinks");
+
   const navLinks = [
-    { name: "Hakkımızda", path: "/hakkimizda" },
-    { name: "Ekibimiz", path: "/ekibimiz" },
-    { name: "Hizmetler", path: "/hizmetler" },
-    { name: "Yayınlar", path: "/yayinlar" },
-    { name: "Kariyer", path: "/kariyer" },
-    { name: "İletişim", path: "/iletisim" },
-    { name: "E-Tahsilat", path: "/e-tahsilat" }
+    { key: "about", path: "/hakkimizda" },
+    { key: "team", path: "/ekibimiz" },
+    { key: "services", path: "/hizmetler" },
+    { key: "publications", path: "/yayinlar" },
+    { key: "career", path: "/kariyer" },
+    { key: "contact", path: "/iletisim" },
+    { key: "ePayment", path: "/e-tahsilat" }
   ];
 
   return (
@@ -29,8 +31,12 @@ const Navbar = () => {
         {/* LINKS */}
         <div className="flex gap-6 text-gray-600">
           {navLinks.map((link, index) => (
-            <Link href={link.path} key={index} className="hover:text-gray-950  duration-500 items-center font-semiboldbold">
-              {link.name}
+            <Link
+              href={link.path}
+              key={index}
+              className="hover:text-gray-950  duration-500 items-center font-semiboldbold"
+            >
+              {t(link.key)} 
             </Link>
           ))}
         </div>
@@ -38,7 +44,7 @@ const Navbar = () => {
 
       {/* RIGHT */}
       <div className="flex items-center justify-end gap-4 text-xs font-bold">
-        <LocaleSwitcher/>
+        <LocaleSwitcher />
         <MobileMenu />
       </div>
     </div>
