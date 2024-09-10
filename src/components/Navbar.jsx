@@ -2,6 +2,8 @@ import React from "react";
 import MobileMenu from "./MobileMenu";
 import { Link } from "@/navigation";
 
+import LocaleSwitcher from "./LocaleSwitcher";
+
 const Navbar = () => {
   const navLinks = [
     { name: "Hakkımızda", path: "/hakkimizda" },
@@ -36,11 +38,7 @@ const Navbar = () => {
 
       {/* RIGHT */}
       <div className="flex items-center justify-end gap-4 text-xs font-bold">
-        <div className="flex gap-2  ">
-          <span className="cursor-pointer">TR</span>
-          |
-          <span className="cursor-pointer">EN</span>
-        </div>
+        <LocaleSwitcher/>
         <MobileMenu />
       </div>
     </div>

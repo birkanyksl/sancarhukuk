@@ -3,5 +3,9 @@
 
         "car":"car",
         "home":"home"
+    },
+    "LocaleSwitcher":{
+        "label":"Change Language",
+        "locale":"{locale, select, en {English} tr {Turkish} other {Unknown}}"
     }
 }

@@ -3,5 +3,9 @@
 
         "car":"araba",
         "home":"ev"
+    },
+    "LocaleSwitcher":{
+        "label":"Dil Seçiniz",
+        "locale":"{locale, select, en {İngilizce} tr {Türkçe} other {Bilinmiyor}}"
     }
 }
