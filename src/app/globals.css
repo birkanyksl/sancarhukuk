@@ -24,6 +24,7 @@
   position: relative;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .embla__content {
@@ -67,4 +68,13 @@
 
 .embla__dot--active {
   background-color: black;
+}
+
+.custom-border-radius {
+  -webkit-border-top-left-radius: 300px;
+  -webkit-border-bottom-left-radius: 300px;
+  -moz-border-radius-topleft: 300px;
+  -moz-border-radius-bottomleft: 300px;
+  border-top-left-radius: 300px;
+  border-bottom-left-radius: 300px;
 }
