@@ -2,7 +2,7 @@ import React from "react";
 import MobileMenu from "./MobileMenu";
 import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
-import LocaleSwitcher from "./LocaleSwitcher";
+import LocaleSwitcher from "../LocaleSwitcher";
 
 const Navbar = () => {
   const t = useTranslations("navbarlinks");
@@ -22,20 +22,20 @@ const Navbar = () => {
       <div className="h-24 flex items-center justify-between ">
         {/* LEFT */}
         <div className="md:hidden lg:block">
-          <Link href="/" className="font-extrabold text-xl text-gray-800">
-            SANCAR HUKUK
+          <Link href="/" className="font-extrabold text-xl">
+            <span className="text-color6">SANCAR</span> HUKUK
           </Link>
         </div>
 
         {/* CENTER */}
         <div className="hidden md:flex justify-end">
           {/* LINKS */}
-          <div className="flex gap-6 text-gray-600 text-sm font-medium">
+          <div className="flex gap-6 text-gray-600 text-sm font-semibold">
             {navLinks.map((link, index) => (
               <Link
                 href={link.path}
                 key={index}
-                className="hover:text-gray-950 duration-500 items-center font-semiboldbold"
+                className="hover:text-color6 duration-500 items-center font-semiboldbold"
               >
                 {t(link.key)}
               </Link>

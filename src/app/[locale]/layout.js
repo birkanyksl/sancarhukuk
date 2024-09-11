@@ -1,8 +1,8 @@
 import { Montserrat} from 'next/font/google';
 import "../globals.css";
-import Navbar from "@/components/Navbar";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
+import Navbar from '@/components/home/Navbar';
 
 const inter = Montserrat({ subsets: ["latin",] });
 
