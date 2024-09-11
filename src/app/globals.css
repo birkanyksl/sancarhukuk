@@ -60,14 +60,14 @@
 .embla__dot {
   width: 10px;
   height: 10px;
-  background-color: rgba(83, 72, 72, 0.322);
+  background-color: rgba(255, 255, 255, 0.897);
   border-radius: 50%;
   cursor: pointer;
   
 }
 
 .embla__dot--active {
-  background-color: black;
+  background-color: rgb(105, 96, 96);
 }
 
 .custom-border-radius {

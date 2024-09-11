@@ -1,10 +1,10 @@
-import { Inter } from "next/font/google";
+import { Montserrat} from 'next/font/google';
 import "../globals.css";
 import Navbar from "@/components/Navbar";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Montserrat({ subsets: ["latin",] });
 
 export const metadata = {
   title: "Sancar Hukuk Bürosu",

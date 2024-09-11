@@ -11,5 +11,13 @@
   "LocaleSwitcher": {
     "label": "Change Language",
     "locale": "{locale, select, en {English} tr {Turkish} other {Unknown}}"
+  },
+  "SliderTexts":{
+    "slider1header":"Legal Solutions with Expertise and Trust",
+    "slider1paragh":"Based in Istanbul, Sancar Law offers comprehensive legal consultancy and representation services to both individual and corporate clients. We provide professional solutions across all areas.",
+    "slider2header":"Effective and Transparent Legal Services",
+    "slider2paragh":"Sancar Law is committed to defending the rights of its clients with the highest standards, specializing in areas such as commercial law, labor law, and family law. We manage your legal processes transparently.",
+    "slider3header":"The Assurance of Law in Istanbul",
+    "slider3paragh":"Sancar Law offers a wide range of services in both national and international legal matters, providing strategic and effective solutions to its clients."
   }
 }

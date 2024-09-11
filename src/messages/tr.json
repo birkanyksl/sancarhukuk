@@ -11,5 +11,13 @@
   "LocaleSwitcher": {
     "label": "Dil Seçiniz",
     "locale": "{locale, select, en {İngilizce} tr {Türkçe} other {Bilinmiyor}}"
+  },
+  "SliderTexts":{
+    "slider1header":"Uzmanlık ve Güvenle Hukuki Çözümler",
+    "slider1paragh":"Sancar Hukuk, İstanbul merkezli olarak, bireysel ve kurumsal müvekkillerine kapsamlı hukuki danışmanlık ve temsil hizmetleri sunmaktadır. Her alanda profesyonel çözümlerle yanınızdayız.",
+    "slider2header":"Etkin ve Şeffaf Hukuk Hizmetleri",
+    "slider2paragh":"Müvekkillerimizin haklarını en iyi şekilde savunmayı ilke edinen Sancar Hukuk, ticaret hukuku, iş hukuku ve aile hukuku gibi alanlarda uzmanlaşmıştır. Hukuki süreçlerinizi şeffaf bir şekilde yönetiyoruz.",
+    "slider3header":"İstanbul'da Hukukun Güvencesi",
+    "slider3paragh":"Sancar Hukuk, ulusal ve uluslararası hukuki meselelerde geniş bir yelpazede hizmet sunarak müvekkillerine stratejik ve etkili çözümler üretmektedir."
   }
 }

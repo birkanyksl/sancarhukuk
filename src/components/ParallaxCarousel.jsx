@@ -3,28 +3,36 @@ import React, { useState, useEffect } from "react";
 import EmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 import "../app/globals.css";
+import { useTranslations } from "next-intl";
+
 
 const slides = [
   {
     bg: "https://images.pexels.com/photos/3684396/pexels-photo-3684396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "Slide 1",
+    // SlideHead: "sdaas sda dsa dsa dsad sad sad ",
+    // SlideText:"sa dsa dsadasdasdasda sdaas sda dsa dsa dsad sad sad sa dsa dsadasdasdasda sdaas sda dsa dsa dsad sad sad sa dsa dsadasdasdasda sdaas sda dsa dsa dsad sad sad sa dsa dsadasdasdasda",
     mdbackground: "bg-color2",
   },
   {
-    bg: "https://images.pexels.com/photos/6077123/pexels-photo-6077123.jpeg",
-    text: "Slide 2",
-    mdbackground: "bg-color4",
-  },
-  {
-    bg: "https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "Slide 3",
+    bg: "https://images.pexels.com/photos/13591994/pexels-photo-13591994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    // SlideHead: "sdaas sda dsa dsa dsad sad sad ",
+    // SlideText:"sa dsa dsadasdasdasda sdaas sda dsa dsa dsad sad sad sa dsa dsadasdasdasda sdaas sda dsa dsa dsad sad sad sa dsa dsadasdasdasda sdaas sda dsa dsa dsad sad sad sa dsa dsadasdasdasda",
     mdbackground: "bg-color3",
   },
+  {
+    bg: "https://images.pexels.com/photos/28310726/pexels-photo-28310726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    // SlideHead: "sdaas sda dsa dsa dsad sad sad ",
+    // SlideText:"sa dsa dsadasdasdasda sdaas sda dsa dsa dsad sad sad sa dsa dsadasdasdasda sdaas sda dsa dsa dsad sad sad sa dsa dsadasdasdasda sdaas sda dsa dsa dsad sad sad sa dsa dsadasdasdasda",
+    mdbackground: "bg-color4",
+  },
 ];
+ 
+
 
 const ParallaxCarousel = () => {
   const [emblaRef, emblaApi] = EmblaCarousel({ loop: true });
   const [currentIndex, setCurrentIndex] = useState(0);
+  const t = useTranslations("SliderTexts");
 
   useEffect(() => {
     if (!emblaApi) return;
@@ -46,13 +54,17 @@ const ParallaxCarousel = () => {
         <div className="embla__container">
           {slides.map((slide, index) => (
             <div
-              className={`embla__slide relative md:flex md:flex-row items-center ${slide.mdbackground}`}
+              className={`embla__slide relative md:flex md:flex-row  ${slide.mdbackground}`}
               key={index}
             >
-              <div className="absolute inset-0 flex justify-center items-center text-white md:text-black md:relative md:w-1/2 z-10 ">
-                <h2 className="text-xl md:text-3xl">{slide.text}</h2>
+              {/* SLIDER TEXT */}
+              <div className="absolute inset-0 text-white md:relative md:w-1/2 z-10 ">
+                <h1 className="text-xl md:text-2xl pt-10 px-4 ">{t(`slider${index + 1}header`)}</h1>
+                <p className="pt-4 px-4 hidden md:block">{t(`slider${index + 1}paragh`)}</p>
               </div>
-              <div className="embla__image w-full relative h-[50vh] md:h-full md:w-1/2 overflow-hidden  md:rounded-[350px_50px_0px_0px_/600px_0px_0px_0px]">
+
+              {/* SLIDER IMAGE */}
+              <div className="embla__image w-full relative h-[50vh] md:h-full md:w-1/2 overflow-hidden  md:rounded-[350px_50px_0px_0px_/600px_0px_0px_0px] ">
                 <Image
                   src={slide.bg}
                   alt={slide.text}
@@ -61,6 +73,7 @@ const ParallaxCarousel = () => {
                   priority={index === 0}
                 />
               </div>
+
             </div>
           ))}
         </div>

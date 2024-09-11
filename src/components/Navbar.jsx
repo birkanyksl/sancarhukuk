@@ -18,36 +18,38 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="h-24 flex items-center justify-between  ">
-      {/* LEFT */}
-      <div className="md:hidden lg:block">
-        <Link href="/" className="font-extrabold text-xl text-gray-800">
-          SANCAR HUKUK
-        </Link>
-      </div>
 
-      {/* CENTER */}
-      <div className="hidden md:flex justify-end">
-        {/* LINKS */}
-        <div className="flex gap-6 text-gray-600">
-          {navLinks.map((link, index) => (
-            <Link
-              href={link.path}
-              key={index}
-              className="hover:text-gray-950  duration-500 items-center font-semiboldbold"
-            >
-              {t(link.key)} 
-            </Link>
-          ))}
+      <div className="h-24 flex items-center justify-between ">
+        {/* LEFT */}
+        <div className="md:hidden lg:block">
+          <Link href="/" className="font-extrabold text-xl text-gray-800">
+            SANCAR HUKUK
+          </Link>
+        </div>
+
+        {/* CENTER */}
+        <div className="hidden md:flex justify-end">
+          {/* LINKS */}
+          <div className="flex gap-6 text-gray-600 text-sm font-medium">
+            {navLinks.map((link, index) => (
+              <Link
+                href={link.path}
+                key={index}
+                className="hover:text-gray-950 duration-500 items-center font-semiboldbold"
+              >
+                {t(link.key)}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* RIGHT */}
+        <div className="flex items-center justify-end gap-4 text-xs font-bold">
+          <LocaleSwitcher />
+          <MobileMenu />
         </div>
       </div>
-
-      {/* RIGHT */}
-      <div className="flex items-center justify-end gap-4 text-xs font-bold">
-        <LocaleSwitcher />
-        <MobileMenu />
-      </div>
-    </div>
+  
   );
 };
 
