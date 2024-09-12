@@ -19,5 +19,20 @@
     "slider2paragh":"Sancar Law is committed to defending the rights of its clients with the highest standards, specializing in areas such as commercial law, labor law, and family law. We manage your legal processes transparently.",
     "slider3header":"The Assurance of Law in Istanbul",
     "slider3paragh":"Sancar Law offers a wide range of services in both national and international legal matters, providing strategic and effective solutions to its clients."
+  },
+  "HomePractices":{
+    "title": "Practices",
+    "practicesHome1": "Commercial Law",
+    "practicesHome2": "Family Law",
+    "practicesHome3": "Enforcement and Bankruptcy Law",
+    "practicesHome4": "Criminal Law",
+    "practicesHome5": "Labor Law",
+    "practicesHome6": "Inheritance Law",
+    "practicesHome7": "Real Estate Law",
+    "practicesHome8": "Information Technology Law",
+    "practicesHome9": "Consumer Law",
+    "practicesHome10": "Administrative Law",
+    "practicesHome11": "International Law",
+    "practicesHome12": "Energy Law"
   }
 }

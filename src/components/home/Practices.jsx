@@ -3,8 +3,11 @@ import React, { useState, useRef, useEffect } from "react";
 import HeadingWithDivider from "../HeadingWithDivider";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const Practices = () => {
+  const t = useTranslations("HomePractices");
+
   const images = [
     { src: 'commercial.png', href: '/' },
     { src: 'family.png', href: '/' },
@@ -92,50 +95,54 @@ const Practices = () => {
   return (
     <div>
       <div>
-        <HeadingWithDivider title="Hizmetler" />
+        <HeadingWithDivider title={t(`title`)} />
       </div>
 
       <div>
-        <div className="flex flex-wrap gap-4 justify-center bg-slate-100">
+      
+        <div className="flex flex-wrap gap-4 justify-center bg-stone-100">
           {images.slice(0, visibleItems).map((image, index) => (
+           
             <Link
               key={index}
               href={image.href}
               id={`practice-item-${index}`}
-              className={`practice-item cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] h-[200px] md:h-[256px] transform transition-transform duration-1000  ${
+              className={`practice-item  cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[200px] border border-color6 transform transition-transform duration-1000 hover:bg-orange-50  rounded-3xl  ${
                 animatedItems.includes(`practice-item-${index}`)
                   ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-10"
+                  : "opacity-0 translate-y-12"
               }`}
             >
               <div className="flex flex-col items-center h-full mt-6 gap-6">
-                <h2 className="text-color1 font-bold text-lg">Başlık {index + 1}</h2>
+                <h2 className="text-color1 font-bold text-sm md:text-md">{t(`practicesHome${index + 1}`)}</h2>
                 <Image
                   src={`/${image.src}`}
                   alt={`Hukuk Hizmetleri ${index + 1}`}
                   width={96}
                   height={96}
+                  className="hover:scale-110"
                 />
               </div>
             </Link>
+            
           ))}
         </div>
 
-        <div className="flex justify-start mt-6">
+        <div className="flex justify-start mt-16">
           {isExpanded ? (
             <button
               onClick={handleShowLess}
-              className="bg-color1 text-white py-2 px-4 rounded hover:bg-color6 transition-colors"
+              className="show-more-button"
             >
-              ⬆ Gösterme
+              ⬆ 
             </button>
           ) : (
             visibleItems < images.length && (
               <button
                 onClick={handleShowMore}
-                className="bg-color1 text-white py-2 px-4 rounded hover:bg-color6 transition-colors"
+                className="show-more-button"
               >
-                ⬇ Daha Fazla Göster
+                ⬇ 
               </button>
             )
           )}
