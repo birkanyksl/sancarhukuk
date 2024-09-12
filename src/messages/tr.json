@@ -19,5 +19,20 @@
     "slider2paragh":"Müvekkillerimizin haklarını en iyi şekilde savunmayı ilke edinen Sancar Hukuk, ticaret hukuku, iş hukuku ve aile hukuku gibi alanlarda uzmanlaşmıştır. Hukuki süreçlerinizi şeffaf bir şekilde yönetiyoruz.",
     "slider3header":"İstanbul'da Hukukun Güvencesi",
     "slider3paragh":"Sancar Hukuk, ulusal ve uluslararası hukuki meselelerde geniş bir yelpazede hizmet sunarak müvekkillerine stratejik ve etkili çözümler üretmektedir."
+  },
+  "HomePractices": {
+    "title": "Hizmetler",
+    "practicesHome1": "Ticaret Hukuku",
+    "practicesHome2": "Aile Hukuku",
+    "practicesHome3": "İcra ve İflas Hukuku",
+    "practicesHome4": "Ceza Hukuku",
+    "practicesHome5": "İş Hukuku",
+    "practicesHome6": "Miras Hukuku",
+    "practicesHome7": "Gayrimenkul Hukuku",
+    "practicesHome8": "Bilişim Hukuku",
+    "practicesHome9": "Tüketici Hukuku",
+    "practicesHome10": "İdare Hukuku",
+    "practicesHome11": "Uluslararası Hukuk",
+    "practicesHome12": "Enerji Hukuku"
   }
 }
