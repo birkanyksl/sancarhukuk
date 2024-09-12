@@ -100,14 +100,14 @@ const Practices = () => {
 
       <div>
       
-        <div className="flex flex-wrap gap-4 justify-center bg-stone-100">
+        <div className="flex flex-wrap gap-4 justify-center ">
           {images.slice(0, visibleItems).map((image, index) => (
            
             <Link
               key={index}
               href={image.href}
               id={`practice-item-${index}`}
-              className={`practice-item  cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[200px] border border-color6 transform transition-transform duration-1000 hover:bg-orange-50  rounded-3xl  ${
+              className={`practice-item  cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[200px] border border-color6 transform transition-transform duration-1000 hover:bg-amber-50  rounded-3xl  ${
                 animatedItems.includes(`practice-item-${index}`)
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-12"
