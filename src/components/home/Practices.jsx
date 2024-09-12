@@ -107,20 +107,20 @@ const Practices = () => {
               key={index}
               href={image.href}
               id={`practice-item-${index}`}
-              className={`practice-item  cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[200px] border border-color6 transform transition-transform duration-1000 hover:bg-amber-50  rounded-3xl  ${
+              className={`practice-item  cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[200px] border border-color6 transform transition-transform duration-1000 bg-amber-50 hover:bg-color1 rounded-3xl  ${
                 animatedItems.includes(`practice-item-${index}`)
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-12"
               }`}
             >
-              <div className="flex flex-col items-center h-full mt-6 gap-6">
-                <h2 className="text-color1 font-bold text-sm md:text-md">{t(`practicesHome${index + 1}`)}</h2>
+              <div className="flex flex-col items-center h-full mt-6 gap-6 w-full ">
+                <h2 className=" text-color6 font-bold text-sm md:text-md">{t(`practicesHome${index + 1}`)}</h2>
                 <Image
                   src={`/${image.src}`}
                   alt={`Hukuk Hizmetleri ${index + 1}`}
                   width={96}
                   height={96}
-                  className="hover:scale-110"
+                  
                 />
               </div>
             </Link>
