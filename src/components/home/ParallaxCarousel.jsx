@@ -17,7 +17,7 @@ const slides = [
   },
   {
     bg: "https://images.pexels.com/photos/28310726/pexels-photo-28310726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",  
-   mdbackground: "bg-color4",
+    mdbackground: "bg-color4",
   },
 ];
 
@@ -59,8 +59,8 @@ const ParallaxCarousel = () => {
                 <Image
                   src={slide.bg}
                   alt="Sancak Hukuk Slider"
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  style={{ objectFit: 'cover' }}
                   priority={index === 0}
                   sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                 />
@@ -95,6 +95,7 @@ const ParallaxCarousel = () => {
             alt="Next"
             width={40}
             height={40}
+            
           />
         </button>
       </div>

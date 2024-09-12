@@ -23,14 +23,14 @@ const Navbar = () => {
         {/* LEFT */}
         <div className="md:hidden lg:block">
           <Link href="/" className="font-extrabold text-xl">
-            <span className="text-color6">SANCAR</span> HUKUK
+            <span className="text-color6">SANCAR</span> <span className="text-color1">HUKUK</span>
           </Link>
         </div>
 
         {/* CENTER */}
         <div className="hidden md:flex justify-end">
           {/* LINKS */}
-          <div className="flex gap-6 text-gray-600 text-sm font-semibold">
+          <div className="flex gap-6 text-color1 text-sm font-semibold">
             {navLinks.map((link, index) => (
               <Link
                 href={link.path}
