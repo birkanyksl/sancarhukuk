@@ -21,12 +21,10 @@ const Practices = () => {
   ];
 
   const [isExpanded, setIsExpanded] = useState(false);
-  const [visibleItems, setVisibleItems] = useState(getInitialVisibleItemsCount()); // Başlangıçta ekran boyutuna göre öğeleri belirliyoruz
+  const [visibleItems, setVisibleItems] = useState(getInitialVisibleItemsCount());
   const [animatedItems, setAnimatedItems] = useState([]);
-
   const observer = useRef(null);
 
-  // getVisibleItemsCount fonksiyonunu bileşenin en üstünde tanımlayalım
   function getInitialVisibleItemsCount() {
     if (typeof window !== 'undefined') {
       if (window.innerWidth >= 1024) return 4;
@@ -35,7 +33,6 @@ const Practices = () => {
     return 4;
   }
 
-  // Ekran boyutunu dinlemek için bir event listener ekleyelim
   useEffect(() => {
     const handleResize = () => {
       if (!isExpanded) {
@@ -44,49 +41,40 @@ const Practices = () => {
     };
 
     window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+    return () => window.removeEventListener("resize", handleResize);
   }, [isExpanded]);
 
-  // IntersectionObserver ile animasyonları tetiklemek için
   useEffect(() => {
-    const handleIntersection = (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setAnimatedItems((prev) => [...prev, entry.target.id]);
-          observer.unobserve(entry.target);
+    if (typeof window !== 'undefined') {
+      const handleIntersection = (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setAnimatedItems(prev => [...prev, entry.target.id]);
+            observer.unobserve(entry.target);
+          }
+        });
+      };
+
+      observer.current = new IntersectionObserver(handleIntersection, { threshold: 0.1 });
+      const items = document.querySelectorAll(".practice-item");
+      items.forEach(item => observer.current.observe(item));
+
+      return () => {
+        if (observer.current) {
+          observer.current.disconnect();
         }
-      });
-    };
-
-    observer.current = new IntersectionObserver(handleIntersection, {
-      threshold: 0.1,
-    });
-
-    const items = document.querySelectorAll(".practice-item");
-    items.forEach((item) => {
-      if (item) {
-        observer.current.observe(item);
-      }
-    });
-
-    return () => {
-      if (observer.current) {
-        observer.current.disconnect();
-      }
-    };
+      };
+    }
   }, [visibleItems]);
 
   const handleShowMore = () => {
     setIsExpanded(true);
-    setVisibleItems(images.length); // Tüm öğeleri göster
+    setVisibleItems(images.length);
   };
 
   const handleShowLess = () => {
     setIsExpanded(false);
-    setVisibleItems(getInitialVisibleItemsCount()); // Tekrar ekran boyutuna göre öğeleri göster
+    setVisibleItems(getInitialVisibleItemsCount());
   };
 
   return (
