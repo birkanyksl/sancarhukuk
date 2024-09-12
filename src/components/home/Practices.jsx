@@ -21,10 +21,12 @@ const Practices = () => {
   ];
 
   const [isExpanded, setIsExpanded] = useState(false);
-  const [visibleItems, setVisibleItems] = useState(getInitialVisibleItemsCount());
+  const [visibleItems, setVisibleItems] = useState(getInitialVisibleItemsCount()); 
   const [animatedItems, setAnimatedItems] = useState([]);
+
   const observer = useRef(null);
 
+  
   function getInitialVisibleItemsCount() {
     if (typeof window !== 'undefined') {
       if (window.innerWidth >= 1024) return 4;
@@ -33,6 +35,7 @@ const Practices = () => {
     return 4;
   }
 
+  
   useEffect(() => {
     const handleResize = () => {
       if (!isExpanded) {
@@ -41,40 +44,49 @@ const Practices = () => {
     };
 
     window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, [isExpanded]);
 
+ 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const handleIntersection = (entries, observer) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            setAnimatedItems(prev => [...prev, entry.target.id]);
-            observer.unobserve(entry.target);
-          }
-        });
-      };
-
-      observer.current = new IntersectionObserver(handleIntersection, { threshold: 0.1 });
-      const items = document.querySelectorAll(".practice-item");
-      items.forEach(item => observer.current.observe(item));
-
-      return () => {
-        if (observer.current) {
-          observer.current.disconnect();
+    const handleIntersection = (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setAnimatedItems((prev) => [...prev, entry.target.id]);
+          observer.unobserve(entry.target);
         }
-      };
-    }
+      });
+    };
+
+    observer.current = new IntersectionObserver(handleIntersection, {
+      threshold: 0.1,
+    });
+
+    const items = document.querySelectorAll(".practice-item");
+    items.forEach((item) => {
+      if (item) {
+        observer.current.observe(item);
+      }
+    });
+
+    return () => {
+      if (observer.current) {
+        observer.current.disconnect();
+      }
+    };
   }, [visibleItems]);
 
   const handleShowMore = () => {
     setIsExpanded(true);
-    setVisibleItems(images.length);
+    setVisibleItems(images.length); 
   };
 
   const handleShowLess = () => {
     setIsExpanded(false);
-    setVisibleItems(getInitialVisibleItemsCount());
+    setVisibleItems(getInitialVisibleItemsCount()); 
   };
 
   return (
@@ -90,7 +102,7 @@ const Practices = () => {
               key={index}
               href={image.href}
               id={`practice-item-${index}`}
-              className={`practice-item cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] h-[200px] md:h-[256px] transform transition-transform duration-500 hover:scale-105 ${
+              className={`practice-item cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] h-[200px] md:h-[256px] transform transition-transform duration-1000  ${
                 animatedItems.includes(`practice-item-${index}`)
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-10"
