@@ -19,8 +19,7 @@ const images = [
 
 const Practices = () => {
   return (
-    <div className="mb-32">
-      <HeadingWithDivider title="Hukuk Alanlarımız" />
+    <div className="mb-32">    
       <ClientPractices images={images} />
     </div>
   );

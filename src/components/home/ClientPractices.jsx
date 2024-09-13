@@ -3,6 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import HeadingWithDivider from "../HeadingWithDivider";
 
 const ClientPractices = ({ images }) => {
   const t = useTranslations("HomePractices");
@@ -74,6 +75,8 @@ const ClientPractices = ({ images }) => {
 
   return (
     <>
+     <HeadingWithDivider title={t(`title`)} />
+
       <div className="flex flex-wrap gap-4 justify-center">
         {images.slice(0, visibleItems).map((image, index) => (
           <Link
