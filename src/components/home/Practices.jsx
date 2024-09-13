@@ -93,7 +93,7 @@ const Practices = () => {
   };
 
   return (
-    <div>
+    <div className="mb-32">
       <div>
         <HeadingWithDivider title={t(`title`)} />
       </div>
@@ -107,7 +107,7 @@ const Practices = () => {
               key={index}
               href={image.href}
               id={`practice-item-${index}`}
-              className={`practice-item  cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[200px] border border-color6 transform transition-transform duration-1000 bg-amber-50 hover:bg-color1 rounded-3xl  ${
+              className={`practice-item  cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[200px]  transform transition-transform duration-1000 bg-color0 hover:bg-white rounded-3xl shadow-custom-shadow ${
                 animatedItems.includes(`practice-item-${index}`)
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-12"
@@ -128,22 +128,22 @@ const Practices = () => {
           ))}
         </div>
 
-        <div className="flex justify-start mt-16">
+        <div className="flex justify-start mt-12">
           {isExpanded ? (
-            <button
-              onClick={handleShowLess}
-              className="show-more-button"
-            >
-              ⬆ 
-            </button>
+           <button class="learn-more" onClick={handleShowLess}>
+           <span aria-hidden="true" class="circle">
+           <span class="icon arrow"></span>
+           </span>
+           <span class="button-text text-sm"></span>
+         </button>
           ) : (
             visibleItems < images.length && (
-              <button
-                onClick={handleShowMore}
-                className="show-more-button"
-              >
-                ⬇ 
-              </button>
+              <button class="learn-more" onClick={handleShowMore}>
+              <span aria-hidden="true" class="circle">
+              <span class="icon arrow"></span>
+              </span>
+              <span class="button-text text-sm">Diğer Hizmetler</span>
+            </button>
             )
           )}
         </div>
