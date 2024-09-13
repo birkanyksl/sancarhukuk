@@ -40,8 +40,8 @@ const PracticesList = () => {
   }, []);
 
   return (
-    <div className="bg-color5 p-8 mt-12">
-      <div className="flex flex-wrap md:mx-8">
+    <div className="bg-color5 p-8 mt-12 ">
+      <div className="flex flex-wrap">
         {listPractices.slice(0, visiblePractices).map((practice, index) => (
           <div key={index} className="w-full sm:w-full md:w-1/2 lg:w-1/3 p-2"> 
             <Link href="/">
