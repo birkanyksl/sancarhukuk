@@ -1,6 +1,7 @@
 import React from "react";
 import HeadingWithDivider from "../HeadingWithDivider";
 import ClientPractices from "./ClientPractices";
+import PracticesList from "./PracticesList";
 
 const images = [
   { src: 'commercial.png', href: '/' },
@@ -21,6 +22,7 @@ const Practices = () => {
   return (
     <div className="mb-32">    
       <ClientPractices images={images} />
+      <PracticesList/>
     </div>
   );
 };
