@@ -90,7 +90,7 @@ const ClientPractices = ({ images }) => {
             }`}
           >
             <div className="flex flex-col items-center h-full mt-6 gap-6 w-full">
-              <h2 className="text-color6 font-bold text-sm md:text-md ">
+              <h2 className="text-color6 font-semibold text-sm md:text-md ">
                 {t(`practicesHome${index + 1}`)}
               </h2>
               <Image

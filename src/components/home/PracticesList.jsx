@@ -45,7 +45,7 @@ const PracticesList = () => {
         {listPractices.slice(0, visiblePractices).map((practice, index) => (
           <div key={index} className="w-full sm:w-full md:w-1/2 lg:w-1/3 p-2"> 
             <Link href="/">
-              <div className="text-color1 text-sm font-medium hover:text-color2 p-4">
+              <div className="text-color1 text-sm font-normal hover:text-color6 p-4">
                 {practice}
               </div>
             </Link>
