@@ -1,3 +1,4 @@
+import InsightCard from "@/components/home/InsightCard";
 import ParallaxCarousel from "@/components/home/ParallaxCarousel";
 import Practices from "@/components/home/Practices";
 
@@ -12,6 +13,7 @@ export default function Home() {
       </div>
       <div className="px-6 md:px-8 lg:px-16">
         <Practices/>
+        <InsightCard/>
       </div>
        </>
   )

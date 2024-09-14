@@ -23,7 +23,7 @@ const Navbar = () => {
         {/* LEFT */}
         <div className="md:hidden lg:block">
           <Link href="/" className="font-extrabold text-xl">
-            <span className="text-color6">SANCAR</span> <span className="text-color1">HUKUK</span>
+            <span className="text-color1">SANCAR</span> <span className="text-color6">HUKUK</span>
           </Link>
         </div>
 

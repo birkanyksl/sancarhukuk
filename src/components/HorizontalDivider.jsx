@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 
-const HorizontalDivider = ({ title }) => {
+const HorizontalDivider = ({ width = "70%" }) => {
   const [isVisible, setIsVisible] = useState(false);
   const headingRef = useRef(null);
 
@@ -39,7 +39,7 @@ const HorizontalDivider = ({ title }) => {
         <motion.div
           className="w-[1/2]  md:w-[300px] lg:w-[450px] h-[1px] bg-color6"
           initial={{ width: 0 }}
-          animate={isVisible ? { width: "70%" } : {}}
+          animate={isVisible ? { width } : {}}
           transition={{ duration: 1 }}
         ></motion.div>
 

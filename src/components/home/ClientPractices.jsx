@@ -60,7 +60,7 @@ const ClientPractices = ({ images }) => {
               : "opacity-0 translate-y-12"
           }`}
         >
-          <div className="flex flex-col items-center h-full justify-center gap-4">
+          <div className="flex flex-col items-center h-full justify-center gap-6">
             <div className=" w-24 h-24 bg-color5 rounded-full flex items-center justify-center overflow-hidden">
               <Image
                 src={`/${image.src}`}

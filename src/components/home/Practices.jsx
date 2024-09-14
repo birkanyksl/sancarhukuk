@@ -1,7 +1,6 @@
 import React from "react";
-import HeadingWithDivider from "../HeadingWithDivider";
 import ClientPractices from "./ClientPractices";
-import PracticesList from "./PracticesList";
+
 
 const images = [
   { src: 'commercial.png', href: '/' },
@@ -12,17 +11,12 @@ const images = [
   { src: 'inheritance.png', href: '/' },
   { src: 'estate.png', href: '/' },
   { src: 'tech.png', href: '/' },
-  // { src: 'consumer.png', href: '/' },
-  // { src: 'administration.png', href: '/' },
-  // { src: 'international.png', href: '/' },
-  // { src: 'energy.png', href: '/' },
 ];
 
 const Practices = () => {
   return (
     <div className="mb-32">    
-      <ClientPractices images={images} />
-      
+      <ClientPractices images={images} />    
     </div>
   );
 };
