@@ -80,7 +80,16 @@
   border-bottom-left-radius: 300px;
 }
 
-button {
+.scroll-hide {
+  scrollbar-width: none; 
+  -ms-overflow-style: none;  
+}
+
+.scroll-hide::-webkit-scrollbar { 
+  display: none; 
+}
+
+/* button {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -191,4 +200,4 @@ button:hover .button-text {
 button:active .button-text {
   color: rgba(255, 255, 255, 0.459);
   margin: 0 0 0 1rem;
-}
+} */
