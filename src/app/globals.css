@@ -89,6 +89,36 @@
   display: none; 
 }
 
+
+@layer utilities {
+  .mask-image-gradient {
+    mask-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(0,0,0,0));
+  }
+  @keyframes scrollX {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  .animate-scrollX {
+    animation: scrollX 45s linear infinite;
+  }
+  @keyframes scrollXReverse {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .animate-scrollXReverse {
+    animation: scrollXReverse 45s linear infinite;
+  }
+}
+
+
 /* button {
   position: relative;
   display: inline-block;

@@ -30,12 +30,12 @@ const Navbar = () => {
         {/* CENTER */}
         <div className="hidden md:flex justify-end">
           {/* LINKS */}
-          <div className="flex gap-6 text-color1 text-sm font-semibold">
+          <div className="flex gap-6 text-color1 text-sm font-medium">
             {navLinks.map((link, index) => (
               <Link
                 href={link.path}
                 key={index}
-                className="hover:text-color6 duration-500 items-center font-semiboldbold"
+                className="hover:text-color6 duration-500 items-center "
               >
                 {t(link.key)}
               </Link>

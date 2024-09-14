@@ -10,9 +10,9 @@ const InsightCard = () => {
 
         </div>
         <span className='text-xs font-light text-gray-400 mt-2'>18-04-1994</span>
-        <h2 className='w-[80%] text-base md:text-lg font-bold color1 overflow-hidden'>Tokyo declares La Nina weather event has begun</h2>
+        <h2 className='w-[80%] text-sm  font-semibold color1 overflow-hidden'>Tokyo declares La Nina weather event has begun</h2>
         <div className='flex items-center justify-between '>
-            <span className='text-xs font-normal'>
+            <span className='text-xs font-light'>
                 <span className='text-color1'>By </span><span className='text-color6'>Birkan </span><span className='text-color1'>Yüksel</span>
                 </span>
             <span className='text-xs font-extralight text-gray-600'>23 minutes ago</span>
