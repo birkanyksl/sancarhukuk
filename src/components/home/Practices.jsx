@@ -12,10 +12,10 @@ const images = [
   { src: 'inheritance.png', href: '/' },
   { src: 'estate.png', href: '/' },
   { src: 'tech.png', href: '/' },
-  { src: 'consumer.png', href: '/' },
-  { src: 'administration.png', href: '/' },
-  { src: 'international.png', href: '/' },
-  { src: 'energy.png', href: '/' },
+  // { src: 'consumer.png', href: '/' },
+  // { src: 'administration.png', href: '/' },
+  // { src: 'international.png', href: '/' },
+  // { src: 'energy.png', href: '/' },
 ];
 
 const Practices = () => {

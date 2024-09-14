@@ -8,33 +8,12 @@ import HeadingWithDivider from "../HeadingWithDivider";
 const ClientPractices = ({ images }) => {
   const t = useTranslations("HomePractices");
 
-  const [isExpanded, setIsExpanded] = useState(false);
-  const [visibleItems, setVisibleItems] = useState(getInitialVisibleItemsCount());
+
+  const [visibleItems, setVisibleItems] = useState(images.length);
   const [animatedItems, setAnimatedItems] = useState([]);
   const observer = useRef(null);
 
-  function getInitialVisibleItemsCount() {
-    if (typeof window !== 'undefined') {
-      if (window.innerWidth >= 1024) return 4;
-      if (window.innerWidth >= 768) return 3;
-    }
-    return 4;
-  }
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (!isExpanded) {
-        setVisibleItems(getInitialVisibleItemsCount());
-      }
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, [isExpanded]);
-
+  
   useEffect(() => {
     const handleIntersection = (entries, observer) => {
       entries.forEach((entry) => {
@@ -63,15 +42,7 @@ const ClientPractices = ({ images }) => {
     };
   }, [visibleItems]);
 
-  const handleShowMore = () => {
-    setIsExpanded(true);
-    setVisibleItems(images.length);
-  };
 
-  const handleShowLess = () => {
-    setIsExpanded(false);
-    setVisibleItems(getInitialVisibleItemsCount());
-  };
 
   return (
     <div className="">
@@ -113,23 +84,14 @@ const ClientPractices = ({ images }) => {
       </div>
 
       <div className="flex justify-start mt-12">
-        {isExpanded ? (
-          <button className="learn-more" onClick={handleShowLess}>
-            <span aria-hidden="true" className="circle">
-              <span className="icon arrow"></span>
-            </span>
-            <span className="button-text text-sm"></span>
-          </button>
-        ) : (
-          visibleItems < images.length && (
-            <button className="learn-more" onClick={handleShowMore}>
-              <span aria-hidden="true" className="circle">
-                <span className="icon arrow"></span>
-              </span>
-              <span className="button-text text-sm">Diğer Hizmetler</span>
-            </button>
-          )
-        )}
+        
+        <button className="learn-more" disabled>
+          <span aria-hidden="true" className="circle">
+            <span className="icon arrow"></span>
+          </span>
+          <span className="button-text text-sm">Diğer Hizmetler</span>
+        </button>
+         
       </div>
     </div>
   );
