@@ -74,35 +74,41 @@ const ClientPractices = ({ images }) => {
   };
 
   return (
-    <>
+    <div className="">
      <HeadingWithDivider title={t(`title`)} />
 
       <div className="flex flex-wrap gap-4 justify-center">
         {images.slice(0, visibleItems).map((image, index) => (
           <Link
-            key={index}
-            href={image.href}
-            id={`practice-item-${index}`}
-            className={` group practice-item cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[200px] transform transition-transform duration-1000 bg-color0 hover:bg-white rounded-3xl shadow-custom-shadow overflow-hidden ${
-              animatedItems.includes(`practice-item-${index}`)
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-12"
-            }`}
-          >
-            <div className="flex flex-col items-center h-full mt-6 gap-6 w-full">
-              <h2 className="text-color6 font-semibold text-sm md:text-md ">
-                {t(`practicesHome${index + 1}`)}
-              </h2>
+          key={index}
+          href={image.href}
+          id={`practice-item-${index}`}
+          className={`practice-item cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[250px] transform transition-transform duration-1000 overflow-hidden hover:bg-slate-50 ${
+            animatedItems.includes(`practice-item-${index}`)
+              ? "opacity-100 translate-y-0"
+              : "opacity-0 translate-y-12"
+          }`}
+        >
+          <div className="flex flex-col items-center h-full justify-center gap-4">
+            <div className=" w-24 h-24 bg-color5 rounded-full flex items-center justify-center overflow-hidden">
               <Image
                 src={`/${image.src}`}
                 alt={`Hukuk Hizmetleri ${index + 1}`}
-                width={96}
-                height={96}
+                width={512}
+                height={512}
+                className="object-cover w-12 h-12"
               />
             </div>
-            <div className="absolute left-0 bottom-0 w-full h-0 transform  transition-all duration-1000 group-hover:translate-y-0 group-hover:h-[66%] backdrop-blur-3xl opacity-90 overflow-hidden flex justify-center text-xs sm:text-sm lg:text-base font-normal px-4 rounded-3xl text-indent-2 text-color1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit numquam ipsum esse voluptas. Repudiandae reiciendis excepturi mollit..
-            </div>
-          </Link>
+            <h2 className="text-color1 font-semibold text-md md:text-md text-center">
+              {t(`practicesHome${index + 1}`)}
+            </h2>
+            <p className="text-center text-gray-600 text-xs sm:text-sm xl:text-base">
+              
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </Link>
+        
         ))}
       </div>
 
@@ -125,7 +131,7 @@ const ClientPractices = ({ images }) => {
           )
         )}
       </div>
-    </>
+    </div>
   );
 };
 

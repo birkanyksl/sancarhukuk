@@ -40,7 +40,7 @@ const HeadingWithDivider = ({ title }) => {
           className="w-1/3 h-[1.5px] bg-color6"
           initial={{ width: 0 }}
           animate={isVisible ? { width: "33%" } : {}}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1.5 }}
         ></motion.div>
 
         {/* Başlık */}
@@ -51,7 +51,7 @@ const HeadingWithDivider = ({ title }) => {
           className="w-1/3 h-[1.5px] bg-color6"
           initial={{ width: 0 }}
           animate={isVisible ? { width: "33%" } : {}}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1.5 }}
         ></motion.div>
       </div>
     </div>
