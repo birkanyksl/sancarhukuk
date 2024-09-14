@@ -37,10 +37,10 @@ const HeadingWithDivider = ({ title }) => {
       <div className="flex items-center justify-center">
         {/* Sol Çizgi */}
         <motion.div
-          className="w-1/3 h-[1.5px] bg-color6"
+          className="w-1/3 h-[1px] bg-color4"
           initial={{ width: 0 }}
           animate={isVisible ? { width: "33%" } : {}}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1.5 }}
         ></motion.div>
 
         {/* Başlık */}
@@ -48,10 +48,10 @@ const HeadingWithDivider = ({ title }) => {
 
         {/* Sağ Çizgi */}
         <motion.div
-          className="w-1/3 h-[1.5px] bg-color6"
+          className="w-1/3 h-[1px] bg-color4"
           initial={{ width: 0 }}
           animate={isVisible ? { width: "33%" } : {}}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1.5 }}
         ></motion.div>
       </div>
     </div>

@@ -21,7 +21,7 @@
     "slider3paragh":"Sancar Hukuk, ulusal ve uluslararası hukuki meselelerde geniş bir yelpazede hizmet sunarak müvekkillerine stratejik ve etkili çözümler üretmektedir."
   },
   "HomePractices": {
-    "title": "Hizmetler",
+    "title": "Hizmetlerimiz",
     "practicesHome1": "Ticaret Hukuku",
     "practicesHome2": "Aile Hukuku",
     "practicesHome3": "İcra Hukuku",
@@ -29,10 +29,7 @@
     "practicesHome5": "İş Hukuku",
     "practicesHome6": "Miras Hukuku",
     "practicesHome7": "Gayrimenkul Hukuku",
-    "practicesHome8": "Bilişim Hukuku",
-    "practicesHome9": "Tüketici Hukuku",
-    "practicesHome10": "İdare Hukuku",
-    "practicesHome11": "Uluslararası Hukuk",
-    "practicesHome12": "Enerji Hukuku"
+    "practicesHome8": "Bilişim Hukuku"
+    
   }
 }
