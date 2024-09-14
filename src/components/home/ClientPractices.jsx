@@ -83,7 +83,7 @@ const ClientPractices = ({ images }) => {
             key={index}
             href={image.href}
             id={`practice-item-${index}`}
-            className={`practice-item cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[200px] transform transition-transform duration-1000 bg-color0 hover:bg-white rounded-3xl shadow-custom-shadow ${
+            className={` group practice-item cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[200px] transform transition-transform duration-1000 bg-color0 hover:bg-white rounded-3xl shadow-custom-shadow overflow-hidden ${
               animatedItems.includes(`practice-item-${index}`)
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-12"
@@ -99,6 +99,8 @@ const ClientPractices = ({ images }) => {
                 width={96}
                 height={96}
               />
+            </div>
+            <div className="absolute left-0 bottom-0 w-full h-0 transform  transition-all duration-1000 group-hover:translate-y-0 group-hover:h-[66%] backdrop-blur-3xl opacity-90 overflow-hidden flex justify-center text-xs sm:text-sm lg:text-base font-normal px-4 rounded-3xl text-indent-2 text-color1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit numquam ipsum esse voluptas. Repudiandae reiciendis excepturi mollit..
             </div>
           </Link>
         ))}

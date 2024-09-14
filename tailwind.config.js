@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      textIndent: {
+        '1': '1px', 
+        '2': '2px', 
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -26,5 +30,16 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.text-indent-1': {
+          textIndent: '1px',
+        },
+        '.text-indent-2': {
+          textIndent: '5px',
+        },
+      });
+    },
+  ],
 };
