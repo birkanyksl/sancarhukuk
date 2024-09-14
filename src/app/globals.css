@@ -80,7 +80,46 @@
   border-bottom-left-radius: 300px;
 }
 
-button {
+.scroll-hide {
+  scrollbar-width: none; 
+  -ms-overflow-style: none;  
+}
+
+.scroll-hide::-webkit-scrollbar { 
+  display: none; 
+}
+
+
+@layer utilities {
+  .mask-image-gradient {
+    mask-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(0,0,0,0));
+  }
+  @keyframes scrollX {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  .animate-scrollX {
+    animation: scrollX 45s linear infinite;
+  }
+  @keyframes scrollXReverse {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  .animate-scrollXReverse {
+    animation: scrollXReverse 45s linear infinite;
+  }
+}
+
+
+/* button {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -191,4 +230,4 @@ button:hover .button-text {
 button:active .button-text {
   color: rgba(255, 255, 255, 0.459);
   margin: 0 0 0 1rem;
-}
+} */

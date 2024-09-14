@@ -15,7 +15,7 @@ const images = [
 
 const Practices = () => {
   return (
-    <div className="mb-32">    
+    <div className="mb-24">    
       <ClientPractices images={images} />    
     </div>
   );

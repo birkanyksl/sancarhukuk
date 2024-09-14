@@ -9,9 +9,31 @@ const ClientPractices = ({ images }) => {
   const t = useTranslations("HomePractices");
 
 
-  const [visibleItems, setVisibleItems] = useState(images.length);
+  const [visibleItems, setVisibleItems] = useState(4);
   const [animatedItems, setAnimatedItems] = useState([]);
   const observer = useRef(null);
+   
+  const updateVisibleItems = () => {
+    const width = window.innerWidth;
+    if (width < 768) {
+      setVisibleItems(4); 
+    } else if (width >= 768 && width < 1024) {
+      setVisibleItems(6); 
+    } else {
+      setVisibleItems(8); 
+    }
+  };
+
+  useEffect(() => {
+    updateVisibleItems(); 
+
+  
+    window.addEventListener("resize", updateVisibleItems);
+
+    return () => {
+      window.removeEventListener("resize", updateVisibleItems); 
+    };
+  }, []);
 
   
   useEffect(() => {
@@ -83,7 +105,7 @@ const ClientPractices = ({ images }) => {
         ))}
       </div>
 
-      <div className="flex justify-start mt-12">
+      {/* <div className="flex justify-start mt-12">
         
         <button className="learn-more" disabled>
           <span aria-hidden="true" className="circle">
@@ -92,7 +114,7 @@ const ClientPractices = ({ images }) => {
           <span className="button-text text-sm">Diğer Hizmetler</span>
         </button>
          
-      </div>
+      </div> */}
     </div>
   );
 };

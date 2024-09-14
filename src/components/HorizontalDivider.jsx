@@ -40,7 +40,7 @@ const HorizontalDivider = ({ width = "70%" }) => {
           className="w-[1/2]  md:w-[300px] lg:w-[450px] h-[1px] bg-color6"
           initial={{ width: 0 }}
           animate={isVisible ? { width } : {}}
-          transition={{ duration: 1 }}
+          transition={{ duration: 1.5 }}
         ></motion.div>
 
         
