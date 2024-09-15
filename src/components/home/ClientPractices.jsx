@@ -92,10 +92,10 @@ const ClientPractices = ({ images }) => {
                 className="object-cover w-12 h-12"
               />
             </div>
-            <h2 className="text-color1 font-semibold text-md md:text-md text-center">
+            <h2 className="text-color1 font-semibold text-sm md:text-base text-center">
               {t(`practicesHome${index + 1}`)}
             </h2>
-            <p className="text-center text-gray-600 text-xs sm:text-sm xl:text-base">
+            <p className="text-center text-xs md:text-sm font-light  text-gray-600 ">
               
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             </p>

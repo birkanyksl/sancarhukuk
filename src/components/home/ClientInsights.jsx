@@ -17,7 +17,7 @@ const ClientInsights = () => {
         <h2 className="text-lg font-medium md:text-2xl md:font-medium">
           Most Read Publications of The Week
         </h2>
-        <p className="text-sm font-light md:font-normal text-gray-600 overflow-hidden">
+        <p className=" text-xs md:text-sm font-light  text-gray-600 overflow-hidden">
           As a dedicated lawyer, my mission is to provide clients with effective
           legal solutions, ensuring their rights are protected and upheld.As a dedicated lawyer, my mission is to provide clients with effective
           legal solutions, ensuring their rights are protected and upheld.

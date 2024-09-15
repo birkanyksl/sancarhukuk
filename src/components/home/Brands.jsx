@@ -21,22 +21,22 @@ function Brands() {
   ];
 
   return (
-    <div className="w-full h-[30vh] flex items-center justify-center mt-6">
+    <div className="w-full h-[30vh] flex items-center justify-center mt-12 md:mt-6">
       <div className="w-full flex flex-col items-center justify-center">
-        <div className="text-lg font-medium mb-2 text-color1">With Great Outcomes.</div>
+        {/* <div className="text-lg font-medium mb-2 text-color1">Başarılı İşbirlikleri</div> */}
         <div className="text-base font-light mb-10 text-gray-400">
-          Our customers have gotten offers from awesome companies.
+        Başarıya giden yolda birlikte yürüdüğümüz iş ortaklarımız.
         </div>
 
         <div className="flex w-[1200px] overflow-hidden mask-image-gradient mb-4">
           <div className="flex whitespace-nowrap animate-scrollX">
             {row1.map((el, index) => (
-              <div key={index} className="flex items-center justify-center w-48 ">
+              <div key={index} className="flex items-center justify-center w-32 md:w-36 ">
                 <Image
                   src={el}
                   width={200} 
                   height={31} 
-                  className="w-16 h-9 md:w-24 md:h-12 object-contain rounded-md aspect-[16/9] "
+                  className="w-16 h-9 md:w-18 md:h-10 object-contain rounded-md aspect-[16/9] "
                   alt=""
                 />
               </div>
@@ -44,12 +44,12 @@ function Brands() {
           </div>
           <div className="flex whitespace-nowrap animate-scrollX">
             {row1.map((el, index) => (
-              <div key={index} className=" flex items-center justify-center w-48 ">
+              <div key={index} className=" flex items-center justify-center w-32 md:w-36 ">
                 <Image
                   src={el}
                   width={200} 
                   height={32} 
-                  className="w-16 h-9 md:w-24 md:h-12 object-contain rounded-md aspect-[16/9] "
+                  className="w-16 h-9 md:w-18 md:h-10 object-contain rounded-md aspect-[16/9] "
                   alt=""
                 />
               </div>
@@ -60,12 +60,12 @@ function Brands() {
         <div className="flex w-[1200px] overflow-hidden mask-image-gradient">
           <div className="flex whitespace-nowrap animate-scrollXReverse">
             {row2.map((el, index) => (
-              <div key={index} className="flex items-center justify-center w-48">
+              <div key={index} className="flex items-center justify-center w-32 md:w-36">
                 <Image
                   src={el}
                   width={200} 
                   height={32} 
-                  className="w-16 h-9 md:w-24 md:h-12 object-contain rounded-md aspect-[16/9] "
+                  className="w-16 h-9 md:w-18 md:h-10 object-contain rounded-md aspect-[16/9] "
                   alt=""
                 />
               </div>
@@ -73,12 +73,12 @@ function Brands() {
           </div>
           <div className="flex whitespace-nowrap animate-scrollXReverse">
             {row2.map((el, index) => (
-              <div key={index} className="flex items-center justify-center w-48 ">
+              <div key={index} className="flex items-center justify-center w-32 md:w-36 ">
                 <Image
                   src={el}
                   width={200} 
                   height={31}
-                  className="w-16 h-9 md:w-24 md:h-12 object-contain rounded-md aspect-[16/9] "
+                  className="w-16 h-9 md:w-18 md:h-10 object-contain rounded-md aspect-[16/9] "
                   alt=""
                 />
               </div>

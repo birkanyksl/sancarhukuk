@@ -1,6 +1,6 @@
 import Brands from "@/components/home/Brands";
 import ClientInsights from "@/components/home/ClientInsights";
-
+import Footer from "@/components/home/Footer";
 import ParallaxCarousel from "@/components/home/ParallaxCarousel";
 import Practices from "@/components/home/Practices";
 
@@ -17,6 +17,7 @@ export default function Home() {
         <Practices/>
         <ClientInsights/>
         <Brands/>
+        <Footer/>
       </div>
        </>
   )
