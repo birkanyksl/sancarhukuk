@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import InsightCard from "./InsightCard";
-import HorizontalDivider from "../HorizontalDivider";
 import HeadingWithDivider from "../HeadingWithDivider";
 
 const ClientInsights = () => {
@@ -40,7 +39,7 @@ const ClientInsights = () => {
           <span className="text-xs font-light text-gray-400 mt-2">
             18-04-1994
           </span>
-          <h2 className="w-[80%] text-sm md:text-lg font-bold color1 overflow-hidden">
+          <h2 className="w-[80%] text-sm md:text-lg font-semibold color1 overflow-hidden">
             Tokyo declares La Nina weather event has begun
           </h2>
           <div className="flex items-center justify-between ">
