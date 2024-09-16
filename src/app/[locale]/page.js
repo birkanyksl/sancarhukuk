@@ -16,8 +16,7 @@ export default function Home() {
       <div className="px-6 md:px-8 lg:px-16">
         <Practices/>
         <ClientInsights/>
-        <Brands/>
-        <Footer/>
+        <Brands/>    
       </div>
        </>
   )
