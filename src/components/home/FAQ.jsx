@@ -89,11 +89,13 @@ const Faq = () => {
 
   const handleSectionClick = useCallback((section) => {
     setActiveSection(section);
-    setOpenQuestions(null);
+    setOpenQuestions({});
   }, []);
 
   const handleQuestionClick = useCallback((id) => {
-    setOpenQuestions(prevId => (prevId === id ? null : id));
+    setOpenQuestions(prevState => (
+      prevState[id] ? { ...prevState, [id]: false } : { ...prevState, [id]: true }
+    ));
   }, []);
 
   return (
@@ -103,31 +105,33 @@ const Faq = () => {
         <div className="flex flex-col gap-4">
           {Object.keys(sections).map((section) => (
             <div key={section}>
+               
               <button
-                className={`px-6 py-2 flex w-full rounded text-base font-medium justify-center ${activeSection === section ? 'bg-gray-100 text-color1' : 'bg-gray-50'}`}
+                className={`px-6 py-2 flex w-full rounded text-sm font-medium justify-between items-center ${activeSection === section ? 'bg-gray-100 text-color1' : 'bg-gray-50'}`}
                 onClick={() => handleSectionClick(section)}
               >
                 {section.charAt(0).toUpperCase() + section.slice(1)}
-                <span className="ml-2 text-sm">
-                  {activeSection === section ? <FaMinus /> : <FaPlus />}
+                <span className="flex  ml-2 text-sm">
+                  {activeSection === section ? <FaMinus className='text-[10px]'/> : <FaPlus className='text-[10px]'/>}
                 </span>
               </button>
+              
               <HorizontalDivider width='100%'/>
               {activeSection === section && (
                 <div className="flex flex-col gap-4 mt-4">
                   {sections[section].map((faq) => (
                     <div
                       key={faq.id}
-                      className={`min-w-full p-4 rounded-lg shadow-md transition-all duration-500 ease-in-out ${openQuestions[faq.id] ? 'max-h-screen overflow-auto' : 'max-h-20 overflow-hidden'}`}
+                      className={`min-w-full p-2 border-b-[1px] transition-all duration-500 ease-in-out ${openQuestions[faq.id] ? 'max-h-screen overflow-auto' : 'max-h-20 overflow-hidden'}`}
                     >
                       <h2
-                        className="text-sm font-medium mb-2 cursor-pointer"
+                        className="text-sm font-normal mb-3 cursor-pointer"
                         onClick={() => handleQuestionClick(faq.id)}
                       >
                         {faq.question}
                       </h2>
                       {openQuestions[faq.id] && (
-                        <p className="mt-2 text-xs font-normal text-gray-600">
+                        <p className="mt-2 text-xs font-normal text-gray-500">
                           {faq.answer}
                         </p>
                       )}
