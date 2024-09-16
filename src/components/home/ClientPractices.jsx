@@ -83,13 +83,13 @@ const ClientPractices = ({ images }) => {
               }`}
             >
               <div className="flex flex-col items-center h-full justify-center gap-6">
-                <div className="w-24 h-24 bg-color5 rounded-full flex items-center justify-center overflow-hidden">
+                <div className="w-20 h-20 bg-color4 rounded-full flex items-center justify-center overflow-hidden">
                   <Image
                     src={`/${image.src}`}
                     alt={`Hukuk Hizmetleri ${index + 1}`}
                     width={512}
                     height={512}
-                    className="object-cover w-12 h-12"
+                    className="object-cover w-9 h-9"
                   />
                 </div>
                 <h2 className="text-color1 font-semibold text-sm md:text-base text-center">
