@@ -113,7 +113,7 @@ const Faq = () => {
                   {sections[section].map((faq) => (
                     <div
                       key={faq.id}
-                      className={`scroll-hide min-w-full p-2 border-b-[1px] transition-all duration-1000 ease-in-out ${openQuestion === faq.id ? 'max-h-screen overflow-auto' : 'max-h-20 overflow-hidden'}`}
+                      className={`scroll-hide min-w-full p-2 border-b-[1px] transition-all duration-1000 ease-in-out `}
                     >
                       <h2
                         className="text-sm font-normal mb-3 cursor-pointer"
