@@ -8,34 +8,31 @@ import HeadingWithDivider from "../HeadingWithDivider";
 const ClientPractices = ({ images }) => {
   const t = useTranslations("HomePractices");
 
-
   const [visibleItems, setVisibleItems] = useState(4);
   const [animatedItems, setAnimatedItems] = useState([]);
   const observer = useRef(null);
-   
+
   const updateVisibleItems = () => {
     const width = window.innerWidth;
     if (width < 768) {
-      setVisibleItems(4); 
+      setVisibleItems(4);
     } else if (width >= 768 && width < 1024) {
-      setVisibleItems(6); 
+      setVisibleItems(6);
     } else {
-      setVisibleItems(8); 
+      setVisibleItems(8);
     }
   };
 
   useEffect(() => {
-    updateVisibleItems(); 
+    updateVisibleItems();
 
-  
     window.addEventListener("resize", updateVisibleItems);
 
     return () => {
-      window.removeEventListener("resize", updateVisibleItems); 
+      window.removeEventListener("resize", updateVisibleItems);
     };
   }, []);
 
-  
   useEffect(() => {
     const handleIntersection = (entries, observer) => {
       entries.forEach((entry) => {
@@ -64,57 +61,48 @@ const ClientPractices = ({ images }) => {
     };
   }, [visibleItems]);
 
-
-
   return (
-    <div className="">
-     <HeadingWithDivider title={t(`title`)} />
+    <div className="relative mb-24  ">
 
-      <div className="flex flex-wrap gap-4 justify-center">
-        {images.slice(0, visibleItems).map((image, index) => (
-          <Link
-          key={index}
-          href={image.href}
-          id={`practice-item-${index}`}
-          className={`practice-item cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[250px] transform transition-transform duration-1000 overflow-hidden hover:bg-slate-50 ${
-            animatedItems.includes(`practice-item-${index}`)
-              ? "opacity-100 translate-y-0"
-              : "opacity-0 translate-y-12"
-          }`}
-        >
-          <div className="flex flex-col items-center h-full justify-center gap-6">
-            <div className=" w-24 h-24 bg-color5 rounded-full flex items-center justify-center overflow-hidden">
-              <Image
-                src={`/${image.src}`}
-                alt={`Hukuk Hizmetleri ${index + 1}`}
-                width={512}
-                height={512}
-                className="object-cover w-12 h-12"
-              />
-            </div>
-            <h2 className="text-color1 font-semibold text-sm md:text-base text-center">
-              {t(`practicesHome${index + 1}`)}
-            </h2>
-            <p className="text-center text-xs md:text-sm font-light  text-gray-600 ">
-              
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-          </div>
-        </Link>
+      <HeadingWithDivider title={t("title")} />
+
+     
+
+      <div className="relative z-10">
         
-        ))}
+        <div className="flex flex-wrap gap-4 justify-center">
+          {images.slice(0, visibleItems).map((image, index) => (
+            <Link
+              key={index}
+              href={image.href}
+              id={`practice-item-${index}`}
+              className={`practice-item cursor-pointer mt-2 w-[40%] md:w-[30%] lg:w-[22%] xl:w-[18%] xl:mx-6 h-[250px] transform transition-transform duration-1000 overflow-hidden${
+                animatedItems.includes(`practice-item-${index}`)
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-12"
+              }`}
+            >
+              <div className="flex flex-col items-center h-full justify-center gap-6">
+                <div className="w-24 h-24 bg-color5 rounded-full flex items-center justify-center overflow-hidden">
+                  <Image
+                    src={`/${image.src}`}
+                    alt={`Hukuk Hizmetleri ${index + 1}`}
+                    width={512}
+                    height={512}
+                    className="object-cover w-12 h-12"
+                  />
+                </div>
+                <h2 className="text-color1 font-semibold text-sm md:text-base text-center">
+                  {t(`practicesHome${index + 1}`)}
+                </h2>
+                <p className="text-center text-xs md:text-sm font-light text-gray-600">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
-
-      {/* <div className="flex justify-start mt-12">
-        
-        <button className="learn-more" disabled>
-          <span aria-hidden="true" className="circle">
-            <span className="icon arrow"></span>
-          </span>
-          <span className="button-text text-sm">Diğer Hizmetler</span>
-        </button>
-         
-      </div> */}
     </div>
   );
 };

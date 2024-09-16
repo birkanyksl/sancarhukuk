@@ -37,7 +37,7 @@ const HorizontalDivider = ({ width = "70%" }) => {
       
         {/* Sol Çizgi */}
         <motion.div
-          className="w-[1/2]  md:w-[300px] lg:w-[450px] h-[1px] bg-color6"
+          className="w-[1/2]  md:w-[300px] lg:w-[450px] h-[1px] bg-color4"
           initial={{ width: 0 }}
           animate={isVisible ? { width } : {}}
           transition={{ duration: 1.5 }}

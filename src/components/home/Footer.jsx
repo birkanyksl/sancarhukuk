@@ -20,7 +20,33 @@ const Footer = () => {
             </div>
           </ul>
         </div>
-
+         
+        <div className="p-2">
+          <p className="text-gray-800 font-bold text-xs pb-2">Gözat</p>
+          <ul className="grid grid-cols-3 md:grid-cols-2 gap-2 xl:grid-cols-3">
+            <li className="text-gray-400 text-xs font-light hover:text-color6 cursor-pointer">
+              About Us
+            </li>
+            <li className="text-gray-400 text-xs font-light hover:text-color6 cursor-pointer">
+              Team
+            </li>
+            <li className="text-gray-400 text-xs font-light hover:text-color6 cursor-pointer">
+              Practices
+            </li>
+            <li className="text-gray-400 text-xs font-light hover:text-color6 cursor-pointer">
+              Publications
+            </li>
+            <li className="text-gray-400 text-xs font-light hover:text-color6 cursor-pointer">
+              Career
+            </li>
+            <li className="text-gray-400 text-xs font-light hover:text-color6 cursor-pointer">
+              Contact
+            </li>
+            <li className="text-gray-400 text-xs font-light hover:text-color6 cursor-pointer">
+              E-Payment
+            </li>
+          </ul>
+        </div>
        
         <div className="p-2">
           <p className="text-gray-800 font-bold text-xs pb-2">İletişim</p>
@@ -43,35 +69,10 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="p-2">
-          <p className="text-gray-800 font-bold text-xs pb-2">Gözat</p>
-          <ul className="grid grid-cols-3 md:grid-cols-2 gap-2 xl:grid-cols-3">
-            <li className="text-gray-400 text-xs font-light hover:text-blue-600 cursor-pointer">
-              About Us
-            </li>
-            <li className="text-gray-400 text-xs font-light hover:text-blue-600 cursor-pointer">
-              Team
-            </li>
-            <li className="text-gray-400 text-xs font-light hover:text-blue-600 cursor-pointer">
-              Practices
-            </li>
-            <li className="text-gray-400 text-xs font-light hover:text-blue-600 cursor-pointer">
-              Publications
-            </li>
-            <li className="text-gray-400 text-xs font-light hover:text-blue-600 cursor-pointer">
-              Career
-            </li>
-            <li className="text-gray-400 text-xs font-light hover:text-blue-600 cursor-pointer">
-              Contact
-            </li>
-            <li className="text-gray-400 text-xs font-light hover:text-blue-600 cursor-pointer">
-              E-Payment
-            </li>
-          </ul>
-        </div>
+       
 
   
-        <div className="p-2 max-h-80 overflow-y-auto">
+        <div className="p-2 mb-2 max-h-80 overflow-y-auto">
           <p className="text-gray-800 font-bold text-xs pb-2">Blog</p>
           <ul className='grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-16 md:gap-6'>
             <li className="text-gray-400 text-xs font-light flex items-center gap-4 ">
@@ -84,7 +85,7 @@ const Footer = () => {
             <li className="text-gray-400 text-xs font-light flex items-center gap-4 ">
               <Image src="https://images.pexels.com/photos/28319907/pexels-photo-28319907.jpeg?auto=compress&cs=tinysr00&lazy=load" alt="Blog 2" width={128} height={128} className="w-9 h-9 object-cover rounded-xl " />
               <div className="flex-1 min-w-0">
-                <p className="font-semibold truncate">HSYK'da Neler Oluyor?</p>
+                <p className="font-semibold truncate">Adliyede Neler Oluyor?</p>
                 <p className="text-xs truncate">Erkan Yüksel</p>
               </div>
             </li>
@@ -94,9 +95,9 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between items-center text-center pb-4 px-4 gap-1">
-        <h1 className="text-xs text-gray-400 font-light">
+        <h1 className="text-xs text-gray-400 font-extralight">
           © 2024-2025 All rights reserved | Build with ❤ by{" "}
-          <span className="hover:text-color6 font-semibold cursor-pointer">
+          <span className="hover:text-color6 font-extralight cursor-pointer">
             Birkan{" "}
           </span>
         </h1>
