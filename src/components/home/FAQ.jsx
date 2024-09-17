@@ -99,7 +99,7 @@ const Faq = () => {
           {Object.keys(sections).map((section) => (
             <div key={section}>
               <button
-                className={`px-6 py-2 flex w-full rounded text-sm font-medium justify-between items-center ${activeSection === section ? 'bg-gray-100 text-color1' : 'bg-gray-50'}`}
+                className={`px-6 py-2 flex w-full rounded text-sm font-semibold justify-between items-center ${activeSection === section ? 'bg-gray-100 text-color1' : 'bg-gray-50'}`}
                 onClick={() => handleSectionClick(section)}
               >
                 {section.charAt(0).toUpperCase() + section.slice(1)}
@@ -113,16 +113,16 @@ const Faq = () => {
                   {sections[section].map((faq) => (
                     <div
                       key={faq.id}
-                      className={`scroll-hide min-w-full p-2 border-b-[1px] transition-all duration-1000 ease-in-out `}
+                      className={`scroll-hide min-w-full p-2 border-b-[1px] transition-all duration-1000 ease-in-out`}
                     >
                       <h2
-                        className="text-sm font-normal mb-3 cursor-pointer"
+                        className="text-[12.5px] font-medium color1 cursor-pointer "
                         onClick={() => handleQuestionClick(faq.id)}
                       >
                         {faq.question}
                       </h2>
                       {openQuestion === faq.id && (
-                        <p className="mt-2 text-xs font-normal text-gray-500">
+                        <p className="mt-2 text-xs font-medium text-gray-600">
                           {faq.answer}
                         </p>
                       )}

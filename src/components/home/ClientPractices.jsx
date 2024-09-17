@@ -68,7 +68,7 @@ const ClientPractices = ({ images }) => {
 
      
 
-      <div className="relative z-10">
+      <div className="relative z-9">
         
         <div className="flex flex-wrap gap-4 justify-center">
           {images.slice(0, visibleItems).map((image, index) => (

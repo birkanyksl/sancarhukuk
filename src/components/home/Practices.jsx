@@ -17,7 +17,7 @@ const images = [
 const Practices = () => {
   return (
     <div className="mb-24 ">
-       <div className="absolute mx-auto top-[500px] left-0 w-full h-full  bg-white opacity-40 blur-[1px] md:w-[800px] md:h-[720px] md:top-[580px] md:left-[-100px] ">
+       <div className="absolute mx-auto top-[550px] sm:top-[500px] left-0 w-full h-[90%] bg-white opacity-40 blur-[3px] md:w-[800px] md:h-[720px] md:top-[580px] md:left-[-100px] ">
         <Image
           src="/themis-bg1.png"
           alt="Background Image"
