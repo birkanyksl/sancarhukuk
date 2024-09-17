@@ -107,7 +107,7 @@ const Faq = () => {
     <div className="flex flex-col w-full p-4 justify-center">
       <div className="flex flex-col gap-4 mb-6">
         <HeadingWithDivider title="FAQ"/>
-        <div ref={setRef} className={`mb-12 md:my-20 lg:mb:24 flex flex-col items-center justify-center gap-4 transform transition-transform duration-500 ease-in ${
+        <div ref={setRef} className={`mb-12 md:my-16 lg:mb:24 flex lg:my-12 flex-col items-center justify-center gap-4 transform transition-transform duration-500 ease-in ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
             }`}>
         <h1 className="text-center text-2xl lg:text-3xl font-semibold "> <span className="text-color6">Merak </span><span className="text-color1">Ettikleriniz</span></h1>
