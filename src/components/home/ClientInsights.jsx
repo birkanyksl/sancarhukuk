@@ -1,10 +1,15 @@
+"use client"
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import InsightCard from "./InsightCard";
 import HeadingWithDivider from "../HeadingWithDivider";
 import HorizontalDivider from "../HorizontalDivider";
+import useIntersectionObserver from "../IntersectionObserver";
 
 const ClientInsights = () => {
+
+  
+
   const articles = [
     {
       date: "24.07.2023",
@@ -41,12 +46,31 @@ const ClientInsights = () => {
       author: "Erkan Yüksel",
       authorTitle: "Lawyer",
     },
-  ];
+  ]; 
+
+  const [isVisible, setIsVisible] = useState(false); 
+
+  const handleIntersection = (target) => {
+    console.log('Element is visible:', target);
+    setIsVisible(true);
+  };
+
+  const { setRef } = useIntersectionObserver({
+    threshold: 0.1,
+    callback: handleIntersection
+  });
+
 
   return (
     <>
       <HeadingWithDivider title="Insights" />
-      <div className="mb-12 md:my-20 lg:mb:24 flex flex-col items-center justify-center gap-4">
+      <div
+  ref={setRef}
+  className={`mb-12 md:my-20 lg:mb:24 flex flex-col items-center justify-center gap-4
+    transform transition-transform duration-500 ease-in
+    ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"}
+  `}
+>
         <h1 className="text-center text-2xl lg:text-3xl font-semibold "> <span className="text-color6">Adaletin Gündeminde </span><span className="text-color1">Neler Var?</span></h1>
         <p className="text-sm font-light md:text-base text-gray-600">Yeni yasalar, kararlar ve hukuk dünyasındaki değişiklikler.</p>
         </div>
