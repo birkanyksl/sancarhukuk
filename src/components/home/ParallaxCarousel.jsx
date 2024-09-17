@@ -40,7 +40,7 @@ const ParallaxCarousel = () => {
   const goTo = (index) => emblaApi.scrollTo(index);
 
   return (
-    <div className="relative h-[50vh] rounded-md">
+    <div className="relative h-[50vh] rounded-md mb-12 md:mb-24">
       <div className="embla" ref={emblaRef}>
         <div className="embla__container">
           {slides.map((slide, index) => (

@@ -46,7 +46,7 @@ const ClientInsights = () => {
   return (
     <>
       <HeadingWithDivider title="Insights" />
-      <div className="flex flex-col md:flex-row gap-16 w-full h-[1100px] md:gap-8 pt-4  md:h-[600px] ">
+      <div className="flex flex-col md:flex-row gap-16 w-full h-[1100px] md:gap-8 pt-4  md:h-[600px]  md:mb-16">
          
         
         {/* LEFT */}

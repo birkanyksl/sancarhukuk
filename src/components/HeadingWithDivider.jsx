@@ -33,7 +33,7 @@ const HeadingWithDivider = ({ title }) => {
   }, []);
 
   return (
-    <div className="my-8 md:my-16" ref={headingRef}>
+    <div className="my-8 md:my-4" ref={headingRef}>
       <div className="flex items-center justify-center">
         {/* Sol Çizgi */}
         <motion.div
