@@ -46,6 +46,10 @@ const ClientInsights = () => {
   return (
     <>
       <HeadingWithDivider title="Insights" />
+      <div className="mb-12 md:my-20 lg:mb:24 flex flex-col items-center justify-center gap-4">
+        <h1 className="text-center text-2xl lg:text-3xl font-semibold "> <span className="text-color6">Adaletin Gündeminde </span><span className="text-color1">Neler Var?</span></h1>
+        <p className="text-sm font-light md:text-base text-gray-600">Yeni yasalar, kararlar ve hukuk dünyasındaki değişiklikler.</p>
+        </div>
       <div className="flex flex-col md:flex-row gap-16 w-full h-[1100px] md:gap-8 pt-4  md:h-[600px]  md:mb-16">
          
         

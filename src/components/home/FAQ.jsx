@@ -95,6 +95,10 @@ const Faq = () => {
     <div className="flex flex-col w-full p-4 justify-center">
       <div className="flex flex-col gap-4 mb-6">
         <HeadingWithDivider title="FAQ"/>
+        <div className="mb-12 md:my-20 lg:mb:24 flex flex-col items-center justify-center gap-4">
+        <h1 className="text-center text-2xl lg:text-3xl font-semibold "> <span className="text-color6">Merak </span><span className="text-color1">Ettikleriniz</span></h1>
+        <p className="text-sm font-light md:text-base text-gray-600">Avukatlık hizmetlerimizle ilgili merak ettiğiniz soruları bu bölümde bulabilirsiniz.</p>
+        </div>
         <div className="flex flex-col gap-4">
           {Object.keys(sections).map((section) => (
             <div key={section}>
