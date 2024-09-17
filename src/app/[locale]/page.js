@@ -14,7 +14,7 @@ export default function Home() {
       <div className="w-full scroll-smooth">
       <ParallaxCarousel/>
       </div>
-      <div className="px-6 md:px-8 lg:px-16">
+      <div className="px-6 md:px-8 lg:px-16 scroll-smooth">
         <Practices/>
         <ClientInsights/>
         <Faq/>
