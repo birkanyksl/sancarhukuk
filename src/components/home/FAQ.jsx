@@ -4,6 +4,7 @@ import { useState, useCallback } from 'react';
 import HeadingWithDivider from '../HeadingWithDivider';
 import HorizontalDivider from '../HorizontalDivider';
 import { FaPlus, FaMinus } from "react-icons/fa";
+import useIntersectionObserver from '../IntersectionObserver';
 
 const sections = {
   basic: [
@@ -81,6 +82,7 @@ const sections = {
 const Faq = () => {
   const [activeSection, setActiveSection] = useState('basic');
   const [openQuestion, setOpenQuestion] = useState(null);
+  const [isVisible, setIsVisible] = useState(false); 
 
   const handleSectionClick = useCallback((section) => {
     setActiveSection(section);
@@ -91,11 +93,23 @@ const Faq = () => {
     setOpenQuestion(prevState => (prevState === id ? null : id)); 
   }, []);
 
+  const handleIntersection = (target) => {
+    setIsVisible(true);
+  };
+
+  const { setRef } = useIntersectionObserver({
+    threshold: 0.1,
+    callback: handleIntersection
+  });
+ 
+
   return (
     <div className="flex flex-col w-full p-4 justify-center">
       <div className="flex flex-col gap-4 mb-6">
         <HeadingWithDivider title="FAQ"/>
-        <div className="mb-12 md:my-20 lg:mb:24 flex flex-col items-center justify-center gap-4">
+        <div ref={setRef} className={`mb-12 md:my-20 lg:mb:24 flex flex-col items-center justify-center gap-4 transform transition-transform duration-500 ease-in ${
+              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
+            }`}>
         <h1 className="text-center text-2xl lg:text-3xl font-semibold "> <span className="text-color6">Merak </span><span className="text-color1">Ettikleriniz</span></h1>
         <p className="text-sm font-light md:text-base text-gray-600">Avukatlık hizmetlerimizle ilgili merak ettiğiniz soruları bu bölümde bulabilirsiniz.</p>
         </div>
