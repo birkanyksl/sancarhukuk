@@ -4,7 +4,7 @@ import HorizontalDivider from '../HorizontalDivider'
 
 const InsightCard = () => {
   return (
-    <div className='flex flex-col gap-3 md:gap-4 w-full mb-8 pb-2 hover:bg-slate-50 transition-all duration-1000 cursor-pointer'>
+    <div className='flex flex-col gap-3 md:gap-4 w-full mb-8 pb-2  transition-all duration-1000 cursor-pointer'>
         <div className='relative w-full h-48'>
         <Image src="https://images.pexels.com/photos/1344537/pexels-photo-1344537.jpeg?auto=compress&cs=tinysrgb&w=600" alt='blog-image' fill className='object-cover'/>
 
