@@ -101,19 +101,18 @@ const Faq = () => {
   });
 
   return (
+    
      <>
     {/* // MD EKRAN ÜSTÜ */}
     <div className=" hidden  md:block  flex-col w-full p-4 justify-center mb-10">
       <HeadingWithDivider title="FAQ" />
 
       <div
-        ref={setRef}
-        className={`mb-12 md:my-20 lg:mb:24 flex flex-row lg:my-12  items-end justify-center gap-4 transform transition-transform duration-500 ease-in ${
-          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
-        }`}
+        
+        className={`mb-12 md:my-20 lg:mb:24 flex flex-row lg:my-12  items-end justify-center gap-4  `}
         >
         <div className="flex flex-col text-center items-center w-1/2">
-          <h1 className="text-center text-2xl lg:text-3xl font-semibold mb-4">
+          <h1 className={`text-center text-2xl lg:text-3xl font-semibold mb-8`}>
             {" "}
             <span className="text-color6">Merak </span>
             <span className="text-color1">Ettikleriniz</span>
