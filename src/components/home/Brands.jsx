@@ -21,9 +21,9 @@ function Brands() {
   ];
 
   return (
-    <div className=" w-full h-[30vh] flex items-center justify-center mt-12 md:mt-6 md:mb-6 px-6 md:px-8 lg:px-16 overflow-hidden mask-image-gradient">
+    <div className=" w-full h-[30vh] flex items-center justify-center mt-2 md:mt-6 md:mb-6 px-6 md:px-8 lg:px-16 overflow-hidden mask-image-gradient">
       <div className="w-full flex flex-col items-center justify-center">
-        {/* <div className="text-lg font-medium mb-2 text-color1">Başarılı İşbirlikleri</div> */}
+        
         <div className="text-base font-light mb-10 text-gray-400">
         Başarıya giden yolda birlikte yürüdüğümüz iş ortaklarımız.
         </div>
