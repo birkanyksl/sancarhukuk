@@ -109,7 +109,7 @@ const Faq = () => {
 
       <div
         
-        className={`mb-12 md:my-20 lg:mb:24 flex flex-row lg:my-12  items-end justify-center gap-4  `}
+        className={`mb-12 md:my-20 lg:mb:24 flex flex-row lg:my-24  items-end justify-center gap-4  `}
         >
         <div className="flex flex-col text-center items-center w-1/2">
           <h1 className={`text-center text-2xl lg:text-3xl font-semibold mb-8`}>
