@@ -44,7 +44,7 @@ const HeadingWithDivider = ({ title }) => {
         ></motion.div>
 
         {/* Başlık */}
-        <h2 className="mx-6 text-xl font-medium text-color1">{title}</h2>
+        <h1 className="mx-6 text-xl font-medium text-color1">{title}</h1>
 
         {/* Sağ Çizgi */}
         <motion.div

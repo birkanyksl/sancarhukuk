@@ -13,6 +13,10 @@ const nextConfig = {
                 protocol:"https",
                 hostname:"assets.algoexpert.io"
             },
+            {
+                protocol:"https",
+                hostname:"img.freepik.com"
+            },
         ]
     }
 };

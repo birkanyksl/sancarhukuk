@@ -8,13 +8,13 @@ const Navbar = () => {
   const t = useTranslations("navbarlinks");
 
   const navLinks = [
-    { key: "about", path: "/hakkimizda" },
-    { key: "team", path: "/ekibimiz" },
-    { key: "services", path: "/hizmetler" },
-    { key: "publications", path: "/yayinlar" },
-    { key: "career", path: "/kariyer" },
-    { key: "contact", path: "/iletisim" },
-    { key: "ePayment", path: "/e-tahsilat" }
+    { key: "about", path: "/about" },
+    { key: "team", path: "/team" },
+    { key: "services", path: "/practice" },
+    { key: "publications", path: "/insight" },
+    { key: "career", path: "/career" },
+    { key: "contact", path: "/communication" },
+    { key: "ePayment", path: "/e-payment" }
   ];
 
   return (
