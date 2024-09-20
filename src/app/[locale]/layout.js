@@ -23,7 +23,7 @@ export default async function RootLayout({ children, params: { locale } }) {
           </div>
           {children}
           <div className="px-6 md:px-8 lg:px-16">
-            {/* <Footer /> */}
+            <Footer />
           </div>
         </NextIntlClientProvider>
       </body>

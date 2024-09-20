@@ -1,6 +1,7 @@
+import AboutPage from "@/components/about/AboutPage";
 import BreadCrumb from "@/components/BreadCrumb";
 
-const AboutPage = () => {
+const Page = () => {
   return (
     
     <>
@@ -19,9 +20,9 @@ const AboutPage = () => {
       
     </div>
     <BreadCrumb/>
-
+     <AboutPage/>
 </>
   );
 };
 
-export default AboutPage;
+export default Page;
