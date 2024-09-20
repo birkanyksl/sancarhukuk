@@ -1,9 +1,8 @@
-
-export const locales = ["tr", "en"];
+export const locales = ['tr', 'en'];
 
 export const pathnames = {
-  "/": "/",
-  "/pathnames": "/pathnames",
+    '/': '/',
+    '/pathnames': '/pathnames',
 };
 
-export const localePrefix = "always";
+export const localePrefix = 'always';

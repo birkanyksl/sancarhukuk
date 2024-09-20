@@ -31,5 +31,10 @@
     "practicesHome7": "Gayrimenkul Hukuku",
     "practicesHome8": "Bilişim Hukuku"
     
+  },
+  "breadcrumb": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
   }
 }
