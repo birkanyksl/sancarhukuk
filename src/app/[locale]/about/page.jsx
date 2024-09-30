@@ -1,21 +1,30 @@
-import HeadingWithDivider from '@/components/HeadingWithDivider';
-import Image from 'next/image';
-import React from 'react';
+import AboutPage from "@/components/about/AboutPage";
+import AboutPageTeam from "@/components/about/AboutPageTeam";
+import BreadCrumb from "@/components/BreadCrumb";
 
-const AboutPage = () => {
+const Page = () => {
   return (
+    
+    <>
     <div className="relative w-full h-48 bg-slate-50">
-      {/* <Image src="https://img.freepik.com/free-photo/blank-white-concrete-wall-background_53876-145041.jpg?t=st=1726739392~exp=1726742992~hmac=070284314d3c9f79c302e1ffff8d45ef00928508ffe72b00d2bff39ffd151f9d&w=1380" alt='about-image' fill  style={{objectFit:"cover"}}/> */}
+      
 
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className=" text-color1 p-4 w-64 justify-center items-center  text-center ">
-          <h1 className="text-4xl font-semibold">About</h1>
-          <span></span>
+        <div className="text-color1 p-4  text-center">
+          <h1 className="text-4xl font-normal"><span className='text-color6'>About</span> <span className='text-color1'>Us</span></h1>
+          <p className="mt-4 text-sm text-gray-600">
+            Şirketimiz, kapsamlı hukuki danışmanlık ve dava hizmetleri sunarak müvekkillerine güvenilir çözümler sağlar.
+          </p>
         </div>
       </div>
+
       
     </div>
+    <BreadCrumb/>
+     <AboutPage/>
+     <AboutPageTeam/>
+</>
   );
 };
 
-export default AboutPage;
+export default Page;
