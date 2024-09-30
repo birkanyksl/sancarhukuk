@@ -20,15 +20,7 @@ const AboutPage = () => {
               <span className="text-color1">Mission</span>
             </h2>
             <p className="text-[13px]  font-normal text-gray-600">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repellendus perspiciatis illo odio asperiores cumque, omnis velit
-              dolorum est aut blanditiis.Lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Repellendus perspiciatis illo odio asperiores
-              cumque, omnis velit dolorum est aut blanditiis.Lorem ipsum dolor
-              sit amet consectetur, adipisicing elit. Repellendus perspiciatis
-              illo odio asperiores cumque, omnis velit dolorum est aut
-              blanditiis.Lorem ipsum dolor sit amet consectetur, adipisicing
-              elit.{" "}
+            Misyonumuz, müvekkillerimize en yüksek kalitede hukuki danışmanlık ve temsil sunarak, onların haklarını korumak ve adalet arayışlarında yanlarında olmaktır. Hukuk büromuz, uzman avukatlarımız ve deneyimli ekibimizle, her türlü hukuki sorun için etkili çözümler geliştirmektedir. Müşterilerimizin ihtiyaçlarına özel stratejiler oluşturarak, en karmaşık davalarda bile en iyi sonuçları elde etmeyi hedefliyoruz.
             </p>
           </div>
 
@@ -47,18 +39,10 @@ const AboutPage = () => {
           <div className="flex flex-col md:w-1/2 lg:w-full gap-4">
             <h2 className="text-xl font-medium">
               <span className="text-color6">Our</span>{" "}
-              <span className="text-color1">Mission</span>
+              <span className="text-color1">Vision</span>
             </h2>
             <p className="text-[13px]  font-normal text-gray-600">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repellendus perspiciatis illo odio asperiores cumque, omnis velit
-              dolorum est aut blanditiis.Lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Repellendus perspiciatis illo odio asperiores
-              cumque, omnis velit dolorum est aut blanditiis.Lorem ipsum dolor
-              sit amet consectetur, adipisicing elit. Repellendus perspiciatis
-              illo odio asperiores cumque, omnis velit dolorum est aut
-              blanditiis.Lorem ipsum dolor sit amet consectetur, adipisicing
-              elit.{" "}
+            Vizyonumuz, hukukun üstünlüğünü savunmak ve müvekkillerimizin güvenini kazanarak sektördeki en saygın hukuk bürolarından biri olmaktır. Her bir davaya gösterdiğimiz özen ve titizlik, bizi farklı kılan en önemli unsurlardandır. Hukuki süreçlerde şeffaflık ve güvenilirlik anlayışımızla, müvekkillerimizin en zor anlarında bile yanlarında durmayı amaçlıyoruz.
             </p>
           </div>
 
@@ -76,18 +60,10 @@ const AboutPage = () => {
           <div className="flex flex-col md:w-1/2 lg:w-full gap-4">
             <h2 className="text-xl font-medium">
               <span className="text-color6">Our</span>{" "}
-              <span className="text-color1">Mission</span>
+              <span className="text-color1">Practices</span>
             </h2>
             <p className="text-[13px]  font-normal text-gray-600">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repellendus perspiciatis illo odio asperiores cumque, omnis velit
-              dolorum est aut blanditiis.Lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Repellendus perspiciatis illo odio asperiores
-              cumque, omnis velit dolorum est aut blanditiis.Lorem ipsum dolor
-              sit amet consectetur, adipisicing elit. Repellendus perspiciatis
-              illo odio asperiores cumque, omnis velit dolorum est aut
-              blanditiis.Lorem ipsum dolor sit amet consectetur, adipisicing
-              elit.{" "}
+            Sanchaar Hukuk Bürosu, ceza hukuku, aile hukuku, ticaret hukuku ve gayrimenkul hukuku gibi birçok alanda uzmanlaşmıştır. Müşterilerimize sunduğumuz kapsamlı hizmetler arasında; dava takibi, hukuki danışmanlık, sözleşme hazırlığı ve uyuşmazlıkların çözümü bulunmaktadır. Her bir müvekkilimizle birebir ilgilenerek, onların ihtiyaçlarına uygun çözümler sunmaktayız.
             </p>
           </div>
 
@@ -106,14 +82,7 @@ const AboutPage = () => {
       {/* RIGHT */}
       <div className="flex flex-col gap-4 lg:gap-12 p-2 lg:w-1/2 ">
         <p className="text-[13px] text-gray-600">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
-          perspiciatis illo odio asperiores cumque, omnis velit dolorum est aut
-          blanditiis.Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Repellendus perspiciatis illo odio asperiores cumque, omnis velit
-          dolorum est aut blanditiis.Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Repellendus perspiciatis illo odio asperiores
-          cumque, omnis velit dolorum est aut blanditiis.Lorem ipsum dolor sit
-          amet consectetur, adipisicing elit.{" "}
+        Hukuk büromuz, müvekkillerimizin hukuki sorunlarını en etkili şekilde çözebilmek için kapsamlı bir yaklaşım benimsemektedir. Her bir davaya özel stratejiler geliştirerek, hukukun her alanında yüksek başarı oranlarına ulaşmayı hedefliyoruz. Müşterilerimizin ihtiyaçlarını derinlemesine analiz ederek, onlara en uygun hukuki çözümleri sunmayı ilke ediniyoruz.
         </p>
 
         <div className="hidden lg:flex flex-row gap-4 w-full h-[24rem]  mx-auto">
@@ -145,18 +114,11 @@ const AboutPage = () => {
 
         <div className="flex flex-col  gap-4">
           <h2 className="text-xl font-medium">
-            <span className="text-color6">Our</span>{" "}
-            <span className="text-color1">Mission</span>
+            <span className="text-color6">Expert</span>{" "}
+            <span className="text-color1">Team</span>
           </h2>
           <p className="text-[13px]  font-normal text-gray-600">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Repellendus perspiciatis illo odio asperiores cumque, omnis velit
-            dolorum est aut blanditiis.Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Repellendus perspiciatis illo odio asperiores
-            cumque, omnis velit dolorum est aut blanditiis.Lorem ipsum dolor sit
-            amet consectetur, adipisicing elit. Repellendus perspiciatis illo
-            odio asperiores cumque, omnis velit dolorum est aut blanditiis.Lorem
-            ipsum dolor sit amet consectetur, adipisicing elit.{" "}
+          Sanchaar Hukuk Bürosu, alanında deneyimli avukatlar ve hukuk uzmanlarından oluşan bir ekip ile hizmet vermektedir. Her avukatımız, kendi branşında derinlemesine uzmanlığa sahip olup, müvekkillerimize en iyi hukuki desteği sunabilmek için sürekli olarak kendilerini yenilemektedir. Uzman kadromuz, hukukun karmaşık yapılarında müvekkillerimize rehberlik ederek, en etkili savunmayı sağlamak için özveriyle çalışmaktadır.
           </p>
         </div>
       </div>

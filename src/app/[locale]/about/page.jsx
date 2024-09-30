@@ -1,4 +1,5 @@
 import AboutPage from "@/components/about/AboutPage";
+import AboutPageTeam from "@/components/about/AboutPageTeam";
 import BreadCrumb from "@/components/BreadCrumb";
 
 const Page = () => {
@@ -21,6 +22,7 @@ const Page = () => {
     </div>
     <BreadCrumb/>
      <AboutPage/>
+     <AboutPageTeam/>
 </>
   );
 };
