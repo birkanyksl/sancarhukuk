@@ -1,62 +1,53 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function SinglePost() {
   return (
-    <div className="flex-9">
-      <div className="p-5 pr-0">
-        <Image
-          className="w-full h-72 rounded-md object-cover"
-          src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-          alt="Post Image"
-          width={766}
-          height={579}
-        />
-        <h1 className="text-center my-4 text-3xl font-serif">
-          Lorem ipsum dolor
-          <div className="float-right text-base">
-            <i className="fas fa-edit text-teal-500 cursor-pointer ml-3"></i>
-            <i className="fas fa-trash-alt text-red-500 cursor-pointer ml-3"></i>
+    <div>
+      
+      <div className="relative w-full h-48 bg-slate-50 flex items-center justify-center">
+        <div className="text-color1 p-4 text-center">
+          <h1 className="text-4xl lg:text-5xl font-normal text-color6">
+            Yayınlar
+          </h1>
+          <div className="flex items-center justify-center">
+            <span className="text-xs font-light mt-6">
+              <span className="text-color1">By </span>
+              <span className="text-color6">Erkan Yüksel</span>
+            </span>
           </div>
-        </h1>
-        <div className="mb-5 flex justify-between text-lg text-gray-600">
-          <span>
-            Author:
-            <b className="ml-2">
-              <Link href="/">
-                Safak
-              </Link>
-            </b>
+          <span className="text-xs font-light text-color7 mt-2">
+            15.07.2024
           </span>
-          <span>1 day ago</span>
         </div>
-        <p className="text-gray-700 text-lg leading-7">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste error
-          quibusdam ipsa quis quidem doloribus eos, dolore ea iusto impedit!
-          Voluptatum necessitatibus eum beatae, adipisci voluptas a odit modi
-          eos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
-          error quibusdam ipsa quis quidem doloribus eos, dolore ea iusto
-          impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas a
-          odit modi eos! Lorem, ipsum dolor sit amet consectetur adipisicing
-          elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
-          iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
-          a odit modi eos! Lorem, ipsum dolor sit amet consectetur adipisicing
-          elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
-          iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
-          a odit modi eos!
-          <br />
-          <br />
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste error
-          quibusdam ipsa quis quidem doloribus eos, dolore ea iusto impedit!
-          Voluptatum necessitatibus eum beatae, adipisci voluptas a odit modi
-          eos! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste
-          error quibusdam ipsa quis quidem doloribus eos, dolore ea iusto
-          impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas a
-          odit modi eos! Lorem, ipsum dolor sit amet consectetur adipisicing
-          elit. Iste error quibusdam ipsa quis quidem doloribus eos, dolore ea
-          iusto impedit! Voluptatum necessitatibus eum beatae, adipisci voluptas
-          a odit modi eos!
-        </p>
+      </div>
+
+      
+      <div className="container mx-auto px-6 pb-8 md:px-8 lg:px-16 mt-6">
+        <div className="flex flex-col md:flex-row gap-6">
+          {/*Görsel */}
+          <div className="md:w-1/2 flex items-center justify-center">
+            <Image
+              src="https://images.pexels.com/photos/5764701/pexels-photo-5764701.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Post görseli"
+              width={2000}
+              height={3000}
+              className="w-full h-auto max-w-xs sm:max-w-sm md:max-w-full lg:max-w-lg"
+            />
+          </div>
+
+          {/* Makale */}
+          <div className="md:w-1/2 md:border-l border-color6 md:pl-8">
+            <p className="text-base text-gray-700">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, quam in varius dictum, orci dui placerat justo, sed pulvinar libero purus nec libero. Integer vulputate aliquet facilisis. Aenean posuere nisi sit amet justo sodales, non scelerisque risus facilisis.
+            </p>
+            <p className="text-base text-gray-700 mt-4">
+              Ut euismod, augue in venenatis fermentum, felis justo tempor enim, eget dignissim lorem erat vitae felis. Integer nec lorem ac justo feugiat gravida. Praesent sit amet consequat magna.
+            </p>
+            <p className="text-base text-gray-700 mt-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus laboriosam soluta pariatur ut numquam nesciunt, molestias voluptatem sit quisquam? Adipisci similique aspernatur dolorem autem commodi veritatis sit vitae nobis nemo.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

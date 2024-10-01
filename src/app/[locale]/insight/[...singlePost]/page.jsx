@@ -14,7 +14,7 @@ const SinglePage = ({ params }) => {
       <p>{post.content}</p>
       <p>Author: {post.author}</p>
       <p>Date: {post.date}</p>
-
+      
       <SinglePost/>
     </div>
   );

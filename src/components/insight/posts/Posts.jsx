@@ -13,6 +13,8 @@ const Posts = () => {
         </Link>
       ))}
     </div>
+
+    
   );
 };
 
