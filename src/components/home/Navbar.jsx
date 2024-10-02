@@ -1,11 +1,15 @@
 import React from "react";
 import MobileMenu from "./MobileMenu";
 import { Link } from "@/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import LocaleSwitcher from "../LocaleSwitcher";
+import Image from "next/image";
+import { user } from "@/utils/auth";
 
 const Navbar = () => {
   const t = useTranslations("navbarlinks");
+  const user1 = user
+  const locale = useLocale()
 
   const navLinks = [
     { key: "about", path: "/about" },
@@ -14,7 +18,7 @@ const Navbar = () => {
     { key: "publications", path: "/insight" },
     { key: "career", path: "/career" },
     { key: "contact", path: "/communication" },
-    { key: "ePayment", path: "/e-payment" }
+    
   ];
 
   return (
@@ -47,6 +51,16 @@ const Navbar = () => {
         <div className="flex items-center justify-end gap-4 text-xs font-bold">
           <LocaleSwitcher />
           <MobileMenu />
+
+          {user1 && <Link  href={`/settings`} className="relative w-8 h-8 cursor-pointer rounded-full overflow-hidden">
+          <Image
+            src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600" 
+            alt="Profil Fotoğrafı"
+            fill 
+            objectFit="cover" 
+            className="rounded-full object-cover"  
+          />
+        </Link>}
         </div>
       </div>
   

@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 import { FaInstagram, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
 
@@ -72,7 +71,7 @@ const Footer = () => {
        
 
   
-        <div className="p-2 mb-2 max-h-80 overflow-y-auto">
+        {/* <div className="p-2 mb-2 max-h-80 overflow-y-auto">
           <p className="text-gray-800 font-bold text-xs pb-2">Blog</p>
           <ul className='grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-16 md:gap-6'>
             <li className="text-gray-400 text-xs font-light flex items-center gap-4 ">
@@ -91,7 +90,7 @@ const Footer = () => {
             </li>
             
           </ul>
-        </div>
+        </div> */}
       </div>
 
       <div className="flex flex-col md:flex-row justify-between items-center text-center pb-4 px-4 gap-1">
@@ -101,9 +100,10 @@ const Footer = () => {
             Birkan{" "}
           </span>
         </h1>
-        <ul className="text-xs text-gray-400 font-light flex gap-6 cursor-pointer">
-          <li>Gizilik Politikası</li>
-          <li>Yasak Uyarı</li>
+        <ul className="text-xs text-gray-400 font-light flex gap-6 ">
+          <li className='cursor-pointer'>Gizilik Politikası</li>
+          <li className='cursor-pointer'>Yasak Uyarı</li>
+          <li className='cursor-pointer'>Login</li>
         </ul>
       </div>
     </>
