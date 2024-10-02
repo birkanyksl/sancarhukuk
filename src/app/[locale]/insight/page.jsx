@@ -4,7 +4,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import React from "react";
 import Posts from "@/components/insight/posts/Posts";
-import PostSideBar from "@/components/insight/siderbar/PostSideBar";
+
 
 const page = () => {
   return (

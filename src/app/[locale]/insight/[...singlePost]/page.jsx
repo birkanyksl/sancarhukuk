@@ -9,11 +9,11 @@ const SinglePage = ({ params }) => {
 
   return (
     <div>
-      <h1>Post ID: {singlePost}</h1> 
+      {/* <h1>Post ID: {singlePost}</h1> 
       <h1>{post.title}</h1>
       <p>{post.content}</p>
       <p>Author: {post.author}</p>
-      <p>Date: {post.date}</p>
+      <p>Date: {post.date}</p> */}
       
       <SinglePost/>
     </div>

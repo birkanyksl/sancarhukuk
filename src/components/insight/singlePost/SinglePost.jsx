@@ -1,4 +1,6 @@
 import InsightCard from '@/components/home/InsightCard';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPenToSquare,faTrash } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 
 export default function SinglePost() {
@@ -19,6 +21,11 @@ export default function SinglePost() {
           <span className="text-xs font-light text-color7 mt-2">
             15.07.2024
           </span>
+          <div className='flex items-center justify-center mt-4 gap-4 '>
+          <FontAwesomeIcon icon={faPenToSquare} className='w-4 h-4 text-green-600 cursor-pointer'/>
+          <FontAwesomeIcon icon={faTrash} className='w-4 h-4 cursor-pointer text-red-700'/>
+
+          </div>
         </div>
       </div>
 
