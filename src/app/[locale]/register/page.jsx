@@ -1,15 +1,24 @@
 "use client"
 import { useState } from 'react';
-import Link from 'next/link';
+import { user} from "@/utils/auth";
+import { redirect } from "next/navigation";
+import { useLocale } from "next-intl";
 
 const RegisterPage = () => {
+
+  const locale = useLocale()
+  const user1 = user
+  if(user1){
+    redirect(`/${locale}/`)
+  }
+
+
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleRegister = (e) => {
     e.preventDefault();
-    // Kayıt işlemi burada yapılabilir, API entegrasyonu vb.
     console.log('Register:', { username, email, password });
   };
 

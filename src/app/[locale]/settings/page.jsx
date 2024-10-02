@@ -1,14 +1,29 @@
 import Image from "next/image";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserCircle } from '@fortawesome/free-solid-svg-icons'; // Profil simgesi için
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
+import { user } from "@/utils/auth";
+import { redirect } from "next/navigation";
+import { useLocale } from "next-intl";
+import Link from "next/link";
 
 export default function Settings() {
+  const locale = useLocale();
+  const user1 = user;
+
+  if (!user1) {
+    redirect(`/${locale}/login`);
+  }
+
   return (
     <div className="flex flex-col md:flex-row">
       <div className="flex-1 p-6 max-w-lg mx-auto">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl text-lightcoral font-semibold">Update Your Account</h2>
-          <span className="text-red-600 text-sm cursor-pointer">Delete Account</span>
+          <h2 className="text-2xl text-lightcoral font-semibold">
+            Update Your Account
+          </h2>
+          <span className="text-red-600 text-sm cursor-pointer">
+            Delete Account
+          </span>
         </div>
         <form className="flex flex-col space-y-4">
           <label className="font-medium">Profile Picture</label>
@@ -17,19 +32,17 @@ export default function Settings() {
               <Image
                 src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                 alt="Profile Picture"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="rounded-lg"
               />
             </div>
             <label htmlFor="fileInput" className="cursor-pointer">
-              <FontAwesomeIcon icon={faUserCircle} className="w-8 h-8 p-1 text-black bg-lightcoral rounded-full" />
+              <FontAwesomeIcon
+                icon={faUserCircle}
+                className="w-8 h-8 p-1 text-black bg-lightcoral rounded-full"
+              />
             </label>
-            <input
-              id="fileInput"
-              type="file"
-              className="hidden"
-            />
+            <input id="fileInput" type="file" className="hidden" />
           </div>
 
           <label className="font-medium">Username</label>
@@ -56,10 +69,18 @@ export default function Settings() {
             className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
           />
 
-          <button className="bg-teal-500 text-white py-2 rounded-lg hover:bg-teal-600 transition duration-300">
+          <button type="submit" className="bg-teal-500 text-white py-2 rounded-lg hover:bg-teal-600 transition duration-300">
             Update
           </button>
+
+          <Link href={`/${locale}/write`}>
+            <button type="button" className="bg-teal-500 text-white py-2 rounded-lg hover:bg-teal-600 transition duration-300 w-full">
+              New Post
+            </button>
+          </Link>
+          
         </form>
+        
       </div>
     </div>
   );

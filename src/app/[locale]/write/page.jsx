@@ -1,8 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import { faImages } from '@fortawesome/free-solid-svg-icons';
+import { user} from "@/utils/auth";
+import { redirect } from "next/navigation";
+import { useLocale } from "next-intl";
 
 export default function Write() {
+  const locale = useLocale()
+  const user1 = user
+  if(!user1){
+    redirect(`/${locale}/login`)
+  }
+  
   return (
     <div className="pt-12 mx-auto max-w-4xl">
      

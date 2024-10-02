@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 import { FaInstagram, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
 
@@ -105,7 +104,6 @@ const Footer = () => {
           <li className='cursor-pointer'>Gizilik Politikası</li>
           <li className='cursor-pointer'>Yasak Uyarı</li>
           <li className='cursor-pointer'>Login</li>
-          <li className='cursor-pointer'>New Insight</li>
         </ul>
       </div>
     </>
