@@ -1,25 +1,53 @@
+"use client"
 import InsightCard from '@/components/home/InsightCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenToSquare,faTrash } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import { useLocale } from 'next-intl';
 
-export default function SinglePost() {
+
+export default function SinglePost({postId}) {
+   
+ const [post, setPost] = useState({})
+ const locale = useLocale();
+
+  useEffect(() => {
+    const getPost = async () => {
+      try {
+        const res = await axios.get(`/api/posts/${postId}`);
+        setPost(res.data); 
+     
+      } catch (error) {
+        console.error('Error fetching post:', error);
+      }
+    };
+    getPost();
+  }, [postId]);
+  
+
+
   return (
     <div>
-      {/* Başlık */}
+       
       <div className="relative w-full h-48 bg-slate-50 flex items-center justify-center">
         <div className="text-color1 p-4 text-center">
           <h1 className="text-4xl lg:text-5xl font-normal text-color6">
-            BOŞANMA DAVALARINDA GELİŞMELER
+          {post.title?.toUpperCase()}
           </h1>
           <div className="flex items-center justify-center">
             <span className="text-xs font-light mt-6">
               <span className="text-color1">By </span>
-              <span className="text-color6">Erkan Yüksel</span>
+              <span className="text-color6">{post.username}</span>
             </span>
           </div>
           <span className="text-xs font-light text-color7 mt-2">
-            15.07.2024
+          {new Date(post.createdAt).toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-GB', {
+          day: '2-digit',
+          month: 'short',
+          year: 'numeric',
+        })}
           </span>
           <div className='flex items-center justify-center mt-4 gap-4 '>
           <FontAwesomeIcon icon={faPenToSquare} className='w-4 h-4 text-green-600 cursor-pointer'/>
@@ -30,42 +58,25 @@ export default function SinglePost() {
       </div>
 
       <div className="mx-auto mt-6 flex flex-col md:flex-row gap-8 px-6 pb-8 md:px-8 lg:px-16">
-        {/* Ana içerik bölümü */}
+      
         <div className="md:w-4/5 flex flex-col gap-6">
-          {/* Görsel */}
+          
           <div className="flex justify-start w-full">
-            <Image
-              src="https://images.pexels.com/photos/620337/pexels-photo-620337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            {post.photo && <Image
+              src={post.photo}
               alt="Post görseli"
               width={2000}
               height={3000}
               className="w-full h-72 object-cover"
-            />
+            />}
           </div>
 
           {/* Makale */}
           <div className="md:border-l border-color6 md:pl-8 flex flex-col">
             <p className="text-base text-gray-700">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, quam in varius dictum, orci dui placerat justo, sed pulvinar libero purus nec libero. Integer vulputate aliquet facilisis. Aenean posuere nisi sit amet justo sodales, non scelerisque risus facilisis.
+              {post.desc}
             </p>
-            <p className="text-base text-gray-700 mt-4">
-              Ut euismod, augue in venenatis fermentum, felis justo tempor enim, eget dignissim lorem erat vitae felis. Integer nec lorem ac justo feugiat gravida. Praesent sit amet consequat magna.
-            </p>
-            <p className="text-base text-gray-700 mt-4">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus laboriosam soluta pariatur ut numquam nesciunt, molestias voluptatem sit quisquam? Adipisci similique aspernatur dolorem autem commodi veritatis sit vitae nobis nemo.
-            </p>
-            <p className="text-base text-gray-700 mt-4">
-              Ut euismod, augue in venenatis fermentum, felis justo tempor enim, eget dignissim lorem erat vitae felis. Integer nec lorem ac justo feugiat gravida. Praesent sit amet consequat magna.
-            </p>
-            <p className="text-base text-gray-700 mt-4">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus laboriosam soluta pariatur ut numquam nesciunt, molestias voluptatem sit quisquam? Adipisci similique aspernatur dolorem autem commodi veritatis sit vitae nobis nemo.
-            </p>
-            <p className="text-base text-gray-700 mt-4">
-              Ut euismod, augue in venenatis fermentum, felis justo tempor enim, eget dignissim lorem erat vitae felis. Integer nec lorem ac justo feugiat gravida. Praesent sit amet consequat magna.
-            </p>
-            <p className="text-base text-gray-700 mt-4">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus laboriosam soluta pariatur ut numquam nesciunt, molestias voluptatem sit quisquam? Adipisci similique aspernatur dolorem autem commodi veritatis sit vitae nobis nemo.
-            </p>
+            
             
           </div>
         </div>
