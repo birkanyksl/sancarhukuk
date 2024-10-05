@@ -27,7 +27,7 @@ module.exports = {
       },
       boxShadow: {
         'custom-shadow': '20px 20px 60px #bebebe, -20px -20px 60px #ffffff',
-      },
+      },   
     },
   },
   plugins: [

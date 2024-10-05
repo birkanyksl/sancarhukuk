@@ -3,15 +3,20 @@ import InsightCard from '@/components/home/InsightCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenToSquare,faTrash } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import axios from 'axios';
 import { useLocale } from 'next-intl';
+import { Context } from '@/context/Context';
+import { useRouter } from 'next/navigation';
+
 
 
 export default function SinglePost({postId}) {
    
  const [post, setPost] = useState({})
  const locale = useLocale();
+ const {user} = useContext(Context)
+ const router = useRouter();
 
   useEffect(() => {
     const getPost = async () => {
@@ -25,8 +30,18 @@ export default function SinglePost({postId}) {
     };
     getPost();
   }, [postId]);
+   
+  const handleDelete = async()=>{
+try {
+  await axios.delete(`/api/posts/${postId}`, {
+    data: { username: user.username }
+  });
+    router.push("/");
+} catch (error) {
+  console.log(error);
   
-
+}
+  }
 
   return (
     <div>
@@ -49,11 +64,14 @@ export default function SinglePost({postId}) {
           year: 'numeric',
         })}
           </span>
-          <div className='flex items-center justify-center mt-4 gap-4 '>
-          <FontAwesomeIcon icon={faPenToSquare} className='w-4 h-4 text-green-600 cursor-pointer'/>
-          <FontAwesomeIcon icon={faTrash} className='w-4 h-4 cursor-pointer text-red-700'/>
+          { post.username === user?.username && (
 
-          </div>
+            <div className='flex items-center justify-center mt-4 gap-4 '>
+          <FontAwesomeIcon icon={faPenToSquare} className='w-4 h-4 text-green-600 cursor-pointer'/>
+          <FontAwesomeIcon icon={faTrash} className='w-4 h-4 cursor-pointer text-red-700' onClick={handleDelete}/>
+
+          </div>)
+          }
         </div>
       </div>
 

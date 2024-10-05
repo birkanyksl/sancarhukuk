@@ -7,7 +7,7 @@ const userRoute = require("./routes/users")
 const postRoute = require("./routes/posts")
 const categoryRoute = require("./routes/categories")
 const multer = require("multer")
-
+const path = require("path")
 
 
 
@@ -16,6 +16,7 @@ const dotenv = require("dotenv")
 dotenv.config()
 app.use(cors());
 app.use(express.json())
+app.use("/images",express.static(path.join(__dirname,"/images")))
 
 
 mongoose.connect(process.env.MONGO_URL).then(console.log("connected to MongoDB")).catch(err => console.log(err))
