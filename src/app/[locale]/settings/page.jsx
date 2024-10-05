@@ -1,18 +1,45 @@
+"use client"
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
-import { user } from "@/utils/auth";
-import { redirect } from "next/navigation";
 import { useLocale } from "next-intl";
 import Link from "next/link";
+import { useContext, useEffect, useState} from "react";
+import {Context } from "@/context/Context";
+import { useRouter } from "next/navigation";
+
+ 
 
 export default function Settings() {
   const locale = useLocale();
-  const user1 = user;
+  const {user, dispatch } = useContext(Context);
+  const router = useRouter()
+  const [loading, setLoading] = useState(true)
 
-  if (!user1) {
-    redirect(`/${locale}/login`);
+  useEffect(() => {
+    const storedUser = localStorage.getItem("user");
+    if (storedUser) {
+      dispatch({ type: "LOGIN_SUCCESS", payload: JSON.parse(storedUser) });
+    }
+    setLoading(false); 
+  }, [dispatch]);
+
+  useEffect(() => {
+    if (!loading && !user) {
+      router.push(`/${locale}/login`); 
+    }
+  }, [ loading, locale, router,user]);
+
+  
+  if (loading) {
+    return <div>Loading...</div>;
   }
+
+  const handleLogout = () => {
+    dispatch({ type: "LOGOUT" });
+    router.push("/")
+  };
+
 
   return (
     <div className="flex flex-col md:flex-row">
@@ -78,9 +105,11 @@ export default function Settings() {
               New Post
             </button>
           </Link>
-          
+
+          <button type="button" className="bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition duration-300" onClick={handleLogout}>
+            Logout
+          </button>
         </form>
-        
       </div>
     </div>
   );
