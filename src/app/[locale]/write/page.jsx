@@ -1,16 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 import { faImages } from '@fortawesome/free-solid-svg-icons';
-import { user} from "@/utils/auth";
-import { redirect } from "next/navigation";
-import { useLocale } from "next-intl";
+// import { user} from "@/utils/auth";
+// import { redirect } from "next/navigation";
+// import { useLocale } from "next-intl";
 
 export default function Write() {
-  const locale = useLocale()
-  const user1 = user
-  if(!user1){
-    redirect(`/${locale}/login`)
-  }
+
+ 
   
   return (
     <div className="pt-12 mx-auto max-w-4xl">
@@ -19,8 +16,9 @@ export default function Write() {
         <Image
           src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
           alt="Yazı Görseli"
-          layout="fill"
-          objectFit="cover"
+          fill
+          className='object-cover'
+          
         />
       </div>
       
