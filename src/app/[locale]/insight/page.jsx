@@ -1,10 +1,8 @@
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"; 
-import Image from "next/image";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+
 import React from "react";
 import Posts from "@/components/insight/posts/Posts";
-
 
 const page = () => {
   return (
@@ -24,26 +22,10 @@ const page = () => {
       </div>
 
       <div className="w-full h-24 flex items-center justify-center mt-2 gap-4">
-        <Image
-          src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=600"
-          alt=""
-          width={64} 
-          height={64} 
-          className="rounded-full object-cover w-12 h-12" 
-        />
-        <li className="list-none">Logout</li>
         <FontAwesomeIcon icon={faMagnifyingGlass} className="w-12 h-12" />
       </div>
 
-     
-        
       <Posts />
-        
-        {/* <div className="w-[25%]">
-
-      <PostSideBar/>
-        </div> */}
-      
     </div>
   );
 };

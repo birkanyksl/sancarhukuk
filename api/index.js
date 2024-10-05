@@ -10,25 +10,29 @@ const multer = require("multer")
 
 
 
+
 const dotenv = require("dotenv")
 
 dotenv.config()
 app.use(cors());
 app.use(express.json())
 
+
 mongoose.connect(process.env.MONGO_URL).then(console.log("connected to MongoDB")).catch(err => console.log(err))
 
 const storage = multer.diskStorage({
-    destination:(req,file,cb) =>{
-        cb(null,"images")
-    },filename:(req,file,cb)=>{
-        cb(null,"req.body.name")
+    destination: (req, file, cb) => {
+      cb(null, "images"); 
+    },
+    filename: (req, file, cb) => {
+      cb(null, file.originalname); 
     }
-})
+  });
 
 const upload = multer({ storage: storage });
 app.post("/api/upload", upload.single("file"), (req, res) => {
-  res.status(200).json("File has been uploaded");
+  const fileUrl = `http://localhost:5000/images/${req.file.filename}`
+  res.status(200).json(fileUrl);
 });
 
 app.use("/api/auth",authRoute)

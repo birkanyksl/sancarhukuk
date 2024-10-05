@@ -4,6 +4,7 @@ const withNextIntl = createNextIntlPlugin();
 
 const nextConfig = {
     images: {
+        domains:["localhost"],
         remotePatterns: [
             {
                 protocol: "https",
