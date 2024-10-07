@@ -4,6 +4,7 @@ const withNextIntl = createNextIntlPlugin();
 
 const nextConfig = {
     images: {
+        
         remotePatterns: [
             {
                 protocol: "https",
@@ -17,6 +18,12 @@ const nextConfig = {
                 protocol: "https",
                 hostname: "img.freepik.com",
             },
+            {
+                protocol: 'http',
+                hostname: 'localhost',
+                port: '5000',
+                pathname: '/images/**',
+              },
         ],
     },
     async rewrites() {
