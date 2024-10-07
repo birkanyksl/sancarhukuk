@@ -21,6 +21,14 @@ export default function Write() {
       setUploadedImageUrl(URL.createObjectURL(selectedFile)); 
     }
   };
+  
+  const cleanHtmlContent = (html) => {
+    let cleanedHtml = html.replace(/<br\s*\/?>/gi, "\n");
+
+    cleanedHtml = cleanedHtml.replace(/<\/?[^>]+(>|$)/g, "");
+
+    return cleanedHtml;
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -34,7 +42,7 @@ export default function Write() {
     formData.append("file", file);
     formData.append("username", user.username);
     formData.append("title", title);
-    formData.append("desc", desc);
+    formData.append("desc", cleanHtmlContent(desc));
 
     try {
       const uploadRes = await axios.post("/api/upload", formData, {
@@ -58,6 +66,8 @@ export default function Write() {
       setError("Bir hata oluştu."); 
     }
   };
+
+  
 
   return (
     <div className="pt-12 mx-auto max-w-4xl">
@@ -108,16 +118,15 @@ export default function Write() {
 
         <div className="mb-4">
           <div
-            className="writeInput w-full h-[50vh] p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500 text-lg"
+            className="writeInput w-full h-[50vh] p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500 text-lg whitespace-pre-wrap"
             contentEditable
             suppressContentEditableWarning
             placeholder="Hikayenizi anlatın..."
             style={{
               minHeight: '50vh',
-              whiteSpace: 'pre-wrap',
               overflowY: 'auto'
             }}
-            onInput={e => setDesc(e.currentTarget.innerHTML)}
+            onInput={e => setDesc(e.currentTarget.innerText)}
           />
         </div>
 
