@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const UserImage = () => {
   const { user } = useContext(Context);
-
+  
   if (!user) return null;
 
   return (
@@ -16,10 +16,9 @@ const UserImage = () => {
       className="relative w-8 h-8 cursor-pointer rounded-full overflow-hidden"
     >
       <Image
-        src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600"
+        src={user.profilePic}
         alt="Profil Fotoğrafı"
         fill
-        objectFit="cover"
         className="rounded-full object-cover"
       />
     </div>
