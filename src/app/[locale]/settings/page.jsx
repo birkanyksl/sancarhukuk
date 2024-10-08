@@ -66,9 +66,9 @@ export default function Settings() {
  
   const updatedUser = {
     userId: user._id,
-    username: username || user.username,  
-    email: email || user.email,  
-    password: password || user.password,  
+    username: username || user.username, 
+    email: email || user.email, 
+    password: password || user.password, 
   };
 
   const formData = new FormData();
@@ -97,6 +97,8 @@ export default function Settings() {
       setError(false);
       setSuccess(true)
       dispatch({type:"UPDATE_SUCCESS",payload:res.data})
+      
+      
     } catch (err) {
       console.log(err);
       setError(true); 
@@ -122,14 +124,14 @@ export default function Settings() {
             <div className="relative w-16 h-16 rounded-lg overflow-hidden mr-4">
               {uploadedImageUrl ? (
                 <Image
-                src={uploadedImageUrl}
+                src={uploadedImageUrl || "https://images.pexels.com/photos/27566893/pexels-photo-27566893/free-photo-of-safak-gun-dogumu-peyzaj-manzara.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"}
                 alt="New Profile Picture"
                fill
                className="rounded-lg object-cover"
                 
              />
               ): (<Image
-                src={user.profilePic}
+                src={user?.profilePic || "https://images.pexels.com/photos/27566893/pexels-photo-27566893/free-photo-of-safak-gun-dogumu-peyzaj-manzara.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"}
                alt="Profile Picture"
                fill
                className="rounded-lg object-cover"
@@ -148,7 +150,7 @@ export default function Settings() {
           <label className="font-medium">Username</label>
           <input
             type="text"
-            placeholder={user.username}
+            placeholder={user?.username}
             name="name"
             className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
             onChange={e =>setUsername(e.target.value)}
@@ -157,7 +159,7 @@ export default function Settings() {
           <label className="font-medium">Email</label>
           <input
             type="email"
-            placeholder={user.email}
+            placeholder={user?.email}
             name="email"
             className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
             onChange={e =>setEmail(e.target.value)}
