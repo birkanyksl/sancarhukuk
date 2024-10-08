@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useContext, useEffect, useState} from "react";
 import {Context } from "@/context/Context";
 import { useRouter } from "next/navigation";
+import axios from "axios";
 
  
 
@@ -15,6 +16,13 @@ export default function Settings() {
   const {user, dispatch } = useContext(Context);
   const router = useRouter()
   const [loading, setLoading] = useState(true)
+  const [file, setFile] = useState(null);
+  const [uploadedImageUrl, setUploadedImageUrl] = useState("");
+  const [username,setUsername] = useState("")
+  const [email,setEmail] = useState("")
+  const [password,setPassword] = useState("")
+  const [error, setError] = useState(false)
+  const [success, setSuccess] = useState(false)
 
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
@@ -40,8 +48,64 @@ export default function Settings() {
     router.push("/")
   };
 
+ // User Image Update
 
-  return (
+
+ const handleFileChange = (e) => {
+  const selectedFile = e.target.files[0];
+  if (selectedFile) {
+    setFile(selectedFile);
+    setUploadedImageUrl(URL.createObjectURL(selectedFile)); 
+  }
+};
+
+
+ const handleSubmit = async (e) => {
+  e.preventDefault();
+  dispatch({type:"UPDATE_START"})
+ 
+  const updatedUser = {
+    userId: user._id,
+    username: username || user.username,  
+    email: email || user.email,  
+    password: password || user.password,  
+  };
+
+  const formData = new FormData();
+  formData.append("userId", user._id);
+  formData.append("username", updatedUser.username);
+  formData.append("email", updatedUser.email);
+  formData.append("password", updatedUser.password);
+
+  if (file) {
+    formData.append("file", file);  
+  }
+
+    try {
+      const uploadRes = await axios.post("/api/upload", formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      });
+
+      const updatedUserData = {
+        ...updatedUser,
+        profilePic: uploadRes.data,  
+      }
+
+      const res = await axios.put(`/api/users/${user._id}`, updatedUserData);
+      setError(false);
+      setSuccess(true)
+      dispatch({type:"UPDATE_SUCCESS",payload:res.data})
+    } catch (err) {
+      console.log(err);
+      setError(true); 
+      setSuccess(false)
+      dispatch({type:"UPDATE_FAILURE"})
+    }
+};
+
+ return (
     <div className="flex flex-col md:flex-row">
       <div className="flex-1 p-6 max-w-lg mx-auto">
         <div className="flex justify-between items-center mb-6">
@@ -52,16 +116,25 @@ export default function Settings() {
             Delete Account
           </span>
         </div>
-        <form className="flex flex-col space-y-4">
+        <form className="flex flex-col space-y-4" onSubmit={handleSubmit}>
           <label className="font-medium">Profile Picture</label>
           <div className="flex items-center">
             <div className="relative w-16 h-16 rounded-lg overflow-hidden mr-4">
-              <Image
-                src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                alt="Profile Picture"
-                fill
-                className="rounded-lg"
-              />
+              {uploadedImageUrl ? (
+                <Image
+                src={uploadedImageUrl}
+                alt="New Profile Picture"
+               fill
+               className="rounded-lg object-cover"
+                
+             />
+              ): (<Image
+                src={user.profilePic}
+               alt="Profile Picture"
+               fill
+               className="rounded-lg object-cover"
+             />)}
+              
             </div>
             <label htmlFor="fileInput" className="cursor-pointer">
               <FontAwesomeIcon
@@ -69,23 +142,25 @@ export default function Settings() {
                 className="w-8 h-8 p-1 text-black bg-lightcoral rounded-full"
               />
             </label>
-            <input id="fileInput" type="file" className="hidden" />
+            <input id="fileInput" type="file" className="hidden" onChange={handleFileChange}  />
           </div>
 
           <label className="font-medium">Username</label>
           <input
             type="text"
-            placeholder="Name"
+            placeholder={user.username}
             name="name"
             className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
+            onChange={e =>setUsername(e.target.value)}
           />
 
           <label className="font-medium">Email</label>
           <input
             type="email"
-            placeholder="sancarhukuk@gmail.com"
+            placeholder={user.email}
             name="email"
             className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
+            onChange={e =>setEmail(e.target.value)}
           />
 
           <label className="font-medium">Password</label>
@@ -94,8 +169,13 @@ export default function Settings() {
             placeholder="Password"
             name="password"
             className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
+            onChange={e =>setPassword(e.target.value)}
+            
           />
-
+            {error && <div className="text-red-500">An error occurred</div>}
+          {success && (
+            <div className="text-green-500">Account updated successfully!</div>
+          )}
           <button type="submit" className="bg-teal-500 text-white py-2 rounded-lg hover:bg-teal-600 transition duration-300">
             Update
           </button>

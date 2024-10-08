@@ -67,8 +67,6 @@ export default function Write() {
     }
   };
 
-  
-
   return (
     <div className="pt-12 mx-auto max-w-4xl">
       {error && <div className="text-red-500">{error}</div>} 
