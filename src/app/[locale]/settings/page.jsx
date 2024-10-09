@@ -1,85 +1,74 @@
-"use client"
+"use client";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
 import { useLocale } from "next-intl";
 import Link from "next/link";
-import { useContext, useEffect, useState} from "react";
-import {Context } from "@/context/Context";
+import { useContext, useEffect, useState, useCallback } from "react";
+import { Context } from "@/context/Context";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 
- 
-
 export default function Settings() {
   const locale = useLocale();
-  const {user, dispatch } = useContext(Context);
-  const router = useRouter()
-  const [loading, setLoading] = useState(true)
+  const { user, dispatch } = useContext(Context);
+  const router = useRouter();
+  const [loading, setLoading] = useState(true);
   const [file, setFile] = useState(null);
   const [uploadedImageUrl, setUploadedImageUrl] = useState("");
-  const [username,setUsername] = useState("")
-  const [email,setEmail] = useState("")
-  const [password,setPassword] = useState("")
-  const [error, setError] = useState(false)
-  const [success, setSuccess] = useState(false)
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (storedUser) {
       dispatch({ type: "LOGIN_SUCCESS", payload: JSON.parse(storedUser) });
     }
-    setLoading(false); 
+    setLoading(false);
   }, [dispatch]);
 
   useEffect(() => {
     if (!loading && !user) {
-      router.push(`/${locale}/login`); 
+      router.push(`/${locale}/login`);
     }
-  }, [ loading, locale, router,user]);
+  }, [loading, locale, router, user]);
 
-  
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
-  const handleLogout = () => {
+  const handleLogout = useCallback(() => {
     dispatch({ type: "LOGOUT" });
-    router.push("/")
-  };
+    router.push("/");
+  }, [dispatch, router]);
 
- // User Image Update
+  const handleFileChange = useCallback((e) => {
+    const selectedFile = e.target.files[0];
+    if (selectedFile) {
+      setFile(selectedFile);
+      setUploadedImageUrl(URL.createObjectURL(selectedFile));
+    }
+  }, []);
 
+  const handleSubmit = useCallback(async (e) => {
+    e.preventDefault();
+    dispatch({ type: "UPDATE_START" });
 
- const handleFileChange = (e) => {
-  const selectedFile = e.target.files[0];
-  if (selectedFile) {
-    setFile(selectedFile);
-    setUploadedImageUrl(URL.createObjectURL(selectedFile)); 
-  }
-};
+    const updatedUser = {
+      userId: user._id,
+      username: username || user.username,
+      email: email || user.email,
+      password: password || user.password,
+    };
 
+    const formData = new FormData();
+    formData.append("userId", user._id);
+    formData.append("username", updatedUser.username);
+    formData.append("email", updatedUser.email);
+    formData.append("password", updatedUser.password);
 
- const handleSubmit = async (e) => {
-  e.preventDefault();
-  dispatch({type:"UPDATE_START"})
- 
-  const updatedUser = {
-    userId: user._id,
-    username: username || user.username, 
-    email: email || user.email, 
-    password: password || user.password, 
-  };
-
-  const formData = new FormData();
-  formData.append("userId", user._id);
-  formData.append("username", updatedUser.username);
-  formData.append("email", updatedUser.email);
-  formData.append("password", updatedUser.password);
-
-  if (file) {
-    formData.append("file", file);  
-  }
+    if (file) {
+      formData.append("file", file);
+    }
 
     try {
       const uploadRes = await axios.post("/api/upload", formData, {
@@ -90,24 +79,26 @@ export default function Settings() {
 
       const updatedUserData = {
         ...updatedUser,
-        profilePic: uploadRes.data,  
-      }
+        profilePic: uploadRes.data,
+      };
 
       const res = await axios.put(`/api/users/${user._id}`, updatedUserData);
       setError(false);
-      setSuccess(true)
-      dispatch({type:"UPDATE_SUCCESS",payload:res.data})
-      
-      
+      setSuccess(true);
+      dispatch({ type: "UPDATE_SUCCESS", payload: res.data });
     } catch (err) {
       console.log(err);
-      setError(true); 
-      setSuccess(false)
-      dispatch({type:"UPDATE_FAILURE"})
+      setError(true);
+      setSuccess(false);
+      dispatch({ type: "UPDATE_FAILURE" });
     }
-};
+  }, [dispatch, file, username, email, password, user]);
 
- return (
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  return (
     <div className="flex flex-col md:flex-row">
       <div className="flex-1 p-6 max-w-lg mx-auto">
         <div className="flex justify-between items-center mb-6">
@@ -122,21 +113,12 @@ export default function Settings() {
           <label className="font-medium">Profile Picture</label>
           <div className="flex items-center">
             <div className="relative w-16 h-16 rounded-lg overflow-hidden mr-4">
-              {uploadedImageUrl ? (
-                <Image
-                src={uploadedImageUrl || "https://images.pexels.com/photos/27566893/pexels-photo-27566893/free-photo-of-safak-gun-dogumu-peyzaj-manzara.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"}
-                alt="New Profile Picture"
-               fill
-               className="rounded-lg object-cover"
-                
-             />
-              ): (<Image
-                src={user?.profilePic || "https://images.pexels.com/photos/27566893/pexels-photo-27566893/free-photo-of-safak-gun-dogumu-peyzaj-manzara.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"}
-               alt="Profile Picture"
-               fill
-               className="rounded-lg object-cover"
-             />)}
-              
+              <Image
+                src={uploadedImageUrl || user?.profilePic || "https://images.pexels.com/photos/27566893/pexels-photo-27566893/free-photo-of-safak-gun-dogumu-peyzaj-manzara.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"}
+                alt="Profile Picture"
+                fill
+                className="rounded-lg object-cover"
+              />
             </div>
             <label htmlFor="fileInput" className="cursor-pointer">
               <FontAwesomeIcon
@@ -144,7 +126,7 @@ export default function Settings() {
                 className="w-8 h-8 p-1 text-black bg-lightcoral rounded-full"
               />
             </label>
-            <input id="fileInput" type="file" className="hidden" onChange={handleFileChange}  />
+            <input id="fileInput" type="file" className="hidden" onChange={handleFileChange} />
           </div>
 
           <label className="font-medium">Username</label>
@@ -153,7 +135,7 @@ export default function Settings() {
             placeholder={user?.username}
             name="name"
             className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
-            onChange={e =>setUsername(e.target.value)}
+            onChange={e => setUsername(e.target.value)}
           />
 
           <label className="font-medium">Email</label>
@@ -162,7 +144,7 @@ export default function Settings() {
             placeholder={user?.email}
             name="email"
             className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
-            onChange={e =>setEmail(e.target.value)}
+            onChange={e => setEmail(e.target.value)}
           />
 
           <label className="font-medium">Password</label>
@@ -171,10 +153,10 @@ export default function Settings() {
             placeholder="Password"
             name="password"
             className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
-            onChange={e =>setPassword(e.target.value)}
-            
+            onChange={e => setPassword(e.target.value)}
           />
-            {error && <div className="text-red-500">An error occurred</div>}
+
+          {error && <div className="text-red-500">An error occurred</div>}
           {success && (
             <div className="text-green-500">Account updated successfully!</div>
           )}

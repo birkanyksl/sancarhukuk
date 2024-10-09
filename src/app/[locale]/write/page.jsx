@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import { faImages } from "@fortawesome/free-solid-svg-icons";
-import { useContext, useState } from "react";
+import { useCallback, useContext, useEffect, useState } from "react";
 import { Context } from "@/context/Context";
 import axios from "axios";
 
@@ -13,6 +13,8 @@ export default function Write() {
   const { user } = useContext(Context);
   const [error, setError] = useState(""); 
   const [uploadedImageUrl, setUploadedImageUrl] = useState(""); 
+  const [loading, setLoading] = useState(false); 
+  const [success, setSuccess] = useState("");
 
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
@@ -21,14 +23,12 @@ export default function Write() {
       setUploadedImageUrl(URL.createObjectURL(selectedFile)); 
     }
   };
-  
-  const cleanHtmlContent = (html) => {
+
+  const cleanHtmlContent = useCallback((html) => {
     let cleanedHtml = html.replace(/<br\s*\/?>/gi, "\n");
-
     cleanedHtml = cleanedHtml.replace(/<\/?[^>]+(>|$)/g, "");
-
     return cleanedHtml;
-  };
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -38,6 +38,9 @@ export default function Write() {
       return;
     }
 
+    setLoading(true); 
+    setError(""); 
+    setSuccess(""); 
     const formData = new FormData();
     formData.append("file", file);
     formData.append("username", user.username);
@@ -58,20 +61,36 @@ export default function Write() {
         photo: uploadRes.data, 
       };
 
-      const res = await axios.post("/api/posts", newPost);
-      console.log(res.data);
-      setError("");
+      await axios.post("/api/posts", newPost);
+      setSuccess("Yükleme başarılı!"); 
+
+   
+      setTitle("");
+      setDesc("");
+      setFile(null);
+      setUploadedImageUrl("");
     } catch (err) {
       console.log(err);
       setError("Bir hata oluştu."); 
+    } finally {
+      setLoading(false); 
     }
   };
+
+  
+  useEffect(() => {
+    return () => {
+      if (uploadedImageUrl) {
+        URL.revokeObjectURL(uploadedImageUrl);
+      }
+    };
+  }, [uploadedImageUrl]);
 
   return (
     <div className="pt-12 mx-auto max-w-4xl">
       {error && <div className="text-red-500">{error}</div>} 
+      {success && <div className="text-green-500">{success}</div>} 
       <div className="relative w-full h-64 rounded-lg overflow-hidden">
-     
         {uploadedImageUrl ? (
           <Image
             src={uploadedImageUrl} 
@@ -110,6 +129,7 @@ export default function Write() {
             placeholder="Başlık"
             type="text"
             autoFocus={true}
+            value={title} 
             onChange={(e) => setTitle(e.target.value)}
           />
         </div>
@@ -130,9 +150,10 @@ export default function Write() {
 
         <button
           type="submit"
-          className="bg-teal-500 text-white py-2 px-4 rounded-lg font-semibold hover:bg-teal-600 transition"
+          className={`bg-teal-500 text-white py-2 px-4 rounded-lg font-semibold hover:bg-teal-600 transition ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
+          disabled={loading} 
         >
-          Yayınla
+          {loading ? 'Yükleniyor...' : 'Yayınla'}
         </button>
       </form>
     </div>
