@@ -5,8 +5,13 @@ import { faImages } from "@fortawesome/free-solid-svg-icons";
 import { useCallback, useContext, useEffect, useState } from "react";
 import { Context } from "@/context/Context";
 import axios from "axios";
+import axiosInstance,{useAxiosInstance} from "@/utils/axiosInstance";
+
 
 export default function Write() {
+ 
+  useAxiosInstance()
+
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [file, setFile] = useState(null);
@@ -15,6 +20,8 @@ export default function Write() {
   const [uploadedImageUrl, setUploadedImageUrl] = useState(""); 
   const [loading, setLoading] = useState(false); 
   const [success, setSuccess] = useState("");
+   
+
 
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
@@ -32,7 +39,7 @@ export default function Write() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+ 
     if (!file) {
       setError("Lütfen bir dosya yükleyin.");
       return;
@@ -61,10 +68,9 @@ export default function Write() {
         photo: uploadRes.data, 
       };
 
-      await axios.post("/api/posts", newPost);
+      await axiosInstance.post("/api/posts", newPost, { withCredentials: true });
       setSuccess("Yükleme başarılı!"); 
-
-   
+      setTimeout(() => setSuccess(""), 3000);  
       setTitle("");
       setDesc("");
       setFile(null);
@@ -98,6 +104,7 @@ export default function Write() {
             fill
             className="object-cover"
             priority 
+            
           />
         ) : (
           <Image

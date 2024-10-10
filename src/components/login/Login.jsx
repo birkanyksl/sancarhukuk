@@ -1,26 +1,29 @@
 "use client";
 import { Context } from "@/context/Context";
-import axios from "axios";
 import { useContext, useRef } from "react";
+import axiosInstance, { useAxiosInstance } from "@/utils/axiosInstance";
 
 const Login = () => {
+  useAxiosInstance(); 
   const userRef = useRef();
   const passwordRef = useRef();
   const { dispatch, isFetching } = useContext(Context);
 
   const handleLogin = async (e) => {
     e.preventDefault();
+    
     dispatch({ type: "LOGIN_START" });
     try {
-      const res = await axios.post("/api/auth/login", {
+      const res = await axiosInstance.post("/api/auth/login", {
         username: userRef.current.value,
         password: passwordRef.current.value,
       });
 
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
+      console.log("Giriş başarılı:", res.data);
+      
     } catch (error) {
-      console.log(error);
-
+      console.error("Giriş hatası:", error.response ? error.response.data : error.message); 
       dispatch({ type: "LOGIN_FAILURE" });
     }
   };
@@ -52,11 +55,7 @@ const Login = () => {
           </div>
           <button
             type="submit"
-            className={`w-full py-2 rounded-lg transition-colors ${
-              isFetching
-                ? "bg-gray-400 text-gray-200 cursor-not-allowed"
-                : "bg-blue-500 text-white hover:bg-blue-600"
-            }`}
+            className={`w-full py-2 rounded-lg transition-colors ${isFetching ? "bg-gray-400 text-gray-200 cursor-not-allowed" : "bg-blue-500 text-white hover:bg-blue-600"}`}
             disabled={isFetching}
           >
             {isFetching ? "Not Allowed" : "Login"}
@@ -64,10 +63,7 @@ const Login = () => {
         </form>
         <div className="text-center">
           <span className="text-gray-600">Dont have an account?</span>
-
-          <span className="text-blue-500 ml-2 hover:underline cursor-pointer">
-            Register
-          </span>
+          <span className="text-blue-500 ml-2 hover:underline cursor-pointer">Register</span>
         </div>
       </div>
     </div>

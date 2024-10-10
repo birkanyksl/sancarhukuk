@@ -15,7 +15,6 @@ const Posts = () => {
       const fetchPosts = async () => {
           try {
               const res = await axios.get("/api/posts");
-              console.log(res);
               setPost(res.data);
               
               

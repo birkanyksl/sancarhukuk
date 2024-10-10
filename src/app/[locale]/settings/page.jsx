@@ -36,9 +36,16 @@ export default function Settings() {
     }
   }, [loading, locale, router, user]);
 
-  const handleLogout = useCallback(() => {
-    dispatch({ type: "LOGOUT" });
-    router.push("/");
+  const handleLogout = useCallback(async () => {
+    try {
+      await axios.post("/api/auth/logout", {}, { withCredentials: true });
+
+      dispatch({ type: "LOGOUT" });
+
+      router.push("/");
+    } catch (error) {
+      console.error("Logout error:", error);
+    }
   }, [dispatch, router]);
 
   const handleFileChange = useCallback((e) => {
@@ -49,50 +56,54 @@ export default function Settings() {
     }
   }, []);
 
-  const handleSubmit = useCallback(async (e) => {
-    e.preventDefault();
-    dispatch({ type: "UPDATE_START" });
+  const handleSubmit = useCallback(
+    async (e) => {
+      e.preventDefault();
+      dispatch({ type: "UPDATE_START" });
 
-    const updatedUser = {
-      userId: user._id,
-      username: username || user.username,
-      email: email || user.email,
-      password: password || user.password,
-    };
-
-    const formData = new FormData();
-    formData.append("userId", user._id);
-    formData.append("username", updatedUser.username);
-    formData.append("email", updatedUser.email);
-    formData.append("password", updatedUser.password);
-
-    if (file) {
-      formData.append("file", file);
-    }
-
-    try {
-      const uploadRes = await axios.post("/api/upload", formData, {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
-      });
-
-      const updatedUserData = {
-        ...updatedUser,
-        profilePic: uploadRes.data,
+      const updatedUser = {
+        userId: user._id,
+        username: username || user.username,
+        email: email || user.email,
+        password: password || user.password,
       };
 
-      const res = await axios.put(`/api/users/${user._id}`, updatedUserData);
-      setError(false);
-      setSuccess(true);
-      dispatch({ type: "UPDATE_SUCCESS", payload: res.data });
-    } catch (err) {
-      console.log(err);
-      setError(true);
-      setSuccess(false);
-      dispatch({ type: "UPDATE_FAILURE" });
-    }
-  }, [dispatch, file, username, email, password, user]);
+      const formData = new FormData();
+      formData.append("userId", user._id);
+      formData.append("username", updatedUser.username);
+      formData.append("email", updatedUser.email);
+      formData.append("password", updatedUser.password);
+
+      if (file) {
+        formData.append("file", file);
+      }
+
+      try {
+        const uploadRes = await axios.post("/api/upload", formData, {
+          headers: {
+            "Content-Type": "multipart/form-data",
+          },
+        });
+
+        const updatedUserData = {
+          ...updatedUser,
+          profilePic: uploadRes.data,
+        };
+
+        const res = await axios.put(`/api/users/${user._id}`, updatedUserData);
+        setError(false);
+        setSuccess(true);
+        dispatch({ type: "UPDATE_SUCCESS", payload: res.data });
+        setTimeout(() => setSuccess(false), 3000);
+      } catch (err) {
+        console.log(err);
+        setError(true);
+        setSuccess(false);
+        dispatch({ type: "UPDATE_FAILURE" });
+      }
+    },
+    [dispatch, file, username, email, password, user]
+  );
 
   if (loading) {
     return <div>Loading...</div>;
@@ -114,7 +125,11 @@ export default function Settings() {
           <div className="flex items-center">
             <div className="relative w-16 h-16 rounded-lg overflow-hidden mr-4">
               <Image
-                src={uploadedImageUrl || user?.profilePic || "https://images.pexels.com/photos/27566893/pexels-photo-27566893/free-photo-of-safak-gun-dogumu-peyzaj-manzara.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"}
+                src={
+                  uploadedImageUrl ||
+                  user?.profilePic ||
+                  "https://images.pexels.com/photos/27566893/pexels-photo-27566893/free-photo-of-safak-gun-dogumu-peyzaj-manzara.jpeg?auto=compress&cs=tinysrgb&w=300&lazy=load"
+                }
                 alt="Profile Picture"
                 fill
                 className="rounded-lg object-cover"
@@ -126,7 +141,12 @@ export default function Settings() {
                 className="w-8 h-8 p-1 text-black bg-lightcoral rounded-full"
               />
             </label>
-            <input id="fileInput" type="file" className="hidden" onChange={handleFileChange} />
+            <input
+              id="fileInput"
+              type="file"
+              className="hidden"
+              onChange={handleFileChange}
+            />
           </div>
 
           <label className="font-medium">Username</label>
@@ -135,7 +155,7 @@ export default function Settings() {
             placeholder={user?.username}
             name="name"
             className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
-            onChange={e => setUsername(e.target.value)}
+            onChange={(e) => setUsername(e.target.value)}
           />
 
           <label className="font-medium">Email</label>
@@ -144,7 +164,7 @@ export default function Settings() {
             placeholder={user?.email}
             name="email"
             className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
-            onChange={e => setEmail(e.target.value)}
+            onChange={(e) => setEmail(e.target.value)}
           />
 
           <label className="font-medium">Password</label>
@@ -153,24 +173,34 @@ export default function Settings() {
             placeholder="Password"
             name="password"
             className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
-            onChange={e => setPassword(e.target.value)}
+            onChange={(e) => setPassword(e.target.value)}
           />
 
           {error && <div className="text-red-500">An error occurred</div>}
           {success && (
             <div className="text-green-500">Account updated successfully!</div>
           )}
-          <button type="submit" className="bg-teal-500 text-white py-2 rounded-lg hover:bg-teal-600 transition duration-300">
+          <button
+            type="submit"
+            className="bg-teal-500 text-white py-2 rounded-lg hover:bg-teal-600 transition duration-300"
+          >
             Update
           </button>
 
           <Link href={`/${locale}/write`}>
-            <button type="button" className="bg-teal-500 text-white py-2 rounded-lg hover:bg-teal-600 transition duration-300 w-full">
+            <button
+              type="button"
+              className="bg-teal-500 text-white py-2 rounded-lg hover:bg-teal-600 transition duration-300 w-full"
+            >
               New Post
             </button>
           </Link>
 
-          <button type="button" className="bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition duration-300" onClick={handleLogout}>
+          <button
+            type="button"
+            className="bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition duration-300"
+            onClick={handleLogout}
+          >
             Logout
           </button>
         </form>

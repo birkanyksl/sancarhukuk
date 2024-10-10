@@ -1,10 +1,12 @@
 const router = require("express").Router();
 const User = require("../models/User");
 const Post = require("../models/Post");
+const verify = require("../verifyToken")
+
 
 //CREATE POST
-router.post("/", async (req, res) => {
-  const newPost = new Post(req.body); // Assuming req.body contains the data
+router.post("/", verify, async (req, res) => {
+  const newPost = new Post(req.body);
   try {
     const savedPost = await newPost.save();
     res.status(200).json(savedPost);
@@ -14,7 +16,7 @@ router.post("/", async (req, res) => {
 });
 
 //UPDATE POST
-router.put("/:id", async (req, res) => {
+router.put("/:id",verify, async (req, res) => {
   try {
     const post = await Post.findById(req.params.id);
     if (post.username === req.body.username) {
@@ -39,7 +41,7 @@ router.put("/:id", async (req, res) => {
 });
 
 // DELETE POST
-router.delete("/:id", async (req, res) => {
+router.delete("/:id",verify, async (req, res) => {
   try {
     const post = await Post.findById(req.params.id);
 

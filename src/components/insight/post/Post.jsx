@@ -13,6 +13,8 @@ const Post = ({ post }) => {
           alt='blog-image' 
           fill 
           className='object-cover' 
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          priority
         />}
       </div>
       <span className='text-xs font-light text-gray-400 mt-2'>  {new Date(post.createdAt).toLocaleDateString(locale === 'tr' ? 'tr-TR' : 'en-GB', {
