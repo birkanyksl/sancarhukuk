@@ -12,7 +12,7 @@ const Post = ({ post }) => {
           src={post.photo} 
           alt='blog-image' 
           fill 
-          className='object-cover' 
+          className='object-cover rounded-3xl border-2 border-black shadow-xl' 
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           priority
         />}

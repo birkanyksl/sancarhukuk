@@ -41,6 +41,14 @@ const Reducer = (state, action) => {
           isFetching: false,
           error: false,
         };
+        case "ACCESS_TOKEN":  
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          accessToken: action.payload, 
+        },
+      };
       default:
         return state;
     }

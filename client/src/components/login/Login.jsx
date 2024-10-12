@@ -1,10 +1,10 @@
 "use client";
 import { Context } from "@/context/Context";
+import axios from "axios";
 import { useContext, useRef } from "react";
-import axiosInstance, { useAxiosInstance } from "@/utils/axiosInstance";
+
 
 const Login = () => {
-  useAxiosInstance(); 
   const userRef = useRef();
   const passwordRef = useRef();
   const { dispatch, isFetching } = useContext(Context);
@@ -14,13 +14,13 @@ const Login = () => {
     
     dispatch({ type: "LOGIN_START" });
     try {
-      const res = await axiosInstance.post("/api/auth/login", {
+      const res = await axios.post("/api/auth/login", {
         username: userRef.current.value,
         password: passwordRef.current.value,
       });
 
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
-      console.log("Giriş başarılı:", res.data);
+      
       
     } catch (error) {
       console.error("Giriş hatası:", error.response ? error.response.data : error.message); 

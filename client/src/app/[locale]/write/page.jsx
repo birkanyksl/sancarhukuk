@@ -5,12 +5,13 @@ import { faImages } from "@fortawesome/free-solid-svg-icons";
 import { useCallback, useContext, useEffect, useState } from "react";
 import { Context } from "@/context/Context";
 import axios from "axios";
-import axiosInstance,{useAxiosInstance} from "@/utils/axiosInstance";
+import { useAxiosJWT } from "@/utils/axiosInstance";
+
 
 
 export default function Write() {
  
-  useAxiosInstance()
+  const axiosJWT = useAxiosJWT();
 
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
@@ -68,7 +69,7 @@ export default function Write() {
         photo: uploadRes.data, 
       };
 
-      await axiosInstance.post("/api/posts", newPost, { withCredentials: true });
+      await axiosJWT.post("/api/posts", newPost, { withCredentials: true });
       setSuccess("Yükleme başarılı!"); 
       setTimeout(() => setSuccess(""), 3000);  
       setTitle("");

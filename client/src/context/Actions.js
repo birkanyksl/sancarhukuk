@@ -27,3 +27,8 @@ export const LoginStart = (userCredentials) => ({
   export const UpdateFailure = () => ({
     type: "UPDATE_FAILURE",
   });
+  export const RefreshToken = (accessToken) => ({
+    type: "REFRESH_TOKEN",
+    payload: accessToken, 
+  });
+  
