@@ -11,10 +11,10 @@ import Practices from "@/components/home/Practices";
 export default function Home() {
   
   return (<>
-      <div className="w-full scroll-smooth">
+      <div className="w-full">
       <ParallaxCarousel/>
       </div>
-      <div className="px-6 md:px-8 lg:px-16 scroll-smooth">
+      <div className="px-6 md:px-8 lg:px-16">
         <Practices/>
         <ClientInsights/>
         <Faq/>

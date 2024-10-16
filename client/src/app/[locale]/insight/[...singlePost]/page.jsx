@@ -6,7 +6,7 @@ const SinglePage = ({ params }) => {
 
   return (
     <div>
-      {/* <h1>Post ID: {singlePost}</h1>  */}
+      <h1>Post ID: {singlePost}</h1> 
       <SinglePost postId={singlePost}/>
     </div>
   );
