@@ -58,7 +58,7 @@ const Team = () => {
                 </span>
               </button>
                
-                <Link href="/team/erkan" passHref>
+                <Link href="/team/erkan_yksl" passHref>
               <button class="cursor-pointer flex flex-row items-center border-b-[0.5px] border-black">
                 <span class=" pb-1 tracking-widest text-sm  pr-2  ">
                   Read Full Bio
@@ -199,7 +199,7 @@ const Team = () => {
                 </span>
               </button>
 
-              <Link href="/team/mehmet" passHref>
+              <Link href="/team/mehmet_ali_kumus" passHref>
               <button class="cursor-pointer flex flex-row items-center border-b-[0.5px] border-black">
                 <span class=" pb-1 tracking-widest text-sm  pr-2  ">
                   Read Full Bio
