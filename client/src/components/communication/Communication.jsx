@@ -1,16 +1,38 @@
 "use client"
-import React from "react";
+import React, { useState } from "react";
 import {APIProvider, Map} from '@vis.gl/react-google-maps';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faFax, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
-import { useForm, ValidationError } from "@formspree/react";
+import axios from "axios";
 
 
 const Communication = () => {
-  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID);
-  if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
-}
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: ""
+  });
+  const [status, setStatus] = useState({ submitting: false, success: false, error: null });
+   
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus({ submitting: true, success: false, error: null });
+
+    try {
+      const response = await axios.post("/api/send-email", formData);
+      if (response.status === 200) {
+        setStatus({ submitting: false, success: true, error: null });
+      }
+    } catch (error) {
+      setStatus({ submitting: false, success: false, error: error.message });
+    }
+  };
 
   return (
     <div className="flex flex-col lg:flex-row items-start justify-between bg-white px-6 py-8 md:px-12 lg:px-24 xl:px-48 2xl:px-64 mb-20">
@@ -64,7 +86,7 @@ const Communication = () => {
         <h2 className="text-3xl font-bold text-gray-800 mb-10">
           Bize Mesaj Gönderin
         </h2>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="bg-slate-50 p-8">
           <div className="mb-4">
             <label className="block text-sm font-normal text-gray-700 mb-2" htmlFor="name">
               Adınız
@@ -73,11 +95,13 @@ const Communication = () => {
               type="text"
               id="name"
               name="name"
+              value={formData.name}
+              onChange={handleChange}
               required
               className="w-full border border-gray-300 rounded-sm p-3 focus:outline-none focus:ring-2 focus:ring-color6 transition duration-200"
               placeholder="Adınızı girin"
             />
-            <ValidationError prefix="Name" field="name" errors={state.errors} />
+            
           </div>
           <div className="mb-4">
             <label className="block text-sm font-normal text-gray-700 mb-2" htmlFor="email">
@@ -87,11 +111,28 @@ const Communication = () => {
               type="email"
               id="email"
               name="email"
+              value={formData.email}
+              onChange={handleChange}
               required
               className="w-full border border-gray-300 rounded-sm p-3 focus:outline-none focus:ring-2 focus:ring-color6 transition duration-200"
               placeholder="E-posta adresinizi girin"
             />
-            <ValidationError prefix="Email" field="email" errors={state.errors} />
+           
+          </div>
+          <div className="mb-4">
+            <label className="block text-sm font-normal text-gray-700 mb-2" htmlFor="subject">
+              Konu
+            </label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+              value={formData.subject}
+              onChange={handleChange}
+              className="w-full border border-gray-300 rounded-sm p-3 focus:outline-none focus:ring-2 focus:ring-color6 transition duration-200"
+              placeholder="Konu başlığını girin"
+            />
           </div>
           <div className="mb-4">
             <label className="block text-sm font-normal text-gray-700 mb-2" htmlFor="message">
@@ -100,20 +141,24 @@ const Communication = () => {
             <textarea
               id="message"
               name="message"
+              value={formData.message}
+              onChange={handleChange}
               required
               rows="4"
               className="w-full border border-gray-300 rounded-sm p-3 focus:outline-none focus:ring-2 focus:ring-color6 transition duration-200"
               placeholder="Mesajınızı buraya yazın"
             ></textarea>
-            <ValidationError prefix="Message" field="message" errors={state.errors} />
+         
           </div>
           <button
             type="submit"
             className="w-1/6 text-color6 font-normal py-2 border border-color6 rounded-sm transition duration-300"
-            disabled={state.submitting}
+            disabled={status.submitting}
           >
             Gönder
           </button>
+          {status.success && <p className="text-green-600 mt-4">Mesaj başarıyla gönderildi.</p>}
+          {status.error && <p className="text-red-600 mt-4">Bir hata oluştu: {status.error}</p>}
         </form>
       </div>
     </div>
