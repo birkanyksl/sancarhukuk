@@ -13,7 +13,7 @@ const Navbar = () => {
     { key: "team", path: "/team" },
     { key: "services", path: "/practice" },
     { key: "publications", path: "/insight" },
-    { key: "career", path: "/career" },
+    // { key: "career", path: "/career" },
     { key: "contact", path: "/communication" },
   ];
 
