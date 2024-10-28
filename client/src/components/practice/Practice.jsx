@@ -13,7 +13,7 @@ const Practice = () => {
           <Link
             key={practice} 
             href={`/practice/${practice}`}
-            className="group p-4 flex items-center justify-between text-base font-medium relative before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:bg-gray-300 hover:before:bg-color6 before:transition-all before:duration-500"
+            className="group p-4 flex items-center justify-between text-sm font-medium relative before:content-[''] before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:bg-gray-300 hover:before:bg-color6 before:transition-all before:duration-500 hover:text-color6 transition-all"
           >
             {practiceDetails[practice].title}
             <FontAwesomeIcon icon={faAngleRight} className='w-4 h-4 group-hover:text-color6 transition-all duration-500' />

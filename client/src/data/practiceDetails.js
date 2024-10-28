@@ -2217,7 +2217,7 @@ const practiceDetails = {
   )
   },
   "vergi-hukuku": {
-    title: "Vergi Hukuku,İdare Hukuku ve Düzenleyici İşlemler",
+    title: "Vergi Hukuku, İdare Hukuku ve Düzenleyici İşlemler",
     content: (
       <div className="p-4 w-full">
           <h2 className="text-base md:text-lg font-bold mb-4">
