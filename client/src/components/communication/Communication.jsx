@@ -2,7 +2,8 @@
 import React, { useState } from "react";
 import {APIProvider, Map} from '@vis.gl/react-google-maps';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faFax, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+import {  faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import axios from "axios";
 
 
@@ -37,7 +38,7 @@ const Communication = () => {
   return (
     <div className="flex flex-col lg:flex-row items-start justify-between bg-white px-6 py-8 md:px-12 lg:px-24 xl:px-48 2xl:px-64 mb-20">
       <div className="lg:w-1/2 w-full mb-6 lg:mb-0 px-8 ">
-        <h2 className="text-3xl font-bold text-gray-800 mb-10">Bize Ulaşın</h2>
+      <h2 className="text-3xl font-semibold lg:text-4xl text-color1 mb-10">Bize Ulaşın</h2>
         <div className="relative w-full h-96 mb-10 ">
           <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
             <Map
@@ -54,14 +55,14 @@ const Communication = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className=" p-4 rounded-lg shadow-sm">
               <h3 className="font-semibold text-lg"><FontAwesomeIcon icon={faEnvelope} className="mr-4" />Email</h3>
-              <p className="text-gray-600">info@example.com</p>
+              <p className="text-sm md:text-base  text-gray-800">info@example.com</p>
             </div>
             <div className=" p-4 rounded-lg shadow-sm">
               <h3 className="font-semibold text-lg">
               <FontAwesomeIcon icon={faPhone} className="mr-4" />
                 Telefon
                 </h3>
-              <p className="text-gray-600">+90 123 456 7890</p>
+                <p className="text-sm md:text-base  text-gray-800">+90 123 456 7890</p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -71,19 +72,19 @@ const Communication = () => {
               <FontAwesomeIcon icon={faLocationDot} className="mr-4" />
                 Adres
                 </h3>
-              <p className="text-gray-600">1234 Örnek Cad. No: 56</p>
+              <p className="text-sm md:text-base  text-gray-800">1234 Örnek Cad. No: 56</p>
             </div>
             <div className=" p-4 rounded-lg shadow-sm">
               <h3 className="font-semibold text-lg">
-              <FontAwesomeIcon icon={faFax} className="mr-4" />Fax</h3>
-              <p className="text-gray-600">+90 123 456 7891</p>
+              <FontAwesomeIcon icon={faLinkedinIn} className="mr-4" />LinkedIn</h3>
+              <p className="text-sm md:text-base  text-gray-800">xxxx xxxx xxxxxxx</p>
             </div>
           </div>
         </div>
       </div>
 
       <div className="lg:w-1/2 w-full lg:pl-10">
-        <h2 className="text-3xl font-bold text-gray-800 mb-10">
+      <h2 className="text-3xl font-semibold lg:text-4xl text-color1 mb-10">
           Bize Mesaj Gönderin
         </h2>
         <form onSubmit={handleSubmit} className="bg-slate-50 p-8">
@@ -152,7 +153,7 @@ const Communication = () => {
           </div>
           <button
             type="submit"
-            className="w-1/6 text-color6 font-normal py-2 border border-color6 rounded-sm transition duration-300"
+            className="w-32 text-color6 font-normal py-2 border border-color6 rounded-sm transition-all duration-300 hover:font-semibold "
             disabled={status.submitting}
           >
             Gönder
