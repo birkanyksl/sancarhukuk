@@ -1,23 +1,22 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import HeadingWithDivider from "../HeadingWithDivider";
-import HorizontalDivider from "../HorizontalDivider";
-import useIntersectionObserver from "../IntersectionObserver";
+
 
 const ClientPractices = ({ images }) => {
   const t = useTranslations("HomePractices");
 
   const [visibleItems, setVisibleItems] = useState(2);
-  const [isVisible, setIsVisible] = useState(false);
+
 
   const updateVisibleItems = () => {
     const width = window.innerWidth;
     if (width < 768) {
       setVisibleItems(2);
-    } else if (width >= 768 && width < 1024) {
+    } else if (width >= 768 && width < 1280) {
       setVisibleItems(3);
     } else {
       setVisibleItems(4);
@@ -34,15 +33,6 @@ const ClientPractices = ({ images }) => {
     };
   }, []);
 
-  const handleIntersection = (target) => {
-    setIsVisible(true);
-  };
-
-  const { setRef } = useIntersectionObserver({
-    threshold: 0.1,
-    callback: handleIntersection,
-  });
-
   return (
     <div className="">
       <HeadingWithDivider title={t("title")} />
@@ -50,12 +40,12 @@ const ClientPractices = ({ images }) => {
       <div
         className={`mb-12 md:my-20 lg:mb:24 flex flex-col items-center justify-center gap-4 `}
       >
-        <h1 className="text-center text-2xl lg:text-3xl font-semibold ">
+        <h1 className="text-center text-2xl lg:text-3xl font-bold ">
           {" "}
           <span className="text-color6">Güçlü Savunma, </span>
           <span className="text-color1">Etkin Sonuçlar</span>
         </h1>
-        <p className="text-sm font-light md:text-base text-gray-600">
+        <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Bireysel ve kurumsal çözümlerle sizlere hizmet veriyoruz.
         </p>
       </div>
@@ -65,18 +55,14 @@ const ClientPractices = ({ images }) => {
           <Link
             key={index}
             href={image.href}
-            ref={setRef}
-            className={`group relative w-full h-[330px]  transform transition-transform duration-500 ease-in ${
-              isVisible
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-20"
-            }`}
+            className="group relative w-full h-[330px] "
           >
             <div className="relative w-full h-64">
               <Image
                 src="https://images.pexels.com/photos/1344537/pexels-photo-1344537.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="blog-image"
                 fill
+                 sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
                 className="object-cover filter grayscale transition-all duration-500 group-hover:grayscale-0 "
               />
             </div>
@@ -87,7 +73,7 @@ const ClientPractices = ({ images }) => {
               <p className="text-center text-xs md:text-sm font-extralight text-white mb-2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
-              <HorizontalDivider width="100%" />
+            <div className="w-full h-[1px] bg-color3"></div>
             </div>
           </Link>
         ))}

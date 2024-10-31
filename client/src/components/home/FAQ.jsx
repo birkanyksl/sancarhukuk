@@ -2,9 +2,7 @@
 
 import { useState, useCallback } from "react";
 import HeadingWithDivider from "../HeadingWithDivider";
-import HorizontalDivider from "../HorizontalDivider";
 import { FaPlus, FaMinus } from "react-icons/fa";
-import useIntersectionObserver from "../IntersectionObserver";
 
 const sections = {
   basic: [
@@ -79,7 +77,7 @@ const sections = {
 const Faq = () => {
   const [activeSection, setActiveSection] = useState("basic");
   const [openQuestion, setOpenQuestion] = useState(null);
-  const [isVisible, setIsVisible] = useState(false);
+
 
   const handleSectionClick = useCallback((section) => {
     setActiveSection(section);
@@ -90,14 +88,6 @@ const Faq = () => {
     setOpenQuestion((prevState) => (prevState === id ? null : id));
   }, []);
 
-  const handleIntersection = (target) => {
-    setIsVisible(true);
-  };
-
-  const { setRef } = useIntersectionObserver({
-    threshold: 0.1,
-    callback: handleIntersection,
-  });
 
   return (
     <>
@@ -106,17 +96,15 @@ const Faq = () => {
         <HeadingWithDivider title="FAQ" />
 
         <div
-          className={`mb-12 md:my-20 lg:mb:24 flex flex-row lg:my-24  items-end justify-center gap-4  `}
+          className={`mb-12 md:my-20 lg:mb:24 flex flex-row lg:my-24 items-end justify-center gap-4  `}
         >
-          <div className="flex flex-col text-center items-center w-1/2">
-            <h1
-              className={`text-center text-2xl lg:text-3xl font-semibold mb-8`}
-            >
+          <div  className="flex flex-col text-center items-center w-1/2 gap-4">
+          <h1 className="text-center text-2xl lg:text-3xl font-bold ">
               {" "}
               <span className="text-color6">Merak </span>
               <span className="text-color1">Ettikleriniz</span>
             </h1>
-            <p className="text-sm font-light md:text-base text-gray-600">
+            <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
               Avukatlık hizmetlerimizle ilgili merak ettiğiniz soruları bu
               bölümde bulabilirsiniz.
             </p>
@@ -148,13 +136,13 @@ const Faq = () => {
                     className={`scroll-hide min-w-full p-4 border-b-[1px] transition-all duration-1000 ease-in-out`}
                   >
                     <h2
-                      className="text-[14px] font-semibold color1 cursor-pointer "
+                      className="text-sm mb-4 font-medium text-gray-800 leading-6 cursor-pointer "
                       onClick={() => handleQuestionClick(faq.id)}
                     >
                       {faq.question}
                     </h2>
                     {openQuestion === faq.id && (
-                      <p className="mt-2 text-[12.5px] font-medium text-gray-600">
+                      <p className="text-xs md:text-sm mb-4 text-gray-600 leading-6">
                         {faq.answer}
                       </p>
                     )}
@@ -173,19 +161,15 @@ const Faq = () => {
           <HeadingWithDivider title="FAQ" />
 
           <div
-            ref={setRef}
-            className={`mb-12 md:my-16 lg:mb:24 flex lg:my-12 flex-col items-center justify-center gap-4 transform transition-transform duration-500 ease-in ${
-              isVisible
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-20"
-            }`}
+         
+            className="mb-12 md:my-16 lg:mb:24 flex lg:my-12 flex-col items-center justify-center gap-4 "
           >
-            <h1 className="text-center text-2xl lg:text-3xl font-semibold ">
+             <h1 className="text-center text-2xl lg:text-3xl font-bold ">
               {" "}
               <span className="text-color6">Merak </span>
               <span className="text-color1">Ettikleriniz</span>
             </h1>
-            <p className="text-sm font-light md:text-base text-gray-600">
+            <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
               Avukatlık hizmetlerimizle ilgili merak ettiğiniz soruları bu
               bölümde bulabilirsiniz.
             </p>
@@ -211,7 +195,7 @@ const Faq = () => {
                     )}
                   </span>
                 </button>
-                <HorizontalDivider width="100%" />
+               <div className="w-full h-[1px] bg-color6"/>
                 {activeSection === section && (
                   <div className="flex flex-col gap-4 mt-4">
                     {sections[section].map((faq) => (
@@ -220,13 +204,13 @@ const Faq = () => {
                         className={`scroll-hide min-w-full p-2 border-b-[1px] transition-all duration-1000 ease-in-out`}
                       >
                         <h2
-                          className="text-[12.5px] font-medium color1 cursor-pointer "
+                          className="text-sm md:text-base mb-1 font-medium text-gray-800 leading-6 cursor-pointer"
                           onClick={() => handleQuestionClick(faq.id)}
                         >
                           {faq.question}
                         </h2>
                         {openQuestion === faq.id && (
-                          <p className="mt-2 text-xs font-medium text-gray-600">
+                          <p className="text-xs  mb-4 text-gray-800 leading-6 mt-2">
                             {faq.answer}
                           </p>
                         )}
