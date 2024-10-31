@@ -12,18 +12,19 @@ const InsightCard = () => {
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className='object-cover rounded-lg'
+          priority
         />
       </div>
       <span className='text-xs font-light text-gray-400 mt-2 px-4'>18-04-1994</span>
-      <h2 className='w-[80%] text-sm font-semibold color1 overflow-hidden px-4'>
+      <h2 className='w-[80%] text-sm font-semibold color1 overflow-hidden text-ellipsis whitespace-nowrap px-4'>
         Tokyo declares La Nina weather event has begun
       </h2>
       <div className='flex items-center justify-between px-4'>
-        <span className='text-xs font-light'>
-          <span className='text-color1'>Sancar </span>
-          <span className='text-color6'>Hukuk</span>
+        <span className='text-xs font-medium text-color6'>
+     
+          CATEGORY
         </span>
-        <span className='text-xs font-extralight text-gray-600'>23 minutes ago</span>
+      
       </div>
     </div>
   );

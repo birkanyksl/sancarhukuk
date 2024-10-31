@@ -19,6 +19,7 @@ export default function SinglePost({ postId }) {
   const [title, setTitle] = useState("");
   const [updateMode, setUpdateMode] = useState(false);
   const [desc, setDesc] = useState("");
+  const [categories, setCategories] = useState([]);
 
   useEffect(() => {
     const getPost = async () => {
@@ -26,7 +27,8 @@ export default function SinglePost({ postId }) {
         const res = await axios.get(`/api/posts/${postId}`);
         setPost(res.data);
         setTitle(res.data.title);
-        setDesc(res.data.desc)
+        setDesc(res.data.desc);
+        setCategories(res.data.categories);
       } catch (error) {
         console.error("Error fetching post:", error);
       }
@@ -59,8 +61,9 @@ export default function SinglePost({ postId }) {
           username: user.username,
           title,
           desc: cleanHtmlContent(desc),
+          categories,
         });
-        setUpdateMode(false)
+        setUpdateMode(false);
       } catch (error) {
         console.log(error);
       }
@@ -83,9 +86,7 @@ export default function SinglePost({ postId }) {
               type="text"
               value={title}
               placeholder="Başlık girin"
-              className="w-full p-2 border border-gray-300 rounded-lg text-xl text-gray-900
-                       focus:ring-2 focus:ring-color6 focus:border-color6 outline-none 
-                       transition duration-300 ease-in-out shadow-sm hover:shadow-md"
+              className="border p-2 rounded text-sm font-medium mt-6 w-full"
               onChange={(e) => setTitle(e.target.value)}
             />
           ) : (
@@ -93,13 +94,29 @@ export default function SinglePost({ postId }) {
               {title?.toUpperCase()}
             </h1>
           )}
+           
+           {
+             updateMode ? (
+              <input
+              type="text"
+              className="border p-2 rounded text-sm font-medium mt-6 w-full"
+              placeholder="Kategorileri virgülle ayırarak yazın"
+              value={categories.join(", ")} 
+              onChange={(e) => setCategories(e.target.value.split(",").map((category) => category.trim()))} // virgülle ayrılan kategorileri diziye çevirip günceller
+            />
+             ) : ( <div className="flex items-center justify-center">
+              <span className="text-color6 text-sm font-medium mt-6">
+                {categories && categories.length > 0
+                  ? categories
+                      .map((category) => category.toUpperCase())
+                      .join(" | ")
+                  : "NO CATEGORY"}
+              </span>
+            </div>)
+           }
+          
 
-          <div className="flex items-center justify-center">
-            <span className="text-xs font-light mt-6">
-              <span className="text-color1">By </span>
-              <span className="text-color6">{post.username}</span>
-            </span>
-          </div>
+
           <span className="text-xs font-light text-color7 mt-2">
             {new Date(post.createdAt).toLocaleDateString(
               locale === "tr" ? "tr-TR" : "en-GB",
@@ -127,8 +144,8 @@ export default function SinglePost({ postId }) {
         </div>
       </div>
 
-      <div className="mx-auto mt-6 flex flex-col md:flex-row gap-8 px-6 pb-8 md:px-8 lg:px-16">
-        <div className="md:w-4/5 flex flex-col gap-6">
+      <div className="mx-auto mt-6 flex flex-col lg:flex-row gap-8 px-6 pb-8 md:px-8 lg:px-16">
+        <div className=" flex flex-col gap-6 lg:w-3/4">
           <div className="flex justify-start w-full">
             {post.photo && (
               <Image
@@ -136,7 +153,9 @@ export default function SinglePost({ postId }) {
                 alt="Post görseli"
                 width={2000}
                 height={3000}
-                className="w-full h-72 object-cover"
+                className="w-full h-72 object-cover rounded-lg"
+                priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             )}
           </div>
@@ -145,9 +164,7 @@ export default function SinglePost({ postId }) {
           <div className="md:border-l border-color6 md:pl-8 flex flex-col">
             {updateMode ? (
               <div
-                className="writeInput w-full p-4 border border-gray-300 rounded-lg text-lg
-              bg-white shadow-sm focus-within:shadow-md transition-all duration-300
-              outline-none focus:border-color6 focus:ring-2 focus:ring-color6
+                className="border p-2 rounded text-sm font-medium mt-6 w-full
               h-[50vh] overflow-y-auto text-gray-800"
                 contentEditable
                 suppressContentEditableWarning
@@ -188,14 +205,12 @@ export default function SinglePost({ postId }) {
         </div>
 
         {/* Sidebar */}
-        <div className="md:w-1/5 flex flex-col gap-8 overflow-y-auto scroll-smooth insight-scroll px-1 h-[700px]">
-          <div className="flex justify-between items-center">
-            <h3 className="text-sm md:text-md font-semibold">
-              Latest Insights
-            </h3>
+        <div className="flex flex-col w-full gap-8 overflow-y-auto lg:w-1/4 ">
+          <div className="flex justify-between items-center sticky top-0 bg-white py-2">
+            <h3 className="text-sm md:text-md font-semibold">Latest Insights</h3>
             <span className="text-xs font-light text-gray-900">View all</span>
           </div>
-          <div className="flex flex-wrap justify-between">
+          <div className="grid grid-cols-2 lg:grid-cols-1 gap-4 pt-4">
             <InsightCard />
             <InsightCard />
             <InsightCard />

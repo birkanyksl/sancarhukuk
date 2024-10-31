@@ -1,5 +1,6 @@
 "use client";
 import { Context } from "@/context/Context";
+import { useRouter } from "@/navigation";
 import axios from "axios";
 import { useContext, useRef } from "react";
 
@@ -7,6 +8,7 @@ import { useContext, useRef } from "react";
 const Login = () => {
   const userRef = useRef();
   const passwordRef = useRef();
+  const router = useRouter()
   const { dispatch, isFetching } = useContext(Context);
 
   const handleLogin = async (e) => {
@@ -20,7 +22,7 @@ const Login = () => {
       });
 
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
-      
+      router.push("/settings")
       
     } catch (error) {
       console.error("Giriş hatası:", error.response ? error.response.data : error.message); 

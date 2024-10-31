@@ -15,12 +15,15 @@ export default function Write() {
 
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
+  const [categoriesInput, setCategoriesInput] = useState(""); 
+  const [categories, setCategories] = useState([]); 
   const [file, setFile] = useState(null);
   const { user } = useContext(Context);
   const [error, setError] = useState(""); 
   const [uploadedImageUrl, setUploadedImageUrl] = useState(""); 
   const [loading, setLoading] = useState(false); 
   const [success, setSuccess] = useState("");
+  
    
 
 
@@ -52,6 +55,7 @@ export default function Write() {
     const formData = new FormData();
     formData.append("file", file);
     formData.append("username", user.username);
+    formData.append("categories",categories.join(","))
     formData.append("title", title);
     formData.append("desc", cleanHtmlContent(desc));
 
@@ -64,6 +68,7 @@ export default function Write() {
 
       const newPost = {
         username: user.username,
+        categories,
         title,
         desc,
         photo: uploadRes.data, 
@@ -73,6 +78,8 @@ export default function Write() {
       setSuccess("Yükleme başarılı!"); 
       setTimeout(() => setSuccess(""), 3000);  
       setTitle("");
+      setCategoriesInput(""); 
+      setCategories([]); 
       setDesc("");
       setFile(null);
       setUploadedImageUrl("");
@@ -83,7 +90,14 @@ export default function Write() {
       setLoading(false); 
     }
   };
+  
+  const handleCategoriesInputChange = (e) => {
+    const input = e.target.value;
+    setCategoriesInput(input);
 
+    const updatedCategories = input.split(",").map((category) => category.trim());
+    setCategories(updatedCategories);
+  };
   
   useEffect(() => {
     return () => {
@@ -132,14 +146,25 @@ export default function Write() {
             className="hidden"
             onChange={handleFileChange} 
           />
+           <div className="flex flex-col gap-4 w-full justify-center">
+
           <input
             className="writeInput text-2xl border-b-2 border-gray-300 focus:outline-none focus:border-teal-500 flex-1 ml-2"
-            placeholder="Başlık"
+            placeholder="Başlık giriniz."
             type="text"
             autoFocus={true}
             value={title} 
             onChange={(e) => setTitle(e.target.value)}
-          />
+            />
+            <input
+            className="writeInput text-2xl border-b-2 border-gray-300 focus:outline-none focus:border-teal-500 flex-1 ml-2"
+            placeholder="Kategorileri virgülle ayırarak giriniz."
+            type="text"
+            autoFocus={true}
+            value={categoriesInput} 
+            onChange={handleCategoriesInputChange}
+            />
+            </div>
         </div>
 
         <div className="mb-4">

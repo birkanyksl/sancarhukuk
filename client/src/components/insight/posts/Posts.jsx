@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import Post from '../post/Post';
 import { useLocale } from 'next-intl';
-// import { posts } from '@/data/posts';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -27,7 +26,7 @@ const Posts = () => {
   }, []); 
 
   return (
-    <div className='grid md:grid-cols-2 lg:grid-cols-3 items-center px-6 md:px-8 lg:px-16'>
+    <div className='grid md:grid-cols-2 lg:grid-cols-3 items-center px-6 md:px-8 lg:px-16 gap-8'>
       {post.map(p => (
         <Link  key={p._id} href={`/${locale}/insight/${p._id}`}>
           <Post post={p} />
