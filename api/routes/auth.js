@@ -88,13 +88,6 @@ router.post("/refresh", async (req, res) => {
     const refreshToken = await RefreshToken.findOne({ token });
     if (!refreshToken) return res.status(403).json("Refresh token not found");
 
-    // // Mevcut access token'ın geçerliliğini kontrol et
-    // jwt.verify(accessToken, process.env.JWT_SECRET, (err, user) => {
-    //   if (!err) {
-    //     // Eğer access token geçerliyse, mevcut token'ı döndür
-    //     return res.status(200).json({ accessToken });
-    //   }
-    // });
 
     // Refresh token'ı doğrula
     jwt.verify(token, process.env.JWT_REFRESH_SECRET, async (err, user) => {
