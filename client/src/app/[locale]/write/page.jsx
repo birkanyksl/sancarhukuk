@@ -78,6 +78,7 @@ export default function Write() {
       setDesc("");
       setFile(null);
       setUploadedImageUrl("");
+
     } catch (err) {
       console.log(err);
       setError("Bir hata oluştu."); 

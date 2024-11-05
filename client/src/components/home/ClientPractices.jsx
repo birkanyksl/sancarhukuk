@@ -55,25 +55,25 @@ const ClientPractices = ({ images }) => {
           <Link
             key={index}
             href={image.href}
-            className="group relative w-full h-[330px] "
+            className=" relative w-full h-[330px] "
           >
-            <div className="relative w-full h-64">
+            <div className="relative w-full h-64 rounded-md">
               <Image
                 src="https://images.pexels.com/photos/1344537/pexels-photo-1344537.jpeg?auto=compress&cs=tinysrgb&w=600"
                 alt="blog-image"
                 fill
                  sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
-                className="object-cover filter grayscale transition-all duration-500 group-hover:grayscale-0 "
+                className="object-cover rounded-md transition-all duration-500  "
               />
             </div>
-            <div className="bg-color2 absolute flex flex-col justify-center w-[90%] top-[200px] left-1/2 transform -translate-x-1/2 p-6 ">
+            <div className="bg-color6 absolute flex flex-col justify-center w-[90%] top-[200px] left-1/2 transform -translate-x-1/2 p-6 rounded-lg">
               <h2 className="text-white uppercase font-bold text-sm md:text-base text-center mb-2 ">
                 {t(`practicesHome${index + 1}`)}
               </h2>
               <p className="text-center text-xs md:text-sm font-extralight text-white mb-2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
-            <div className="w-full h-[1px] bg-color3"></div>
+            <div className="w-full h-[1px] bg-white"></div>
             </div>
           </Link>
         ))}
