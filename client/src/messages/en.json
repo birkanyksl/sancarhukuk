@@ -35,7 +35,36 @@
   "breadcrumb": {
     "home": "Home",
     "about": "About Us",
-    "contact": "Contact"
-  }
- 
+    "team": "Team",
+    "practice": "Practices",
+    "insight":"Publications",
+    "communication": "Contact",
+    "yabanci-yatirimlar": "Foreign Investments",
+    "birlesme-ve-devralma": "Mergers and Acquisitions",
+    "sirketler-hukuku-ve-kurumsal-yonetim": "Corporate Law and Governance",
+    "uyusmazlik-cozumu": "Dispute Resolution",
+    "bilgi-teknolojileri-ve-telekomunikasyon": "Information Technology and Telecommunications",
+    "bankacilik-ve-finans": "Banking and Finance",
+    "sermaye-piyasasi": "Capital Markets",
+    "havacilik-ve-savunma-sanayii": "Aerospace and Defense Industry",
+    "projeler": "Projects",
+    "vatandaslik-ve-goc": "Citizenship and Immigration",
+    "is-hukuku": "Labor Law",
+    "insaat-ve-altyapi": "Construction and Infrastructure",
+    "enerji": "Energy",
+    "konaklama-ve-eglence": "Hospitality and Entertainment",
+    "kisisel-verilerin-korunmasi": "Personal Data Protection",
+    "fikri-mulkiyet": "Intellectual Property",
+    "yapay-zeka-ve-otomatik-sistemler": "Artificial Intelligence and Automated Systems",
+    "veri-gizliligi-ve-guvenligi": "Data Privacy and Security",
+    "medya-ve-eglence": "Media and Entertainment",
+    "uluslararasi-ticaret": "International Trade",
+    "vergi-hukuku": "Tax Law",
+    "gayrimenkul-ve-kira-hukuku": "Real Estate and Lease Law",
+    "miras-hukuku": "Inheritance Law",
+    "dernekler-hukuku": "Associations Law",
+    "alacakli-haklari-ve-iflas": "Creditor Rights and Bankruptcy",
+    "e-ticaret": "E-Commerce",
+    "saglik-ve-yasam-bilimleri": "Health and Life Sciences"
+}
 }

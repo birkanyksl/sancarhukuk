@@ -1,3 +1,4 @@
+import Breadcrumb from '@/components/BreadCrumb';
 import Communication from '@/components/communication/Communication';
 import React from 'react'
 
@@ -14,7 +15,7 @@ const CommunicationPage = () => {
         </div>
       </div>
       </div>
-
+      <Breadcrumb/>
         <Communication/>
                         </>
     );

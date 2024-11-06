@@ -1,4 +1,5 @@
 
+import Breadcrumb from "@/components/BreadCrumb";
 import Team from "@/components/teams/Team";
 import React from "react";
 
@@ -18,7 +19,8 @@ const TeamPage = () => {
             </p>
           </div>
         </div>
-      </div>   
+      </div> 
+      <Breadcrumb/>  
       <Team/>
     </>
   );

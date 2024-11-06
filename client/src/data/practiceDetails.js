@@ -1097,7 +1097,7 @@ const practiceDetails = {
       </div>
     ),
   },
-  projeler: {
+  "projeler": {
     title: "Projeler",
     content: (
       <div className="p-4 w-full">
@@ -1467,7 +1467,7 @@ const practiceDetails = {
       </div>
     ),
   },
-  enerji: {
+  "enerji": {
     title: "Enerji",
     content: (
       <div className="p-4 w-full">

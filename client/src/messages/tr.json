@@ -35,6 +35,36 @@
   "breadcrumb": {
     "home": "Anasayfa",
     "about": "Hakkımızda",
-    "contact": "İletişim"
-  }
+    "team": "Ekibimiz",
+    "practice": "Hizmetler",
+    "insight":"Yayınlar",
+    "communication": "İletişim",
+    "yabanci-yatirimlar": "Yabancı Yatırımlar",
+    "birlesme-ve-devralma": "Birleşme ve Devralma",
+    "sirketler-hukuku-ve-kurumsal-yonetim": "Şirketler Hukuku ve Kurumsal Yönetim",
+    "uyusmazlik-cozumu": "Uyuşmazlık Çözümü",
+    "bilgi-teknolojileri-ve-telekomunikasyon": "Bilgi Teknolojileri ve Telekomünikasyon",
+    "bankacilik-ve-finans": "Bankacılık ve Finans",
+    "sermaye-piyasasi": "Sermaye Piyasası",
+    "havacilik-ve-savunma-sanayii": "Havacılık ve Savunma Sanayii",
+    "projeler": "Projeler",
+    "vatandaslik-ve-goc": "Vatandaşlık ve Göç",
+    "is-hukuku": "İş Hukuku",
+    "insaat-ve-altyapi": "İnşaat ve Altyapı",
+    "enerji": "Enerji",
+    "konaklama-ve-eglence": "Konaklama ve Eğlence",
+    "kisisel-verilerin-korunmasi": "Kişisel Verilerin Korunması",
+    "fikri-mulkiyet": "Fikri Mülkiyet",
+    "yapay-zeka-ve-otomatik-sistemler": "Yapay Zeka ve Otomatik Sistemler",
+    "veri-gizliligi-ve-guvenligi": "Veri Gizliliği ve Güvenliği",
+    "medya-ve-eglence": "Medya ve Eğlence",
+    "uluslararasi-ticaret": "Uluslararası Ticaret",
+    "vergi-hukuku": "Vergi Hukuku",
+    "gayrimenkul-ve-kira-hukuku": "Gayrimenkul ve Kira Hukuku",
+    "miras-hukuku": "Miras Hukuku",
+    "dernekler-hukuku": "Dernekler Hukuku",
+    "alacakli-haklari-ve-iflas": "Alacaklı Hakları ve İflas",
+    "e-ticaret": "E-Ticaret",
+    "saglik-ve-yasam-bilimleri": "Sağlık ve Yaşam Bilimleri"
+}
 }

@@ -1,8 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-
 import React from "react";
 import Posts from "@/components/insight/posts/Posts";
+import Breadcrumb from "@/components/BreadCrumb";
 
 const page = () => {
   return (
@@ -21,10 +19,10 @@ const page = () => {
         </div>
       </div>
 
-      <div className="w-full h-24 flex items-center justify-center mt-2 gap-4">
-        <FontAwesomeIcon icon={faMagnifyingGlass} className="w-12 h-12" />
-      </div>
+      <div className="mb-8">
+      <Breadcrumb/>
 
+      </div>
       <Posts />
     </div>
   );

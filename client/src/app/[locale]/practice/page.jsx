@@ -1,3 +1,4 @@
+import Breadcrumb from "@/components/BreadCrumb";
 import Practice from "@/components/practice/Practice";
 import React from "react";
 
@@ -17,6 +18,7 @@ const PracticePage = () => {
           </div>
         </div>
       </div>
+      <Breadcrumb/>
       <Practice />
     </>
   );

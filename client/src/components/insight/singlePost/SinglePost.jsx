@@ -20,6 +20,7 @@ export default function SinglePost({ postId }) {
   const [updateMode, setUpdateMode] = useState(false);
   const [desc, setDesc] = useState("");
   const [categories, setCategories] = useState([]);
+  const [articles, setArticles] = useState([]);
 
   useEffect(() => {
     const getPost = async () => {
@@ -76,6 +77,20 @@ export default function SinglePost({ postId }) {
 
     return cleanedHtml;
   };
+
+
+  useEffect(() => {
+    const fetchArticles = async () => {
+      try {
+        const res = await axios.get("/api/posts");
+        const recentArticles = res.data.reverse().slice(0, 4);
+        setArticles(recentArticles);
+      } catch (error) {
+        console.log("Makale alınırken hata oluştu.", error);
+      }
+    };
+    fetchArticles();
+  }, []);
 
   return (
     <div>
@@ -211,10 +226,9 @@ export default function SinglePost({ postId }) {
             <span className="text-xs font-light text-gray-900">View all</span>
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-1 gap-4 pt-4">
-            <InsightCard />
-            <InsightCard />
-            <InsightCard />
-            <InsightCard />
+          {articles.map((article, index) => (
+              <InsightCard key={index} article={article} locale={locale} />
+            ))}
           </div>
         </div>
       </div>

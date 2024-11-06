@@ -13,8 +13,6 @@ const HomeInsights = () => {
     const fetchArticles = async () => {
       try {
         const res = await axios.get("/api/posts");
-        console.log(res.data);
-
         const recentArticles = res.data.reverse().slice(0, 11);
         setArticles(recentArticles);
       } catch (error) {
@@ -65,16 +63,17 @@ const HomeInsights = () => {
                       )}
                     </span>
                     <span className="text-[11px] font-light text-color6 md:font-normal lg:font-medium">
-                      {article.categories && article.categories.length > 0
-                        ? article.categories
+                    {(locale === "tr" ? article.categories : article.categoriesEN)?.length > 0
+                        ? (locale === "tr" ? article.categories : article.categoriesEN)
                             .map((category) => category.toUpperCase())
                             .join(" | ")
                         : "NO CATEGORY"}
                     </span>
                   </div>
 
-                  <h2 className="text-sm font-semibold color1 overflow-hidden lg:font-bold">
-                    {article.title}
+                  <h2 className="text-sm font-semibold color1 lg:font-bold overflow-hidden text-ellipsis whitespace-nowrap">
+                  {locale === "tr" ? article.title : article.titleEN}
+                    
                   </h2>
                 </div>
 

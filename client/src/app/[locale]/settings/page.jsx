@@ -182,7 +182,7 @@ export default function Settings() {
           )}
           <button
             type="submit"
-            className="bg-teal-500 text-white py-2 rounded-lg hover:bg-teal-600 transition duration-300"
+            className="w-full text-color6 font-normal py-2 border border-color6 rounded-sm transition-all duration-300 hover:font-semibold "
           >
             Update
           </button>
@@ -190,7 +190,7 @@ export default function Settings() {
           <Link href={`/${locale}/write`}>
             <button
               type="button"
-              className="bg-teal-500 text-white py-2 rounded-lg hover:bg-teal-600 transition duration-300 w-full"
+              className="w-full text-color6 font-normal py-2 border border-color6 rounded-sm transition-all duration-300 hover:font-semibold "
             >
               New Post
             </button>
@@ -198,7 +198,7 @@ export default function Settings() {
 
           <button
             type="button"
-            className="bg-red-500 text-white py-2 rounded-lg hover:bg-red-600 transition duration-300"
+            className="bg-red-500 text-white py-2  hover:bg-red-600 transition duration-300"
             onClick={handleLogout}
           >
             Logout

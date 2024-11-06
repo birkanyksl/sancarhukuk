@@ -1,3 +1,4 @@
+import Breadcrumb from "@/components/BreadCrumb";
 import SinglePractice from "@/components/practice/singlePractice";
 import practiceDetails from "@/data/practiceDetails";
 import React from "react";
@@ -24,6 +25,7 @@ const practiceDetail = practiceDetails[singlePractice]
           </div>
         </div>
       </div>
+      <Breadcrumb/>
   <SinglePractice params={params}/>
     </>
   );

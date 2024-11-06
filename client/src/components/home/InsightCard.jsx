@@ -25,12 +25,13 @@ const InsightCard = ({ article, locale }) => {
         )}
       </span>
       <h2 className="w-[80%] text-sm font-semibold color1 overflow-hidden text-ellipsis whitespace-nowrap px-4">
-        {article.title}
+        {locale === "tr" ? article.title : article.titleEN}
       </h2>
       <div className="flex items-center justify-between px-4">
         <span className="text-xs font-medium text-color6">
-          {article.categories && article.categories.length > 0
-            ? article.categories
+          {(locale === "tr" ? article.categories : article.categoriesEN)
+            ?.length > 0
+            ? (locale === "tr" ? article.categories : article.categoriesEN)
                 .map((category) => category.toUpperCase())
                 .join(" | ")
             : "NO CATEGORY"}
