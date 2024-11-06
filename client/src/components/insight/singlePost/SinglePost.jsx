@@ -15,11 +15,17 @@ export default function SinglePost({ postId }) {
   const { user } = useContext(Context);
   const router = useRouter();
 
-  //Update
+
   const [title, setTitle] = useState("");
-  const [updateMode, setUpdateMode] = useState(false);
+  const [titleEN, setTitleEN] = useState("");
+
   const [desc, setDesc] = useState("");
+  const [descEN, setDescEN] = useState("");
+
   const [categories, setCategories] = useState([]);
+  const [categoriesEN, setCategoriesEN] = useState([]);
+
+  const [updateMode, setUpdateMode] = useState(false);
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
@@ -28,8 +34,11 @@ export default function SinglePost({ postId }) {
         const res = await axios.get(`/api/posts/${postId}`);
         setPost(res.data);
         setTitle(res.data.title);
+        setTitleEN(res.data.titleEN);
         setDesc(res.data.desc);
+        setDescEN(res.data.descEN);
         setCategories(res.data.categories);
+        setCategoriesEN(res.data.categoriesEN);
       } catch (error) {
         console.error("Error fetching post:", error);
       }
@@ -61,8 +70,11 @@ export default function SinglePost({ postId }) {
         await axios.put(`/api/posts/${post._id}`, {
           username: user.username,
           title,
+          titleEN,
           desc: cleanHtmlContent(desc),
+          descEN: cleanHtmlContent(descEN),
           categories,
+          categoriesEN,
         });
         setUpdateMode(false);
       } catch (error) {
@@ -77,7 +89,6 @@ export default function SinglePost({ postId }) {
 
     return cleanedHtml;
   };
-
 
   useEffect(() => {
     const fetchArticles = async () => {
@@ -97,51 +108,77 @@ export default function SinglePost({ postId }) {
       <div className="relative w-full h-48 bg-slate-50 flex items-center justify-center">
         <div className="text-color1 p-4 text-center">
           {updateMode ? (
-            <input
-              type="text"
-              value={title}
-              placeholder="Başlık girin"
-              className="border p-2 rounded text-sm font-medium mt-6 w-full"
-              onChange={(e) => setTitle(e.target.value)}
-            />
+            <div className="flex gap-8">
+              <input
+                type="text"
+                value={title}
+                placeholder="Başlık girin"
+                className="border p-2 rounded text-sm font-medium mt-6 w-full"
+                onChange={(e) => setTitle(e.target.value)}
+              />
+              <input
+                type="text"
+                value={titleEN}
+                placeholder="Başlık girin"
+                className="border p-2 rounded text-sm font-medium mt-6 w-full"
+                onChange={(e) => setTitleEN(e.target.value)}
+              />
+            </div>
           ) : (
             <h1 className="text-4xl lg:text-5xl font-normal text-color6">
-              {title?.toUpperCase()}
+              {(locale === "tr" ? title : titleEN).toUpperCase()}
             </h1>
           )}
-           
-           {
-             updateMode ? (
+
+          {updateMode ? (
+            <div className="flex gap-8">
               <input
-              type="text"
-              className="border p-2 rounded text-sm font-medium mt-6 w-full"
-              placeholder="Kategorileri virgülle ayırarak yazın"
-              value={categories.join(", ")} 
-              onChange={(e) => setCategories(e.target.value.split(",").map((category) => category.trim()))} // virgülle ayrılan kategorileri diziye çevirip günceller
-            />
-             ) : ( <div className="flex items-center justify-center">
+                type="text"
+                className="border p-2 rounded text-sm font-medium mt-6 w-full"
+                placeholder="Kategorileri virgülle ayırarak yazın"
+                value={categories.join(", ")}
+                onChange={(e) =>
+                  setCategories(
+                    e.target.value.split(",").map((category) => category.trim())
+                  )
+                }
+              />
+              <input
+                type="text"
+                className="border p-2 rounded text-sm font-medium mt-6 w-full"
+                placeholder="Kategorileri virgülle ayırarak yazın"
+                value={categoriesEN.join(", ")}
+                onChange={(e) =>
+                  setCategoriesEN(
+                    e.target.value.split(",").map((category) => category.trim())
+                  )
+                }
+              />
+            </div>
+          ) : (
+            <div className="flex items-center justify-center">
               <span className="text-color6 text-sm font-medium mt-6">
-                {categories && categories.length > 0
-                  ? categories
-                      .map((category) => category.toUpperCase())
+              {(locale === "tr" ? categories : categoriesEN)?.length > 0
+                        ? (locale === "tr" ? categories : categoriesEN)
+                            .map((category) => category.toUpperCase())
                       .join(" | ")
                   : "NO CATEGORY"}
               </span>
-            </div>)
-           }
-          
+            </div>
+          )}
 
-
-          <span className="text-xs font-light text-color7 mt-2">
-            {new Date(post.createdAt).toLocaleDateString(
-              locale === "tr" ? "tr-TR" : "en-GB",
-              {
-                day: "2-digit",
-                month: "short",
-                year: "numeric",
-              }
-            )}
-          </span>
+          {!updateMode && (
+            <span className="text-xs font-light text-color7 mt-2">
+              {new Date(post.createdAt).toLocaleDateString(
+                locale === "tr" ? "tr-TR" : "en-GB",
+                {
+                  day: "2-digit",
+                  month: "short",
+                  year: "numeric",
+                }
+              )}
+            </span>
+          )}
           {post.username === user?.username && (
             <div className="flex items-center justify-center mt-4 gap-4 ">
               <FontAwesomeIcon
@@ -170,7 +207,7 @@ export default function SinglePost({ postId }) {
                 height={3000}
                 className="w-full h-72 object-cover rounded-lg"
                 priority
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             )}
           </div>
@@ -178,24 +215,53 @@ export default function SinglePost({ postId }) {
           {/* Makale */}
           <div className="md:border-l border-color6 md:pl-8 flex flex-col">
             {updateMode ? (
-              <div
-                className="border p-2 rounded text-sm font-medium mt-6 w-full
-              h-[50vh] overflow-y-auto text-gray-800"
-                contentEditable
-                suppressContentEditableWarning
-                style={{
-                  minHeight: "30vh",
-                  whiteSpace: "pre-wrap",
-                }}
-                onInput={(e) => {
-                  setDesc(e.currentTarget.innerText);
-                }}
-              >
-                {post.desc}
+              <div className="flex flex-col gap-2">
+                <>
+                  <span className="text-sm text-color6">
+                    Güncellenecek Türkçe Metin:
+                  </span>
+                  <div
+                    className="border p-2 rounded text-sm font-medium mt-6 w-full
+                h-[50vh] overflow-y-auto text-gray-800"
+                    contentEditable
+                    suppressContentEditableWarning
+                    style={{
+                      minHeight: "30vh",
+                      whiteSpace: "pre-wrap",
+                    }}
+                    onInput={(e) => {
+                      setDesc(e.currentTarget.innerText);
+                    }}
+                  >
+                    {post.desc}
+                  </div>
+                </>
+
+                <>
+                  <span className="text-sm text-color6">
+                    Güncellenecek İngilizce Metin:{" "}
+                  </span>
+                  <div
+                    className="border p-2 rounded text-sm font-medium mt-6 w-full
+                   h-[50vh] overflow-y-auto text-gray-800"
+                    contentEditable
+                    suppressContentEditableWarning
+                    style={{
+                      minHeight: "30vh",
+                      whiteSpace: "pre-wrap",
+                    }}
+                    onInput={(e) => {
+                      setDescEN(e.currentTarget.innerText);
+                    }}
+                  >
+                    {post.descEN}
+                  </div>
+                </>
               </div>
             ) : (
               <p className="text-base text-gray-700 whitespace-pre-wrap">
-                {desc}
+                
+                {locale === "tr" ? desc : descEN}
               </p>
             )}
           </div>
@@ -222,11 +288,13 @@ export default function SinglePost({ postId }) {
         {/* Sidebar */}
         <div className="flex flex-col w-full gap-8 overflow-y-auto lg:w-1/4 ">
           <div className="flex justify-between items-center sticky top-0 bg-white py-2">
-            <h3 className="text-sm md:text-md font-semibold">Latest Insights</h3>
+            <h3 className="text-sm md:text-md font-semibold">
+              Latest Insights
+            </h3>
             <span className="text-xs font-light text-gray-900">View all</span>
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-1 gap-4 pt-4">
-          {articles.map((article, index) => (
+            {articles.map((article, index) => (
               <InsightCard key={index} article={article} locale={locale} />
             ))}
           </div>
