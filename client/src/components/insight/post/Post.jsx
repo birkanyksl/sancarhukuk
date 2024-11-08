@@ -6,14 +6,14 @@ import React from "react";
 const Post = ({ post }) => {
   const locale = useLocale();
   return (
-    <div className="flex flex-col gap-4 w-full my-8 cursor-pointer p-8 shadow-md rounded-2xl bg-slate-50 ">
+    <div className="flex flex-col gap-4 w-full my-3 cursor-pointer p-4 shadow-sm  bg-white ">
       <div className="relative w-full h-48 md:h-64 ">
         {post.photo && (
           <Image
             src={post.photo}
             alt="blog-image"
             fill
-            className="object-cover rounded-xl "
+            className="object-cover rounded-sm "
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             priority
           />

@@ -132,7 +132,7 @@ const SinglePage = ({ params }) => {
           <div className="w-full overflow-hidden lg:w-1/2 flex justify-center max-w-[400px]  mx-auto">
             <Image
               src="/erkanprofil.png"
-              alt="Maria Johnson"
+              alt="Avukat Fotoğraf"
               width={400}
               height={600}
               className="object-contain"

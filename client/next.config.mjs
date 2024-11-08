@@ -28,7 +28,7 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'firebasestorage.googleapis.com',
                 port: '',
-                pathname: '/v0/b/**', // Firebase Storage'dan gelen resimlerin yolu
+                pathname: '/v0/b/**', 
               },
         ],
     },

@@ -151,7 +151,7 @@ const Team = () => {
         </div>
       </div>
 
-      <div className="px-6 pb-8 md:px-8 lg:px-16 xl:px-32 2xl:px-36 mb-20 shadow-lg">
+      <div className="px-6 pb-8 md:px-8 lg:px-16 xl:px-32 2xl:px-36 2xl:mt-20 mb-20 ">
         <div className="flex flex-col lg:flex-row mx-auto px-8 justify-center ">
           <div className="lg:w-1/2 w-full pt-20 px-8 justify-center ">
             <div className="flex flex-col gap-4 mb-10 justify-center">
