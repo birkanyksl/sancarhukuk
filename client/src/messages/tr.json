@@ -1,0 +1,70 @@
+{
+  "navbarlinks": {
+    "about": "Hakkımızda",
+    "team": "Ekibimiz",
+    "services": "Hizmetler",
+    "publications": "Yayınlar",
+    "career": "Kariyer",
+    "contact": "İletişim",
+    "ePayment": "E-Tahsilat"
+  },
+  "LocaleSwitcher": {
+    "label": "Dil Seçiniz",
+    "locale": "{locale, select, en {İngilizce} tr {Türkçe} other {Bilinmiyor}}"
+  },
+  "SliderTexts":{
+    "slider1header":"Uzmanlık ve Güvenle Hukuki Çözümler",
+    "slider1paragh":"Sancar Hukuk, İstanbul merkezli olarak, bireysel ve kurumsal müvekkillerine kapsamlı hukuki danışmanlık ve temsil hizmetleri sunmaktadır. Her alanda profesyonel çözümlerle yanınızdayız.",
+    "slider2header":"Etkin ve Şeffaf Hukuk Hizmetleri",
+    "slider2paragh":"Müvekkillerimizin haklarını en iyi şekilde savunmayı ilke edinen Sancar Hukuk, ticaret hukuku, iş hukuku ve aile hukuku gibi alanlarda uzmanlaşmıştır. Hukuki süreçlerinizi şeffaf bir şekilde yönetiyoruz.",
+    "slider3header":"İstanbul'da Hukukun Güvencesi",
+    "slider3paragh":"Sancar Hukuk, ulusal ve uluslararası hukuki meselelerde geniş bir yelpazede hizmet sunarak müvekkillerine stratejik ve etkili çözümler üretmektedir."
+  },
+  "HomePractices": {
+    "title": "Hizmetlerimiz",
+    "practicesHome1": "Ticaret Hukuku",
+    "practicesHome2": "Aile Hukuku",
+    "practicesHome3": "İcra Hukuku",
+    "practicesHome4": "Ceza Hukuku",
+    "practicesHome5": "İş Hukuku",
+    "practicesHome6": "Miras Hukuku",
+    "practicesHome7": "Gayrimenkul Hukuku",
+    "practicesHome8": "Bilişim Hukuku"
+    
+  },
+  "breadcrumb": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "team": "Ekibimiz",
+    "practice": "Hizmetler",
+    "insight":"Yayınlar",
+    "communication": "İletişim",
+    "yabanci-yatirimlar": "Yabancı Yatırımlar",
+    "birlesme-ve-devralma": "Birleşme ve Devralma",
+    "sirketler-hukuku-ve-kurumsal-yonetim": "Şirketler Hukuku ve Kurumsal Yönetim",
+    "uyusmazlik-cozumu": "Uyuşmazlık Çözümü",
+    "bilgi-teknolojileri-ve-telekomunikasyon": "Bilgi Teknolojileri ve Telekomünikasyon",
+    "bankacilik-ve-finans": "Bankacılık ve Finans",
+    "sermaye-piyasasi": "Sermaye Piyasası",
+    "havacilik-ve-savunma-sanayii": "Havacılık ve Savunma Sanayii",
+    "projeler": "Projeler",
+    "vatandaslik-ve-goc": "Vatandaşlık ve Göç",
+    "is-hukuku": "İş Hukuku",
+    "insaat-ve-altyapi": "İnşaat ve Altyapı",
+    "enerji": "Enerji",
+    "konaklama-ve-eglence": "Konaklama ve Eğlence",
+    "kisisel-verilerin-korunmasi": "Kişisel Verilerin Korunması",
+    "fikri-mulkiyet": "Fikri Mülkiyet",
+    "yapay-zeka-ve-otomatik-sistemler": "Yapay Zeka ve Otomatik Sistemler",
+    "veri-gizliligi-ve-guvenligi": "Veri Gizliliği ve Güvenliği",
+    "medya-ve-eglence": "Medya ve Eğlence",
+    "uluslararasi-ticaret": "Uluslararası Ticaret",
+    "vergi-hukuku": "Vergi Hukuku",
+    "gayrimenkul-ve-kira-hukuku": "Gayrimenkul ve Kira Hukuku",
+    "miras-hukuku": "Miras Hukuku",
+    "dernekler-hukuku": "Dernekler Hukuku",
+    "alacakli-haklari-ve-iflas": "Alacaklı Hakları ve İflas",
+    "e-ticaret": "E-Ticaret",
+    "saglik-ve-yasam-bilimleri": "Sağlık ve Yaşam Bilimleri"
+}
+}

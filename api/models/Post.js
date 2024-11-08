@@ -23,6 +23,19 @@ const PostSchema = new mongoose.Schema(
       type: Array,
       required: false,
     },
+    titleEN: {
+      type: String,
+      required: true,
+      unique: true,
+    },
+    descEN: {
+      type: String,
+      required: true,
+    },
+    categoriesEN: {
+      type: Array,
+      required: false,
+    },
   },
   { timestamps: true }
 );

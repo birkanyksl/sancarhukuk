@@ -1,0 +1,70 @@
+{
+  "navbarlinks": {
+    "about": "About Us",
+    "team": "Team",
+    "services": "Practices",
+    "publications": "Publications",
+    "career": "Career",
+    "contact": "Contact",
+    "ePayment": "E-Payment"
+  },
+  "LocaleSwitcher": {
+    "label": "Change Language",
+    "locale": "{locale, select, en {English} tr {Turkish} other {Unknown}}"
+  },
+  "SliderTexts":{
+    "slider1header":"Legal Solutions with Expertise and Trust",
+    "slider1paragh":"Based in Istanbul, Sancar Law offers comprehensive legal consultancy and representation services to both individual and corporate clients. We provide professional solutions across all areas.",
+    "slider2header":"Effective and Transparent Legal Services",
+    "slider2paragh":"Sancar Law is committed to defending the rights of its clients with the highest standards, specializing in areas such as commercial law, labor law, and family law. We manage your legal processes transparently.",
+    "slider3header":"The Assurance of Law in Istanbul",
+    "slider3paragh":"Sancar Law offers a wide range of services in both national and international legal matters, providing strategic and effective solutions to its clients."
+  },
+  "HomePractices":{
+    "title": "Practices",
+    "practicesHome1": "Commercial Law",
+    "practicesHome2": "Family Law",
+    "practicesHome3": "Enforcement Law",
+    "practicesHome4": "Criminal Law",
+    "practicesHome5": "Labor Law",
+    "practicesHome6": "Inheritance Law",
+    "practicesHome7": "Real Estate Law",
+    "practicesHome8": "Information Technology Law"
+  
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "about": "About Us",
+    "team": "Team",
+    "practice": "Practices",
+    "insight":"Publications",
+    "communication": "Contact",
+    "yabanci-yatirimlar": "Foreign Investments",
+    "birlesme-ve-devralma": "Mergers and Acquisitions",
+    "sirketler-hukuku-ve-kurumsal-yonetim": "Corporate Law and Governance",
+    "uyusmazlik-cozumu": "Dispute Resolution",
+    "bilgi-teknolojileri-ve-telekomunikasyon": "Information Technology and Telecommunications",
+    "bankacilik-ve-finans": "Banking and Finance",
+    "sermaye-piyasasi": "Capital Markets",
+    "havacilik-ve-savunma-sanayii": "Aerospace and Defense Industry",
+    "projeler": "Projects",
+    "vatandaslik-ve-goc": "Citizenship and Immigration",
+    "is-hukuku": "Labor Law",
+    "insaat-ve-altyapi": "Construction and Infrastructure",
+    "enerji": "Energy",
+    "konaklama-ve-eglence": "Hospitality and Entertainment",
+    "kisisel-verilerin-korunmasi": "Personal Data Protection",
+    "fikri-mulkiyet": "Intellectual Property",
+    "yapay-zeka-ve-otomatik-sistemler": "Artificial Intelligence and Automated Systems",
+    "veri-gizliligi-ve-guvenligi": "Data Privacy and Security",
+    "medya-ve-eglence": "Media and Entertainment",
+    "uluslararasi-ticaret": "International Trade",
+    "vergi-hukuku": "Tax Law",
+    "gayrimenkul-ve-kira-hukuku": "Real Estate and Lease Law",
+    "miras-hukuku": "Inheritance Law",
+    "dernekler-hukuku": "Associations Law",
+    "alacakli-haklari-ve-iflas": "Creditor Rights and Bankruptcy",
+    "e-ticaret": "E-Commerce",
+    "saglik-ve-yasam-bilimleri": "Health and Life Sciences"
+}
+}
