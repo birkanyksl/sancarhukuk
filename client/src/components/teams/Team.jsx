@@ -75,7 +75,7 @@ const Team = () => {
         </div>
       </div>
 
-      <div className="relative h-[50vh] shadow-lg">
+      <div className="relative h-[50vh] shadow-lg md:my-10">
         <div className="relative z-10 h-full flex flex-col justify-center items-center text-color1 px-4 text-center">
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold md:mb-2">
             Defining <span className="text-color6">success</span> together

@@ -31,6 +31,7 @@ const AboutPage = () => {
               quality={80}
               priority
               className="rounded-lg object-cover"
+               sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
             />
           </div>
           <HorizontalDivider width="100%" />
@@ -53,6 +54,7 @@ const AboutPage = () => {
               fill
               quality={80}
               className="rounded-lg object-cover"
+               sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
             />
           </div>
           <HorizontalDivider width="100%" />
@@ -75,6 +77,7 @@ const AboutPage = () => {
               fill
               quality={80}
               className="rounded-lg object-cover"
+               sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
             />
           </div>
           <HorizontalDivider width="100%" />
@@ -96,6 +99,7 @@ const AboutPage = () => {
                 fill
                 quality={80}
                 className="rounded-lg object-cover"
+                 sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
               />
             </div>
           ))}
