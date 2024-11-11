@@ -20,6 +20,7 @@ const SinglePractice = ({ params }) => {
 
  
   const handleSelect = (practice) => {
+  
     setSelectedPractice(practice);
     setIsDropdownOpen(false);
   };

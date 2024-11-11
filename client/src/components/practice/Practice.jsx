@@ -7,7 +7,7 @@ import practiceDetails from '@/data/practiceDetails';
 
 const Practice = () => {
   return (
-    <div className="container mx-auto p-8 bg-slate-50 my-10 ">
+    <div className="container mx-auto p-8 bg-slate-50 mt-10 mb-20 ">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 ">
         {Object.keys(practiceDetails).map((practice) => (
           <Link

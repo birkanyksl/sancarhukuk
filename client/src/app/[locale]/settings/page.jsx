@@ -110,14 +110,14 @@ export default function Settings() {
   }
 
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex flex-col md:flex-row mb-20">
       <div className="flex-1 p-6 max-w-lg mx-auto">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl text-lightcoral font-semibold">
             Update Your Account
           </h2>
-          <span className="text-red-600 text-sm cursor-pointer">
-            Delete Account
+          <span className="text-red-600 text-sm cursor-pointer" >
+            {/* Delete Account */}
           </span>
         </div>
         <form className="flex flex-col space-y-4" onSubmit={handleSubmit}>
@@ -182,7 +182,8 @@ export default function Settings() {
           )}
           <button
             type="submit"
-            className="w-full text-color6 font-normal py-2 border border-color6 rounded-sm transition-all duration-300 hover:font-semibold "
+            className="w-full text-color6 font-normal py-2 border border-color6 rounded-sm transition-all duration-300 hover:font-semibold cursor-not-allowed"
+            disabled
           >
             Update
           </button>

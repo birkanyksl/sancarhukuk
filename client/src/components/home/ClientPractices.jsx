@@ -64,6 +64,7 @@ const ClientPractices = ({ images }) => {
                 fill
                  sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
                 className="object-cover rounded-md transition-all duration-500  "
+                priority
               />
             </div>
             <div className="bg-color6 absolute flex flex-col justify-center w-[90%] top-[200px] left-1/2 transform -translate-x-1/2 p-6 rounded-lg">

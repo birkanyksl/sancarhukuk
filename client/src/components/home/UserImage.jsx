@@ -17,6 +17,8 @@ const UserImage = () => {
         alt="Profil Fotoğrafı"
         fill
         className="rounded-full object-cover"
+        sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
+        priority
       />
     </div>
   );

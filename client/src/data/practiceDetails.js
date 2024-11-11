@@ -49,61 +49,44 @@ const practiceDetails = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Yabancı Yatırımlar Hukuku Kapsamında Verdiğimiz Hizmetler:
+          Yabancı Yatırımlar Hukuku Kapsamında Verdiğimiz Hizmetler
         </h2>
-        <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800 ">
-          <li className="mb-2">
-            <span className="font-semibold">
-              Yabancı Sermayeli Şirketlerin Kurulumu:{" "}
-            </span>
-            Türkiye’de yabancı yatırımcılara yönelik çeşitli şirket kurma
-            modelleri bulunmaktadır. Büromuz, yatırımcıların ihtiyaçlarına en
-            uygun şirket yapısını belirlemekte ve gerekli yasal işlemleri
-            yürütmektedir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Mülk Edinme ve Gayrimenkul Yatırımları:{" "}
-            </span>
-            Yabancı yatırımcıların Türkiye’de taşınmaz satın alması ve yatırım
-            amaçlı gayrimenkul edinmesi süreçlerinde danışmanlık sağlıyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Yabancı Yatırım Teşvikleri: </span>
-            Yatırım teşvik belgelerinin hazırlanması ve devlet teşviklerinden
-            yararlanma süreçlerinde müvekkillerimize hukuki rehberlik sunuyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Yatırımcı Haklarının Korunması:{" "}
-            </span>
-            Yabancı yatırımcıların Türkiye’deki yatırımlarını güvence altına
-            alacak hukuki düzenlemelerle ilgili danışmanlık sağlıyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Ortaklık Yapıları ve Birleşme & Devralma:{" "}
-            </span>
-            Yabancı yatırımcıların Türkiye'de yerel şirketlerle yapacakları
-            ortaklık anlaşmalarının hazırlanması, müzakereler ve yasal
-            düzenlemelerin uyumlu hale getirilmesi süreçlerini yönetiyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Çifte Vergilendirme Anlaşmaları:{" "}
-            </span>
-            Yabancı yatırımcıların, Türkiye’de ve anavatanlarında
-            karşılaşacakları çifte vergilendirme risklerini önlemek amacıyla
-            gerekli anlaşmalar ve düzenlemeler konusunda danışmanlık hizmeti
-            veriyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Uluslararası Ticaret Hukuku: </span>
-            Türkiye'de faaliyet gösteren yabancı yatırımcılar için uluslararası
-            ticaret işlemlerinde yasal uyum ve ticari uyuşmazlıkların çözümü
-            konularında kapsamlı hizmetler sunuyoruz.
-          </li>
-        </ul>
+        <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
+  <li className="mb-2 font-semibold">Yabancı Sermayeli Şirketlerin Kurulumu</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Türkiye’de yabancı yatırımcılara yönelik çeşitli şirket kurma modelleri bulunmaktadır. Büromuz, yatırımcıların ihtiyaçlarına en uygun şirket yapısını belirlemekte ve gerekli yasal işlemleri yürütmektedir.
+  </p>
+
+  <li className="mb-2 font-semibold">Mülk Edinme ve Gayrimenkul Yatırımları</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yabancı yatırımcıların Türkiye’de taşınmaz satın alması ve yatırım amaçlı gayrimenkul edinmesi süreçlerinde danışmanlık sağlıyoruz.
+  </p>
+
+  <li className="mb-2 font-semibold">Yabancı Yatırım Teşvikleri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yatırım teşvik belgelerinin hazırlanması ve devlet teşviklerinden yararlanma süreçlerinde müvekkillerimize hukuki rehberlik sunuyoruz.
+  </p>
+
+  <li className="mb-2 font-semibold">Yatırımcı Haklarının Korunması</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yabancı yatırımcıların Türkiye’deki yatırımlarını güvence altına alacak hukuki düzenlemelerle ilgili danışmanlık sağlıyoruz.
+  </p>
+
+  <li className="mb-2 font-semibold">Ortaklık Yapıları ve Birleşme & Devralma</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yabancı yatırımcıların Türkiye'de yerel şirketlerle yapacakları ortaklık anlaşmalarının hazırlanması, müzakereler ve yasal düzenlemelerin uyumlu hale getirilmesi süreçlerini yönetiyoruz.
+  </p>
+
+  <li className="mb-2 font-semibold">Çifte Vergilendirme Anlaşmaları</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yabancı yatırımcıların, Türkiye’de ve anavatanlarında karşılaşacakları çifte vergilendirme risklerini önlemek amacıyla gerekli anlaşmalar ve düzenlemeler konusunda danışmanlık hizmeti veriyoruz.
+  </p>
+
+  <li className="mb-2 font-semibold">Uluslararası Ticaret Hukuku</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Türkiye'de faaliyet gösteren yabancı yatırımcılar için uluslararası ticaret işlemlerinde yasal uyum ve ticari uyuşmazlıkların çözümü konularında kapsamlı hizmetler sunuyoruz.
+  </p>
+</ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
           Türkiye’de Yabancı Yatırımcılar İçin Fırsatlar
@@ -185,66 +168,39 @@ const practiceDetails = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Birleşme ve Devralma Kapsamında Verdiğimiz Hizmetler:
+          Birleşme ve Devralma Kapsamında Verdiğimiz Hizmetler
         </h2>
-        <ul className="mb-4 list-disc list-inside text-[14px] md:text-base leading-6 text-gray-800 ">
-          <li className="mb-2">
-            <span className="font-semibold">
-              Hukuki ve Finansal Due Diligence:{" "}
-            </span>
-            Birleşme ve devralma sürecinin en kritik aşamalarından biri olan due
-            diligence, şirketlerin mali ve hukuki durumlarının detaylı
-            incelenmesi sürecidir. Büromuz, yatırımcıların birleşme veya
-            devralma öncesinde hedef şirketin mali ve hukuki durumunu eksiksiz
-            olarak anlamalarını sağlamak amacıyla kapsamlı incelemeler
-            yürütmektedir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Sözleşmelerin Hazırlanması ve Müzakeresi:{" "}
-            </span>
-            Büromuz, birleşme ve devralma işlemlerinde taraflar arasında
-            imzalanacak olan hisse devir sözleşmeleri, ortaklık sözleşmeleri ve
-            diğer ilgili belgelerin hazırlanmasında titizlikle çalışmakta ve
-            müzakereler sırasında müvekkillerini en iyi şekilde temsil
-            etmektedir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Şirket Yeniden Yapılandırmaları:{" "}
-            </span>
-            Birleşme ve devralma işlemlerinden sonra şirketlerin organizasyonel
-            yapısında ve operasyonel süreçlerinde önemli değişiklikler olabilir.
-            Sancar Hukuk Bürosu, müvekkillerinin ihtiyaçlarına göre yeniden
-            yapılanma süreçlerinde hukuki rehberlik sunarak bu geçiş dönemini
-            kolaylaştırmaktadır.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Hissedarlar Arası Anlaşmazlıkların Çözümü:{" "}
-            </span>
-            Birleşme ve devralma sürecinde ortaya çıkabilecek hissedar
-            anlaşmazlıkları, hukuki ve ticari açıdan büyük riskler doğurabilir.
-            Büromuz, hissedarlar arasındaki anlaşmazlıkların çözümüne yönelik
-            hukuki stratejiler geliştirir ve uzlaşma süreçlerini etkin bir
-            şekilde yönetir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Vergisel Yapılandırma ve Planlama:{" "}
-            </span>
-            Büromuz, M&A işlemleri sırasında vergi danışmanlığı hizmetleri
-            sunarak, işlemlerin vergi açısından en avantajlı şekilde yapılmasını
-            sağlar.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Rekabet Hukuku Uyumu: </span>
-            Türkiye'deki birleşme ve devralma işlemlerinde, Rekabet Kurumu’nun
-            onay süreci kritik bir rol oynar. Sancar Hukuk Bürosu, rekabet
-            hukuku alanındaki uzmanlığı ile işlemlerin Türkiye’deki rekabet
-            hukuku düzenlemelerine uyumlu bir şekilde yürütülmesini sağlar.
-          </li>
-        </ul>
+        <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
+  <li className="mb-2 font-semibold">Hukuki ve Finansal Due Diligence</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Birleşme ve devralma sürecinin en kritik aşamalarından biri olan due diligence, şirketlerin mali ve hukuki durumlarının detaylı incelenmesi sürecidir. Büromuz, yatırımcıların birleşme veya devralma öncesinde hedef şirketin mali ve hukuki durumunu eksiksiz olarak anlamalarını sağlamak amacıyla kapsamlı incelemeler yürütmektedir.
+  </p>
+
+  <li className="mb-2 font-semibold">Sözleşmelerin Hazırlanması ve Müzakeresi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Büromuz, birleşme ve devralma işlemlerinde taraflar arasında imzalanacak olan hisse devir sözleşmeleri, ortaklık sözleşmeleri ve diğer ilgili belgelerin hazırlanmasında titizlikle çalışmakta ve müzakereler sırasında müvekkillerini en iyi şekilde temsil etmektedir.
+  </p>
+
+  <li className="mb-2 font-semibold">Şirket Yeniden Yapılandırmaları</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Birleşme ve devralma işlemlerinden sonra şirketlerin organizasyonel yapısında ve operasyonel süreçlerinde önemli değişiklikler olabilir. Sancar Hukuk Bürosu, müvekkillerinin ihtiyaçlarına göre yeniden yapılanma süreçlerinde hukuki rehberlik sunarak bu geçiş dönemini kolaylaştırmaktadır.
+  </p>
+
+  <li className="mb-2 font-semibold">Hissedarlar Arası Anlaşmazlıkların Çözümü</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Birleşme ve devralma sürecinde ortaya çıkabilecek hissedar anlaşmazlıkları, hukuki ve ticari açıdan büyük riskler doğurabilir. Büromuz, hissedarlar arasındaki anlaşmazlıkların çözümüne yönelik hukuki stratejiler geliştirir ve uzlaşma süreçlerini etkin bir şekilde yönetir.
+  </p>
+
+  <li className="mb-2 font-semibold">Vergisel Yapılandırma ve Planlama</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Büromuz, M&A işlemleri sırasında vergi danışmanlığı hizmetleri sunarak, işlemlerin vergi açısından en avantajlı şekilde yapılmasını sağlar.
+  </p>
+
+  <li className="mb-2 font-semibold">Rekabet Hukuku Uyumu</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Türkiye'deki birleşme ve devralma işlemlerinde, Rekabet Kurumu’nun onay süreci kritik bir rol oynar. Sancar Hukuk Bürosu, rekabet hukuku alanındaki uzmanlığı ile işlemlerin Türkiye’deki rekabet hukuku düzenlemelerine uyumlu bir şekilde yürütülmesini sağlar.
+  </p>
+</ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
           Uluslararası Birleşme ve Devralmalar
@@ -315,58 +271,32 @@ const practiceDetails = {
         <h2 className="text-base md:text-lg font-bold mb-4">
           Şirketler Hukuku Kapsamında Verdiğimiz Hizmetler
         </h2>
-        <ul className="mb-4 list-disc list-inside text-[14px] md:text-base leading-6 text-gray-800 ">
-          <li className="mb-2">
-            <span className="font-semibold">Şirket Kuruluşu: </span>
-            Sancar Hukuk Bürosu, anonim, limited, komandit ve kooperatif gibi
-            farklı şirket türlerinin kuruluş süreçlerinde müvekkillerine hukuki
-            danışmanlık sunmaktadır. Şirketin türüne uygun olarak ana
-            sözleşmelerin hazırlanması, Ticaret Sicil işlemlerinin tamamlanması
-            ve ilgili mevzuata uyum sağlanması süreçlerinde etkin bir rehberlik
-            sağlıyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Şirket Birleşmeleri, Bölünmeleri ve Tür Değişiklikleri:{" "}
-            </span>
-            Şirketlerin birleşme, bölünme veya tür değiştirme işlemleri, birçok
-            hukuki ve ticari detayı içeren karmaşık süreçlerdir. Büromuz,
-            müvekkillerinin ticari hedefleri doğrultusunda en uygun hukuki
-            yapıyı oluşturmak için bu işlemlerde kapsamlı hukuki hizmet
-            sunmaktadır.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Hissedarlar Arası Anlaşmazlıkların Çözümü:{" "}
-            </span>
-            Şirket içindeki hissedarlar arasında ortaya çıkabilecek
-            anlaşmazlıklar, hem şirketin finansal istikrarını hem de kurumsal
-            yapısını tehdit edebilir. Sancar Hukuk Bürosu, hissedarlar arasında
-            doğabilecek uyuşmazlıkların çözümü için uzlaşma ve müzakere
-            süreçlerini etkin bir şekilde yönetir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Kurumsal Yönetim İlkeleri: </span>
-            Kurumsal yönetim, bir şirketin uzun vadeli başarısı için kritik bir
-            faktördür. Büromuz, şirketlerin kurumsal yönetim ilkelerine uygun
-            şekilde hareket etmelerini sağlamak amacıyla yönetim kurulu
-            yapılarının oluşturulması, iç denetim süreçlerinin belirlenmesi ve
-            etik kuralların uygulanması gibi konularda kapsamlı hukuki
-            danışmanlık sunmaktadır.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Genel Kurul ve Yönetim Kurulu İşlemleri:{" "}
-            </span>
-            Şirket genel kurulları ve yönetim kurulu toplantıları, şirketin
-            karar alma mekanizmasının temel taşlarını oluşturur. Bu süreçlerin
-            hukuki gerekliliklere uygun şekilde yürütülmesi, şirketin
-            gelecekteki başarısı açısından büyük önem taşır. Sancar Hukuk
-            Bürosu, genel kurul ve yönetim kurulu toplantılarının organize
-            edilmesi, kararların doğru bir şekilde alınması ve uygulanmasına
-            yönelik hukuki danışmanlık sağlar.
-          </li>
-        </ul>
+        <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
+  <li className="mb-2 font-semibold">Şirket Kuruluşu</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Sancar Hukuk Bürosu, anonim, limited, komandit ve kooperatif gibi farklı şirket türlerinin kuruluş süreçlerinde müvekkillerine hukuki danışmanlık sunmaktadır. Şirketin türüne uygun olarak ana sözleşmelerin hazırlanması, Ticaret Sicil işlemlerinin tamamlanması ve ilgili mevzuata uyum sağlanması süreçlerinde etkin bir rehberlik sağlıyoruz.
+  </p>
+
+  <li className="mb-2 font-semibold">Şirket Birleşmeleri, Bölünmeleri ve Tür Değişiklikleri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Şirketlerin birleşme, bölünme veya tür değiştirme işlemleri, birçok hukuki ve ticari detayı içeren karmaşık süreçlerdir. Büromuz, müvekkillerinin ticari hedefleri doğrultusunda en uygun hukuki yapıyı oluşturmak için bu işlemlerde kapsamlı hukuki hizmet sunmaktadır.
+  </p>
+
+  <li className="mb-2 font-semibold">Hissedarlar Arası Anlaşmazlıkların Çözümü</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Şirket içindeki hissedarlar arasında ortaya çıkabilecek anlaşmazlıklar, hem şirketin finansal istikrarını hem de kurumsal yapısını tehdit edebilir. Sancar Hukuk Bürosu, hissedarlar arasında doğabilecek uyuşmazlıkların çözümü için uzlaşma ve müzakere süreçlerini etkin bir şekilde yönetir.
+  </p>
+
+  <li className="mb-2 font-semibold">Kurumsal Yönetim İlkeleri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Kurumsal yönetim, bir şirketin uzun vadeli başarısı için kritik bir faktördür. Büromuz, şirketlerin kurumsal yönetim ilkelerine uygun şekilde hareket etmelerini sağlamak amacıyla yönetim kurulu yapılarının oluşturulması, iç denetim süreçlerinin belirlenmesi ve etik kuralların uygulanması gibi konularda kapsamlı hukuki danışmanlık sunmaktadır.
+  </p>
+
+  <li className="mb-2 font-semibold">Genel Kurul ve Yönetim Kurulu İşlemleri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Şirket genel kurulları ve yönetim kurulu toplantıları, şirketin karar alma mekanizmasının temel taşlarını oluşturur. Bu süreçlerin hukuki gerekliliklere uygun şekilde yürütülmesi, şirketin gelecekteki başarısı açısından büyük önem taşır. Sancar Hukuk Bürosu, genel kurul ve yönetim kurulu toplantılarının organize edilmesi, kararların doğru bir şekilde alınması ve uygulanmasına yönelik hukuki danışmanlık sağlar.
+  </p>
+</ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
           Kurumsal Yönetim ve Uyum Süreçleri
@@ -428,42 +358,27 @@ const practiceDetails = {
         <h2 className="text-base md:text-lg font-bold mb-4">
           Uyuşmazlık Çözümünde Verdiğimiz Hizmetler
         </h2>
-        <ul className="mb-4 list-disc list-inside text-[14px] md:text-base leading-6 text-gray-800 ">
-          <li className="mb-2">
-            <span className="font-semibold">Ticari Davalar: </span>
-            Ticari işletmeler arasındaki anlaşmazlıklar, şirketlerin ticari
-            faaliyetlerini sekteye uğratabilir. Ticari davalarda etkin ve
-            stratejik bir savunma, şirketlerin uzun vadeli çıkarlarını korumak
-            açısından hayati önem taşır. Sancar Hukuk Bürosu, ticari davalarda
-            geniş deneyimiyle müvekkillerini temsil eder ve hukuki çözüm yolları
-            sunar.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Arabuluculuk ve Uzlaşma: </span>
-            Hukuki uyuşmazlıkların mahkeme dışında çözülmesi, zaman ve maliyet
-            açısından büyük avantajlar sağlayabilir. Büromuz, müvekkillerimizin
-            arabuluculuk ve uzlaşma süreçlerinde en iyi sonucu elde etmeleri
-            için profesyonel danışmanlık hizmeti sunmaktadır. Arabuluculuk
-            süreçlerinde uzlaşmacı ve çözüm odaklı yaklaşımlar geliştirerek,
-            uyuşmazlıkların hızlı ve etkin bir şekilde çözülmesini sağlıyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Tahkim: </span>
-            Uluslararası ticaretin yaygınlaşmasıyla birlikte, tahkim, uyuşmazlık
-            çözümünde önemli bir alternatif olarak öne çıkmaktadır. Sancar Hukuk
-            Bürosu, yerel ve uluslararası tahkim süreçlerinde müvekkillerine
-            hukuki destek sağlayarak, uyuşmazlıkların en kısa sürede ve müvekkil
-            lehine sonuçlanmasını hedeflemektedir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">İdari Davalar: </span>
-            İdare ile şirketler arasındaki hukuki uyuşmazlıklar, şirketlerin
-            faaliyetlerini durma noktasına getirebilir. Sancar Hukuk Bürosu,
-            idare hukuku alanında geniş bilgi birikimi ve deneyime sahip olup,
-            idari işlemlerin iptali ve tam yargı davalarında müvekkillerini
-            etkin bir şekilde savunmaktadır.
-          </li>
-        </ul>
+        <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
+  <li className="mb-2 font-semibold">Ticari Davalar</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Ticari işletmeler arasındaki anlaşmazlıklar, şirketlerin ticari faaliyetlerini sekteye uğratabilir. Ticari davalarda etkin ve stratejik bir savunma, şirketlerin uzun vadeli çıkarlarını korumak açısından hayati önem taşır. Sancar Hukuk Bürosu, ticari davalarda geniş deneyimiyle müvekkillerini temsil eder ve hukuki çözüm yolları sunar.
+  </p>
+
+  <li className="mb-2 font-semibold">Arabuluculuk ve Uzlaşma</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Hukuki uyuşmazlıkların mahkeme dışında çözülmesi, zaman ve maliyet açısından büyük avantajlar sağlayabilir. Büromuz, müvekkillerimizin arabuluculuk ve uzlaşma süreçlerinde en iyi sonucu elde etmeleri için profesyonel danışmanlık hizmeti sunmaktadır. Arabuluculuk süreçlerinde uzlaşmacı ve çözüm odaklı yaklaşımlar geliştirerek, uyuşmazlıkların hızlı ve etkin bir şekilde çözülmesini sağlıyoruz.
+  </p>
+
+  <li className="mb-2 font-semibold">Tahkim</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Uluslararası ticaretin yaygınlaşmasıyla birlikte, tahkim, uyuşmazlık çözümünde önemli bir alternatif olarak öne çıkmaktadır. Sancar Hukuk Bürosu, yerel ve uluslararası tahkim süreçlerinde müvekkillerine hukuki destek sağlayarak, uyuşmazlıkların en kısa sürede ve müvekkil lehine sonuçlanmasını hedeflemektedir.
+  </p>
+
+  <li className="mb-2 font-semibold">İdari Davalar</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İdare ile şirketler arasındaki hukuki uyuşmazlıklar, şirketlerin faaliyetlerini durma noktasına getirebilir. Sancar Hukuk Bürosu, idare hukuku alanında geniş bilgi birikimi ve deneyime sahip olup, idari işlemlerin iptali ve tam yargı davalarında müvekkillerini etkin bir şekilde savunmaktadır.
+  </p>
+</ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
           Alternatif Uyuşmazlık Çözüm Yöntemleri

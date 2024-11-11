@@ -4,6 +4,7 @@ import HeadingWithDivider from "../HeadingWithDivider";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useLocale } from "next-intl";
+import { Link } from "@/navigation";
 
 const HomeInsights = () => {
   const [articles, setArticles] = useState([]);
@@ -91,7 +92,11 @@ const HomeInsights = () => {
             <h3 className="text-sm md:text-md font-semibold">
               Latest Insights
             </h3>
-            <span className="text-xs font-light text-gray-900">View all</span>
+          
+            <Link href={"/insight"}>
+            <span className="text-xs font-light text-gray-900 cursor-pointer">View all</span>
+            </Link>
+            
           </div>
           <div className="grid grid-cols-2 gap-4 pt-4">
             {rightArticles.map((article, index) => (
