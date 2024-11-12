@@ -67,9 +67,9 @@ const Team = () => {
               alt="Maria Johnson"
               width={400}
               height={600}
-              className="object-contain"
+              className="object-contain w-full h-auto"
               priority
-              style={{ width: "auto", height: "auto" }}
+           
             />
           </div>
         </div>
@@ -189,9 +189,9 @@ const Team = () => {
               alt="Maria Johnson"
               width={655}
               height={517}
-              className="object-contain"
+               className="object-contain w-full h-auto"
               priority
-              style={{ width: "auto", height: "auto" }}
+              
             />
           </div>
         </div>

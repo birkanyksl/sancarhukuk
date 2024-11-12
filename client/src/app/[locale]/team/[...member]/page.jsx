@@ -135,8 +135,9 @@ const SinglePage = ({ params }) => {
               alt="Avukat Fotoğraf"
               width={400}
               height={600}
-              className="object-contain"
+               className="object-contain w-full h-auto"
               priority
+              
             />
           </div>
         </div>
@@ -185,7 +186,7 @@ const SinglePage = ({ params }) => {
           </div>
         </div>
       </div>
-      <div className="w-full h-4 shadow-md text-color6 mb-4"></div>
+   
       <div className="container mx-auto px-4 py-12 mb-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-1">
