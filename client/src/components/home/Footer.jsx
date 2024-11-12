@@ -84,7 +84,7 @@ const Footer = () => {
 
       <div className="flex flex-col md:flex-row justify-between items-center text-center pb-4 px-4 gap-1">
         <h1 className="text-xs text-gray-400 font-extralight">
-          © 2024-2025 All rights reserved | Build with ❤ by{" "}
+          © 2024-2025 All rights reserved | 
           <span className="hover:text-color6 font-extralight cursor-pointer">
             Birkan{" "}
           </span>
@@ -92,7 +92,6 @@ const Footer = () => {
         <ul className="text-xs text-gray-400 font-light flex gap-6 ">
           <li className='cursor-pointer'>Gizilik Politikası</li>
           <li className='cursor-pointer'>Yasak Uyarı</li>
-          <li className='cursor-pointer'>Login</li>
         </ul>
       </div>
     </>
