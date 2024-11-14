@@ -110,8 +110,8 @@ export default function Settings() {
   }
 
   return (
-    <div className="flex flex-col md:flex-row mb-20">
-      <div className="flex-1 p-6 max-w-lg mx-auto">
+    <div className="bg-gray-50 mb-20">
+      <div className="flex flex-col p-6 max-w-lg mx-auto ">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl text-lightcoral font-semibold">
             Update Your Account
@@ -154,7 +154,7 @@ export default function Settings() {
             type="text"
             placeholder={user?.username}
             name="name"
-            className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
+            className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500 bg-transparent"
             onChange={(e) => setUsername(e.target.value)}
           />
 
@@ -163,7 +163,7 @@ export default function Settings() {
             type="email"
             placeholder={user?.email}
             name="email"
-            className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
+            className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500 bg-transparent"
             onChange={(e) => setEmail(e.target.value)}
           />
 
@@ -172,7 +172,7 @@ export default function Settings() {
             type="password"
             placeholder="Password"
             name="password"
-            className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500"
+            className="border-b-2 border-gray-300 p-2 focus:outline-none focus:border-teal-500 bg-transparent"
             onChange={(e) => setPassword(e.target.value)}
           />
 

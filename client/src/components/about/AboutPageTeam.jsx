@@ -19,6 +19,7 @@ const AboutPageTeam = () => {
             src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=400"
             fill
             className='object-cover [border-radius:200px_0px_0px_200px]'
+             sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
           />
         </div>
 
@@ -29,6 +30,7 @@ const AboutPageTeam = () => {
             src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=400"
             fill
             className='object-cover [border-radius:0px_200px_200px_0px]'
+             sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
           />
         </div>
       </div>

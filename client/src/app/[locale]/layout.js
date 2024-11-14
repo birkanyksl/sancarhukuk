@@ -20,7 +20,7 @@ export default async function RootLayout({ children, params: { locale } }) {
     <html lang={locale} className="!scroll-smooth">
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
-            <div className="w-full bg-white px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-64 ">
+            <div className="w-full bg-white px-6 md:px-4 lg:px-16 xl:px-32 2xl:px-64 ">
               <Navbar />
             </div>
             {children}

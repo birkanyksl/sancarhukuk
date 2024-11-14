@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="h-24 flex items-center justify-between ">
       {/* LEFT */}
-      <div className="md:hidden lg:block">
+      <div className=" lg:block">
         <Link href="/" className="font-extrabold text-xl">
           <span className="text-color1">SANCAR</span>{" "}
           <span className="text-color6">HUKUK</span>

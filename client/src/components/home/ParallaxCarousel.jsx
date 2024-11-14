@@ -104,3 +104,4 @@ const ParallaxCarousel = () => {
 };
 
 export default ParallaxCarousel;
+

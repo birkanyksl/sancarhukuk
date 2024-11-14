@@ -15,6 +15,8 @@ const HomeInsights = () => {
       try {
         const res = await axios.get("/api/posts");
         const recentArticles = res.data.reverse().slice(0, 11);
+        console.log(res);
+        
         setArticles(recentArticles);
       } catch (error) {
         console.log("Makale alınırken hata oluştu.", error);
@@ -78,9 +80,9 @@ const HomeInsights = () => {
                   </h2>
                 </div>
 
-                <button className="w-[40%] text-xs font-medium text-gray-800 lg:font-semibold">
+                <Link href={`/insight/${article._id}`} className="w-max mr-6 text-xs text-gray-800 font-semibold hover:text-color6">
                   View More
-                </button>
+                </Link>
               </div>
             </div>
           ))}
@@ -100,7 +102,9 @@ const HomeInsights = () => {
           </div>
           <div className="grid grid-cols-2 gap-4 pt-4">
             {rightArticles.map((article, index) => (
+              <Link href={`/insight/${article._id}`}>
               <InsightCard key={index} article={article} locale={locale} />
+              </Link>
             ))}
           </div>
         </div>
