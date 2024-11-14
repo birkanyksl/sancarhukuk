@@ -15,7 +15,7 @@ const HomeInsights = () => {
       try {
         const res = await axios.get("/api/posts");
         const recentArticles = res.data.reverse().slice(0, 11);
-        console.log(res);
+ 
         
         setArticles(recentArticles);
       } catch (error) {
@@ -102,8 +102,8 @@ const HomeInsights = () => {
           </div>
           <div className="grid grid-cols-2 gap-4 pt-4">
             {rightArticles.map((article, index) => (
-              <Link href={`/insight/${article._id}`}>
-              <InsightCard key={index} article={article} locale={locale} />
+              <Link key={index} href={`/insight/${article._id}`}>
+              <InsightCard  article={article} locale={locale} />
               </Link>
             ))}
           </div>
