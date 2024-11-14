@@ -80,7 +80,7 @@ const HomeInsights = () => {
                   </h2>
                 </div>
 
-                <Link href={`/insight/${article._id}`} className="w-[40%] text-xs font-medium text-gray-800 lg:font-semibold">
+                <Link href={`/insight/${article._id}`} className="w-max mr-6 text-xs text-gray-800 font-semibold hover:text-color6">
                   View More
                 </Link>
               </div>
