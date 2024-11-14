@@ -31,12 +31,16 @@ useEffect(() => {
             <div className={`w-6 h-1 bg-gray-800 rounded-sm ${isOpen ? "-rotate-45": ""} origin-left ease-in-out duration-500`}/>
 
             {isOpen && (
-            <div className='absolute left-0 top-24 w-full h-[calc(100vh-96px)] bg-white flex flex-col items-center justify-center gap-8 font-medium text-xl z-10'>
-                <Link href="/about" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out'>Hakkımızda</Link>
-                <Link href="/team" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out'>Ekibimiz</Link>
-                <Link href="/practice" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out'>Hizmetler</Link>
-                <Link href="/insight" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out'>Yayınlar</Link>
-                <Link href="/communication" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out'>İletişim</Link>
+             <div
+             className='absolute left-0 top-24 w-full h-[calc(100vh-96px)] bg-white bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center gap-8 font-medium text-xl z-10'
+           
+           >
+                <div className="bg-cover bg-center bg-no-repeat w-full h-full absolute top-0 left-0 z-0 opacity-40" style={{ backgroundImage: "url('/mobileMenu.png')" }}></div>
+                <Link href="/about" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out z-20'>Hakkımızda</Link>
+                <Link href="/team" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out z-20'>Ekibimiz</Link>
+                <Link href="/practice" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out z-20'>Hizmetler</Link>
+                <Link href="/insight" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out z-20'>Yayınlar</Link>
+                <Link href="/communication" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out z-20'>İletişim</Link>
 
             </div>
             )}

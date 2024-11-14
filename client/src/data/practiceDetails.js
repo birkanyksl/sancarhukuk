@@ -455,66 +455,24 @@ const practiceDetails = {
         <h2 className="text-base md:text-lg font-bold mb-4">
           Sancar Hukuk Bürosu Olarak Sundugumuz Hizmetler
         </h2>
-        <ul className="mb-4 list-disc list-inside text-[14px] md:text-base leading-6 text-gray-800 ">
-          <li className="mb-2">
-            <span className="font-semibold">
-              Veri Koruma ve Gizlilik Danışmanlığı:{" "}
-            </span>
-            Veri koruma, günümüz iş dünyasında en önemli konular arasında yer
-            almaktadır. Sancar Hukuk Bürosu, müvekkillerine veri koruma
-            politikalarının geliştirilmesi, kişisel verilerin işlenmesi ve
-            saklanması süreçlerinde yasal destek sunar. GDPR ve KVKK gibi
-            yasaların gerekliliklerine uyum sağlamak için stratejik danışmanlık
-            hizmetleri vererek, işletmelerin veri güvenliği risklerini minimize
-            etmelerine yardımcı olmaktayız. Ayrıca, veri ihlali durumlarında
-            acil eylem planları oluşturmak ve hukuki süreçlerin yönetimi
-            konusunda destek sunarak, müvekkillerimizin itibarını korumayı
-            hedefliyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Siber Güvenlik ve Hukuki Risk Yönetimi:{" "}
-            </span>
-            Siber saldırılar ve veri ihlalleri, işletmelerin itibarını
-            zedeleyebilir ve finansal kayıplara neden olabilir. Sancar Hukuk
-            Bürosu, siber güvenlik alanında hukuki danışmanlık hizmetleri
-            sunarak, müvekkillerinin siber risklerini yönetmelerine yardımcı
-            olur. Kriz durumlarında, hukuki süreçlerin etkin bir şekilde
-            yürütülmesi için rehberlik sağlıyoruz. Ayrıca, siber güvenlik
-            protokollerinin geliştirilmesi ve uygulanması konusunda da destek
-            sunarak, müvekkillerimizin karşılaşabileceği hukuki riskleri
-            azaltmayı amaçlıyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Telekomünikasyon Sözleşmeleri ve Lisans Başvuruları:{" "}
-            </span>
-            Telekomünikasyon sektörü, karmaşık düzenlemelere ve sözleşmelere
-            tabidir. Sancar Hukuk Bürosu, müvekkillerinin telekomünikasyon
-            hizmetleri için gerekli olan sözleşmelerin hazırlanması ve lisans
-            başvurularında destek sağlamakta, yasal gerekliliklerin yerine
-            getirilmesini kolaylaştırmaktadır. Bu süreçte müvekkillerimizin
-            haklarını koruma konusunda hassasiyet göstermekteyiz.
-            Telekomünikasyon altyapısının geliştirilmesi için gerekli olan
-            izinlerin alınması ve düzenleyici otoritelerle iletişimin sağlanması
-            konusunda kapsamlı bir destek sunuyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Yazılım ve Teknoloji Sözleşmeleri:{" "}
-            </span>
-            Yazılım geliştirme ve teknoloji anlaşmaları, işletmelerin
-            büyümesinde kritik bir rol oynamaktadır. Sancar Hukuk Bürosu,
-            yazılım lisanslama, teknik destek ve iş ortaklıkları gibi konularda
-            hukuki danışmanlık hizmetleri sunarak, müvekkillerinin çıkarlarını
-            korur. Sözleşmelerin her aşamasında, yasal riskleri minimize edecek
-            çözümler üretiyoruz. Yazılım geliştirme süreçlerinde,
-            müvekkillerimizin karşılaşabileceği fikri mülkiyet hakları, lisans
-            anlaşmazlıkları gibi hukuki konularda danışmanlık hizmetleri
-            vererek, başarılı projeler için gerekli hukuki altyapıyı
-            oluşturuyoruz.
-          </li>
-        </ul>
+        <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
+  <li className="mb-2 font-semibold">Veri Koruma ve Gizlilik Danışmanlığı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Veri koruma, günümüz iş dünyasında en önemli konular arasında yer almaktadır. Sancar Hukuk Bürosu, müvekkillerine veri koruma politikalarının geliştirilmesi, kişisel verilerin işlenmesi ve saklanması süreçlerinde yasal destek sunar. GDPR ve KVKK gibi yasaların gerekliliklerine uyum sağlamak için stratejik danışmanlık hizmetleri vererek, işletmelerin veri güvenliği risklerini minimize etmelerine yardımcı olmaktayız. Ayrıca, veri ihlali durumlarında acil eylem planları oluşturmak ve hukuki süreçlerin yönetimi konusunda destek sunarak, müvekkillerimizin itibarını korumayı hedefliyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Siber Güvenlik ve Hukuki Risk Yönetimi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Siber saldırılar ve veri ihlalleri, işletmelerin itibarını zedeleyebilir ve finansal kayıplara neden olabilir. Sancar Hukuk Bürosu, siber güvenlik alanında hukuki danışmanlık hizmetleri sunarak, müvekkillerinin siber risklerini yönetmelerine yardımcı olur. Kriz durumlarında, hukuki süreçlerin etkin bir şekilde yürütülmesi için rehberlik sağlıyoruz. Ayrıca, siber güvenlik protokollerinin geliştirilmesi ve uygulanması konusunda da destek sunarak, müvekkillerimizin karşılaşabileceği hukuki riskleri azaltmayı amaçlıyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Telekomünikasyon Sözleşmeleri ve Lisans Başvuruları</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Telekomünikasyon sektörü, karmaşık düzenlemelere ve sözleşmelere tabidir. Sancar Hukuk Bürosu, müvekkillerinin telekomünikasyon hizmetleri için gerekli olan sözleşmelerin hazırlanması ve lisans başvurularında destek sağlamakta, yasal gerekliliklerin yerine getirilmesini kolaylaştırmaktadır. Bu süreçte müvekkillerimizin haklarını koruma konusunda hassasiyet göstermekteyiz. Telekomünikasyon altyapısının geliştirilmesi için gerekli olan izinlerin alınması ve düzenleyici otoritelerle iletişimin sağlanması konusunda kapsamlı bir destek sunuyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Yazılım ve Teknoloji Sözleşmeleri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yazılım geliştirme ve teknoloji anlaşmaları, işletmelerin büyümesinde kritik bir rol oynamaktadır. Sancar Hukuk Bürosu, yazılım lisanslama, teknik destek ve iş ortaklıkları gibi konularda hukuki danışmanlık hizmetleri sunarak, müvekkillerinin çıkarlarını korur. Sözleşmelerin her aşamasında, yasal riskleri minimize edecek çözümler üretiyoruz. Yazılım geliştirme süreçlerinde, müvekkillerimizin karşılaşabileceği fikri mülkiyet hakları, lisans anlaşmazlıkları gibi hukuki konularda danışmanlık hizmetleri vererek, başarılı projeler için gerekli hukuki altyapıyı oluşturuyoruz.
+  </p>
+</ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
           Uyum Süreçleri ve Risk Yönetimi
@@ -633,68 +591,27 @@ const practiceDetails = {
           Sancar Hukuk Bürosu Olarak Sundugumuz Hizmetler
         </h2>
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">
-              Finansal Sözleşmelerin Hazırlanması:{" "}
-            </span>
-            Finansal sözleşmeler, bankacılık ve finans işlemlerinin temelini
-            oluşturur. Sancar Hukuk Bürosu, kredi sözleşmeleri, yatırım
-            anlaşmaları, teminat sözleşmeleri ve diğer finansal belgelerin
-            hazırlanmasında uzmanlaşmıştır. Her bir sözleşme, müvekkillerimizin
-            ihtiyaçlarına ve yasal gerekliliklere uygun olarak özelleştirilmekte
-            ve tarafların haklarını korumaya yönelik olarak düzenlenmektedir. Bu
-            süreçte, sözleşmelerin detaylarına dikkat edilmesi, ileride ortaya
-            çıkabilecek hukuki uyuşmazlıkların önlenmesi açısından kritik bir
-            öneme sahiptir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Düzenleyici Uyum Danışmanlığı:{" "}
-            </span>
-            Bankacılık ve finans alanında faaliyet gösteren kuruluşlar, çeşitli
-            düzenleyici otoritelerle sıkı bir ilişki içindedir. Sancar Hukuk
-            Bürosu, müvekkillerinin finansal düzenlemelere uyum sağlamalarını
-            sağlamak amacıyla kapsamlı danışmanlık hizmetleri sunar. Bu
-            kapsamda, yasal yükümlülükler, raporlama süreçleri ve denetimle
-            ilgili konular hakkında bilgi vererek, müvekkillerimizin yasal
-            çerçeveye uygun hareket etmelerini sağlıyoruz. Düzenleyici uyum,
-            finansal istikrarın korunmasına katkıda bulunur.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Kredi ve Teminat Yönetimi: </span>
-            Kredi süreçleri, finansal kuruluşlar ile müşterileri arasındaki en
-            kritik ilişkilerdir. Sancar Hukuk Bürosu, kredi başvurularının
-            değerlendirilmesi, kredi sözleşmelerinin hazırlanması ve
-            teminatların yönetimi konularında hukuki destek sunar. Teminatların
-            geçerliliği, hukuki niteliği ve olası uyuşmazlıkların çözümünde
-            uzmanlığımızla müvekkillerimizin yanında yer alıyoruz. Kredi
-            süreçlerinin sağlıklı bir şekilde yürütülmesi, finansal işlemlerin
-            güvenliğini artırır.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Finansal İhtilafların Çözümü:{" "}
-            </span>
-            Finansal işlemlerle ilgili hukuki ihtilaflar, işletmeler için ciddi
-            sorunlar yaratabilir. Sancar Hukuk Bürosu, müvekkillerine
-            ihtilafların önlenmesi ve çözümü konusunda hukuki danışmanlık
-            hizmetleri sunmaktadır. Alternatif uyuşmazlık çözüm yöntemleri
-            (arabuluculuk, tahkim vb.) kullanarak, müvekkillerimizin sorunlarını
-            hızlı ve etkili bir şekilde çözmeyi amaçlıyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Yatırım Danışmanlığı ve Proje Finansmanı:{" "}
-            </span>
-            Yatırımlar, büyüme ve gelişim için kritik bir unsurdur. Sancar Hukuk
-            Bürosu, müvekkillerinin yatırım stratejilerinin oluşturulması, proje
-            finansmanı süreçlerinin yönetimi ve yatırım sözleşmelerinin
-            hazırlanmasında hukuki destek sağlar. Bu süreçte, finansal risklerin
-            minimize edilmesi ve yasal yükümlülüklerin yerine getirilmesi
-            konusunda müvekkillerimize rehberlik ediyoruz. Yatırım danışmanlığı,
-            uzun vadeli başarı ve sürdürülebilir büyüme için gereklidir.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Finansal Sözleşmelerin Hazırlanması</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Finansal sözleşmeler, bankacılık ve finans işlemlerinin temelini oluşturur. Sancar Hukuk Bürosu, kredi sözleşmeleri, yatırım anlaşmaları, teminat sözleşmeleri ve diğer finansal belgelerin hazırlanmasında uzmanlaşmıştır. Her bir sözleşme, müvekkillerimizin ihtiyaçlarına ve yasal gerekliliklere uygun olarak özelleştirilmekte ve tarafların haklarını korumaya yönelik olarak düzenlenmektedir. Bu süreçte, sözleşmelerin detaylarına dikkat edilmesi, ileride ortaya çıkabilecek hukuki uyuşmazlıkların önlenmesi açısından kritik bir öneme sahiptir.
+  </p>
+  <li className="mb-2 font-semibold">Düzenleyici Uyum Danışmanlığı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Bankacılık ve finans alanında faaliyet gösteren kuruluşlar, çeşitli düzenleyici otoritelerle sıkı bir ilişki içindedir. Sancar Hukuk Bürosu, müvekkillerinin finansal düzenlemelere uyum sağlamalarını sağlamak amacıyla kapsamlı danışmanlık hizmetleri sunar. Bu kapsamda, yasal yükümlülükler, raporlama süreçleri ve denetimle ilgili konular hakkında bilgi vererek, müvekkillerimizin yasal çerçeveye uygun hareket etmelerini sağlıyoruz. Düzenleyici uyum, finansal istikrarın korunmasına katkıda bulunur.
+  </p>
+  <li className="mb-2 font-semibold">Kredi ve Teminat Yönetimi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Kredi süreçleri, finansal kuruluşlar ile müşterileri arasındaki en kritik ilişkilerdir. Sancar Hukuk Bürosu, kredi başvurularının değerlendirilmesi, kredi sözleşmelerinin hazırlanması ve teminatların yönetimi konularında hukuki destek sunar. Teminatların geçerliliği, hukuki niteliği ve olası uyuşmazlıkların çözümünde uzmanlığımızla müvekkillerimizin yanında yer alıyoruz. Kredi süreçlerinin sağlıklı bir şekilde yürütülmesi, finansal işlemlerin güvenliğini artırır.
+  </p>
+  <li className="mb-2 font-semibold">Finansal İhtilafların Çözümü</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Finansal işlemlerle ilgili hukuki ihtilaflar, işletmeler için ciddi sorunlar yaratabilir. Sancar Hukuk Bürosu, müvekkillerine ihtilafların önlenmesi ve çözümü konusunda hukuki danışmanlık hizmetleri sunmaktadır. Alternatif uyuşmazlık çözüm yöntemleri (arabuluculuk, tahkim vb.) kullanarak, müvekkillerimizin sorunlarını hızlı ve etkili bir şekilde çözmeyi amaçlıyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Yatırım Danışmanlığı ve Proje Finansmanı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yatırımlar, büyüme ve gelişim için kritik bir unsurdur. Sancar Hukuk Bürosu, müvekkillerinin yatırım stratejilerinin oluşturulması, proje finansmanı süreçlerinin yönetimi ve yatırım sözleşmelerinin hazırlanmasında hukuki destek sağlar. Bu süreçte, finansal risklerin minimize edilmesi ve yasal yükümlülüklerin yerine getirilmesi konusunda müvekkillerimize rehberlik ediyoruz. Yatırım danışmanlığı, uzun vadeli başarı ve sürdürülebilir büyüme için gereklidir.
+  </p>
+</ul>
         <h2 className="text-base md:text-lg font-bold mb-4">
           Sürdürülebilir Finansal Uygulamalar
         </h2>
@@ -761,53 +678,25 @@ const practiceDetails = {
         <h2 className="text-base md:text-lg font-bold mb-4">
           Sermaye Piyasası Hukuku Alanında Verdiğimiz Hizmetler
         </h2>
-        <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">
-              Finansal Sözleşmelerin Hazırlanması:{" "}
-            </span>
-            Sözleşmeler, sermaye piyasası işlemlerinin temelini oluşturmaktadır.
-            Sancar Hukuk Bürosu, hisse senedi alım-satım sözleşmeleri, tahvil
-            ihracı ve diğer finansal belgelerin hazırlanmasında uzmanlaşmış
-            olup, her sözleşmeyi müvekkillerimizin özel ihtiyaçlarına göre
-            özelleştirmektedir. Sözleşme detaylarının titizlikle hazırlanması,
-            gelecekte ortaya çıkabilecek hukuki sorunların önlenmesi açısından
-            kritik bir öneme sahiptir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Düzenleyici Uyum Danışmanlığı:{" "}
-            </span>
-            Sermaye piyasasında faaliyet gösteren şirketler için düzenleyici
-            uyum, başarının anahtarlarından biridir. Sancar Hukuk Bürosu,
-            müvekkillerine yasal yükümlülükleri, raporlama süreçleri ve denetim
-            konularında rehberlik ederek, düzenleyici otoritelerle sağlıklı bir
-            ilişki kurmalarını desteklemektedir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Finansal İhtilafların Çözümü:{" "}
-            </span>
-            Sermaye piyasasında karşılaşılan hukuki ihtilaflar, işletmeler için
-            ciddi sonuçlar doğurabilir. Sancar Hukuk Bürosu, alternatif
-            uyuşmazlık çözüm yöntemlerini (arabuluculuk, tahkim vb.) kullanarak,
-            müvekkillerinin sorunlarını hızlı ve etkili bir şekilde çözmeyi
-            hedeflemektedir. Bu yaklaşım, zaman ve maliyet açısından avantaj
-            sağlamaktadır.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Yatırım Danışmanlığı ve Proje Finansmanı:{" "}
-            </span>
-            Yatırımlar, işletmelerin büyümesi ve sürdürülebilirliği için kritik
-            öneme sahiptir. Sancar Hukuk Bürosu, müvekkillerinin yatırım
-            stratejilerinin oluşturulması, proje finansmanı süreçlerinin
-            yönetimi ve yatırım sözleşmelerinin hazırlanmasında hukuki destek
-            sunmaktadır. Finansal risklerin en aza indirilmesi ve yasal
-            yükümlülüklerin yerine getirilmesi, bu süreçte temel
-            önceliklerimizdir.
-          </li>
-        </ul>
+
+<ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
+  <li className="mb-2 font-semibold">Finansal Sözleşmelerin Hazırlanması</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Sözleşmeler, sermaye piyasası işlemlerinin temelini oluşturmaktadır. Sancar Hukuk Bürosu, hisse senedi alım-satım sözleşmeleri, tahvil ihracı ve diğer finansal belgelerin hazırlanmasında uzmanlaşmış olup, her sözleşmeyi müvekkillerimizin özel ihtiyaçlarına göre özelleştirmektedir. Sözleşme detaylarının titizlikle hazırlanması, gelecekte ortaya çıkabilecek hukuki sorunların önlenmesi açısından kritik bir öneme sahiptir.
+  </p>
+  <li className="mb-2 font-semibold">Düzenleyici Uyum Danışmanlığı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Sermaye piyasasında faaliyet gösteren şirketler için düzenleyici uyum, başarının anahtarlarından biridir. Sancar Hukuk Bürosu, müvekkillerine yasal yükümlülükleri, raporlama süreçleri ve denetim konularında rehberlik ederek, düzenleyici otoritelerle sağlıklı bir ilişki kurmalarını desteklemektedir.
+  </p>
+  <li className="mb-2 font-semibold">Finansal İhtilafların Çözümü</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Sermaye piyasasında karşılaşılan hukuki ihtilaflar, işletmeler için ciddi sonuçlar doğurabilir. Sancar Hukuk Bürosu, alternatif uyuşmazlık çözüm yöntemlerini (arabuluculuk, tahkim vb.) kullanarak, müvekkillerinin sorunlarını hızlı ve etkili bir şekilde çözmeyi hedeflemektedir. Bu yaklaşım, zaman ve maliyet açısından avantaj sağlamaktadır.
+  </p>
+  <li className="mb-2 font-semibold">Yatırım Danışmanlığı ve Proje Finansmanı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yatırımlar, işletmelerin büyümesi ve sürdürülebilirliği için kritik öneme sahiptir. Sancar Hukuk Bürosu, müvekkillerinin yatırım stratejilerinin oluşturulması, proje finansmanı süreçlerinin yönetimi ve yatırım sözleşmelerinin hazırlanmasında hukuki destek sunmaktadır. Finansal risklerin en aza indirilmesi ve yasal yükümlülüklerin yerine getirilmesi, bu süreçte temel önceliklerimizdir.
+  </p>
+</ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
           Sürdürülebilir Finansal Uygulamalar
@@ -1186,43 +1075,31 @@ const practiceDetails = {
           Vatandaşlık ve Göç Kapsamında Verdiğimiz Hizmetler
         </h2>
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">
-              Vatandaşlık Başvuruları:{" "}
-            </span>
-            Bireylerin yeni bir ülkenin vatandaşı olma sürecinde, gerekli belgelerin hazırlanması ve başvuru süreçlerinin yürütülmesi konusunda rehberlik sağlıyoruz. Vatandaşlık başvurularının kabul edilmesi için gereken tüm kriterleri titizlikle inceleyerek, müvekkillerimizi en doğru şekilde yönlendiriyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Oturma İzinleri ve Vize Başvuruları:{" "}
-            </span>
-            Yabancı bireylerin bir ülkede kalıcı ya da geçici olarak ikamet etmeleri için gereken oturma izinleri ve vize başvurularının hazırlanmasında destek sunuyoruz. Bu süreçte, ulusal ve uluslararası düzenlemelere uygun olarak, en hızlı ve etkili başvuruları gerçekleştirmek için çalışıyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Göçmenlik Danışmanlığı:{" "}
-            </span>
-            Göç sürecinin her aşamasında bireylerin ve ailelerin ihtiyaçlarına göre özelleştirilmiş danışmanlık hizmetleri sunuyoruz. Göçmenlik yasaları ve uygulamaları hakkında güncel bilgi sağlayarak, müvekkillerimizin süreçlerini doğru bir şekilde yönetmelerine yardımcı oluyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Aile Birleşimi:{" "}
-            </span>
-            Aile üyelerinin bir araya gelmesi için gereken süreçleri yönetiyoruz. Aile birleşimi başvurularının hazırlanması, gerekli belgelerin toplanması ve başvuru sürecinin takibi konusunda uzmanlığımızla müvekkillerimizin yanındayız.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Hukuki Uyuşmazlıkların Çözümü:{" "}
-            </span>
-            Göç süreçlerinde ortaya çıkabilecek hukuki uyuşmazlıkların çözümü için stratejiler geliştiriyor ve müvekkillerimizin haklarını koruyacak şekilde hukuki destek sağlıyoruz. Uyuşmazlıkların en kısa sürede çözüme kavuşturulması için etkili müzakereler yürütüyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">
-              Uluslararası Göç Hukuku Danışmanlığı:{" "}
-            </span>
-            Türkiye'deki ve uluslararası göç hukuku düzenlemeleri konusunda uzmanlığımız ile müvekkillerimizin uluslararası düzeydeki süreçlerini güvenle yürütmelerini sağlıyoruz. Göçmenlik yasalarının karmaşıklığına karşı, her türlü hukuki desteği sağlıyoruz.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Vatandaşlık Başvuruları</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Bireylerin yeni bir ülkenin vatandaşı olma sürecinde, gerekli belgelerin hazırlanması ve başvuru süreçlerinin yürütülmesi konusunda rehberlik sağlıyoruz. Vatandaşlık başvurularının kabul edilmesi için gereken tüm kriterleri titizlikle inceleyerek, müvekkillerimizi en doğru şekilde yönlendiriyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Oturma İzinleri ve Vize Başvuruları</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yabancı bireylerin bir ülkede kalıcı ya da geçici olarak ikamet etmeleri için gereken oturma izinleri ve vize başvurularının hazırlanmasında destek sunuyoruz. Bu süreçte, ulusal ve uluslararası düzenlemelere uygun olarak, en hızlı ve etkili başvuruları gerçekleştirmek için çalışıyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Göçmenlik Danışmanlığı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Göç sürecinin her aşamasında bireylerin ve ailelerin ihtiyaçlarına göre özelleştirilmiş danışmanlık hizmetleri sunuyoruz. Göçmenlik yasaları ve uygulamaları hakkında güncel bilgi sağlayarak, müvekkillerimizin süreçlerini doğru bir şekilde yönetmelerine yardımcı oluyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Aile Birleşimi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Aile üyelerinin bir araya gelmesi için gereken süreçleri yönetiyoruz. Aile birleşimi başvurularının hazırlanması, gerekli belgelerin toplanması ve başvuru sürecinin takibi konusunda uzmanlığımızla müvekkillerimizin yanındayız.
+  </p>
+  <li className="mb-2 font-semibold">Hukuki Uyuşmazlıkların Çözümü</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Göç süreçlerinde ortaya çıkabilecek hukuki uyuşmazlıkların çözümü için stratejiler geliştiriyor ve müvekkillerimizin haklarını koruyacak şekilde hukuki destek sağlıyoruz. Uyuşmazlıkların en kısa sürede çözüme kavuşturulması için etkili müzakereler yürütüyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Uluslararası Göç Hukuku Danışmanlığı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Türkiye'deki ve uluslararası göç hukuku düzenlemeleri konusunda uzmanlığımız ile müvekkillerimizin uluslararası düzeydeki süreçlerini güvenle yürütmelerini sağlıyoruz. Göçmenlik yasalarının karmaşıklığına karşı, her türlü hukuki desteği sağlıyoruz.
+  </p>
+</ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
           Vatandaşlık ve Göç Süreçlerinde Karşılaşılan Zorluklar
@@ -1262,31 +1139,36 @@ const practiceDetails = {
    İş Hukuku Alanında Verdiğimiz Hizmetler
   </h2>
   <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-    <li className="mb-2">
-      <span className="font-semibold">İş Sözleşmesi Tasarımı ve İncelemesi: </span>
-      İş ilişkisini başlatan en önemli belgelerden biri olan iş sözleşmeleri, hem işveren hem de çalışan açısından hayati önem taşır. Büromuz, iş sözleşmelerinin hukuka uygun bir şekilde hazırlanması ve mevcut sözleşmelerin gözden geçirilmesi süreçlerinde uzman danışmanlık hizmeti sunar. Bu sayede, olası uyuşmazlıkların önüne geçilmesi sağlanır.
-    </li>
-    <li className="mb-2">
-      <span className="font-semibold">Çalışan Hakları Eğitimi: </span>
-      Çalışanların hakları ve yükümlülükleri konusunda bilinçlenmeleri, iş yerinde huzurlu bir ortam yaratmak için önemlidir. Sancar Hukuk Bürosu, iş yerlerinde çalışanlara yönelik eğitim programları düzenleyerek, iş hukuku ve çalışan hakları konusunda bilgi sağlamaktadır.
-    </li>
-    <li className="mb-2">
-      <span className="font-semibold">İş Yerinde Uyuşmazlık Yönetimi: </span>
-      İş yerinde meydana gelen anlaşmazlıklar, iş ilişkilerini zedeleyebilir. Büromuz, bu tür uyuşmazlıkların çözümünde müzakereler, arabuluculuk ve gerekirse dava süreçlerinde müvekkillerini temsil ederek etkili çözümler üretmektedir.
-    </li>
-    <li className="mb-2">
-      <span className="font-semibold">İş Sağlığı ve Güvenliği Danışmanlığı: </span>
-      İş yerlerinde sağlık ve güvenlik standartlarının sağlanması, hem çalışanların hem de işverenlerin sorumluluğundadır. Büromuz, iş sağlığı ve güvenliği ile ilgili yasal düzenlemeler hakkında danışmanlık yaparak, müvekkillerimizin yasal yükümlülüklerini yerine getirmelerine yardımcı olmaktadır.
-    </li>
-    <li className="mb-2">
-      <span className="font-semibold">İşten Çıkarma Süreçlerinin Yönetimi: </span>
-      İşten çıkarma işlemleri, yasal çerçevede yürütülmesi gereken hassas süreçlerdir. Sancar Hukuk Bürosu, işten çıkarma süreçlerini yasalara uygun bir şekilde yöneterek, hem işverenlerin hem de çalışanların haklarını koruma altına alır. İşten çıkarma sürecinde izlenmesi gereken adımlar, ihbar süreleri ve tazminat hesaplamaları gibi konularda detaylı rehberlik sunar.
-    </li>
-    <li className="mb-2">
-      <span className="font-semibold">Sendika İlişkileri ve Toplu İş Sözleşmeleri: </span>
-      Sendikalarla yürütülen ilişkiler ve toplu iş sözleşmeleri, iş hukukunun önemli bir parçasını oluşturur. Büromuz, sendikalarla müzakerelerde, toplu iş sözleşmelerinin hazırlanmasında ve sendika üyeliği ile ilgili hukuki sorunların çözümünde uzman danışmanlık sunmaktadır.
-    </li>
-  </ul>
+  <li className="mb-2 font-semibold">İş Sözleşmesi Tasarımı ve İncelemesi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İş ilişkisini başlatan en önemli belgelerden biri olan iş sözleşmeleri, hem işveren hem de çalışan açısından hayati önem taşır. Büromuz, iş sözleşmelerinin hukuka uygun bir şekilde hazırlanması ve mevcut sözleşmelerin gözden geçirilmesi süreçlerinde uzman danışmanlık hizmeti sunar. Bu sayede, olası uyuşmazlıkların önüne geçilmesi sağlanır.
+  </p>
+  
+  <li className="mb-2 font-semibold">Çalışan Hakları Eğitimi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Çalışanların hakları ve yükümlülükleri konusunda bilinçlenmeleri, iş yerinde huzurlu bir ortam yaratmak için önemlidir. Sancar Hukuk Bürosu, iş yerlerinde çalışanlara yönelik eğitim programları düzenleyerek, iş hukuku ve çalışan hakları konusunda bilgi sağlamaktadır.
+  </p>
+
+  <li className="mb-2 font-semibold">İş Yerinde Uyuşmazlık Yönetimi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İş yerinde meydana gelen anlaşmazlıklar, iş ilişkilerini zedeleyebilir. Büromuz, bu tür uyuşmazlıkların çözümünde müzakereler, arabuluculuk ve gerekirse dava süreçlerinde müvekkillerini temsil ederek etkili çözümler üretmektedir.
+  </p>
+
+  <li className="mb-2 font-semibold">İş Sağlığı ve Güvenliği Danışmanlığı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İş yerlerinde sağlık ve güvenlik standartlarının sağlanması, hem çalışanların hem de işverenlerin sorumluluğundadır. Büromuz, iş sağlığı ve güvenliği ile ilgili yasal düzenlemeler hakkında danışmanlık yaparak, müvekkillerimizin yasal yükümlülüklerini yerine getirmelerine yardımcı olmaktadır.
+  </p>
+
+  <li className="mb-2 font-semibold">İşten Çıkarma Süreçlerinin Yönetimi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İşten çıkarma işlemleri, yasal çerçevede yürütülmesi gereken hassas süreçlerdir. Sancar Hukuk Bürosu, işten çıkarma süreçlerini yasalara uygun bir şekilde yöneterek, hem işverenlerin hem de çalışanların haklarını koruma altına alır. İşten çıkarma sürecinde izlenmesi gereken adımlar, ihbar süreleri ve tazminat hesaplamaları gibi konularda detaylı rehberlik sunar.
+  </p>
+
+  <li className="mb-2 font-semibold">Sendika İlişkileri ve Toplu İş Sözleşmeleri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Sendikalarla yürütülen ilişkiler ve toplu iş sözleşmeleri, iş hukukunun önemli bir parçasını oluşturur. Büromuz, sendikalarla müzakerelerde, toplu iş sözleşmelerinin hazırlanmasında ve sendika üyeliği ile ilgili hukuki sorunların çözümünde uzman danışmanlık sunmaktadır.
+  </p>
+</ul>
 
   <h2 className="text-base md:text-lg font-bold mb-4">
     İş Hukukunda Karşılaşılan Zorluklar
@@ -1351,27 +1233,27 @@ const practiceDetails = {
           Hizmetlerimiz
         </h3>
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Proje Planlama ve İzin Danışmanlığı: </span>
-            İmar izinleri, çevresel etki değerlendirme raporları ve diğer yasal gereklilikler konusunda rehberlik sağlıyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Sözleşme Hazırlama ve Müzakere: </span>
-            İnşaat projelerinde kullanılan tüm sözleşmelerin hukuki açıdan incelenmesi ve gerektiğinde revize edilmesi süreçlerinde danışmanlık yapıyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Hukuki Risk Yönetimi: </span>
-            Proje sürecindeki hukuki riskleri belirleyerek, müvekkillerimize bu riskleri minimize edecek stratejiler geliştiriyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Çevre ve İmar Hukuku Danışmanlığı: </span>
-            Projelerin çevre hukuku ve imar hukuku çerçevesinde yürütülmesi için gerekli hukuki danışmanlık hizmetleri sunuyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">İş Sağlığı ve Güvenliği Danışmanlığı: </span>
-            İnşaat projelerinde iş sağlığı ve güvenliği uygulamalarının oluşturulması ve denetlenmesi konularında destek veriyoruz.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Proje Planlama ve İzin Danışmanlığı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İmar izinleri, çevresel etki değerlendirme raporları ve diğer yasal gereklilikler konusunda rehberlik sağlıyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Sözleşme Hazırlama ve Müzakere</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İnşaat projelerinde kullanılan tüm sözleşmelerin hukuki açıdan incelenmesi ve gerektiğinde revize edilmesi süreçlerinde danışmanlık yapıyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Hukuki Risk Yönetimi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Proje sürecindeki hukuki riskleri belirleyerek, müvekkillerimize bu riskleri minimize edecek stratejiler geliştiriyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Çevre ve İmar Hukuku Danışmanlığı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Projelerin çevre hukuku ve imar hukuku çerçevesinde yürütülmesi için gerekli hukuki danışmanlık hizmetleri sunuyoruz.
+  </p>
+  <li className="mb-2 font-semibold">İş Sağlığı ve Güvenliği Danışmanlığı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İnşaat projelerinde iş sağlığı ve güvenliği uygulamalarının oluşturulması ve denetlenmesi konularında destek veriyoruz.
+  </p>
+</ul>
     
         <h2 className="text-base md:text-lg font-bold mb-4">
           Başarı İçin Stratejik Yaklaşım
@@ -1433,31 +1315,36 @@ const practiceDetails = {
         </p>
     
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Hukuki Araştırma ve Danışmanlık: </span>
-            Enerji projelerinin hukuki çerçevesini anlamak ve uygulamak için kapsamlı araştırmalar gerçekleştirmekteyiz. Bu, müvekkillerimize enerji yasaları ve düzenlemeleri hakkında güncel bilgi sağlamaktadır.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Proje Geliştirme Desteği: </span>
-            Yenilenebilir enerji projeleri başta olmak üzere, projelerin planlama aşamasından uygulanmasına kadar tüm süreçlerde hukuki destek sunuyoruz. Projelerinizi başarıyla hayata geçirmek için gereken tüm yasal gereklilikleri yerine getiriyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Çevresel Etki Değerlendirmesi: </span>
-            ÇED raporlarının hazırlanması ve düzenleyici otoritelerle iletişimde bulunulması süreçlerinde destek veriyoruz. Çevresel sürdürülebilirliği sağlamak için gerekli adımları atmanıza yardımcı oluyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Anlaşmazlıkların Çözümü: </span>
-            Enerji projelerinde ortaya çıkabilecek hukuki anlaşmazlıkların çözümü için stratejiler geliştiriyoruz. Medya, arabuluculuk ve dava süreçlerinde müvekkillerimizi en iyi şekilde temsil ediyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Sözleşme İhlalleri ve Çözüm Yöntemleri: </span>
-            Sözleşmelerin ihlal edilmesi durumunda, hukuki yollarla müvekkillerimizin haklarını koruyor ve anlaşmazlıkları etkili bir şekilde çözmek için çeşitli yöntemler geliştiriyoruz. Uzlaşma, arabuluculuk ve dava süreçlerinde müvekkillerimizi en iyi şekilde temsil ediyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Yatırımcı İlişkileri Yönetimi: </span>
-            Enerji sektöründe yatırımcı ilişkileri yönetimi büyük önem taşımaktadır. Yatırımcıların projelere olan güvenini artırmak için gerekli olan hukuki süreçlerin etkin yönetilmesi, şirketlerin başarısını desteklemektedir.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Hukuki Araştırma ve Danışmanlık</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Enerji projelerinin hukuki çerçevesini anlamak ve uygulamak için kapsamlı araştırmalar gerçekleştirmekteyiz. Bu, müvekkillerimize enerji yasaları ve düzenlemeleri hakkında güncel bilgi sağlamaktadır.
+  </p>
+  
+  <li className="mb-2 font-semibold">Proje Geliştirme Desteği</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yenilenebilir enerji projeleri başta olmak üzere, projelerin planlama aşamasından uygulanmasına kadar tüm süreçlerde hukuki destek sunuyoruz. Projelerinizi başarıyla hayata geçirmek için gereken tüm yasal gereklilikleri yerine getiriyoruz.
+  </p>
+  
+  <li className="mb-2 font-semibold">Çevresel Etki Değerlendirmesi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    ÇED raporlarının hazırlanması ve düzenleyici otoritelerle iletişimde bulunulması süreçlerinde destek veriyoruz. Çevresel sürdürülebilirliği sağlamak için gerekli adımları atmanıza yardımcı oluyoruz.
+  </p>
+  
+  <li className="mb-2 font-semibold">Anlaşmazlıkların Çözümü</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Enerji projelerinde ortaya çıkabilecek hukuki anlaşmazlıkların çözümü için stratejiler geliştiriyoruz. Medya, arabuluculuk ve dava süreçlerinde müvekkillerimizi en iyi şekilde temsil ediyoruz.
+  </p>
+  
+  <li className="mb-2 font-semibold">Sözleşme İhlalleri ve Çözüm Yöntemleri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Sözleşmelerin ihlal edilmesi durumunda, hukuki yollarla müvekkillerimizin haklarını koruyor ve anlaşmazlıkları etkili bir şekilde çözmek için çeşitli yöntemler geliştiriyoruz. Uzlaşma, arabuluculuk ve dava süreçlerinde müvekkillerimizi en iyi şekilde temsil ediyoruz.
+  </p>
+  
+  <li className="mb-2 font-semibold">Yatırımcı İlişkileri Yönetimi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Enerji sektöründe yatırımcı ilişkileri yönetimi büyük önem taşımaktadır. Yatırımcıların projelere olan güvenini artırmak için gerekli olan hukuki süreçlerin etkin yönetilmesi, şirketlerin başarısını desteklemektedir.
+  </p>
+</ul>
     
         <h2 className="text-base md:text-lg font-bold mb-4">
           Enerji Sektöründe Başarı İçin Hukuki Güvence
@@ -1513,28 +1400,30 @@ const practiceDetails = {
           Sancar Hukuk Bürosu, konaklama işletmelerinin yasal yükümlülüklerini yerine getirmesi için aşağıdaki kapsamlı hizmetleri sunmaktadır:
         </p>
     
-        <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Ruhsat ve İzin İşlemleri: </span>
-            Sancar Hukuk Bürosu, konaklama işletmelerinin ruhsat ve izin işlemlerinde rehberlik ederek, yasal gerekliliklerin eksiksiz bir şekilde yerine getirilmesini sağlar. Böylece, işletmelerin yasal sorunlarla karşılaşma riski en aza indirilir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Sözleşme Tasarımı ve Müzakere: </span>
-            İşletmelerin tüm sözleşme süreçlerinde hukuki danışmanlık sunan Sancar Hukuk Bürosu, sözleşmelerin hem taraflar hem de işletme açısından güvence altına alınmasını sağlar. Müzakere süreçlerinde işletmenin menfaatlerini koruma amacıyla en iyi stratejileri geliştiririz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">İhtiyaç Analizi ve Politika Geliştirme: </span>
-            Müşteri memnuniyetini artırmak için etkili politikaların geliştirilmesine yönelik hukuki danışmanlık sunuyoruz. Bu süreçte, işletmelerin ihtiyaçlarına özel çözümler üreterek, müşteri ilişkilerinin güçlendirilmesine katkıda bulunuyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Çalışan Hakları ve Uygunluk: </span>
-            Çalışan hakları ile ilgili tüm yasal yükümlülüklerin yerine getirilmesi konusunda hukuki danışmanlık sağlıyoruz. Bu sayede, hem işveren hem de çalışanlar için güvenli ve adil bir çalışma ortamı oluşturulmasına yardımcı oluyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Kriz Yönetimi ve Çözüm Stratejileri: </span>
-            Konaklama ve eğlence sektöründe meydana gelebilecek hukuki krizlere karşı etkin çözüm stratejileri geliştirmekteyiz. Müşterilerin şikayetleri veya hukuki anlaşmazlıklar durumunda, hızlı ve etkili müdahalelerle işletmenin itibarını koruyoruz.
-          </li>
-        </ul>
+        
+
+<ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
+  <li className="mb-2 font-semibold">Ruhsat ve İzin İşlemleri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Sancar Hukuk Bürosu, konaklama işletmelerinin ruhsat ve izin işlemlerinde rehberlik ederek, yasal gerekliliklerin eksiksiz bir şekilde yerine getirilmesini sağlar. Böylece, işletmelerin yasal sorunlarla karşılaşma riski en aza indirilir.
+  </p>
+  <li className="mb-2 font-semibold">Sözleşme Tasarımı ve Müzakere</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İşletmelerin tüm sözleşme süreçlerinde hukuki danışmanlık sunan Sancar Hukuk Bürosu, sözleşmelerin hem taraflar hem de işletme açısından güvence altına alınmasını sağlar. Müzakere süreçlerinde işletmenin menfaatlerini koruma amacıyla en iyi stratejileri geliştiririz.
+  </p>
+  <li className="mb-2 font-semibold">İhtiyaç Analizi ve Politika Geliştirme</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Müşteri memnuniyetini artırmak için etkili politikaların geliştirilmesine yönelik hukuki danışmanlık sunuyoruz. Bu süreçte, işletmelerin ihtiyaçlarına özel çözümler üreterek, müşteri ilişkilerinin güçlendirilmesine katkıda bulunuyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Çalışan Hakları ve Uygunluk</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Çalışan hakları ile ilgili tüm yasal yükümlülüklerin yerine getirilmesi konusunda hukuki danışmanlık sağlıyoruz. Bu sayede, hem işveren hem de çalışanlar için güvenli ve adil bir çalışma ortamı oluşturulmasına yardımcı oluyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Kriz Yönetimi ve Çözüm Stratejileri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Konaklama ve eğlence sektöründe meydana gelebilecek hukuki krizlere karşı etkin çözüm stratejileri geliştirmekteyiz. Müşterilerin şikayetleri veya hukuki anlaşmazlıklar durumunda, hızlı ve etkili müdahalelerle işletmenin itibarını koruyoruz.
+  </p>
+</ul>
     
         
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
@@ -1572,27 +1461,27 @@ const practiceDetails = {
         </h2>
         
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Veri İşleme Prensibi: </span>
-            Kişisel veriler, yasal bir dayanağa dayanarak ve belirli bir amaca yönelik olarak işlenmelidir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Şeffaflık: </span>
-            Bireyler, kişisel verilerinin nasıl işlendiğine dair bilgilendirilmelidir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Veri Minimizasyonu: </span>
-            Sadece gerekli olan veriler toplanmalı ve işlenmelidir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Veri Güvenliği: </span>
-            Kişisel verilerin güvenliğini sağlamak için gerekli teknik ve idari tedbirler alınmalıdır.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Erişim ve Düzeltme Hakları: </span>
-            Bireyler, kişisel verilerine erişim sağlama ve yanlış olan verileri düzeltme hakkına sahiptir.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Veri İşleme Prensibi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Kişisel veriler, yasal bir dayanağa dayanarak ve belirli bir amaca yönelik olarak işlenmelidir.
+  </p>
+  <li className="mb-2 font-semibold">Şeffaflık</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Bireyler, kişisel verilerinin nasıl işlendiğine dair bilgilendirilmelidir.
+  </p>
+  <li className="mb-2 font-semibold">Veri Minimizasyonu</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Sadece gerekli olan veriler toplanmalı ve işlenmelidir.
+  </p>
+  <li className="mb-2 font-semibold">Veri Güvenliği</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Kişisel verilerin güvenliğini sağlamak için gerekli teknik ve idari tedbirler alınmalıdır.
+  </p>
+  <li className="mb-2 font-semibold">Erişim ve Düzeltme Hakları</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Bireyler, kişisel verilerine erişim sağlama ve yanlış olan verileri düzeltme hakkına sahiptir.
+  </p>
+</ul>
     
         <h2 className="text-base md:text-lg font-bold mb-4">
           Hukuk Büromuzun Rolü
@@ -1603,27 +1492,27 @@ const practiceDetails = {
         </p>
     
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Yasal Danışmanlık ve Uyum Süreci: </span>
-            Kişisel verilerin korunmasına yönelik yasal düzenlemelere uyum sağlamak, kuruluşlar için hayati bir adımdır. Bu süreç, veri işleme faaliyetlerinin kapsamlı bir şekilde analiz edilmesini, gerekli politika ve prosedürlerin geliştirilmesini ve eğitimlerin düzenlenmesini içerir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Veri Güvenliği Danışmanlığı: </span>
-            Veri güvenliği, kişisel verilerin korunmasında kritik bir öneme sahiptir. Mevcut veri işleme süreçlerinizi değerlendirerek potansiyel güvenlik açıklarını tespit ederiz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Eğitim ve Farkındalık: </span>
-            Kişisel verilerin korunması alanında bilinçlendirme ve eğitim, sürdürülebilir bir veri koruma kültürünün oluşturulmasında büyük bir rol oynamaktadır. Çalışanlarınıza ve yöneticilerinize kişisel verilerin korunması konularında eğitimler düzenliyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Veri İşleme Sözleşmeleri: </span>
-            Kişisel verilerin üçüncü taraflarla paylaşılması durumunda, veri işleme sözleşmeleri önemli bir hukuki araçtır. Bu sözleşmelerin hazırlanmasında ve müzakerelerde sizlere rehberlik ederiz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Kişisel Verilerin Korunması İhlalleri: </span>
-            Kişisel verilerin korunması ihlalleri, ciddi hukuki sonuçlar doğurabilir. İhlal durumlarında müvekkillerimize hukuki destek sağlar, gerekli bildirimlerin yapılmasını ve olası zararların tazmini için gereken adımları atarız.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Yasal Danışmanlık ve Uyum Süreci</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Kişisel verilerin korunmasına yönelik yasal düzenlemelere uyum sağlamak, kuruluşlar için hayati bir adımdır. Bu süreç, veri işleme faaliyetlerinin kapsamlı bir şekilde analiz edilmesini, gerekli politika ve prosedürlerin geliştirilmesini ve eğitimlerin düzenlenmesini içerir.
+  </p>
+  <li className="mb-2 font-semibold">Veri Güvenliği Danışmanlığı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Veri güvenliği, kişisel verilerin korunmasında kritik bir öneme sahiptir. Mevcut veri işleme süreçlerinizi değerlendirerek potansiyel güvenlik açıklarını tespit ederiz.
+  </p>
+  <li className="mb-2 font-semibold">Eğitim ve Farkındalık</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Kişisel verilerin korunması alanında bilinçlendirme ve eğitim, sürdürülebilir bir veri koruma kültürünün oluşturulmasında büyük bir rol oynamaktadır. Çalışanlarınıza ve yöneticilerinize kişisel verilerin korunması konularında eğitimler düzenliyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Veri İşleme Sözleşmeleri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Kişisel verilerin üçüncü taraflarla paylaşılması durumunda, veri işleme sözleşmeleri önemli bir hukuki araçtır. Bu sözleşmelerin hazırlanmasında ve müzakerelerde sizlere rehberlik ederiz.
+  </p>
+  <li className="mb-2 font-semibold">Kişisel Verilerin Korunması İhlalleri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Kişisel verilerin korunması ihlalleri, ciddi hukuki sonuçlar doğurabilir. İhlal durumlarında müvekkillerimize hukuki destek sağlar, gerekli bildirimlerin yapılmasını ve olası zararların tazmini için gereken adımları atarız.
+  </p>
+</ul>
     
         <h2 className="text-base md:text-lg font-bold mb-4">
           Kişisel Verilerin Korunmasında Haklarınız
@@ -1633,24 +1522,25 @@ const practiceDetails = {
           Kişisel verilerinizin korunması, sadece yasal bir yükümlülük değil, aynı zamanda bir haktır. Kişisel verilerin korunmasıyla ilgili olarak sahip olduğunuz haklar şunlardır:
         </p>
         
-        <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Erişim Hakkı: </span>
-            Kişisel verilerinizi işleyen kuruluşlara, hangi verilerinizin işlendiğine dair bilgi talep etme hakkına sahipsiniz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Düzeltme Hakkı: </span>
-            Yanlış veya eksik verilerinizin düzeltilmesini talep edebilirsiniz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Silme Hakkı: </span>
-            Artık ihtiyaç duymadığınız kişisel verilerinizin silinmesini isteme hakkınız vardır.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">İtiraz Hakkı: </span>
-            Kişisel verilerinizin işlenmesine itiraz etme hakkınız bulunmaktadır.
-          </li>
-        </ul>
+
+<ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
+  <li className="mb-2 font-semibold">Erişim Hakkı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Kişisel verilerinizi işleyen kuruluşlara, hangi verilerinizin işlendiğine dair bilgi talep etme hakkına sahipsiniz.
+  </p>
+  <li className="mb-2 font-semibold">Düzeltme Hakkı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yanlış veya eksik verilerinizin düzeltilmesini talep edebilirsiniz.
+  </p>
+  <li className="mb-2 font-semibold">Silme Hakkı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Artık ihtiyaç duymadığınız kişisel verilerinizin silinmesini isteme hakkınız vardır.
+  </p>
+  <li className="mb-2 font-semibold">İtiraz Hakkı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Kişisel verilerinizin işlenmesine itiraz etme hakkınız bulunmaktadır.
+  </p>
+</ul>
     
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Kişisel verilerin korunması, dijitalleşen dünyamızda hem bireylerin hem de kurumların sorumluluğudur. Hukuk büromuz, bu alanda sizlere kapsamlı bir danışmanlık hizmeti sunarak, kişisel verilerinizi koruma konusunda güvenilir bir ortak olmaktadır. Kişisel verilerinizin güvenliği için profesyonel desteğe ihtiyaç duyuyorsanız, bize ulaşmaktan çekinmeyin. Her türlü hukuki soru ve ihtiyaçlarınızda yanınızdayız.
@@ -1675,46 +1565,46 @@ const practiceDetails = {
         </h2>
     
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Rekabet Avantajı: </span>
-            Fikri mülkiyet hakları, işletmelere benzersiz ürünler ve hizmetler sunarak rekabet avantajı sağlar.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Yenilikçiliğin Teşviki: </span>
-            İnovasyonu teşvik eder ve yaratıcı süreçleri destekler.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Ekonomik Değer: </span>
-            Fikri mülkiyet, işletmelere maddi kazanç sağlama potansiyeline sahiptir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Haksız Rekabetin Önlenmesi: </span>
-            Fikri mülkiyet hakları, başkalarının sizin eserlerinizi izinsiz kullanmalarını önler.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Rekabet Avantajı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Fikri mülkiyet hakları, işletmelere benzersiz ürünler ve hizmetler sunarak rekabet avantajı sağlar.
+  </p>
+  <li className="mb-2 font-semibold">Yenilikçiliğin Teşviki</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İnovasyonu teşvik eder ve yaratıcı süreçleri destekler.
+  </p>
+  <li className="mb-2 font-semibold">Ekonomik Değer</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Fikri mülkiyet, işletmelere maddi kazanç sağlama potansiyeline sahiptir.
+  </p>
+  <li className="mb-2 font-semibold">Haksız Rekabetin Önlenmesi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Fikri mülkiyet hakları, başkalarının sizin eserlerinizi izinsiz kullanmalarını önler.
+  </p>
+</ul>
     
         <h2 className="text-base md:text-lg font-bold mb-4">
           Fikri Mülkiyet Türleri
         </h2>
     
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Telif Hakları: </span>
-            Eser sahiplerine, edebi ve sanatsal eserlerin kullanım hakkını verir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Patentler: </span>
-            Buluşların korunmasını sağlar.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Markalar: </span>
-            Ürün ve hizmetlerin tanıtımında kullanılır.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Endüstriyel Tasarımlar: </span>
-            Ürünlerin estetik yönlerini korur.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Telif Hakları</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Eser sahiplerine, edebi ve sanatsal eserlerin kullanım hakkını verir.
+  </p>
+  <li className="mb-2 font-semibold">Patentler</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Buluşların korunmasını sağlar.
+  </p>
+  <li className="mb-2 font-semibold">Markalar</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Ürün ve hizmetlerin tanıtımında kullanılır.
+  </p>
+  <li className="mb-2 font-semibold">Endüstriyel Tasarımlar</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Ürünlerin estetik yönlerini korur.
+  </p>
+</ul>
     
         <h2 className="text-base md:text-lg font-bold mb-4">
           Hukuk Büromuzun Fikri Mülkiyet Danışmanlık Hizmetleri
@@ -1725,27 +1615,27 @@ const practiceDetails = {
         </p>
     
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Fikri Mülkiyet Haklarının Tescili: </span>
-            Fikri mülkiyet haklarınızın korunması için gerekli olan tescil süreçlerinde profesyonel destek sağlıyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Fikri Mülkiyet Hakları Eğitimi: </span>
-            Müşterilerimize, fikri mülkiyet haklarının önemi ve korunması konusunda eğitimler düzenliyoruz.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Lisanslama ve Sözleşmeler: </span>
-            Fikri mülkiyet haklarınızı ticari amaçlarla kullanmak istediğinizde, lisanslama sözleşmeleri büyük bir önem taşır.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">İhlal ve Koruma Stratejileri: </span>
-            Fikri mülkiyet haklarınızın ihlal edilmesi durumunda, gerekli adımları atmak için yanınızdayız.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Sürekli Danışmanlık: </span>
-            Fikri mülkiyet haklarınızın sürekli olarak korunması için düzenli danışmanlık hizmeti sunuyoruz.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Fikri Mülkiyet Haklarının Tescili</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Fikri mülkiyet haklarınızın korunması için gerekli olan tescil süreçlerinde profesyonel destek sağlıyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Fikri Mülkiyet Hakları Eğitimi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Müşterilerimize, fikri mülkiyet haklarının önemi ve korunması konusunda eğitimler düzenliyoruz.
+  </p>
+  <li className="mb-2 font-semibold">Lisanslama ve Sözleşmeler</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Fikri mülkiyet haklarınızı ticari amaçlarla kullanmak istediğinizde, lisanslama sözleşmeleri büyük bir önem taşır.
+  </p>
+  <li className="mb-2 font-semibold">İhlal ve Koruma Stratejileri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Fikri mülkiyet haklarınızın ihlal edilmesi durumunda, gerekli adımları atmak için yanınızdayız.
+  </p>
+  <li className="mb-2 font-semibold">Sürekli Danışmanlık</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Fikri mülkiyet haklarınızın sürekli olarak korunması için düzenli danışmanlık hizmeti sunuyoruz.
+  </p>
+</ul>
     
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Fikri mülkiyet hakları, modern iş dünyasında önemli bir yere sahiptir. İşletmelerin ve bireylerin yaratıcılıklarını koruma altına almaları, hem rekabet avantajı sağlar hem de hukuki sorunlardan kaçınmalarını mümkün kılar. Hukuk büromuz, fikri mülkiyet haklarınızı koruma konusunda uzman bir ortak olarak, size kapsamlı danışmanlık hizmetleri sunmaktan memnuniyet duyar. Fikri mülkiyet haklarınızın korunması için bize ulaşın; profesyonel destek almanın güvenini yaşayın.
@@ -1778,23 +1668,23 @@ const practiceDetails = {
         </h2>
     
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Haksız Rekabet: </span>
-            İşletmelerin, diğerlerine karşı haksız avantaj elde etmesine neden olan davranışlar.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Tekelcilik: </span>
-            Tekelleşme, bir veya birkaç işletmenin piyasa üzerindeki hakimiyetini artırarak rekabeti azaltması durumudur.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Rekabeti Sınırlayıcı Anlaşmalar: </span>
-            İşletmeler arasında yapılan, rekabeti engelleyen veya kısıtlayan anlaşmalar.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Piyasa Gücü Kullanımı: </span>
-            Bir işletmenin piyasa koşullarını belirleme kapasitesi ve bu gücün kötüye kullanılmaması için alınacak önlemler.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Haksız Rekabet</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İşletmelerin, diğerlerine karşı haksız avantaj elde etmesine neden olan davranışlar.
+  </p>
+  <li className="mb-2 font-semibold">Tekelcilik</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Tekelleşme, bir veya birkaç işletmenin piyasa üzerindeki hakimiyetini artırarak rekabeti azaltması durumudur.
+  </p>
+  <li className="mb-2 font-semibold">Rekabeti Sınırlayıcı Anlaşmalar</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İşletmeler arasında yapılan, rekabeti engelleyen veya kısıtlayan anlaşmalar.
+  </p>
+  <li className="mb-2 font-semibold">Piyasa Gücü Kullanımı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Bir işletmenin piyasa koşullarını belirleme kapasitesi ve bu gücün kötüye kullanılmaması için alınacak önlemler.
+  </p>
+</ul>
     
         <h2 className="text-base md:text-lg font-bold mb-4">
           Hukuki Danışmanlık Hizmetleri
@@ -1805,23 +1695,23 @@ const practiceDetails = {
         </p>
     
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Rekabet Hukuku Danışmanlığı: </span>
-            İşletmelerin faaliyetlerini hukuki çerçevede yürütmeleri için gerekli bilgilerin sağlanması.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Haksız Rekabet Davaları: </span>
-            Haksız rekabet iddialarına karşı hukuki savunma ve dava süreçlerinin yürütülmesi.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Rekabet Kurumu İle İlişkiler: </span>
-            Rekabet Kurumu’na yapılacak başvurular ve soruşturmalar konusunda danışmanlık hizmetleri.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Sözleşmelerin İncelenmesi: </span>
-            Rekabet hukuku çerçevesinde hazırlanan veya imzalanacak sözleşmelerin hukuki denetimi.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Rekabet Hukuku Danışmanlığı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    İşletmelerin faaliyetlerini hukuki çerçevede yürütmeleri için gerekli bilgilerin sağlanması.
+  </p>
+  <li className="mb-2 font-semibold">Haksız Rekabet Davaları</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Haksız rekabet iddialarına karşı hukuki savunma ve dava süreçlerinin yürütülmesi.
+  </p>
+  <li className="mb-2 font-semibold">Rekabet Kurumu İle İlişkiler</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Rekabet Kurumu’na yapılacak başvurular ve soruşturmalar konusunda danışmanlık hizmetleri.
+  </p>
+  <li className="mb-2 font-semibold">Sözleşmelerin İncelenmesi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Rekabet hukuku çerçevesinde hazırlanan veya imzalanacak sözleşmelerin hukuki denetimi.
+  </p>
+</ul>
     
         <h2 className="text-base md:text-lg font-bold mb-4">
           Neden Biz?
@@ -1855,23 +1745,26 @@ const practiceDetails = {
         </h2>
     
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Fikri Mülkiyet Hakları: </span>
-            Yapay zeka sistemleri tarafından üretilen içerikler ve yenilikler, fikri mülkiyet hakları açısından çeşitli sorunlar doğurabilir. YZ'nin yarattığı eserlerin kim tarafından sahiplenileceği, telif haklarının nasıl geçerli olacağı ve patent başvurularının nasıl yapılacağı gibi konular, işletmelerin dikkat etmesi gereken önemli noktalardır. Örneğin, bir YZ modeli, bir müzik parçası veya bir resim oluşturduğunda, bu eserin mülkiyetinin kime ait olduğu belirsiz hale gelebilir. Dolayısıyla, YZ ile ilgili fikri mülkiyet politikaları oluşturmak ve bu politikaların hukuki çerçevede nasıl şekilleneceği konusunda danışmanlık almak önemlidir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Veri Koruma ve Gizlilik: </span>
-            Yapay zeka sistemleri, büyük miktarda veri toplama ve işleme kapasitesine sahip olduğu için, veri koruma yasalarına uyum sağlamak zorunludur. Kişisel verilerin korunması, özellikle GDPR gibi uluslararası düzenlemeler çerçevesinde ciddi yaptırımlar içerebilir. İşletmeler, YZ sistemlerinin veri toplama yöntemlerini, veri işleme süreçlerini ve kullanıcı rızasını gözden geçirerek, kişisel verilerin korunmasına dair kapsamlı bir strateji geliştirmelidir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Sorumluluk Problemleri: </span>
-            Yapay zeka sistemleri otomatik kararlar alırken, hata yapma ihtimali de mevcuttur. Bu durumda, hatanın sorumluluğu kimin üzerine düşer? Kullanıcı mı, geliştirici mi yoksa YZ sistemi mi? Sorumluluk analizleri, işletmelerin yasal pozisyonunu güçlendirmeye yardımcı olabilir. Örneğin, bir otonom aracın kaza yapması durumunda, zarar görenlerin hangi taraflara karşı dava açabilecekleri üzerine danışmanlık almak, olası yasal sorunları önlemek açısından faydalı olacaktır.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Etik ve Yasal Düzenlemeler: </span>
-            YYapay zeka uygulamaları, etik sorunlar doğurabilir. Özellikle, ayrımcılık, şeffaflık, adalet ve hesap verebilirlik gibi ilkeler, YZ'nin kullanımı açısından kritik bir öneme sahiptir. Bu ilkelerin göz önünde bulundurulması, işletmelerin itibarını korumasına yardımcı olurken, aynı zamanda hukuki yaptırımları da önleyebilir. İşletmelerin, YZ uygulamalarının etik kurallara uygun olup olmadığını değerlendirmeleri için profesyonel hukuki destek almaları önerilir.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Fikri Mülkiyet Hakları</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yapay zeka sistemleri tarafından üretilen içerikler ve yenilikler, fikri mülkiyet hakları açısından çeşitli sorunlar doğurabilir. YZ'nin yarattığı eserlerin kim tarafından sahiplenileceği, telif haklarının nasıl geçerli olacağı ve patent başvurularının nasıl yapılacağı gibi konular, işletmelerin dikkat etmesi gereken önemli noktalardır. Örneğin, bir YZ modeli, bir müzik parçası veya bir resim oluşturduğunda, bu eserin mülkiyetinin kime ait olduğu belirsiz hale gelebilir. Dolayısıyla, YZ ile ilgili fikri mülkiyet politikaları oluşturmak ve bu politikaların hukuki çerçevede nasıl şekilleneceği konusunda danışmanlık almak önemlidir.
+  </p>
+  
+  <li className="mb-2 font-semibold">Veri Koruma ve Gizlilik</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yapay zeka sistemleri, büyük miktarda veri toplama ve işleme kapasitesine sahip olduğu için, veri koruma yasalarına uyum sağlamak zorunludur. Kişisel verilerin korunması, özellikle GDPR gibi uluslararası düzenlemeler çerçevesinde ciddi yaptırımlar içerebilir. İşletmeler, YZ sistemlerinin veri toplama yöntemlerini, veri işleme süreçlerini ve kullanıcı rızasını gözden geçirerek, kişisel verilerin korunmasına dair kapsamlı bir strateji geliştirmelidir.
+  </p>
+  
+  <li className="mb-2 font-semibold">Sorumluluk Problemleri</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yapay zeka sistemleri otomatik kararlar alırken, hata yapma ihtimali de mevcuttur. Bu durumda, hatanın sorumluluğu kimin üzerine düşer? Kullanıcı mı, geliştirici mi yoksa YZ sistemi mi? Sorumluluk analizleri, işletmelerin yasal pozisyonunu güçlendirmeye yardımcı olabilir. Örneğin, bir otonom aracın kaza yapması durumunda, zarar görenlerin hangi taraflara karşı dava açabilecekleri üzerine danışmanlık almak, olası yasal sorunları önlemek açısından faydalı olacaktır.
+  </p>
+  
+  <li className="mb-2 font-semibold">Etik ve Yasal Düzenlemeler</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Yapay zeka uygulamaları, etik sorunlar doğurabilir. Özellikle, ayrımcılık, şeffaflık, adalet ve hesap verebilirlik gibi ilkeler, YZ'nin kullanımı açısından kritik bir öneme sahiptir. Bu ilkelerin göz önünde bulundurulması, işletmelerin itibarını korumasına yardımcı olurken, aynı zamanda hukuki yaptırımları da önleyebilir. İşletmelerin, YZ uygulamalarının etik kurallara uygun olup olmadığını değerlendirmeleri için profesyonel hukuki destek almaları önerilir.
+  </p>
+</ul>
     
         <h2 className="text-base md:text-lg font-bold mb-4">
           Neden Yapay Zeka ve Otomatik Sistemler için Hukuki Destek Almalısınız?
@@ -1882,23 +1775,23 @@ const practiceDetails = {
         </p>
     
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-          <li className="mb-2">
-            <span className="font-semibold">Fikri Mülkiyet Danışmanlığı: </span>
-            YZ ile üretilen eserlerin mülkiyet hakları konusunda rehberlik almak, olası ihlalleri önlemenize yardımcı olur. Patent başvuruları ve telif hakları konularında stratejik planlama yapılabilir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Veri Gizliliği ve Koruma: </span>
-            GDPR ve diğer veri koruma yasalarına uyum sağlamak için gerekli adımları belirlemek, veri koruma stratejileri geliştirmek ve veri güvenliği politikaları oluşturmak mümkündür.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Sorumluluk Analizi: </span>
-            YZ sistemlerinin neden olduğu hatalar konusunda sorumluluğun kimde olduğunu belirlemek, olası yasal sorunları önleyebilir.
-          </li>
-          <li className="mb-2">
-            <span className="font-semibold">Etik ve Yasal Düzenlemeler: </span>
-            YZ uygulamalarının etik kurallara uygunluğunu değerlendirmek, işletmenizin sosyal sorumluluklarını yerine getirmesine yardımcı olur.
-          </li>
-        </ul>
+  <li className="mb-2 font-semibold">Fikri Mülkiyet Danışmanlığı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    YZ ile üretilen eserlerin mülkiyet hakları konusunda rehberlik almak, olası ihlalleri önlemenize yardımcı olur. Patent başvuruları ve telif hakları konularında stratejik planlama yapılabilir.
+  </p>
+  <li className="mb-2 font-semibold">Veri Gizliliği ve Koruma</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    GDPR ve diğer veri koruma yasalarına uyum sağlamak için gerekli adımları belirlemek, veri koruma stratejileri geliştirmek ve veri güvenliği politikaları oluşturmak mümkündür.
+  </p>
+  <li className="mb-2 font-semibold">Sorumluluk Analizi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    YZ sistemlerinin neden olduğu hatalar konusunda sorumluluğun kimde olduğunu belirlemek, olası yasal sorunları önleyebilir.
+  </p>
+  <li className="mb-2 font-semibold">Etik ve Yasal Düzenlemeler</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    YZ uygulamalarının etik kurallara uygunluğunu değerlendirmek, işletmenizin sosyal sorumluluklarını yerine getirmesine yardımcı olur.
+  </p>
+</ul>
     
         <h2 className="text-base md:text-lg font-bold mb-4">
           Sancar Hukuk Bürosu’nun Rolü
@@ -1928,54 +1821,53 @@ const practiceDetails = {
           </h2>
   
           <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-              <li className="mb-2">
-                  <span className="font-semibold">Yasal Düzenlemelere Uyum: </span>
-                  Kişisel verilerin korunmasına dair yasalar, özellikle Avrupa Birliği’nin Genel Veri Koruma Yönetmeliği (GDPR) ve Türkiye’nin Kişisel Verilerin Korunması Kanunu (KVKK), işletmelere önemli yükümlülükler getirmektedir. Bu düzenlemelere uymamak, ciddi cezalarla sonuçlanabilir. Örneğin, GDPR kapsamında, ihlal başına 20 milyon Euro’ya kadar para cezası uygulanabilmektedir.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Müşteri Güvenliği: </span>
-                  Müşterilerin kişisel verilerini koruma konusundaki hassasiyeti, işletmelerin itibarını doğrudan etkiler. Güvenli veri yönetimi uygulamaları, müşteri güvenini artırır ve sadakati pekiştirir. Müşterilerin verilerinin güvende olduğunu bilmesi, onlarla olan ilişkinizi güçlendirir.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Rekabet Avantajı: </span>
-                  Veri gizliliği ve güvenliği konusunda güçlü bir politikaya sahip olmak, işletmenizin sektördeki konumunu güçlendirebilir. Müşterilerinizi güvende hissettirmek, rekabette bir avantaj sağlar. Güçlü bir veri koruma politikası, pazarda farklılaşmanıza yardımcı olur.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Olası İhlallerin Önlenmesi: </span>
-                  Veri güvenliği önlemleri almak, veri ihlallerinin önüne geçer. İhlal durumunda işletmenizin maruz kalacağı maddi ve manevi zararların boyutu, ne kadar hazırlıklı olduğunuzla doğru orantılıdır.
-              </li>
-          </ul>
+  <li className="mb-2 font-semibold">Yasal Düzenlemelere Uyum</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Kişisel verilerin korunmasına dair yasalar, özellikle Avrupa Birliği’nin Genel Veri Koruma Yönetmeliği (GDPR) ve Türkiye’nin Kişisel Verilerin Korunması Kanunu (KVKK), işletmelere önemli yükümlülükler getirmektedir. Bu düzenlemelere uymamak, ciddi cezalarla sonuçlanabilir. Örneğin, GDPR kapsamında, ihlal başına 20 milyon Euro’ya kadar para cezası uygulanabilmektedir.
+  </p>
+  <li className="mb-2 font-semibold">Müşteri Güvenliği</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Müşterilerin kişisel verilerini koruma konusundaki hassasiyeti, işletmelerin itibarını doğrudan etkiler. Güvenli veri yönetimi uygulamaları, müşteri güvenini artırır ve sadakati pekiştirir. Müşterilerin verilerinin güvende olduğunu bilmesi, onlarla olan ilişkinizi güçlendirir.
+  </p>
+  <li className="mb-2 font-semibold">Rekabet Avantajı</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Veri gizliliği ve güvenliği konusunda güçlü bir politikaya sahip olmak, işletmenizin sektördeki konumunu güçlendirebilir. Müşterilerinizi güvende hissettirmek, rekabette bir avantaj sağlar. Güçlü bir veri koruma politikası, pazarda farklılaşmanıza yardımcı olur.
+  </p>
+  <li className="mb-2 font-semibold">Olası İhlallerin Önlenmesi</li>
+  <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+    Veri güvenliği önlemleri almak, veri ihlallerinin önüne geçer. İhlal durumunda işletmenizin maruz kalacağı maddi ve manevi zararların boyutu, ne kadar hazırlıklı olduğunuzla doğru orantılıdır.
+  </p>
+</ul>
   
           <h2 className="text-base md:text-lg font-bold mb-4">
               Danışmanlık Hizmetlerimizin Kapsamı
           </h2>
-  
           <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-              <li className="mb-2">
-                  <span className="font-semibold">Veri İhlali Risk Değerlendirmesi: </span>
-                  Danışmanlık sürecimizin ilk adımı, işletmenizin veri ihlali riski taşıyan alanlarının belirlenmesidir. Risk analizi yaparak, potansiyel tehlikeleri tespit ederiz. Bu sayede, hangi alanlarda iyileştirmeler yapmanız gerektiğine dair somut öneriler sunarız.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Politika ve Prosedür Geliştirme: </span>
-                  Veri gizliliği ve güvenliği konusunda etkili bir yönetim sağlamak için özel politikalar ve prosedürler geliştirilmesi gerekir. İşletmenizin ihtiyaçlarına uygun veri koruma politikaları oluştururuz.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Eğitim ve Farkındalık Programları: </span>
-                  Çalışanların veri gizliliği ve güvenliği konusundaki farkındalığını artırmak, olası hataları azaltır. Eğitim programları düzenleyerek, çalışanlarınızı güncel yasal düzenlemeler ve veri koruma uygulamaları hakkında bilgilendiririz.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Veri Yönetimi Stratejileri: </span>
-                  Veri yönetimi, veri güvenliğinin sağlanması için kritik bir adımdır. İşletmenizin veri toplama, saklama ve işleme süreçlerini gözden geçirir ve veri yönetimi stratejileri geliştiririz.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Veri İhlali Durumunda Müdahale Planı: </span>
-                  Herhangi bir veri ihlali durumunda ne yapılacağı konusunda bir planınız olmalıdır. Danışmanlık hizmetlerimiz kapsamında, veri ihlali durumunda izlenecek adımları içeren acil müdahale planları geliştiririz.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Sürekli İzleme ve Değerlendirme: </span>
-                  Veri güvenliği, tek seferlik bir işlem değil, sürekli bir süreçtir. Danışmanlık hizmetlerimiz, işletmenizin veri güvenliği uygulamalarını düzenli olarak gözden geçirmeyi ve güncellemeyi de içerir.
-              </li>
-          </ul>
+    <li className="mb-2 font-semibold">Veri İhlali Risk Değerlendirmesi</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Danışmanlık sürecimizin ilk adımı, işletmenizin veri ihlali riski taşıyan alanlarının belirlenmesidir. Risk analizi yaparak, potansiyel tehlikeleri tespit ederiz. Bu sayede, hangi alanlarda iyileştirmeler yapmanız gerektiğine dair somut öneriler sunarız.
+    </p>
+    <li className="mb-2 font-semibold">Politika ve Prosedür Geliştirme</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Veri gizliliği ve güvenliği konusunda etkili bir yönetim sağlamak için özel politikalar ve prosedürler geliştirilmesi gerekir. İşletmenizin ihtiyaçlarına uygun veri koruma politikaları oluştururuz.
+    </p>
+    <li className="mb-2 font-semibold">Eğitim ve Farkındalık Programları</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Çalışanların veri gizliliği ve güvenliği konusundaki farkındalığını artırmak, olası hataları azaltır. Eğitim programları düzenleyerek, çalışanlarınızı güncel yasal düzenlemeler ve veri koruma uygulamaları hakkında bilgilendiririz.
+    </p>
+    <li className="mb-2 font-semibold">Veri Yönetimi Stratejileri</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Veri yönetimi, veri güvenliğinin sağlanması için kritik bir adımdır. İşletmenizin veri toplama, saklama ve işleme süreçlerini gözden geçirir ve veri yönetimi stratejileri geliştiririz.
+    </p>
+    <li className="mb-2 font-semibold">Veri İhlali Durumunda Müdahale Planı</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Herhangi bir veri ihlali durumunda ne yapılacağı konusunda bir planınız olmalıdır. Danışmanlık hizmetlerimiz kapsamında, veri ihlali durumunda izlenecek adımları içeren acil müdahale planları geliştiririz.
+    </p>
+    <li className="mb-2 font-semibold">Sürekli İzleme ve Değerlendirme</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Veri güvenliği, tek seferlik bir işlem değil, sürekli bir süreçtir. Danışmanlık hizmetlerimiz, işletmenizin veri güvenliği uygulamalarını düzenli olarak gözden geçirmeyi ve güncellemeyi de içerir.
+    </p>
+</ul>
   
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
               Veri gizliliği ve güvenliği, modern iş dünyasında kritik bir öneme sahiptir. İşletmeler, bu alanda profesyonel danışmanlık hizmetleri alarak, hem yasal yükümlülüklerini yerine getirebilir hem de müşteri güvenini artırabilir. Sancar Hukuk Bürosu olarak, veri gizliliği ve güvenliği konularında kapsamlı danışmanlık hizmetleri sunmaktayız. Amacımız, işletmenizin ihtiyaçlarına özel çözümler geliştirerek, güvenli bir veri yönetimi sağlamak ve yasal riskleri minimize etmektir.
@@ -2000,54 +1892,60 @@ const practiceDetails = {
           </h2>
   
           <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-              <li className="mb-2">
-                  <span className="font-semibold">Fikri Mülkiyet Hakları: </span>
-                  Fikri mülkiyet, medya ve eğlence sektöründe en önemli konulardan biridir. İçerik üreticileri, eserlerini korumak için telif hakkı, marka tescili ve patent başvuruları yapmalıdır. Telif hakkı ihlalleri, içerik sahipleri için ciddi maddi kayıplara ve itibar zedelenmesine yol açabilir. Sancar Hukuk Bürosu, müvekkillerine fikri mülkiyet haklarını koruma konusunda uzman danışmanlık hizmetleri sunmaktadır.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Sözleşmelerin Yönetimi: </span>
-                  Medya sektörü, birçok farklı paydaşın bir araya geldiği bir ekosistemdir. Sanatçılar, yapımcılar, dağıtımcılar ve diğer ilgili taraflar arasındaki sözleşmelerin yasal geçerliliği son derece önemlidir. Yanlış veya eksik düzenlenmiş sözleşmeler, uzun süreli hukuki anlaşmazlıklara yol açabilir. Sözleşmelerin hazırlanması ve gözden geçirilmesi aşamalarında profesyonel destek sağlıyoruz.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Veri Koruma ve Gizlilik: </span>
-                  Dijitalleşme ile birlikte, kullanıcı verilerinin korunması daha da önemli hale gelmiştir. Medya ve eğlence sektöründe faaliyet gösteren işletmeler, GDPR ve KVKK gibi veri koruma yasalarına uymak zorundadır. Kullanıcı verilerinin ihlali, ciddi yasal yaptırımlara ve finansal kayıplara neden olabilir. Sancar Hukuk Bürosu, veri koruma ve gizlilik politikalarının oluşturulmasında müvekkillerine destek olmaktadır.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Rekabet Hukuku: </span>
-                  Rekabet hukuku, medya ve eğlence sektöründe de önemli bir yer tutmaktadır. Anti-rekabetçi davranışlar, büyük yaptırımlara yol açabilir. Medya şirketleri, piyasa konumlarını korumak için yasal sınırları bilmelidir. Sancar Hukuk Bürosu, rekabet hukuku alanında danışmanlık yaparak müvekkillerini koruma altına almaktadır.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">İçerik Dağıtımı ve Lisanslama: </span>
-                  İçerik dağıtım süreçleri, medya sektörünün temel taşlarındandır. İçeriklerin lisanslanması ve dağıtımında yasal gerekliliklere uyum sağlamak, şirketlerin sürdürülebilirliği açısından kritiktir. Lisans sözleşmelerinin dikkatlice hazırlanması, olası uyuşmazlıkların önüne geçer.
-              </li>
-          </ul>
+    <li className="mb-2 font-semibold">Fikri Mülkiyet Hakları</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Fikri mülkiyet, medya ve eğlence sektöründe önemli bir yer tutar. İçerik üreticileri, eserlerini korumak için telif hakkı, marka tescili ve patent başvuruları yapmalıdır. Sancar Hukuk Bürosu, müvekkillerine fikri mülkiyet haklarını koruma konusunda danışmanlık hizmeti sunmaktadır.
+    </p>
+    <li className="mb-2 font-semibold">Sözleşmelerin Yönetimi</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Medya sektöründe sanatçılar, yapımcılar ve dağıtımcılar arasında sözleşmelerin yasal geçerliliği büyük önem taşır. Yanlış düzenlenmiş sözleşmeler uzun süreli hukuki sorunlara yol açabilir. Sözleşmelerin hazırlanması ve gözden geçirilmesinde profesyonel destek sağlıyoruz.
+    </p>
+    <li className="mb-2 font-semibold">Veri Koruma ve Gizlilik</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Dijitalleşme ile kullanıcı verilerinin korunması daha kritik bir hal almıştır. Medya ve eğlence sektöründe faaliyet gösteren işletmeler, GDPR ve KVKK gibi yasalarla uyumlu olmalıdır. Sancar Hukuk Bürosu, veri koruma ve gizlilik politikaları konusunda müvekkillerine destek olmaktadır.
+    </p>
+    <li className="mb-2 font-semibold">Rekabet Hukuku</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Rekabet hukuku, medya sektöründe de önemlidir. Anti-rekabetçi davranışlar büyük yaptırımlara yol açabilir. Medya şirketleri, piyasa konumlarını korumak için yasal sınırları bilmelidir. Sancar Hukuk Bürosu, rekabet hukuku alanında danışmanlık yaparak müvekkillerini korumaktadır.
+    </p>
+    <li className="mb-2 font-semibold">İçerik Dağıtımı ve Lisanslama</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        İçerik dağıtım süreçleri, medya sektörünün temel taşlarındandır. İçeriklerin lisanslanması ve dağıtımında yasal gerekliliklere uyum sağlamak şirketlerin sürdürülebilirliği açısından kritiktir. Lisans sözleşmelerinin dikkatlice hazırlanması, olası uyuşmazlıkların önüne geçer.
+    </p>
+</ul>
   
           <h2 className="text-base md:text-lg font-bold mb-4">
               Sancar Hukuk Bürosu’nun Sağladığı Danışmanlık Hizmetleri
           </h2>
   
           <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-              <li className="mb-2">
-                  <span className="font-semibold">Fikri Mülkiyet Hakları Danışmanlığı: </span>
-                  İçeriklerinizi korumak için gerekli tüm adımları atıyoruz. Telif hakkı, marka ve patent tescili süreçlerinde danışmanlık hizmeti sunarak, olası ihlallere karşı önleyici tedbirler alıyoruz. İçeriklerinizin hukuki süreçlerini titizlikle takip ediyoruz.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Sözleşme Yönetimi ve Danışmanlığı: </span>
-                  Sözleşmelerin hazırlanması, incelenmesi ve müzakeresi aşamalarında profesyonel destek sağlıyoruz. Sanatçılar ve yapımcılarla yapılacak sözleşmelerin her aşamasında yasal geçerliliği sağlamak için gerekli önlemleri alıyoruz.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Veri Koruma ve Gizlilik Yönetimi: </span>
-                  Kullanıcı verilerinin korunmasına yönelik yasal gerekliliklerin yerine getirilmesi için profesyonel rehberlik sunuyoruz. Verilerinizi korumak için gizlilik politikaları oluşturuyor, risk analizleri yapıyor ve gerekli tüm önlemleri alıyoruz.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Rekabet Hukuku Danışmanlığı: </span>
-                  Rekabet hukuku ile ilgili sorunlarınızı çözmek için kapsamlı danışmanlık hizmetleri sunuyoruz. Anti-rekabetçi uygulamalara karşı bilgilendirme yaparak, müvekkillerimizi yasal süreçlerde güvence altına alıyoruz.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">İçerik Lisanslama Danışmanlığı: </span>
-                  İçeriklerin lisanslanması, dağıtım süreçleri ve yasal gereklilikler hakkında danışmanlık yapıyoruz. Lisans sözleşmelerinin hazırlanması ve yönetimi konusunda profesyonel destek sağlıyoruz.
-              </li>
-          </ul>
+    <li className="mb-2 font-semibold">Fikri Mülkiyet Hakları Danışmanlığı</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        İçeriklerinizi korumak için gerekli tüm adımları atıyoruz. Telif hakkı, marka ve patent tescili süreçlerinde danışmanlık hizmeti sunarak, olası ihlallere karşı önleyici tedbirler alıyoruz. İçeriklerinizin hukuki süreçlerini titizlikle takip ediyoruz.
+    </p>
+    <li className="mb-2 font-semibold">Sözleşme Yönetimi ve Danışmanlığı</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Sözleşmelerin hazırlanması, incelenmesi ve müzakeresi aşamalarında profesyonel destek sağlıyoruz. Sanatçılar ve yapımcılarla yapılacak sözleşmelerin her aşamasında yasal geçerliliği sağlamak için gerekli önlemleri alıyoruz.
+    </p>
+    <li className="mb-2 font-semibold">Veri Koruma ve Gizlilik Yönetimi</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Kullanıcı verilerinin korunmasına yönelik yasal gerekliliklerin yerine getirilmesi için profesyonel rehberlik sunuyoruz. Verilerinizi korumak için gizlilik politikaları oluşturuyor, risk analizleri yapıyor ve gerekli tüm önlemleri alıyoruz.
+    </p>
+    <li className="mb-2 font-semibold">Rekabet Hukuku Danışmanlığı</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Rekabet hukuku ile ilgili sorunlarınızı çözmek için kapsamlı danışmanlık hizmetleri sunuyoruz. Anti-rekabetçi uygulamalara karşı bilgilendirme yaparak, müvekkillerimizi yasal süreçlerde güvence altına alıyoruz.
+    </p>
+    <li className="mb-2 font-semibold">İçerik Lisanslama Danışmanlığı</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        İçeriklerin lisanslanması, dağıtım süreçleri ve yasal gereklilikler hakkında danışmanlık yapıyoruz. Lisans sözleşmelerinin hazırlanması ve yönetimi konusunda profesyonel destek sağlıyoruz.
+    </p>
+</ul>
+
+
+
+
+
+
   
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
               Medya ve eğlence sektörü, hukuki risklerin yüksek olduğu bir alan olarak dikkat çekmektedir. Bu nedenle, profesyonel bir hukuki danışmanlık hizmetine ihtiyaç duyulmaktadır. Sancar Hukuk Bürosu, sektördeki deneyimi ve uzman kadrosu ile müvekkillerine güvenilir ve etkili çözümler sunmaktadır. İhtiyaçlarınıza uygun en iyi çözümleri geliştirmek için bizimle iletişime geçebilirsiniz. Markanızın itibarını korumak, yasal süreçlerde güvence sağlamak ve başarıya giden yolda yanınızda olmak için buradayız.
@@ -2080,27 +1978,27 @@ const practiceDetails = {
           </h2>
   
           <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
-              <li className="mb-2">
-                  <span className="font-semibold">Ticaret Sözleşmelerinin Hazırlanması ve İncelenmesi: </span>
-                  Sınır ötesi ticaretin temeli olan sözleşmeler, dikkatlice hazırlanmalıdır. Taraflar arasındaki hakları, yükümlülükleri ve riskleri net bir şekilde belirlemek için uluslararası standartlara uygun sözleşmeler hazırlıyor ve mevcut sözleşmeleri titizlikle inceliyoruz. Sözleşmelerdeki her bir maddeyi gözden geçirerek, olası sorunları önceden tespit ediyoruz.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Gümrük ve İthalat İhracat Danışmanlığı: </span>
-                  Gümrük süreçleri, uluslararası ticarette büyük bir öneme sahiptir. İthalat ve ihracat işlemlerinde gerekli belgelerin hazırlanması, gümrük düzenlemeleri ve yasal gerekliliklerin yerine getirilmesi konularında danışmanlık sağlıyoruz. Gümrük vergileri, ithalat kotaları ve diğer yasal gereklilikleri titizlikle takip ederek, müvekkillerimizin karşılaşabileceği olası sorunları en aza indiriyoruz.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Uyuşmazlık Çözüm Mekanizmaları: </span>
-                  Ticaret uyuşmazlıkları, çoğu zaman mahkemeye gitmeden çözülmelidir. Arabuluculuk ve tahkim gibi alternatif çözüm yöntemleri hakkında danışmanlık yaparak, müvekkillerimize hızlı ve etkili çözümler sunuyoruz. Uyuşmazlıkların çözümünde deneyimli avukatlarımız, müvekkillerimizin en iyi çıkarlarını savunmak için gerekli stratejileri geliştirmektedir.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Uluslararası Ticaret Mevzuatı: </span>
-                  Her ülkenin ticaret hukuku farklılıklar gösterir. Uluslararası ticaret mevzuatında güncel değişiklikleri takip ediyor ve müvekkillerimizi bilgilendiriyoruz. Böylece, yasalara uygun bir ticaret stratejisi geliştirmelerine yardımcı oluyoruz. Ayrıca, ticaret anlaşmaları ve düzenlemeleri ile ilgili detaylı bilgi sunarak, işletmelerin yasal süreçlerde karşılaşabileceği zorlukları önlemelerine katkı sağlıyoruz.
-              </li>
-              <li className="mb-2">
-                  <span className="font-semibold">Risk Yönetimi ve Uygulama: </span>
-                  Küresel pazarda karşılaşılabilecek riskleri belirlemek ve yönetmek, işletmelerin sürdürülebilirliği açısından kritiktir. Risk analizleri yaparak, işletmenizin ticari faaliyetlerini güvence altına alıyoruz. Olası ticari riskleri önceden tespit ederek, etkili çözüm önerileri sunuyoruz.
-              </li>
-          </ul>
+    <li className="mb-2 font-semibold">Ticaret Sözleşmelerinin Hazırlanması ve İncelenmesi</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Sınır ötesi ticaretin temeli olan sözleşmeler, dikkatlice hazırlanmalıdır. Taraflar arasındaki hakları, yükümlülükleri ve riskleri net bir şekilde belirlemek için uluslararası standartlara uygun sözleşmeler hazırlıyor ve mevcut sözleşmeleri titizlikle inceliyoruz. Sözleşmelerdeki her bir maddeyi gözden geçirerek, olası sorunları önceden tespit ediyoruz.
+    </p>
+    <li className="mb-2 font-semibold">Gümrük ve İthalat İhracat Danışmanlığı</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Gümrük süreçleri, uluslararası ticarette büyük bir öneme sahiptir. İthalat ve ihracat işlemlerinde gerekli belgelerin hazırlanması, gümrük düzenlemeleri ve yasal gerekliliklerin yerine getirilmesi konularında danışmanlık sağlıyoruz. Gümrük vergileri, ithalat kotaları ve diğer yasal gereklilikleri titizlikle takip ederek, müvekkillerimizin karşılaşabileceği olası sorunları en aza indiriyoruz.
+    </p>
+    <li className="mb-2 font-semibold">Uyuşmazlık Çözüm Mekanizmaları</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Ticaret uyuşmazlıkları, çoğu zaman mahkemeye gitmeden çözülmelidir. Arabuluculuk ve tahkim gibi alternatif çözüm yöntemleri hakkında danışmanlık yaparak, müvekkillerimize hızlı ve etkili çözümler sunuyoruz. Uyuşmazlıkların çözümünde deneyimli avukatlarımız, müvekkillerimizin en iyi çıkarlarını savunmak için gerekli stratejileri geliştirmektedir.
+    </p>
+    <li className="mb-2 font-semibold">Uluslararası Ticaret Mevzuatı</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Her ülkenin ticaret hukuku farklılıklar gösterir. Uluslararası ticaret mevzuatında güncel değişiklikleri takip ediyor ve müvekkillerimizi bilgilendiriyoruz. Böylece, yasalara uygun bir ticaret stratejisi geliştirmelerine yardımcı oluyoruz. Ayrıca, ticaret anlaşmaları ve düzenlemeleri ile ilgili detaylı bilgi sunarak, işletmelerin yasal süreçlerde karşılaşabileceği zorlukları önlemelerine katkı sağlıyoruz.
+    </p>
+    <li className="mb-2 font-semibold">Risk Yönetimi ve Uygulama</li>
+    <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
+        Küresel pazarda karşılaşılabilecek riskleri belirlemek ve yönetmek, işletmelerin sürdürülebilirliği açısından kritiktir. Risk analizleri yaparak, işletmenizin ticari faaliyetlerini güvence altına alıyoruz. Olası ticari riskleri önceden tespit ederek, etkili çözüm önerileri sunuyoruz.
+    </p>
+</ul>
   
           <h2 className="text-base md:text-lg font-bold mb-4">
               Neden Sancar Hukuk Bürosu?
