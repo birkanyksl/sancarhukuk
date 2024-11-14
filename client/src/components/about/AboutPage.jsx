@@ -25,7 +25,7 @@ const AboutPage = () => {
           </div>
           <div className="relative w-full h-48 md:w-1/2 hidden md:block lg:hidden">
             <Image
-              src="https://images.pexels.com/photos/1344537/pexels-photo-1344537.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src="https://images.pexels.com/photos/4427813/pexels-photo-4427813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="blog-image"
               fill
               quality={80}
@@ -49,7 +49,7 @@ const AboutPage = () => {
           </div>
           <div className="relative w-full h-48 md:w-1/2 hidden md:block lg:hidden">
             <Image
-              src="https://images.pexels.com/photos/1344537/pexels-photo-1344537.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src="https://images.pexels.com/photos/16479746/pexels-photo-16479746/free-photo-of-adam-el-ay-dokunmak.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="blog-image"
               fill
               quality={80}
@@ -72,7 +72,7 @@ const AboutPage = () => {
           </div>
           <div className="relative w-full h-48 md:w-1/2 hidden md:block lg:hidden">
             <Image
-              src="https://images.pexels.com/photos/1344537/pexels-photo-1344537.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src="https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="blog-image"
               fill
               quality={80}
@@ -91,18 +91,27 @@ const AboutPage = () => {
         </p>
 
         <div className="hidden lg:flex flex-row gap-4 w-full h-[24rem] mx-auto">
-          {Array.from({ length: 3 }).map((_, index) => (
-            <div key={index} className="relative w-1/3 h-full">
+          
+            <div  className="relative w-1/2 h-full">
               <Image
-                src="https://images.pexels.com/photos/1344537/pexels-photo-1344537.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="https://images.pexels.com/photos/2539076/pexels-photo-2539076.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="blog-image"
-                fill
-                quality={80}
+                fill             
                 className="rounded-lg object-cover"
                  sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
               />
             </div>
-          ))}
+
+            <div  className="relative w-1/2 h-full">
+              <Image
+                src="https://images.pexels.com/photos/8112121/pexels-photo-8112121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="blog-image"
+                fill             
+                className="rounded-lg object-cover"
+                 sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
+              />
+            </div>
+          
         </div>
 
         <div className="flex flex-col gap-4">

@@ -5,7 +5,7 @@ const AboutPageTeam = () => {
   return (
     <div className='px-6 pb-8 md:px-8 lg:px-16 xl:px-32 2xl:px-64 flex flex-row gap-2 my-8 items-center md:my-20'>
       
-      <div className='flex flex-col w-1/2 lg:w-1/3 h-48 p-4  [border-radius:0px_200px_200px_0px] bg-amber-300 text-center justify-center items-center cursor-pointer shadow-lg '>
+      <div className='flex flex-col w-1/2 lg:w-1/3 h-48 p-4  [border-radius:0px_200px_200px_0px] bg-amber-200 text-center justify-center items-center cursor-pointer shadow-lg '>
         <h2 className='text-lg lg:text-xl  font-semibold mr-4 text-color1'>Meet Our Team</h2>
        
       </div>
@@ -27,14 +27,14 @@ const AboutPageTeam = () => {
         <div className='hidden md:block relative w-1/2'>
           <Image
             alt='team-img-2'
-            src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=400"
+            src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             fill
             className='object-cover [border-radius:0px_200px_200px_0px]'
              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
           />
         </div>
       </div>
-      <div className='hidden w-1/3 h-72 pl-12 border lg:flex [border-radius:200px_0px_0px_200px] bg-amber-300 justify-center items-center cursor-pointer shadow-lg'>
+      <div className='hidden w-1/3 h-72 pl-12 border lg:flex [border-radius:200px_0px_0px_200px] bg-amber-200 justify-center items-center cursor-pointer shadow-lg'>
       <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
       Our diverse team is committed to delivering outstanding results and innovative solutions.</p>
        
