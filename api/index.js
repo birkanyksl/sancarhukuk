@@ -33,7 +33,7 @@ const storage = getStorage(app2, process.env.FIREBASE_STORAGE_BUCKET);
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:3000", 
+  origin: "sancarhukuk-client.vercel.app", 
   credentials: true
 }));
 app.use(express.json());
