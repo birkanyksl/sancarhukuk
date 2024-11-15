@@ -12,9 +12,9 @@ import { Link } from "@/navigation";
 const Team = () => {
   return (
     <div className="flex flex-col mb-20">
-      <div className="px-6 pb-8 md:px-8 lg:px-16 xl:px-32 2xl:px-48 ">
+      <div className="px-4 pb-8 md:px-8 lg:px-16 xl:px-32 2xl:px-48 ">
         <div className="flex flex-col lg:flex-row  mx-auto px-8 justify-center">
-          <div className="lg:w-1/2 w-full pt-20 px-8 justify-center ">
+          <div className="lg:w-1/2 w-full pt-20 px-4 justify-center ">
             <div className="flex flex-col gap-4 mb-10 justify-center">
               <h2 className="text-sm font-normal text-color1">
                 <span className="text-color6">FOUNDER</span> PARTNER
@@ -75,8 +75,8 @@ const Team = () => {
         </div>
       </div>
 
-      <div className="relative h-[50vh] shadow-lg md:my-10">
-        <div className="relative z-10 h-full flex flex-col justify-center items-center text-color1 px-4 text-center">
+      <div className=" flex flex-col shadow-lg py-4 md:my-10 px-6">
+        <div className="flex flex-col justify-center items-center text-color1 px-4 text-center">
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold md:mb-2">
             Defining <span className="text-color6">success</span> together
           </h2>
@@ -133,9 +133,9 @@ const Team = () => {
         </div>
       </div>
 
-      <div className="px-6 pb-8 md:px-8 lg:px-16 xl:px-32 2xl:px-36 2xl:mt-20 mb-20 ">
+      <div className="px-4 pb-8 md:px-8 lg:px-16 xl:px-32 2xl:px-36 2xl:mt-20 ">
         <div className="flex flex-col lg:flex-row mx-auto px-8 justify-center ">
-          <div className="lg:w-1/2 w-full pt-20 px-8 justify-center mb-6 ">
+          <div className="lg:w-1/2 w-full pt-20 px-4 justify-center mb-6 ">
             <div className="flex flex-col gap-4 mb-10 justify-center">
               <h2 className="text-sm font-normal text-color1">
                 <span className="text-color6">MANAGER</span> PARTNER
