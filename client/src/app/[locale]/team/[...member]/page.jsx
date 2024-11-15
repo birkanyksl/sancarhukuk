@@ -70,24 +70,28 @@ const memberData = {
 
 const SinglePage = ({ params }) => {
   const { member } = params;
+  console.log(`member: ${member}`);
+  
+
   const memberKey = Array.isArray(member) ? member[0] : member;
 
   const memberInfo = memberData[memberKey];
   if (!memberInfo) {
     notFound();
   }
-
   return (
-    <> 
-
-       <div className="px-6 py-8 md:px-8 lg:px-16 xl:px-32 2xl:px-48 md:mt-8 shadow-lg mb-20 bg-neutral-50">
+    <>
+      <div className="px-6 py-8 md:px-8 lg:px-16 xl:px-32 2xl:px-48 md:mt-8 shadow-lg mb-20 bg-neutral-50">
         <div className="flex flex-col lg:flex-row mx-auto px-8 justify-center ">
           <div className="lg:w-1/2 w-full pt-20 px-8 justify-center ">
             <div className="flex flex-col gap-4 mb-10 justify-center">
               <h2 className="text-sm lg:text-base font-medium text-color1">
                 <span className="text-color6">FOUNDER</span> PARTNER
               </h2>
-              <h3 className="text-3xl font-medium lg:text-4xl text-color1">Erkan YÜKSEL</h3>
+
+              <h3 className="text-3xl font-medium lg:text-4xl text-color1">
+                Erkan YÜKSEL
+              </h3>
               <HorizontalDivider />
             </div>
             <div className="flex flex-col gap-6 mb-8">
@@ -125,7 +129,6 @@ const SinglePage = ({ params }) => {
                   Erkan Yüksel
                 </span>
               </button>
-               
             </div>
           </div>
 
@@ -135,20 +138,22 @@ const SinglePage = ({ params }) => {
               alt="Avukat Fotoğraf"
               width={400}
               height={600}
-               className="object-contain w-full h-auto"
+              className="object-contain w-full h-auto"
               priority
-              
             />
           </div>
         </div>
       </div>
 
-
       <div className="container mx-auto px-4 py-12 mb-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-1">
-            <h2 className="text-sm lg:text-base font-medium text-color1 mb-4">1997-2007</h2>
-            <h3 className="text-2xl font-medium lg:text-3xl text-color1 mb-6">Education</h3>
+            <h2 className="text-sm lg:text-base font-medium text-color1 mb-4">
+              1997-2007
+            </h2>
+            <h3 className="text-2xl font-medium lg:text-3xl text-color1 mb-6">
+              Education
+            </h3>
             <p className="text-base md:text-lg mb-4 text-gray-800">
               The protection of intangible innovation, ideas and knowledge has
               an increasingly important role.
@@ -160,7 +165,9 @@ const SinglePage = ({ params }) => {
               {memberInfo.education.map((edu, index) => (
                 <li key={index}>
                   <h4 className="font-semibold mb-2">{`${edu.institution}, ${edu.years}`}</h4>
-                  <p className="text-sm md:text-base mb-4 text-gray-800">{edu.description}</p>
+                  <p className="text-sm md:text-base mb-4 text-gray-800">
+                    {edu.description}
+                  </p>
                 </li>
               ))}
             </ul>
@@ -186,12 +193,16 @@ const SinglePage = ({ params }) => {
           </div>
         </div>
       </div>
-   
+
       <div className="container mx-auto px-4 py-12 mb-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-1">
-            <h2 className="text-sm lg:text-base font-medium text-color1 mb-4">1997-2007</h2>
-            <h3 className="text-2xl font-medium lg:text-3xl text-color1 mb-6">Career</h3>
+            <h2 className="text-sm lg:text-base font-medium text-color1 mb-4">
+              1997-2007
+            </h2>
+            <h3 className="text-2xl font-medium lg:text-3xl text-color1 mb-6">
+              Career
+            </h3>
             <p className="text-base md:text-lg mb-4 text-gray-800">
               The changing legislation introduces new challenges for
               implementation which attorneys must be aware of.
@@ -203,7 +214,9 @@ const SinglePage = ({ params }) => {
               {memberInfo.career.map((job, index) => (
                 <li key={index}>
                   <h4 className="font-semibold mb-2">{`${job.position}, ${job.years}`}</h4>
-                  <p className="text-sm md:text-base mb-4 text-gray-800">{job.description}</p>
+                  <p className="text-sm md:text-base mb-4 text-gray-800">
+                    {job.description}
+                  </p>
                 </li>
               ))}
             </ul>
@@ -232,11 +245,5 @@ const SinglePage = ({ params }) => {
     </>
   );
 };
-
-export async function generateStaticParams() {
-  return Object.keys(memberData).map((memberKey) => ({
-    member: [memberKey],
-  }));
-}
 
 export default SinglePage;
