@@ -30,13 +30,19 @@ const nextConfig = {
                 port: '',
                 pathname: '/v0/b/**', 
               },
+              {
+                protocol: 'https',
+                hostname: 'sancarhukuk-server.vercel.app',
+                
+                
+              },
         ],
     },
     async rewrites() {
         return [
             {
                 source: '/api/:path*',  
-                destination: 'http://localhost:5000/api/:path*', 
+                destination: 'https://sancarhukuk-server.vercel.app//api/:path*', 
             },
         ];
     },
