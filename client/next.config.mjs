@@ -42,7 +42,7 @@ const nextConfig = {
         return [
             {
                 source: '/api/:path*',  
-                destination: 'https://sancarhukuk-server.vercel.app//api/:path*', 
+                destination: 'https://sancarhukuk-server.vercel.app/api/:path*', 
             },
         ];
     },
