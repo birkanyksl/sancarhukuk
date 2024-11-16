@@ -156,7 +156,7 @@ const Faq = () => {
 
       {/*   SM EKRAN */}
 
-      <div className="flex flex-col w-full p-4 justify-center md:hidden">
+      <div className="flex flex-col w-full p-4 justify-center md:hidden ">
         <div className="flex flex-col gap-4 mb-6">
           <HeadingWithDivider title="FAQ" />
 
