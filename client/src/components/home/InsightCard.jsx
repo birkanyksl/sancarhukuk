@@ -3,7 +3,7 @@ import React from "react";
 
 const InsightCard = ({ article, locale }) => {
   return (
-    <div className="flex flex-col gap-3 md:gap-4 w-full mb-8 pb-2 transition-all duration-1000 cursor-pointer shadow-md rounded-lg p-2 bg-slate-50">
+    <div className="flex flex-col gap-4 md:gap-4 w-full pb-2 shadow-md rounded-lg p-4 mb-6">
       <div className="relative w-full h-48">
         <Image
           src={article.photo}
