@@ -57,24 +57,24 @@ const ClientPractices = ({ images }) => {
             href={image.href}
             className=" relative w-full "
           >
-            <div className="relative w-full h-64 overflow-hidden">
+            <div className="relative w-full h-64 overflow-hidden rounded-md">
               <Image
-                src="https://images.pexels.com/photos/1344537/pexels-photo-1344537.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt="blog-image"
+                src={image.src}
+                alt={image.alt}
                 fill
                  sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
                 className="object-cover transition-transform duration-300 ease-in-out hover:scale-105"
                 priority
               />
             </div>
-            <div className="bg-slate-50 absolute flex flex-col justify-center w-[90%] top-[200px] left-1/2 transform -translate-x-1/2 p-6 rounded-lg  border-2 border-black">
-              <h2 className="text-black uppercase font-bold text-sm md:text-base text-center mb-2">
+            <div className="bg-white absolute flex flex-col justify-center w-[90%] top-[200px] left-1/2 transform -translate-x-1/2 p-6 rounded-lg  border-2 border-color6">
+              <h2 className="text-color6 uppercase font-bold text-sm md:text-base text-center mb-2">
                 {t(`practicesHome${index + 1}`)}
               </h2>
-              <p className="text-center text-xs md:text-sm font-extralight text-black mb-2 line-clamp-2">
+              <p className="text-center text-xs md:text-sm font-normal text-black mb-2 line-clamp-2">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </p>
-            <div className="w-full h-[1px] bg-black"></div>
+            <div className="w-full h-[1px] bg-color6"></div>
             </div>
           </Link>
         ))}
