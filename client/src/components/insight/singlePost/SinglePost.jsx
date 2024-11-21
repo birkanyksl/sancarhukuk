@@ -8,13 +8,56 @@ import axios from "axios";
 import { useLocale } from "next-intl";
 import { Context } from "@/context/Context";
 import { useRouter } from "next/navigation";
+import sanitizeHtml from "sanitize-html";
+
+import { useForm } from "react-hook-form";
+
+import { Button } from "@/components/ui/button";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
+import RichTextEditor from "@/components/textEditor/RichTextEditor";
+
+const sanitizeContent = (content) => {
+  return sanitizeHtml(content, {
+    allowedTags: [
+      "p",
+      "strong",
+      "em",
+      "u",
+      "ol",
+      "ul",
+      "li",
+      "a",
+      "img",
+      "br",
+      "h1",
+      "h2",
+      "h3",
+      "h4",
+      "h5",
+      "h6",
+      "span",
+      "mark",
+    ],
+    allowedAttributes: {
+      "*": ["class", "style"],
+      a: ["href", "target"],
+      img: ["src", "alt", "width", "height"],
+    },
+  });
+};
 
 export default function SinglePost({ postId }) {
   const [post, setPost] = useState({});
   const locale = useLocale();
   const { user } = useContext(Context);
   const router = useRouter();
-
 
   const [title, setTitle] = useState("");
   const [titleEN, setTitleEN] = useState("");
@@ -28,23 +71,37 @@ export default function SinglePost({ postId }) {
   const [updateMode, setUpdateMode] = useState(false);
   const [articles, setArticles] = useState([]);
 
+  const form = useForm({
+    mode: "onTouched",
+    defaultValues: {
+      post: post.desc,
+    },
+  });
+
   useEffect(() => {
     const getPost = async () => {
       try {
         const res = await axios.get(`/api/posts/${postId}`);
-        setPost(res.data);
-        setTitle(res.data.title);
-        setTitleEN(res.data.titleEN);
-        setDesc(res.data.desc);
-        setDescEN(res.data.descEN);
-        setCategories(res.data.categories);
-        setCategoriesEN(res.data.categoriesEN);
+        const postData = res.data;
+
+        setPost(postData);
+        setTitle(postData.title);
+        setTitleEN(postData.titleEN);
+        setDesc(postData.desc);
+        setDescEN(postData.descEN);
+        setCategories(postData.categories);
+        setCategoriesEN(postData.categoriesEN);
+
+        form.reset({
+          post: locale === "tr" ? desc : descEN,
+        });
       } catch (error) {
         console.error("Error fetching post:", error);
       }
     };
+
     getPost();
-  }, [postId]);
+  }, [postId, form]);
 
   const handleDelete = async () => {
     const confirmDelete = window.confirm(
@@ -71,8 +128,8 @@ export default function SinglePost({ postId }) {
           username: user.username,
           title,
           titleEN,
-          desc: cleanHtmlContent(desc),
-          descEN: cleanHtmlContent(descEN),
+          desc,
+          descEN,
           categories,
           categoriesEN,
         });
@@ -82,12 +139,16 @@ export default function SinglePost({ postId }) {
       }
   };
 
-  const cleanHtmlContent = (html) => {
-    let cleanedHtml = html.replace(/<br\s*\/?>/gi, "\n");
-
-    cleanedHtml = cleanedHtml.replace(/<\/?[^>]+(>|$)/g, "");
-
-    return cleanedHtml;
+  const handleCancelUpdate = () => {
+    setUpdateMode(false);
+  
+    
+    setTitle(post.title);
+    setTitleEN(post.titleEN);
+    setDesc(post.desc);
+    setDescEN(post.descEN);
+    setCategories(post.categories);
+    setCategoriesEN(post.categoriesEN);
   };
 
   useEffect(() => {
@@ -158,9 +219,9 @@ export default function SinglePost({ postId }) {
           ) : (
             <div className="flex items-center justify-center">
               <span className="text-color6 text-sm font-medium mt-6">
-              {(locale === "tr" ? categories : categoriesEN)?.length > 0
-                        ? (locale === "tr" ? categories : categoriesEN)
-                            .map((category) => category.toUpperCase())
+                {(locale === "tr" ? categories : categoriesEN)?.length > 0
+                  ? (locale === "tr" ? categories : categoriesEN)
+                      .map((category) => category.toUpperCase())
                       .join(" | ")
                   : "NO CATEGORY"}
               </span>
@@ -198,14 +259,14 @@ export default function SinglePost({ postId }) {
 
       <div className="mx-auto mt-6 flex flex-col lg:flex-row gap-8 px-6 pb-8 md:px-8 lg:px-16">
         <div className=" flex flex-col gap-6 lg:w-3/4">
-          <div className="flex justify-start w-full">
+          <div className="flex justify-center items-center">
             {post.photo && (
               <Image
                 src={post.photo}
                 alt="Post görseli"
                 width={2000}
                 height={3000}
-                className="w-full h-72 object-cover rounded-lg"
+                className="w-96 h-72 object-cover rounded-lg"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
@@ -216,55 +277,41 @@ export default function SinglePost({ postId }) {
           <div className="md:pl-8 flex flex-col">
             {updateMode ? (
               <div className="flex flex-col gap-2">
-                <>
-                  <span className="text-sm text-color6">
-                    Güncellenecek Türkçe Metin:
-                  </span>
-                  <div
-                    className="border p-2 rounded text-sm font-medium mt-6 w-full
-                h-[50vh] overflow-y-auto text-gray-800"
-                    contentEditable
-                    suppressContentEditableWarning
-                    style={{
-                      minHeight: "30vh",
-                      whiteSpace: "pre-wrap",
-                    }}
-                    onInput={(e) => {
-                      setDesc(e.currentTarget.innerText);
-                    }}
-                  >
-                    {post.desc}
-                  </div>
-                </>
-
-                <>
-                  <span className="text-sm text-color6">
-                    Güncellenecek İngilizce Metin:{" "}
-                  </span>
-                  <div
-                    className="border p-2 rounded text-sm font-medium mt-6 w-full
-                   h-[50vh] overflow-y-auto text-gray-800"
-                    contentEditable
-                    suppressContentEditableWarning
-                    style={{
-                      minHeight: "30vh",
-                      whiteSpace: "pre-wrap",
-                    }}
-                    onInput={(e) => {
-                      setDescEN(e.currentTarget.innerText);
-                    }}
-                  >
-                    {post.descEN}
-                  </div>
-                </>
+                <Form {...form}>
+                  <form onSubmit={form.handleSubmit(handleUpdate)}>
+                    <FormField
+                      control={form.control}
+                      name="post"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel>Türkçe Metin</FormLabel>
+                          <FormControl>
+                            <RichTextEditor
+                              content={field.value || desc}
+                              onChange={(value) => {
+                                field.onChange(value);
+                                setDesc(value);
+                              }}
+                            />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+                  </form>
+                </Form>
               </div>
             ) : (
-              <p className="text-base text-gray-700 whitespace-pre-wrap">
-                
-                {locale === "tr" ? desc : descEN}
-              </p>
+              <p
+                className="text-base whitespace-pre-wrap"
+                dangerouslySetInnerHTML={{
+                  __html: sanitizeContent(locale === "tr" ? desc : descEN),
+                }}
+              />
             )}
           </div>
+
+      
           {updateMode && (
             <div className="flex justify-end mt-4 gap-4">
               <button
@@ -277,7 +324,7 @@ export default function SinglePost({ postId }) {
               <button
                 type="button"
                 className="bg-red-500 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-600 transition text-sm"
-                onClick={() => setUpdateMode(false)}
+                onClick={handleCancelUpdate}
               >
                 İptal
               </button>
