@@ -2,10 +2,10 @@ import React from "react";
 import ClientPractices from "./ClientPractices";
 
 const images = [
-  { src: 'commercial.png', href: '/' },
-  { src: 'family.png', href: '/' },
-  { src: 'bankruptcy.png', href: '/' },
-  { src: 'criminal.png', href: '/' },
+  { src: '/ticaret-hukuku.webp', href: '/' , alt:"Ticaret Hukuku"},
+  { src: '/aile-hukuku.webp', href: '/' , alt:"Aile Hukuku"},
+  { src: '/icra-iflas.webp', href: '/',  alt:"İcra ve İflas Hukuku" },
+  { src: '/ceza-hukuku.webp', href: '/', alt:"Ceza Hukuku" },
 
 ];
 
