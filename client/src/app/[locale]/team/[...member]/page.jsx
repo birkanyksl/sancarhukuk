@@ -81,8 +81,8 @@ const SinglePage = ({ params }) => {
   }
   return (
     <>
-      <div className="px-6 py-8 md:px-8 lg:px-16 xl:px-32 2xl:px-48 md:mt-8 shadow-lg mb-20 bg-neutral-50">
-        <div className="flex flex-col lg:flex-row mx-auto px-8 justify-center ">
+      <div className="py-8 md:px-8 lg:px-16 xl:px-32 2xl:px-48 md:mt-8 shadow-lg mb-20 bg-neutral-50">
+        <div className="flex flex-col lg:flex-row mx-auto  justify-center ">
           <div className="lg:w-1/2 w-full pt-20 px-8 justify-center ">
             <div className="flex flex-col gap-4 mb-10 justify-center">
               <h2 className="text-sm lg:text-base font-medium text-color1">
