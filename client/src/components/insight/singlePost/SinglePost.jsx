@@ -213,7 +213,7 @@ export default function SinglePost({ postId }) {
           </div>
 
           {/* Makale */}
-          <div className="md:border-l border-color6 md:pl-8 flex flex-col">
+          <div className="md:pl-8 flex flex-col">
             {updateMode ? (
               <div className="flex flex-col gap-2">
                 <>
