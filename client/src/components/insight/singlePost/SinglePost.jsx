@@ -11,8 +11,6 @@ import { useRouter } from "next/navigation";
 import sanitizeHtml from "sanitize-html";
 
 import { useForm } from "react-hook-form";
-
-import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
@@ -23,8 +21,10 @@ import {
 } from "@/components/ui/form";
 import RichTextEditor from "@/components/textEditor/RichTextEditor";
 
+
+
 const sanitizeContent = (content) => {
-  return sanitizeHtml(content, {
+  const sanitized = sanitizeHtml(content, {
     allowedTags: [
       "p",
       "strong",
@@ -49,8 +49,13 @@ const sanitizeContent = (content) => {
       "*": ["class", "style"],
       a: ["href", "target"],
       img: ["src", "alt", "width", "height"],
+      
     },
+ 
   });
+
+   return sanitized
+  
 };
 
 export default function SinglePost({ postId }) {
@@ -119,9 +124,13 @@ export default function SinglePost({ postId }) {
   };
 
   const handleUpdate = async () => {
+
+
+
     const confirmUpdate = window.confirm(
       "Bu gönderi güncellenecektir. Devam etmek istiyor musunuz?"
     );
+    
     if (confirmUpdate)
       try {
         await axios.put(`/api/posts/${post._id}`, {
@@ -304,7 +313,7 @@ export default function SinglePost({ postId }) {
             ) : (
               <p
                 className="text-base whitespace-pre-wrap"
-                dangerouslySetInnerHTML={{
+                dangerouslySetInnerHTML={{           
                   __html: sanitizeContent(locale === "tr" ? desc : descEN),
                 }}
               />

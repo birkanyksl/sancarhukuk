@@ -3,9 +3,10 @@ import React, { useEffect, useState } from "react";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Highlight from "@tiptap/extension-highlight";
-import Image from "@tiptap/extension-image";
 import ToolBar from "./ToolBar";
 import TextAlign from "@tiptap/extension-text-align";
+import Underline from '@tiptap/extension-underline';
+
 
 const RichTextEditor = ({ content, onChange }) => {
   const editor = useEditor({
@@ -15,7 +16,7 @@ const RichTextEditor = ({ content, onChange }) => {
         types: ["heading", "paragraph"],
       }),
       Highlight,
-      Image,
+      Underline, 
     ],
     content,
     immediatelyRender: false,
@@ -33,7 +34,7 @@ const RichTextEditor = ({ content, onChange }) => {
   return (
     <div>
       <ToolBar editor={editor} content={content} />
-      <EditorContent editor={editor} style={{ whiteSpace: "pre-line" }} />
+      <EditorContent editor={editor} style={{ whiteSpace: "pre-wrap" }} />
     </div>
   );
 };
