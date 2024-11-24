@@ -17,9 +17,9 @@ const ClientPractices = ({ images }) => {
     if (width < 768) {
       setVisibleItems(2);
     } else if (width >= 768 && width < 1280) {
-      setVisibleItems(3);
+      setVisibleItems(2);
     } else {
-      setVisibleItems(4);
+      setVisibleItems(3);
     }
   };
 
@@ -50,7 +50,7 @@ const ClientPractices = ({ images }) => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row w-[75%] md:w-full lg:w-[95%] justify-center items-center mx-auto gap-24 md:gap-4 lg:gap-8">
+      <div className="flex flex-col md:flex-row w-[70%] md:w-[95%] lg:w-[95%] justify-center items-center mx-auto gap-24 md:gap-4 lg:gap-8">
         {images.slice(0, visibleItems).map((image, index) => (
           <Link
             key={index}
@@ -67,7 +67,7 @@ const ClientPractices = ({ images }) => {
                 priority
               />
             </div>
-            <div className="bg-white absolute flex flex-col justify-center w-[90%] top-[200px] left-1/2 transform -translate-x-1/2 p-6 rounded-lg  border-2 border-color6">
+            <div className="bg-white absolute flex flex-col justify-center w-[80%] top-[200px] left-1/2 transform -translate-x-1/2 p-6 rounded-lg  border-2 border-color6">
               <h2 className="text-color6 uppercase font-bold text-sm md:text-base text-center mb-2">
                 {t(`practicesHome${index + 1}`)}
               </h2>
