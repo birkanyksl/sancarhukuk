@@ -1,5 +1,5 @@
 "use client";
-import { List } from "lucide-react";
+import { List, MoveDown, Pilcrow, Underline } from "lucide-react";
 import { Toggle } from "../ui/toggle";
 import {
   Heading1,
@@ -22,6 +22,11 @@ const ToolBar = ({ editor }) => {
 
 
   const Options = [
+    {
+      icon:<Pilcrow />,
+      onClick:() => editor.chain().focus().setParagraph().run(),
+      pressed:editor.isActive("paragraph")
+    },
     {
       icon: <Heading1 className="size-4" />,
       onClick: () => editor.chain().focus().toggleHeading({ level: 1 }).run(),
@@ -46,6 +51,11 @@ const ToolBar = ({ editor }) => {
       icon: <Italic className="size-4" />,
       onClick: () => editor.chain().focus().toggleItalic().run(),
       preesed: editor.isActive("italic"),
+    },
+    {
+      icon:<Underline className="size-4"/>,
+      onClick:() => editor.chain().focus().toggleUnderline().run(),
+      pressed:editor.isActive('underline') 
     },
     {
       icon: <Strikethrough className="size-4" />,
@@ -87,11 +97,16 @@ const ToolBar = ({ editor }) => {
       onClick: () => editor.chain().focus().toggleHighlight().run(),
       preesed: editor.isActive("highlight"),
     },
+    {
+      icon: <MoveDown className="size-4" />,
+      onClick: () => editor.chain().focus().setHardBreak().run(),
+      preesed: editor.isActive("hard-break'"),
+    },
    
   ];
 
   return (
-    <div className="border rounded-md p-1.5 mb-1 bg-slate-50 space-x-1 sticky  top-10 z-50">
+    <div className="border rounded-md p-1.5 mb-1 bg-slate-50 space-x-1 top-10 ">
       {Options.map((option, i) => (
         <Toggle
           key={i}

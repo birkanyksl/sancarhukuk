@@ -41,9 +41,9 @@ const HomeInsights = () => {
         </p>
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-16 w-full md:gap-8 pt-4 md:mb-16">
+      <div className="flex flex-col lg:flex-row xl:px-12 gap-16 w-full md:gap-20 pt-4 md:mb-16">
         {/* LEFT */}
-        <div className="flex flex-col w-full lg:w-1/2">
+        <div className="flex flex-col w-full lg:w-2/3">
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Through team’s blog posts and professional publications, you can
             gain insights into important topics in the industry and stay updated
@@ -89,7 +89,7 @@ const HomeInsights = () => {
         </div>
 
         {/* RIGHT */}
-        <div className="flex flex-col w-full lg:w-1/2 gap-8 overflow-y-auto">
+        <div className="flex flex-col w-full lg:w-1/3 gap-8 overflow-y-auto mx-auto">
           <div className="flex justify-between items-center sticky top-0 bg-white py-2">
             <h3 className="text-sm md:text-md font-semibold">
               Latest Insights
@@ -100,9 +100,9 @@ const HomeInsights = () => {
             </Link>
             
           </div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="flex flex-col gap-6">
             {rightArticles.map((article, index) => (
-              <Link key={index} href={`/insight/${article._id}`} >
+              <Link key={index} href={`/insight/${article._id}`}  >
               <InsightCard  article={article} locale={locale} />
               </Link>
             ))}
