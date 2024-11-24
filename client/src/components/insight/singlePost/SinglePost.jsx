@@ -20,6 +20,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import RichTextEditor from "@/components/textEditor/RichTextEditor";
+import { Link } from "@/navigation";
 
 
 
@@ -196,8 +197,8 @@ export default function SinglePost({ postId }) {
             </div>
           ) : (
             <h1 className="text-4xl lg:text-5xl font-normal text-color6">
-              {(locale === "tr" ? title : titleEN).toUpperCase()}
-            </h1>
+            {(locale === "tr" ? title : titleEN)?.toUpperCase() || ""}
+          </h1>
           )}
 
           {updateMode ? (
@@ -267,7 +268,7 @@ export default function SinglePost({ postId }) {
       </div>
 
       <div className="mx-auto mt-6 flex flex-col lg:flex-row gap-8 px-6 pb-8 md:px-8 lg:px-16">
-        <div className=" flex flex-col gap-6 lg:w-3/4">
+        <div className=" flex flex-col gap-6 lg:w-4/6">
           <div className="flex justify-center items-center">
             {post.photo && (
               <Image
@@ -285,6 +286,7 @@ export default function SinglePost({ postId }) {
           {/* Makale */}
           <div className="md:pl-8 flex flex-col">
             {updateMode ? (
+              <>
               <div className="flex flex-col gap-2">
                 <Form {...form}>
                   <form onSubmit={form.handleSubmit(handleUpdate)}>
@@ -301,6 +303,32 @@ export default function SinglePost({ postId }) {
                                 field.onChange(value);
                                 setDesc(value);
                               }}
+                              />
+                          </FormControl>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                      />
+                  </form>
+                </Form>
+              </div>
+
+              <div className="flex flex-col gap-2">
+                <Form {...form}>
+                  <form onSubmit={form.handleSubmit(handleUpdate)}>
+                    <FormField
+                      control={form.control}
+                      name="post"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel>İngilizce Metin</FormLabel>
+                          <FormControl>
+                            <RichTextEditor
+                              content={field.value || descEN}
+                              onChange={(value) => {
+                                field.onChange(value);
+                                setDescEN(value);
+                              }}
                             />
                           </FormControl>
                           <FormMessage />
@@ -310,9 +338,10 @@ export default function SinglePost({ postId }) {
                   </form>
                 </Form>
               </div>
+                      </>
             ) : (
               <p
-                className="text-base whitespace-pre-wrap"
+                className="text-base whitespace-pre-wrap mx-6 lg:mx-12 my-6"
                 dangerouslySetInnerHTML={{           
                   __html: sanitizeContent(locale === "tr" ? desc : descEN),
                 }}
@@ -342,16 +371,22 @@ export default function SinglePost({ postId }) {
         </div>
 
         {/* Sidebar */}
-        <div className="flex flex-col w-full gap-8 overflow-y-auto lg:w-1/4 ">
+        <div className="flex flex-col w-full lg:w-2/6 gap-8 overflow-y-auto mx-auto">
           <div className="flex justify-between items-center sticky top-0 bg-white py-2">
             <h3 className="text-sm md:text-md font-semibold">
               Latest Insights
             </h3>
-            <span className="text-xs font-light text-gray-900">View all</span>
+          
+            <Link href={"/insight"}>
+            <span className="text-xs font-light text-gray-900 cursor-pointer">View all</span>
+            </Link>
+            
           </div>
-          <div className="grid grid-cols-2 lg:grid-cols-1 gap-4 pt-4">
+          <div className="flex flex-col gap-6">
             {articles.map((article, index) => (
-              <InsightCard key={index} article={article} locale={locale} />
+              <Link key={index} href={`/insight/${article._id}`}  >
+              <InsightCard  article={article} locale={locale} />
+              </Link>
             ))}
           </div>
         </div>

@@ -21,7 +21,6 @@ const RichTextEditor = ({ content, onChange }) => {
     content,
     immediatelyRender: false,
     onUpdate: ({ editor }) => {
-      console.log(editor.getHTML());
       onChange(editor.getHTML());
     },
     editorProps: {
@@ -34,7 +33,7 @@ const RichTextEditor = ({ content, onChange }) => {
   return (
     <div>
       <ToolBar editor={editor} content={content} />
-      <EditorContent editor={editor} style={{ whiteSpace: "pre-wrap" }} />
+      <EditorContent editor={editor} style={{ whiteSpace: "pre-line" }} />
     </div>
   );
 };

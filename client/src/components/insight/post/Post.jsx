@@ -5,17 +5,18 @@ import React from "react";
 
 const Post = ({ post }) => {
   const locale = useLocale();
+
   return (
     <div className="flex flex-col gap-4 w-full my-3 cursor-pointer p-4 shadow-sm bg-white">
-      <div className="relative ">
+      <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
         {post.photo && (
           <Image
             src={post.photo}
             alt="blog-image"
-            width={600} 
-            height={400} 
-            className="object-contain rounded-sm h-36 md:h-48 xl:h-64 w-full "
-            priority
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+           priority
           />
         )}
       </div>

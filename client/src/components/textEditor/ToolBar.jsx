@@ -1,5 +1,5 @@
 "use client";
-import { List, MoveDown, Underline } from "lucide-react";
+import { List, MoveDown, Pilcrow, Underline } from "lucide-react";
 import { Toggle } from "../ui/toggle";
 import {
   Heading1,
@@ -22,6 +22,11 @@ const ToolBar = ({ editor }) => {
 
 
   const Options = [
+    {
+      icon:<Pilcrow />,
+      onClick:() => editor.chain().focus().setParagraph().run(),
+      pressed:editor.isActive("paragraph")
+    },
     {
       icon: <Heading1 className="size-4" />,
       onClick: () => editor.chain().focus().toggleHeading({ level: 1 }).run(),
