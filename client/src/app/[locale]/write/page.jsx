@@ -43,17 +43,17 @@ export default function Write() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     if (!file) {
       setError("Lütfen bir dosya yükleyin.");
       return;
     }
-
+  
     setLoading(true);
     setError("");
     setSuccess("");
     const formData = new FormData();
-    formData.append("file", file);
+    formData.append("file", file); 
     formData.append("username", user.username);
     formData.append("categories", categories.join(","));
     formData.append("title", title);
@@ -61,25 +61,25 @@ export default function Write() {
     formData.append("titleEN", titleEN);
     formData.append("descEN", cleanHtmlContent(descEN));
     formData.append("categoriesEN", categoriesEN.join(","));
-
+  
     try {
       const uploadRes = await axios.post("/api/upload", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
       });
-
+  
       const newPost = {
         username: user.username,
         categories,
         title,
         desc,
-        photo: uploadRes.data,
+        photo: uploadRes.data, 
         titleEN,
         descEN,
         categoriesEN,
       };
-
+  
       await axiosClient.post("/api/posts", newPost, { withCredentials: true });
       setSuccess("Yükleme başarılı!");
       setTimeout(() => setSuccess(""), 3000);
@@ -120,17 +120,18 @@ export default function Write() {
   }, [uploadedImageUrl]);
 
   return (
-    <div className="pt-12 px-8 md:px-16 lg:px-32 xl:px-64 mx-auto w-full mb-8">
+    <div className="flex flex-col w-full justify-center items-center pt-12 px-8 md:px-16 lg:px-32 xl:px-64 mx-auto mb-8">
       {error && <div className="text-red-500">{error}</div>}
       {success && <div className="text-green-500">{success}</div>}
 
-      <div className="relative w-full h-64 rounded-lg overflow-hidden mb-6">
+      <div className=" w-[26rem] h-80 flex items-center justify-center rounded-lg overflow-hidden mb-6 bg-slate-100 py-6">
         {uploadedImageUrl ? (
           <Image
             src={uploadedImageUrl}
             alt="Yazı Görseli"
-            fill
-            className="object-cover"
+            width={16}
+            height={9}
+            className="object-contain w-96 h-72"
             priority
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
@@ -138,15 +139,16 @@ export default function Write() {
           <Image
             src="/no-image.png"
             alt="Yazı Görseli"
-            fill
-            className="object-contain"
+            width={16}
+                height={9}
+            className="object-contain w-96 h-72"
             priority
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         )}
       </div>
 
-      <form className="space-y-8" onSubmit={handleSubmit}>
+      <form className="space-y-8 w-full" onSubmit={handleSubmit}>
         <div className="flex flex-col items-center mb-4 space-y-2">
           <label htmlFor="fileInput" className="cursor-pointer flex items-center">
             <FontAwesomeIcon icon={faImages} className="text-gray-700 mr-2 w-6 h-6" />

@@ -182,14 +182,14 @@ export default function SinglePost({ postId }) {
             <div className="flex gap-8">
               <input
                 type="text"
-                value={title}
+                value={title || ""}
                 placeholder="Başlık girin"
                 className="border p-2 rounded text-sm font-medium mt-6 w-full"
                 onChange={(e) => setTitle(e.target.value)}
               />
               <input
                 type="text"
-                value={titleEN}
+                value={titleEN || ""}
                 placeholder="Başlık girin"
                 className="border p-2 rounded text-sm font-medium mt-6 w-full"
                 onChange={(e) => setTitleEN(e.target.value)}
@@ -207,7 +207,7 @@ export default function SinglePost({ postId }) {
                 type="text"
                 className="border p-2 rounded text-sm font-medium mt-6 w-full"
                 placeholder="Kategorileri virgülle ayırarak yazın"
-                value={categories.join(", ")}
+                value={categories.join(", ") || ""}
                 onChange={(e) =>
                   setCategories(
                     e.target.value.split(",").map((category) => category.trim())
@@ -218,7 +218,7 @@ export default function SinglePost({ postId }) {
                 type="text"
                 className="border p-2 rounded text-sm font-medium mt-6 w-full"
                 placeholder="Kategorileri virgülle ayırarak yazın"
-                value={categoriesEN.join(", ")}
+                value={categoriesEN.join(", ") || ""}
                 onChange={(e) =>
                   setCategoriesEN(
                     e.target.value.split(",").map((category) => category.trim())
@@ -274,9 +274,9 @@ export default function SinglePost({ postId }) {
               <Image
                 src={post.photo}
                 alt="Post görseli"
-                width={2000}
-                height={3000}
-                className="w-96 h-72 object-cover rounded-lg"
+                width={16}
+                height={9}
+                className="object-contain  w-96 h-72 rounded-lg"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
@@ -372,7 +372,7 @@ export default function SinglePost({ postId }) {
 
         {/* Sidebar */}
         <div className="flex flex-col w-full lg:w-2/6 gap-8 overflow-y-auto mx-auto">
-          <div className="flex justify-between items-center sticky top-0 bg-white py-2">
+          <div className="flex justify-between items-center py-2">
             <h3 className="text-sm md:text-md font-semibold">
               Latest Insights
             </h3>
