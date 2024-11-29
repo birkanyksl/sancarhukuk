@@ -33,8 +33,8 @@ const storage = getStorage(app2, process.env.FIREBASE_STORAGE_BUCKET);
 
 const app = express();
 app.use(cors({
-  origin: "sancarhukuk-client.vercel.app", 
-  credentials: true
+  origin: ["http://localhost:3000", "https://sancarhukuk-client.vercel.app"], 
+  credentials: true,
 }));
 app.use(express.json());
 app.use(cookieParser());
@@ -46,28 +46,28 @@ mongoose.connect(process.env.MONGO_URL)
 
 const upload = multer({
   storage: multer.memoryStorage(), 
+  limits: { fileSize: 10 * 1024 * 1024 },
 });
 
 
 app.post("/api/upload", upload.single("file"), async (req, res) => {
+  console.log(req.file)
   try {
     const file = req.file;
-     
+    if (!file) throw new Error("No file uploaded");
 
 
     const storageRef = ref(storage, `images/${uuidv4()}`); 
-
-
     await uploadBytes(storageRef, file.buffer, {
-      contentType: file.mimetype,
+      contentType: file.mimetype || 'application/octet-stream',
     });
 
     const fileUrl = await getDownloadURL(storageRef);
 
     res.status(200).json(fileUrl);
   } catch (error) {
-    console.error("Error uploading file:", error);
-    res.status(500).json({ error: "Failed to upload file" });
+    console.error("Error uploading file:", error.message);
+    res.status(500).json({ error: error.message || "Failed to upload file" });
   }
 });
 
