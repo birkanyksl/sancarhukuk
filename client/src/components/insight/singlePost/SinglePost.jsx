@@ -10,15 +10,6 @@ import { Context } from "@/context/Context";
 import { useRouter } from "next/navigation";
 import sanitizeHtml from "sanitize-html";
 
-import { useForm } from "react-hook-form";
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
 import RichTextEditor from "@/components/textEditor/RichTextEditor";
 import { Link } from "@/navigation";
 
@@ -72,12 +63,7 @@ export default function SinglePost({ postId }) {
   const [updateMode, setUpdateMode] = useState(false);
   const [articles, setArticles] = useState([]);
 
-  const form = useForm({
-    mode: "onTouched",
-    defaultValues: {
-      post: post.desc,
-    },
-  });
+
 
   useEffect(() => {
     const getPost = async () => {
@@ -93,16 +79,14 @@ export default function SinglePost({ postId }) {
         setCategories(postData.categories);
         setCategoriesEN(postData.categoriesEN);
 
-        form.reset({
-          post: locale === "tr" ? desc : descEN,
-        });
+      
       } catch (error) {
         console.error("Error fetching post:", error);
       }
     };
 
     getPost();
-  }, [postId, form]);
+  }, [postId]);
 
   const handleDelete = async () => {
     const confirmDelete = window.confirm(
@@ -113,34 +97,40 @@ export default function SinglePost({ postId }) {
         await axios.delete(`/api/posts/${postId}`, {
           data: { username: user.username },
         });
+        alert('Post deleted successfully!');
         router.push("/");
       } catch (error) {
-        console.log(error);
+        console.error(error);
+        alert('An error occurred while deleting the post.');
       }
   };
 
   const handleUpdate = async () => {
-    const confirmUpdate = window.confirm(
-      "Bu gönderi güncellenecektir. Devam etmek istiyor musunuz?"
-    );
-
-    if (confirmUpdate)
+    const confirmUpdate = window.confirm("Bu gönderi güncellenecektir. Devam etmek istiyor musunuz?");
+    
+    if (confirmUpdate) {
       try {
+        const sanitizedDesc = sanitizeContent(desc);  
+        const sanitizedDescEN = sanitizeContent(descEN);  
+  
         await axios.put(`/api/posts/${post._id}`, {
           username: user.username,
           title,
           titleEN,
-          desc,
-          descEN,
+          desc: sanitizedDesc,   
+          descEN: sanitizedDescEN,
           categories,
           categoriesEN,
         });
+  
         setUpdateMode(false);
+        alert('Post updated successfully!');
       } catch (error) {
         console.log(error);
+        alert('An error occurred while updating the post.');
       }
+    }
   };
-
   const handleCancelUpdate = () => {
     setUpdateMode(false);
 
@@ -169,28 +159,28 @@ export default function SinglePost({ postId }) {
     <div>
       <div className="relative w-full h-48 bg-slate-50 flex items-center justify-center">
         <div className="text-color1 p-4 text-center">
-          {updateMode ? (
-            <div className="flex gap-8">
-              <input
-                type="text"
-                value={title || ""}
-                placeholder="Başlık girin"
-                className="border p-2 rounded text-sm font-medium mt-6 w-full"
-                onChange={(e) => setTitle(e.target.value)}
-              />
-              <input
-                type="text"
-                value={titleEN || ""}
-                placeholder="Başlık girin"
-                className="border p-2 rounded text-sm font-medium mt-6 w-full"
-                onChange={(e) => setTitleEN(e.target.value)}
-              />
-            </div>
-          ) : (
-            <h1 className="text-4xl lg:text-5xl font-normal text-color6">
-              {(locale === "tr" ? title : titleEN)?.toUpperCase() || ""}
-            </h1>
-          )}
+        {updateMode ? (
+  <div className="flex gap-8">
+    <input
+      type="text"
+      value={title || ""}
+      placeholder="Başlık girin"
+      className="border p-2 rounded text-sm font-medium mt-6 w-full"
+      onChange={(e) => setTitle(e.target.value)}
+    />
+    <input
+      type="text"
+      value={titleEN || ""}
+      placeholder="Başlık girin"
+      className="border p-2 rounded text-sm font-medium mt-6 w-full"
+      onChange={(e) => setTitleEN(e.target.value)}
+    />
+  </div>
+) : (
+  <h1 className="text-4xl lg:text-5xl font-normal text-color6">
+    {(locale === "tr" ? title : titleEN)?.toUpperCase() || ""}
+  </h1>
+)}
 
           {updateMode ? (
             <div className="flex gap-8">
@@ -276,61 +266,26 @@ export default function SinglePost({ postId }) {
           {/* Makale */}
           <div className="md:pl-8 flex flex-col">
             {updateMode ? (
-              <>
-                <div className="flex flex-col gap-2">
-                  <Form {...form}>
-                    <form onSubmit={form.handleSubmit(handleUpdate)}>
-                      <FormField
-                        control={form.control}
-                        name="post"
-                        render={({ field }) => (
-                          <FormItem>
-                            <FormLabel>Türkçe Metin</FormLabel>
-                            <FormControl>
-                              <RichTextEditor
-                                content={field.value || desc}
-                                onChange={(value) => {
-                                  field.onChange(value);
-                                  setDesc(value);
-                                }}
-                              />
-                            </FormControl>
-                            <FormMessage />
-                          </FormItem>
-                        )}
-                      />
-                    </form>
-                  </Form>
-                </div>
-
-                <div className="flex flex-col gap-2">
-                  <Form {...form}>
-                    <form onSubmit={form.handleSubmit(handleUpdate)}>
-                      <FormField
-                        control={form.control}
-                        name="post"
-                        render={({ field }) => (
-                          <FormItem>
-                            <FormLabel>İngilizce Metin</FormLabel>
-                            <FormControl>
-                              <RichTextEditor
-                                content={field.value || descEN}
-                                onChange={(value) => {
-                                  field.onChange(value);
-                                  setDescEN(value);
-                                }}
-                              />
-                            </FormControl>
-                            <FormMessage />
-                          </FormItem>
-                        )}
-                      />
-                    </form>
-                  </Form>
-                </div>
-              </>
+               <>
+               <div className="flex flex-col gap-2">
+                 <label className="font-semibold">Türkçe Metin</label>
+                 <RichTextEditor
+                   content={desc}
+                   value={desc} 
+                   onChange={(value) => setDesc(value)} 
+                 />
+               </div>
+               <div className="flex flex-col gap-2 mt-4">
+                 <label className="font-semibold">İngilizce Metin</label>
+                 <RichTextEditor
+                   content={descEN}
+                   value={descEN} 
+                   onChange={(value) => setDescEN(value)} 
+                 />
+               </div>
+             </>
             ) : (
-              <p
+              <div
                 className="text-base whitespace-pre-wrap mx-6 lg:mx-12 my-6"
                 dangerouslySetInnerHTML={{
                   __html: sanitizeContent(locale === "tr" ? desc : descEN),

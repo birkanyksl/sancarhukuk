@@ -23,7 +23,7 @@ const Footer = () => {
          
         <div className="p-2">
           <p className="text-gray-800 font-bold text-xs md:text-sm pb-2">Gözat</p>
-          <ul className="grid grid-cols-3 md:grid-cols-2 gap-2 xl:grid-cols-3">
+          <ul className="grid grid-cols-3 md:grid-cols-2 gap-2 xl:grid-cols-3 list-none">
             <Link href={"/about"}>
             <li className="text-gray-800 text-xs md:text-sm pb-2 font-light cursor-pointer hover:text-color6">
               About Us
@@ -44,9 +44,7 @@ const Footer = () => {
               Publications
             </li>
              </Link>
-            {/* <li className="text-gray-400 text-xs font-light hover:text-color6 cursor-pointer">
-              Career
-            </li> */}
+
            <Link href={"/communication"} >
            <li className="text-gray-800 text-xs md:text-sm pb-2 font-light cursor-pointer hover:text-color6">
               Contact

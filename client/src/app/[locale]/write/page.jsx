@@ -2,10 +2,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import { faImages } from "@fortawesome/free-solid-svg-icons";
-import { useCallback, useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Context } from "@/context/Context";
 import axios from "axios";
 import { useAxiosClient } from "@/utils/axiosClient";
+import RichTextEditor from "@/components/textEditor/RichTextEditor";
+
 
 export default function Write() {
   const axiosClient = useAxiosClient();
@@ -35,51 +37,45 @@ export default function Write() {
     }
   };
 
-  const cleanHtmlContent = useCallback((html) => {
-    let cleanedHtml = html.replace(/<br\s*\/?>/gi, "\n");
-    cleanedHtml = cleanedHtml.replace(/<\/?[^>]+(>|$)/g, "");
-    return cleanedHtml;
-  }, []);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+
     if (!file) {
       setError("Lütfen bir dosya yükleyin.");
       return;
     }
-  
+
     setLoading(true);
     setError("");
     setSuccess("");
     const formData = new FormData();
-    formData.append("file", file); 
+    formData.append("file", file);
     formData.append("username", user.username);
     formData.append("categories", categories.join(","));
     formData.append("title", title);
-    formData.append("desc", cleanHtmlContent(desc));
+    formData.append("desc", desc);
     formData.append("titleEN", titleEN);
-    formData.append("descEN", cleanHtmlContent(descEN));
+    formData.append("descEN", descEN);
     formData.append("categoriesEN", categoriesEN.join(","));
-  
+
     try {
       const uploadRes = await axios.post("/api/upload", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
       });
-  
+
       const newPost = {
         username: user.username,
         categories,
         title,
         desc,
-        photo: uploadRes.data, 
+        photo: uploadRes.data,
         titleEN,
         descEN,
         categoriesEN,
       };
-  
+
       await axiosClient.post("/api/posts", newPost, { withCredentials: true });
       setSuccess("Yükleme başarılı!");
       setTimeout(() => setSuccess(""), 3000);
@@ -132,7 +128,7 @@ export default function Write() {
             fill
             className="object-contain"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-           priority
+            priority
           />
         ) : (
           <Image
@@ -141,17 +137,28 @@ export default function Write() {
             fill
             className="object-contain"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-           priority
+            priority
           />
         )}
       </div>
 
       <form className="space-y-8 w-full" onSubmit={handleSubmit}>
         <div className="flex flex-col items-center mb-4 space-y-2">
-          <label htmlFor="fileInput" className="cursor-pointer flex items-center">
-            <FontAwesomeIcon icon={faImages} className="text-gray-700 mr-2 w-6 h-6" />
+          <label
+            htmlFor="fileInput"
+            className="cursor-pointer flex items-center"
+          >
+            <FontAwesomeIcon
+              icon={faImages}
+              className="text-gray-700 mr-2 w-6 h-6"
+            />
           </label>
-          <input id="fileInput" type="file" className="hidden" onChange={handleFileChange} />
+          <input
+            id="fileInput"
+            type="file"
+            className="hidden"
+            onChange={handleFileChange}
+          />
         </div>
 
         <div className="grid gap-4 md:grid-cols-1">
@@ -172,16 +179,22 @@ export default function Write() {
         </div>
 
         <div className="mb-4">
-          <div
+          {/* <div
             className=" w-full h-[50vh] p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500 text-lg whitespace-pre-wrap"
             contentEditable
             suppressContentEditableWarning
             placeholder="Hikayenizi anlatın..."
             style={{
-              minHeight: '50vh',
-              overflowY: 'auto'
+              minHeight: "50vh",
+              overflowY: "auto",
             }}
-            onInput={e => setDesc(e.currentTarget.innerText)}
+            onInput={(e) => setDesc(e.currentTarget.innerText)}
+          /> */}
+           <RichTextEditor
+            content={desc}
+            onChange={(value) => {
+              setDesc(value);
+            }}
           />
         </div>
 
@@ -201,13 +214,15 @@ export default function Write() {
             onChange={(e) => {
               const input = e.target.value;
               setCategoriesENInput(input);
-              setCategoriesEN(input.split(",").map((category) => category.trim()));
+              setCategoriesEN(
+                input.split(",").map((category) => category.trim())
+              );
             }}
           />
         </div>
 
         <div className="mb-4">
-        <div
+          {/* <div
             className="w-full h-[50vh] p-4 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500 text-lg whitespace-pre-wrap"
             contentEditable
             suppressContentEditableWarning
@@ -218,6 +233,12 @@ export default function Write() {
             }}
             onInput={(e) => setDescEN(e.currentTarget.innerText)}
            
+          /> */}
+          <RichTextEditor
+            content={descEN}
+            onChange={(value) => {
+              setDescEN(value);
+            }}
           />
         </div>
 
