@@ -22,8 +22,6 @@ import {
 import RichTextEditor from "@/components/textEditor/RichTextEditor";
 import { Link } from "@/navigation";
 
-
-
 const sanitizeContent = (content) => {
   const sanitized = sanitizeHtml(content, {
     allowedTags: [
@@ -50,13 +48,10 @@ const sanitizeContent = (content) => {
       "*": ["class", "style"],
       a: ["href", "target"],
       img: ["src", "alt", "width", "height"],
-      
     },
- 
   });
 
-   return sanitized
-  
+  return sanitized;
 };
 
 export default function SinglePost({ postId }) {
@@ -125,13 +120,10 @@ export default function SinglePost({ postId }) {
   };
 
   const handleUpdate = async () => {
-
-
-
     const confirmUpdate = window.confirm(
       "Bu gönderi güncellenecektir. Devam etmek istiyor musunuz?"
     );
-    
+
     if (confirmUpdate)
       try {
         await axios.put(`/api/posts/${post._id}`, {
@@ -151,8 +143,7 @@ export default function SinglePost({ postId }) {
 
   const handleCancelUpdate = () => {
     setUpdateMode(false);
-  
-    
+
     setTitle(post.title);
     setTitleEN(post.titleEN);
     setDesc(post.desc);
@@ -197,8 +188,8 @@ export default function SinglePost({ postId }) {
             </div>
           ) : (
             <h1 className="text-4xl lg:text-5xl font-normal text-color6">
-            {(locale === "tr" ? title : titleEN)?.toUpperCase() || ""}
-          </h1>
+              {(locale === "tr" ? title : titleEN)?.toUpperCase() || ""}
+            </h1>
           )}
 
           {updateMode ? (
@@ -268,15 +259,14 @@ export default function SinglePost({ postId }) {
       </div>
 
       <div className="mx-auto mt-6 flex flex-col lg:flex-row gap-8 px-6 pb-8 md:px-8 lg:px-16">
-        <div className=" flex flex-col gap-6 lg:w-4/6">
-          <div className="flex justify-center items-center">
+        <div className=" flex flex-col gap-6 lg:w-4/6 ">
+          <div className=" relative aspect-[4/3] overflow-hidden w-96 mx-auto bg-slate-100">
             {post.photo && (
               <Image
                 src={post.photo}
                 alt="Post görseli"
-                width={16}
-                height={9}
-                className="object-contain  w-96 h-72 rounded-lg"
+                className="object-contain rounded-lg"
+                fill
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
@@ -287,69 +277,68 @@ export default function SinglePost({ postId }) {
           <div className="md:pl-8 flex flex-col">
             {updateMode ? (
               <>
-              <div className="flex flex-col gap-2">
-                <Form {...form}>
-                  <form onSubmit={form.handleSubmit(handleUpdate)}>
-                    <FormField
-                      control={form.control}
-                      name="post"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel>Türkçe Metin</FormLabel>
-                          <FormControl>
-                            <RichTextEditor
-                              content={field.value || desc}
-                              onChange={(value) => {
-                                field.onChange(value);
-                                setDesc(value);
-                              }}
+                <div className="flex flex-col gap-2">
+                  <Form {...form}>
+                    <form onSubmit={form.handleSubmit(handleUpdate)}>
+                      <FormField
+                        control={form.control}
+                        name="post"
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel>Türkçe Metin</FormLabel>
+                            <FormControl>
+                              <RichTextEditor
+                                content={field.value || desc}
+                                onChange={(value) => {
+                                  field.onChange(value);
+                                  setDesc(value);
+                                }}
                               />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
                       />
-                  </form>
-                </Form>
-              </div>
+                    </form>
+                  </Form>
+                </div>
 
-              <div className="flex flex-col gap-2">
-                <Form {...form}>
-                  <form onSubmit={form.handleSubmit(handleUpdate)}>
-                    <FormField
-                      control={form.control}
-                      name="post"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel>İngilizce Metin</FormLabel>
-                          <FormControl>
-                            <RichTextEditor
-                              content={field.value || descEN}
-                              onChange={(value) => {
-                                field.onChange(value);
-                                setDescEN(value);
-                              }}
-                            />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                  </form>
-                </Form>
-              </div>
-                      </>
+                <div className="flex flex-col gap-2">
+                  <Form {...form}>
+                    <form onSubmit={form.handleSubmit(handleUpdate)}>
+                      <FormField
+                        control={form.control}
+                        name="post"
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel>İngilizce Metin</FormLabel>
+                            <FormControl>
+                              <RichTextEditor
+                                content={field.value || descEN}
+                                onChange={(value) => {
+                                  field.onChange(value);
+                                  setDescEN(value);
+                                }}
+                              />
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+                    </form>
+                  </Form>
+                </div>
+              </>
             ) : (
               <p
                 className="text-base whitespace-pre-wrap mx-6 lg:mx-12 my-6"
-                dangerouslySetInnerHTML={{           
+                dangerouslySetInnerHTML={{
                   __html: sanitizeContent(locale === "tr" ? desc : descEN),
                 }}
               />
             )}
           </div>
 
-      
           {updateMode && (
             <div className="flex justify-end mt-4 gap-4">
               <button
@@ -376,16 +365,17 @@ export default function SinglePost({ postId }) {
             <h3 className="text-sm md:text-md font-semibold">
               Latest Insights
             </h3>
-          
+
             <Link href={"/insight"}>
-            <span className="text-xs font-light text-gray-900 cursor-pointer">View all</span>
+              <span className="text-xs font-light text-gray-900 cursor-pointer">
+                View all
+              </span>
             </Link>
-            
           </div>
           <div className="flex flex-col gap-6">
             {articles.map((article, index) => (
-              <Link key={index} href={`/insight/${article._id}`}  >
-              <InsightCard  article={article} locale={locale} />
+              <Link key={index} href={`/insight/${article._id}`}>
+                <InsightCard article={article} locale={locale} />
               </Link>
             ))}
           </div>
