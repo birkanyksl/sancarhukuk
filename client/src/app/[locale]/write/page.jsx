@@ -124,26 +124,24 @@ export default function Write() {
       {error && <div className="text-red-500">{error}</div>}
       {success && <div className="text-green-500">{success}</div>}
 
-      <div className=" w-[26rem] h-80 flex items-center justify-center rounded-lg overflow-hidden mb-6 bg-slate-100 py-6">
+      <div className=" relative w-96 aspect-[16/9] flex items-center justify-center rounded-lg overflow-hidden mb-6 bg-slate-100 py-6">
         {uploadedImageUrl ? (
           <Image
             src={uploadedImageUrl}
             alt="Yazı Görseli"
-            width={16}
-            height={9}
-            className="object-contain w-96 h-72"
-            priority
+            fill
+            className="object-contain"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+           priority
           />
         ) : (
           <Image
             src="/no-image.png"
             alt="Yazı Görseli"
-            width={16}
-                height={9}
-            className="object-contain w-96 h-72"
-            priority
+            fill
+            className="object-contain"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+           priority
           />
         )}
       </div>

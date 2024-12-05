@@ -260,7 +260,7 @@ export default function SinglePost({ postId }) {
 
       <div className="mx-auto mt-6 flex flex-col lg:flex-row gap-8 px-6 pb-8 md:px-8 lg:px-16">
         <div className=" flex flex-col gap-6 lg:w-4/6 ">
-          <div className=" relative aspect-[4/3] overflow-hidden w-96 mx-auto bg-slate-100">
+          <div className=" relative aspect-[16/9] overflow-hidden w-96 mx-auto bg-slate-100">
             {post.photo && (
               <Image
                 src={post.photo}
