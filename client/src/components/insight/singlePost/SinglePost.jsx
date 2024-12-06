@@ -1,7 +1,11 @@
 "use client";
 import InsightCard from "@/components/home/InsightCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPenToSquare, faTrash } from "@fortawesome/free-solid-svg-icons";
+import {
+  faPenToSquare,
+  faTrash,
+  faImages,
+} from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import { useContext, useEffect, useState } from "react";
 import axios from "axios";
@@ -63,7 +67,8 @@ export default function SinglePost({ postId }) {
   const [updateMode, setUpdateMode] = useState(false);
   const [articles, setArticles] = useState([]);
 
-
+  const [file, setFile] = useState(null);
+  const [uploadedImageUrl, setUploadedImageUrl] = useState("");
 
   useEffect(() => {
     const getPost = async () => {
@@ -78,8 +83,6 @@ export default function SinglePost({ postId }) {
         setDescEN(postData.descEN);
         setCategories(postData.categories);
         setCategoriesEN(postData.categoriesEN);
-
-      
       } catch (error) {
         console.error("Error fetching post:", error);
       }
@@ -97,37 +100,53 @@ export default function SinglePost({ postId }) {
         await axios.delete(`/api/posts/${postId}`, {
           data: { username: user.username },
         });
-        alert('Post deleted successfully!');
+        alert("Post deleted successfully!");
         router.push("/");
       } catch (error) {
         console.error(error);
-        alert('An error occurred while deleting the post.');
+        alert("An error occurred while deleting the post.");
       }
   };
 
   const handleUpdate = async () => {
-    const confirmUpdate = window.confirm("Bu gönderi güncellenecektir. Devam etmek istiyor musunuz?");
-    
+    const confirmUpdate = window.confirm(
+      "Bu gönderi güncellenecektir. Devam etmek istiyor musunuz?"
+    );
+
     if (confirmUpdate) {
       try {
-        const sanitizedDesc = sanitizeContent(desc);  
-        const sanitizedDescEN = sanitizeContent(descEN);  
-  
+        const sanitizedDesc = sanitizeContent(desc);
+        const sanitizedDescEN = sanitizeContent(descEN);
+
+        let photo = post.photo;
+
+        if (file) {
+          const formData = new FormData();
+          formData.append("file", file);
+          const uploadRes = await axios.post("/api/upload", formData, {
+            headers: {
+              "Content-Type": "multipart/form-data",
+            },
+          });
+          photo = uploadRes.data;
+        }
+
         await axios.put(`/api/posts/${post._id}`, {
           username: user.username,
           title,
           titleEN,
-          desc: sanitizedDesc,   
+          desc: sanitizedDesc,
           descEN: sanitizedDescEN,
           categories,
           categoriesEN,
+          photo,
         });
-  
+
         setUpdateMode(false);
-        alert('Post updated successfully!');
+        alert("Post updated successfully!");
       } catch (error) {
         console.log(error);
-        alert('An error occurred while updating the post.');
+        alert("An error occurred while updating the post.");
       }
     }
   };
@@ -140,6 +159,14 @@ export default function SinglePost({ postId }) {
     setDescEN(post.descEN);
     setCategories(post.categories);
     setCategoriesEN(post.categoriesEN);
+  };
+
+  const handleFileChange = (e) => {
+    const selectedFile = e.target.files[0];
+    if (selectedFile) {
+      setFile(selectedFile);
+      setUploadedImageUrl(URL.createObjectURL(selectedFile));
+    }
   };
 
   useEffect(() => {
@@ -159,28 +186,28 @@ export default function SinglePost({ postId }) {
     <div>
       <div className="relative w-full h-48 bg-slate-50 flex items-center justify-center">
         <div className="text-color1 p-4 text-center">
-        {updateMode ? (
-  <div className="flex gap-8">
-    <input
-      type="text"
-      value={title || ""}
-      placeholder="Başlık girin"
-      className="border p-2 rounded text-sm font-medium mt-6 w-full"
-      onChange={(e) => setTitle(e.target.value)}
-    />
-    <input
-      type="text"
-      value={titleEN || ""}
-      placeholder="Başlık girin"
-      className="border p-2 rounded text-sm font-medium mt-6 w-full"
-      onChange={(e) => setTitleEN(e.target.value)}
-    />
-  </div>
-) : (
-  <h1 className="text-4xl lg:text-5xl font-normal text-color6">
-    {(locale === "tr" ? title : titleEN)?.toUpperCase() || ""}
-  </h1>
-)}
+          {updateMode ? (
+            <div className="flex gap-8">
+              <input
+                type="text"
+                value={title || ""}
+                placeholder="Başlık girin"
+                className="border p-2 rounded text-sm font-medium mt-6 w-full"
+                onChange={(e) => setTitle(e.target.value)}
+              />
+              <input
+                type="text"
+                value={titleEN || ""}
+                placeholder="Başlık girin"
+                className="border p-2 rounded text-sm font-medium mt-6 w-full"
+                onChange={(e) => setTitleEN(e.target.value)}
+              />
+            </div>
+          ) : (
+            <h1 className="text-4xl lg:text-5xl font-medium text-black ">
+              {(locale === "tr" ? title : titleEN) || ""}
+            </h1>
+          )}
 
           {updateMode ? (
             <div className="flex gap-8">
@@ -250,43 +277,78 @@ export default function SinglePost({ postId }) {
 
       <div className="mx-auto mt-6 flex flex-col lg:flex-row gap-8 px-6 pb-8 md:px-8 lg:px-16">
         <div className=" flex flex-col gap-6 lg:w-4/6 ">
-          <div className=" relative aspect-[16/9] overflow-hidden w-96 mx-auto bg-slate-100">
-            {post.photo && (
-              <Image
-                src={post.photo}
-                alt="Post görseli"
-                className="object-contain rounded-lg"
-                fill
-                priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              />
-            )}
-          </div>
-
+          {updateMode ? (
+            <div className="relative aspect-[16/9] overflow-hidden w-96 mx-auto bg-slate-100">
+              {uploadedImageUrl || post.photo ? (
+                <Image
+                  src={uploadedImageUrl || post.photo}
+                  alt="Post görseli"
+                  className="object-contain rounded-lg"
+                  fill
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              ) : (
+                <div className="text-gray-500 text-sm">Görsel Yüklenmedi</div>
+              )}
+            </div>
+          ) : (
+            post.photo && (
+              <div className="relative aspect-[16/9] overflow-hidden w-96 mx-auto bg-slate-100">
+                <Image
+                  src={post.photo}
+                  alt="Post görseli"
+                  className="object-contain rounded-lg"
+                  fill
+                  priority
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                />
+              </div>
+            )
+          )}
+    {
+      updateMode && <>
+       <label
+        htmlFor="fileInput"
+        className="cursor-pointer flex items-center justify-center text-black mt-2"
+      >
+        <FontAwesomeIcon icon={faImages} className="mr-2" />
+        Resmi Güncelle
+      </label>
+      <input
+        id="fileInput"
+        type="file"
+        className="hidden"
+        onChange={handleFileChange}
+      />
+      
+      </>
+    }
+       
           {/* Makale */}
           <div className="md:pl-8 flex flex-col">
             {updateMode ? (
-               <>
-               <div className="flex flex-col gap-2">
-                 <label className="font-semibold">Türkçe Metin</label>
-                 <RichTextEditor
-                   content={desc}
-                   value={desc} 
-                   onChange={(value) => setDesc(value)} 
-                 />
-               </div>
-               <div className="flex flex-col gap-2 mt-4">
-                 <label className="font-semibold">İngilizce Metin</label>
-                 <RichTextEditor
-                   content={descEN}
-                   value={descEN} 
-                   onChange={(value) => setDescEN(value)} 
-                 />
-               </div>
-             </>
+              <>
+                <div className="flex flex-col gap-2">
+                  <label className="font-semibold">Türkçe Metin</label>
+                  <RichTextEditor
+                    content={desc}
+                    value={desc}
+                    onChange={(value) => setDesc(value)}
+                  />
+                </div>
+                <div className="flex flex-col gap-2 mt-4">
+                  <label className="font-semibold">İngilizce Metin</label>
+                  <RichTextEditor
+                    content={descEN}
+                    value={descEN}
+                    onChange={(value) => setDescEN(value)}
+                  />
+                </div>
+              </>
             ) : (
-              <div
-                className="text-base whitespace-pre-wrap mx-6 lg:mx-12 my-6"
+              <p
+                className="text-base whitespace-pre-wrap mx-6 lg:mx-12 my-6 text-justify"
                 dangerouslySetInnerHTML={{
                   __html: sanitizeContent(locale === "tr" ? desc : descEN),
                 }}
