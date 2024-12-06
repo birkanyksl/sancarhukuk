@@ -2,6 +2,8 @@ import createNextIntlPlugin from 'next-intl/plugin';
 
 const withNextIntl = createNextIntlPlugin();
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
     images: {
         
@@ -41,10 +43,12 @@ const nextConfig = {
     async rewrites() {
         return [
             {
-                source: '/api/:path*',  
-                destination: 'https://sancarhukuk-server.vercel.app/api/:path*', 
+              source: '/api/:path*',
+              destination: isProduction 
+                ? 'https://sancarhukuk-server.vercel.app/api/:path*' 
+                : 'http://localhost:5000/api/:path*',
             },
-        ];
+          ];
     },
 };
 

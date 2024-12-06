@@ -1,11 +1,13 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import Highlight from "@tiptap/extension-highlight";
 import ToolBar from "./ToolBar";
 import TextAlign from "@tiptap/extension-text-align";
 import Underline from '@tiptap/extension-underline';
+import OrderedList from "@tiptap/extension-ordered-list";
+import BulletList from "@tiptap/extension-bullet-list";
 
 
 const RichTextEditor = ({ content, onChange }) => {
@@ -13,10 +15,21 @@ const RichTextEditor = ({ content, onChange }) => {
     extensions: [
       StarterKit.configure(), 
       TextAlign.configure({
-        types: ["heading", "paragraph"],
+        types: ["heading", "paragraph",],
       }),
       Highlight,
       Underline, 
+      BulletList.configure({
+        HTMLAttributes: {
+          class: 'bulletList',
+        },
+      }),
+      OrderedList.configure({
+        HTMLAttributes: {
+          class: 'orderedList',
+        },
+      })
+
     ],
     content,
     immediatelyRender: false,
@@ -33,7 +46,7 @@ const RichTextEditor = ({ content, onChange }) => {
   return (
     <div>
       <ToolBar editor={editor} content={content} />
-      <EditorContent editor={editor} style={{ whiteSpace: "pre-line" }} />
+      <EditorContent editor={editor} style={{ whiteSpace: "pre-wrap" }} />
     </div>
   );
 };
