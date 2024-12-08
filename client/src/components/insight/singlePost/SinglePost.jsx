@@ -184,7 +184,7 @@ export default function SinglePost({ postId }) {
       }
     };
     fetchArticles();
-  }, [postId]); // Post ID değiştiğinde yeniden çalışacak
+  }, [postId]); 
 
   return (
     <div>
