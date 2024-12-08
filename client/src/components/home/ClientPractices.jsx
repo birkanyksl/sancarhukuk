@@ -68,7 +68,7 @@ const ClientPractices = ({ images }) => {
               />
             </div>
             <div className="bg-white absolute flex flex-col justify-center w-[80%] top-[200px] left-1/2 transform -translate-x-1/2 p-6 rounded-lg  border-2 border-color6">
-              <h2 className="text-color6 uppercase font-bold text-sm md:text-base text-center mb-2">
+              <h2 className="text-black uppercase font-bold text-sm md:text-base text-center mb-2">
                 {t(`practicesHome${index + 1}`)}
               </h2>
               <p className="text-center text-xs md:text-sm font-normal text-black mb-2 line-clamp-2">

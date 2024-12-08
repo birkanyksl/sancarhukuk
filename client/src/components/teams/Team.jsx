@@ -102,7 +102,7 @@ const Team = () => {
               </p>
             </div>
 
-            <div>
+            <div className="mb-6 md:mb-12">
               <div className="flex items-center justify-center mb-2">
                 <FontAwesomeIcon
                   icon={faGavel}
