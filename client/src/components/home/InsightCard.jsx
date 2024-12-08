@@ -18,7 +18,7 @@ const InsightCard = ({ article, locale }) => {
       <div className="flex flex-col gap-6 w-full">
 
       <span className="text-xs font-light text-gray-400 mt-2 px-4">
-        {new Date(article.createdAt).toLocaleDateString(
+        {new Date(article.specificDate || article.createdAt).toLocaleDateString(
           locale === "tr" ? "tr-TR" : "en-GB",
           {
             day: "2-digit",

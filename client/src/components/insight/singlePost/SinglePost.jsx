@@ -173,14 +173,18 @@ export default function SinglePost({ postId }) {
     const fetchArticles = async () => {
       try {
         const res = await axios.get("/api/posts");
-        const recentArticles = res.data.reverse().slice(0, 4);
-        setArticles(recentArticles);
+        
+        const sortedArticles = res.data
+          .reverse() 
+          .filter(article => article._id !== postId)
+          .sort((a, b) => new Date(b.specificDate || b.createdAt) - new Date(a.specificDate || a.createdAt))
+        setArticles(sortedArticles.slice(0, 4)); 
       } catch (error) {
         console.log("Makale alınırken hata oluştu.", error);
       }
     };
     fetchArticles();
-  }, []);
+  }, [postId]); // Post ID değiştiğinde yeniden çalışacak
 
   return (
     <div>
@@ -248,7 +252,7 @@ export default function SinglePost({ postId }) {
 
           {!updateMode && (
             <span className="text-xs font-light text-color7 mt-2">
-              {new Date(post.createdAt).toLocaleDateString(
+              {new Date(post.specificDate || post.createdAt).toLocaleDateString(
                 locale === "tr" ? "tr-TR" : "en-GB",
                 {
                   day: "2-digit",

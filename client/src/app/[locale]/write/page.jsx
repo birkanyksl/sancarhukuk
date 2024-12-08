@@ -22,6 +22,7 @@ export default function Write() {
   const [categoriesENInput, setCategoriesENInput] = useState("");
   const [categoriesEN, setCategoriesEN] = useState([]);
 
+
   const [file, setFile] = useState(null);
   const { user } = useContext(Context);
   const [error, setError] = useState("");
@@ -74,6 +75,7 @@ export default function Write() {
         titleEN,
         descEN,
         categoriesEN,
+        
       };
 
       await axiosClient.post("/api/posts", newPost, { withCredentials: true });
@@ -160,6 +162,8 @@ export default function Write() {
             onChange={handleFileChange}
           />
         </div>
+
+ 
 
         <div className="grid gap-4 md:grid-cols-1">
           <input

@@ -21,7 +21,7 @@ const Post = ({ post }) => {
         )}
       </div>
       <span className="text-xs md:text-sm font-light text-gray-400 mt-2">
-        {new Date(post.createdAt).toLocaleDateString(
+        {new Date(post.specificDate || post.createdAt).toLocaleDateString(
           locale === "tr" ? "tr-TR" : "en-GB",
           {
             day: "2-digit",

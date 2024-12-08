@@ -14,9 +14,13 @@ const HomeInsights = () => {
     const fetchArticles = async () => {
       try {
         const res = await axios.get("/api/posts");
-        const recentArticles = res.data.reverse().slice(0, 11);
- 
-        
+        const sortedArticles = res.data.sort((a, b) => {
+          
+          const dateA = new Date(a.specificDate || a.createdAt);
+          const dateB = new Date(b.specificDate || b.createdAt);
+          return dateB - dateA; 
+        });
+        const recentArticles = sortedArticles.slice(0, 11); 
         setArticles(recentArticles);
       } catch (error) {
         console.log("Makale alınırken hata oluştu.", error);
@@ -25,8 +29,8 @@ const HomeInsights = () => {
     fetchArticles();
   }, []);
 
-  const rightArticles = articles.slice(0, 4);
-  const leftArticles = articles.slice(4);
+  const rightArticles = articles.slice(0, 4); 
+  const leftArticles = articles.slice(4); 
 
   return (
     <>
@@ -56,7 +60,7 @@ const HomeInsights = () => {
                 <div className="flex flex-col gap-2 w-[60%] md:gap-6">
                   <div className="flex flex-col gap-2 md:flex-row">
                     <span className="text-[10px] font-light text-gray-400 md:font-normal lg:font-medium">
-                      {new Date(article.createdAt).toLocaleDateString(
+                      {new Date(article.specificDate || article.createdAt).toLocaleDateString(
                         locale === "tr" ? "tr-TR" : "en-GB",
                         {
                           day: "2-digit",
