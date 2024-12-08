@@ -14,9 +14,13 @@ const HomeInsights = () => {
     const fetchArticles = async () => {
       try {
         const res = await axios.get("/api/posts");
-        const recentArticles = res.data.reverse().slice(0, 11);
- 
-        
+        const sortedArticles = res.data.sort((a, b) => {
+          
+          const dateA = new Date(a.specificDate || a.createdAt);
+          const dateB = new Date(b.specificDate || b.createdAt);
+          return dateB - dateA; 
+        });
+        const recentArticles = sortedArticles.slice(0, 11); 
         setArticles(recentArticles);
       } catch (error) {
         console.log("Makale alınırken hata oluştu.", error);
@@ -25,8 +29,8 @@ const HomeInsights = () => {
     fetchArticles();
   }, []);
 
-  const rightArticles = articles.slice(0, 4);
-  const leftArticles = articles.slice(4);
+  const rightArticles = articles.slice(0, 4); 
+  const leftArticles = articles.slice(4); 
 
   return (
     <>
