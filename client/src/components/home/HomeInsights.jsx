@@ -56,7 +56,7 @@ const HomeInsights = () => {
                 <div className="flex flex-col gap-2 w-[60%] md:gap-6">
                   <div className="flex flex-col gap-2 md:flex-row">
                     <span className="text-[10px] font-light text-gray-400 md:font-normal lg:font-medium">
-                      {new Date(article.createdAt).toLocaleDateString(
+                      {new Date(article.specificDate || article.createdAt).toLocaleDateString(
                         locale === "tr" ? "tr-TR" : "en-GB",
                         {
                           day: "2-digit",

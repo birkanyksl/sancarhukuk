@@ -36,6 +36,10 @@ const PostSchema = new mongoose.Schema(
       type: Array,
       required: false,
     },
+    specificDate: {
+      type: String, 
+      required:false,
+    },
   },
   { timestamps: true }
 );

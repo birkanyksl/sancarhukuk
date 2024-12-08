@@ -248,7 +248,7 @@ export default function SinglePost({ postId }) {
 
           {!updateMode && (
             <span className="text-xs font-light text-color7 mt-2">
-              {new Date(post.createdAt).toLocaleDateString(
+              {new Date(post.specificDate || post.createdAt).toLocaleDateString(
                 locale === "tr" ? "tr-TR" : "en-GB",
                 {
                   day: "2-digit",
