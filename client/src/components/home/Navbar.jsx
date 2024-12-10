@@ -3,6 +3,7 @@ import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
 import LocaleSwitcher from "../LocaleSwitcher";
 import UserImage from "./UserImage";
+import Image from "next/image";
 
 
 const Navbar = () => {
@@ -18,12 +19,18 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="h-24 flex items-center justify-between ">
+    <div className="h-24 flex items-center justify-between  ">
       {/* LEFT */}
-      <div className=" lg:block">
-        <Link href="/" className="font-extrabold text-xl">
-          <span className="text-color1">SANCAR</span>{" "}
-          <span className="text-color6">HUKUK</span>
+      <div className="relative w-56 h-24 lg:block mt-6">
+        <Link href="/">
+        <Image 
+            src="/logo.png" 
+            alt="Sancar Hukuk Logo" 
+            fill 
+            className=" object-cover"
+            priority
+           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
         </Link>
       </div>
 
