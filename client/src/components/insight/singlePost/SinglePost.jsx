@@ -352,7 +352,7 @@ export default function SinglePost({ postId }) {
               </>
             ) : (
               <p
-                className="text-base whitespace-pre-wrap mx-6 lg:mx-12 my-6 text-justify"
+                className="text-base whitespace-pre-wrap mx-6 lg:mx-12 my-6"
                 dangerouslySetInnerHTML={{
                   __html: sanitizeContent(locale === "tr" ? desc : descEN),
                 }}
