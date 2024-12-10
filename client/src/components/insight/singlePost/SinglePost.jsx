@@ -208,7 +208,7 @@ export default function SinglePost({ postId }) {
               />
             </div>
           ) : (
-            <h1 className="text-4xl lg:text-5xl font-medium text-black ">
+            <h1 className="text-2xl lg:text-3xl font-medium text-black ">
               {(locale === "tr" ? title : titleEN) || ""}
             </h1>
           )}
