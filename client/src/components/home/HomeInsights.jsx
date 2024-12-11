@@ -3,12 +3,14 @@ import InsightCard from "./InsightCard";
 import HeadingWithDivider from "../HeadingWithDivider";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/navigation";
+import { IoIosArrowForward } from "react-icons/io";
 
 const HomeInsights = () => {
   const [articles, setArticles] = useState([]);
   const locale = useLocale();
+  const t = useTranslations("HomePublications")
 
   useEffect(() => {
     const fetchArticles = async () => {
@@ -34,14 +36,14 @@ const HomeInsights = () => {
 
   return (
     <>
-      <HeadingWithDivider title="Insights" />
+      <HeadingWithDivider title={t("title")} />
       <div className="mb-12 md:my-20 lg:mb:24 flex flex-col items-center justify-center gap-4">
         <h1 className="text-center text-2xl lg:text-3xl font-bold ">
-          <span className="text-color6">Adaletin Gündeminde </span>
-          <span className="text-color1">Neler Var?</span>
+          <span className="text-color6">{t("H11")}</span>
+          <span className="text-color1">{t("H12")}</span>
         </h1>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Yeni yasalar, kararlar ve hukuk dünyasındaki değişiklikler.
+        {t("P1")}
         </p>
       </div>
 
@@ -49,9 +51,7 @@ const HomeInsights = () => {
         {/* LEFT */}
         <div className="flex flex-col w-full lg:w-2/3">
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-            Through team’s blog posts and professional publications, you can
-            gain insights into important topics in the industry and stay updated
-            on the latest developments in the field of law.
+          {t("Text")}
           </p>
 
           {leftArticles.map((article, index) => (
@@ -85,7 +85,7 @@ const HomeInsights = () => {
                 </div>
 
                 <Link href={`/insight/${article._id}`} className="w-max mr-6 text-xs text-gray-800 font-semibold hover:text-color6">
-                  View More
+                <IoIosArrowForward className="w-5 h-5"/>
                 </Link>
               </div>
             </div>
@@ -96,11 +96,11 @@ const HomeInsights = () => {
         <div className="flex flex-col w-full lg:w-1/3 gap-8 overflow-y-auto mx-auto">
           <div className="flex justify-between items-center sticky top-0 bg-white py-2">
             <h3 className="text-sm md:text-md font-semibold">
-              Latest Insights
+            {t("Latest Insights")}
             </h3>
           
             <Link href={"/insight"}>
-            <span className="text-xs font-light text-gray-900 cursor-pointer">View all</span>
+            <span className="text-xs font-light text-gray-900 cursor-pointer">{t("View all")}</span>
             </Link>
             
           </div>

@@ -12,32 +12,123 @@
     "label": "Change Language",
     "locale": "{locale, select, en {English} tr {Turkish} other {Unknown}}"
   },
-  "SliderTexts":{
-    "slider1header":"Legal Solutions with Expertise and Trust",
-    "slider1paragh":"Based in Istanbul, Sancar Law offers comprehensive legal consultancy and representation services to both individual and corporate clients. We provide professional solutions across all areas.",
-    "slider2header":"Effective and Transparent Legal Services",
-    "slider2paragh":"Sancar Law is committed to defending the rights of its clients with the highest standards, specializing in areas such as commercial law, labor law, and family law. We manage your legal processes transparently.",
-    "slider3header":"The Assurance of Law in Istanbul",
-    "slider3paragh":"Sancar Law offers a wide range of services in both national and international legal matters, providing strategic and effective solutions to its clients."
+  "SliderTexts": {
+    "slider1header": "Legal Solutions with Expertise and Trust",
+    "slider1paragh": "Based in Istanbul, YUKSEL Law offers comprehensive legal consultancy and representation services to both individual and corporate clients. We provide professional solutions across all areas.",
+    "slider2header": "Effective and Transparent Legal Services",
+    "slider2paragh": "YUKSEL Law is committed to defending the rights of its clients with the highest standards, specializing in areas such as commercial law, labor law, and family law. We manage your legal processes transparently.",
+    "slider3header": "The Assurance of Law in Istanbul",
+    "slider3paragh": "YUKSEL Law offers a wide range of services in both national and international legal matters, providing strategic and effective solutions to its clients."
   },
-  "HomePractices":{
+  "HomePractices": {
     "title": "Practices",
+    "H11": "Strong Defense, ",
+    "H12": "Effective Results",
+    "P1":"We provide services with individual and corporate solutions.",
     "practicesHome1": "Commercial Law",
     "practicesHome2": "Family Law",
     "practicesHome3": "Enforcement Law",
-    "practicesHome4": "Criminal Law",
-    "practicesHome5": "Labor Law",
-    "practicesHome6": "Inheritance Law",
-    "practicesHome7": "Real Estate Law",
-    "practicesHome8": "Information Technology Law"
-  
+    "practicesHome4": "Criminal Law"
   },
+  "HomePracticesParagraph": {
+    "HomePracticesParagraph1": "Tailored commercial solutions and legal support for businesses.",
+    "HomePracticesParagraph2": "Reliable consultancy for family disputes.",
+    "HomePracticesParagraph3": "Fast and effective debt collection solutions."
+  },
+  "HomePublications": {
+  "title": "Publications",
+  "H11": "What's on the Agenda of Justice? ",
+  "H12": "What's New?",
+  "P1": "New laws, rulings, and changes in the legal field.",
+  "Text":"Through our blog posts, you can gain insights into important topics in the industry and stay updated on the latest developments in the field of law.",
+  "Latest Insights":"Latest Insights",
+  "View all":"View all"
+  
+},
+"faq": {
+  "title": "Frequently Asked Questions",
+  "sections": {
+    "basic": {
+      "title": "Basic", 
+      "items": [
+        {
+          "id": 1,
+          "question": "What types of cases does the law firm handle?",
+          "answer": "Our law firm provides services in many areas such as Commercial Law, Labor and Employment Law, Intellectual Property, Family and Marriage Law, Real Estate Law, and Health Law."
+        },
+        {
+          "id": 2,
+          "question": "Do you charge for consultations?",
+          "answer": "The first consultation is free. We discuss your case and determine how we can assist you."
+        },
+        {
+          "id": 3,
+          "question": "How long will this process take?",
+          "answer": "The duration of the process depends on the complexity of the case. We aim to achieve the most efficient solution."
+        },
+        {
+          "id": 4,
+          "question": "Can I file a lawsuit on behalf of a deceased family member?",
+          "answer": "Yes, you can file a lawsuit on behalf of a deceased family member. Please contact us for more information."
+        }
+      ]
+    },
+    "lawyers": {
+      "title": "Lawyers",  
+      "items": [
+        {
+          "id": 5,
+          "question": "What is the experience of your lawyers?",
+          "answer": "Our lawyers have more than 20 years of experience in various areas of law."
+        },
+        {
+          "id": 6,
+          "question": "Can I choose my lawyer?",
+          "answer": "Yes, you can choose your lawyer based on their areas of expertise and your specific needs."
+        }
+      ]
+    },
+    "service": {
+      "title": "Services",  
+      "items": [
+        {
+          "id": 7,
+          "question": "What services do you offer?",
+          "answer": "We provide a wide range of legal services, including consultancy, case follow-up, and mediation."
+        },
+        {
+          "id": 8,
+          "question": "Do you offer online consultancy services?",
+          "answer": "Yes, we offer online consultancy services for your convenience."
+        }
+      ]
+    },
+    "price": {
+      "title": "Pricing",  
+      "items": [
+        {
+          "id": 9,
+          "question": "What are your service fees?",
+          "answer": "Our fees vary depending on the complexity of the case. Please contact us for a detailed quote."
+        },
+        {
+          "id": 10,
+          "question": "Do you offer payment plans?",
+          "answer": "Yes, we offer flexible payment plans considering your financial situation."
+        }
+      ]
+    }
+  },
+  "paragraph": "You can find the answers to common questions about our legal services in this section.",
+  "H11": "Your ",
+  "H12": "Questions"
+},
   "breadcrumb": {
     "home": "Home",
     "about": "About Us",
     "team": "Team",
     "practice": "Practices",
-    "insight":"Publications",
+    "insight": "Publications",
     "communication": "Contact",
     "yabanci-yatirimlar": "Foreign Investments",
     "birlesme-ve-devralma": "Mergers and Acquisitions",
@@ -66,5 +157,5 @@
     "alacakli-haklari-ve-iflas": "Creditor Rights and Bankruptcy",
     "e-ticaret": "E-Commerce",
     "saglik-ve-yasam-bilimleri": "Health and Life Sciences"
-}
+  }
 }

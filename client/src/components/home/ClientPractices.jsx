@@ -8,6 +8,7 @@ import HeadingWithDivider from "../HeadingWithDivider";
 
 const ClientPractices = ({ images }) => {
   const t = useTranslations("HomePractices");
+  const t2 = useTranslations("HomePracticesParagraph")
 
   const [visibleItems, setVisibleItems] = useState(2);
 
@@ -42,11 +43,11 @@ const ClientPractices = ({ images }) => {
       >
         <h1 className="text-center text-2xl lg:text-3xl font-bold ">
           {" "}
-          <span className="text-color6">Güçlü Savunma, </span>
-          <span className="text-color1">Etkin Sonuçlar</span>
+          <span className="text-color6">{t("H11")}</span>
+          <span className="text-color1">{t("H12")}</span>
         </h1>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Bireysel ve kurumsal çözümlerle sizlere hizmet veriyoruz.
+          {t("P1")}
         </p>
       </div>
 
@@ -71,8 +72,8 @@ const ClientPractices = ({ images }) => {
               <h2 className="text-black uppercase font-bold text-sm md:text-base text-center mb-2">
                 {t(`practicesHome${index + 1}`)}
               </h2>
-              <p className="text-center text-xs md:text-sm font-normal text-black mb-2 line-clamp-2">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              <p className="text-center text-xs md:text-sm font-normal text-black mb-2  min-h-[3em] line-clamp-2">
+                {t2(`HomePracticesParagraph${index + 1}`)}
               </p>
             <div className="w-full h-[1px] bg-color6"></div>
             </div>
