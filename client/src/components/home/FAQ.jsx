@@ -33,20 +33,35 @@ const Faq = () => {
           question: t("sections.basic.items.3.question"),
           answer: t("sections.basic.items.3.answer"),
         },
+        {
+          id: 5,
+          question: t("sections.basic.items.4.question"),
+          answer: t("sections.basic.items.4.answer"),
+        },
       ],
     },
     lawyers: {
       title: t("sections.lawyers.title"),
       items: [
         {
-          id: 5,
+          id: 6,
           question: t("sections.lawyers.items.0.question"),
           answer: t("sections.lawyers.items.0.answer"),
         },
         {
-          id: 6,
+          id: 7,
           question: t("sections.lawyers.items.1.question"),
           answer: t("sections.lawyers.items.1.answer"),
+        },
+        {
+          id: 8,
+          question: t("sections.lawyers.items.2.question"),
+          answer: t("sections.lawyers.items.2.answer"),
+        },
+        {
+          id: 9,
+          question: t("sections.lawyers.items.3.question"),
+          answer: t("sections.lawyers.items.3.answer"),
         },
       ],
     },
@@ -54,14 +69,24 @@ const Faq = () => {
       title: t("sections.service.title"),
       items: [
         {
-          id: 7,
+          id: 10,
           question: t("sections.service.items.0.question"),
           answer: t("sections.service.items.0.answer"),
         },
         {
-          id: 8,
+          id: 11,
           question: t("sections.service.items.1.question"),
           answer: t("sections.service.items.1.answer"),
+        },
+        {
+          id: 12,
+          question: t("sections.service.items.2.question"),
+          answer: t("sections.service.items.2.answer"),
+        },
+        {
+          id: 13,
+          question: t("sections.service.items.3.question"),
+          answer: t("sections.service.items.3.answer"),
         },
       ],
     },
@@ -69,12 +94,12 @@ const Faq = () => {
       title: t("sections.price.title"),
       items: [
         {
-          id: 9,
+          id: 14,
           question: t("sections.price.items.0.question"),
           answer: t("sections.price.items.0.answer"),
         },
         {
-          id: 10,
+          id: 15,
           question: t("sections.price.items.1.question"),
           answer: t("sections.price.items.1.answer"),
         },

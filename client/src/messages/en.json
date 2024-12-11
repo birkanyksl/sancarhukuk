@@ -51,73 +51,98 @@
     "basic": {
       "title": "Basic", 
       "items": [
-        {
-          "id": 1,
-          "question": "What types of cases does the law firm handle?",
-          "answer": "Our law firm provides services in many areas such as Commercial Law, Labor and Employment Law, Intellectual Property, Family and Marriage Law, Real Estate Law, and Health Law."
-        },
-        {
-          "id": 2,
-          "question": "Do you charge for consultations?",
-          "answer": "The first consultation is free. We discuss your case and determine how we can assist you."
-        },
-        {
-          "id": 3,
-          "question": "How long will this process take?",
-          "answer": "The duration of the process depends on the complexity of the case. We aim to achieve the most efficient solution."
-        },
-        {
-          "id": 4,
-          "question": "Can I file a lawsuit on behalf of a deceased family member?",
-          "answer": "Yes, you can file a lawsuit on behalf of a deceased family member. Please contact us for more information."
-        }
-      ]
+    {
+        "id": 1,
+        "question": "What types of cases does the law firm handle?",
+        "answer": "Our law firm provides services in various areas such as Commercial Law, Labor and Employment Law, Intellectual Property, Family and Matrimonial Law, Real Estate Law, and Health Law."
+    },
+    {
+        "id": 2,
+        "question": "When should I consult a lawyer in a case?",
+        "answer": "It is important to consult a lawyer either before filing a lawsuit or after the lawsuit has started, in order to protect your rights and develop the right strategy."
+    },
+    {
+        "id": 3,
+        "question": "If I want to prove my innocence, what kind of evidence should I present?",
+        "answer": "The evidence you present is crucial in proving your innocence. Witness statements, digital traces, security cameras, and other physical evidence can support your claim of innocence. Additionally, documents proving your alibi or data related to your whereabouts at the time of the event can also be used as evidence. Your lawyer will guide you on which evidence will be valid for your case."
+    },
+    {
+        "id": 4,
+        "question": "Can I file a lawsuit on behalf of a deceased family member?",
+        "answer": "Yes, you can file a lawsuit on behalf of a deceased family member. Please contact us for more information."
+    },
+    {
+        "id": 5,
+        "question": "What should I do if I am facing a criminal case?",
+        "answer": "If you are facing a criminal case, the first step is to contact a lawyer. Your lawyer will help you understand the charges, represent you in court, and guide you in developing the best defense strategy."
+    }
+]
     },
     "lawyers": {
       "title": "Lawyers",  
-      "items": [
-        {
-          "id": 5,
-          "question": "What is the experience of your lawyers?",
-          "answer": "Our lawyers have more than 20 years of experience in various areas of law."
-        },
-        {
-          "id": 6,
-          "question": "Can I choose my lawyer?",
-          "answer": "Yes, you can choose your lawyer based on their areas of expertise and your specific needs."
-        }
-      ]
+     "items": [
+    {
+      "id": 6,
+      "question": "Why do I need a lawyer?",
+      "answer": "You need a lawyer to ensure that your legal issues are resolved correctly, to defend your rights, and to guarantee that your case is managed in the best possible way. Lawyers offer strategic guidance based on their areas of expertise, provide you with the most appropriate solutions in legal processes, and represent you in official environments such as courts. A professional lawyer will resolve your case efficiently and effectively, minimizing potential risks."
+    },
+    {
+      "id": 7,
+      "question": "How can I choose my lawyer?",
+      "answer": "When choosing a lawyer, it is important to consider their experience in the relevant field, their past successes, and their communication with clients. Additionally, make sure the lawyer offers suitable pricing policies for your needs."
+    },
+    {
+      "id": 8,
+      "question": "How do lawyers assist during the lawsuit process?",
+      "answer": "Lawyers guide their clients through every stage of the litigation process, from filing a lawsuit to managing hearings. They also help in preparing legal documents and determining legal strategies."
+    },
+    {
+      "id": 9,
+      "question": "Are lawyers really bound by confidentiality agreements? How reliable are they?",
+      "answer": "Yes, lawyers are strictly bound by confidentiality when communicating with their clients. According to legal ethics, it is prohibited to share or disclose client information. This confidentiality makes the lawyer-client relationship based on trust."
+    }
+]
     },
     "service": {
-      "title": "Services",  
-      "items": [
-        {
-          "id": 7,
-          "question": "What services do you offer?",
-          "answer": "We provide a wide range of legal services, including consultancy, case follow-up, and mediation."
-        },
-        {
-          "id": 8,
-          "question": "Do you offer online consultancy services?",
-          "answer": "Yes, we offer online consultancy services for your convenience."
-        }
-      ]
+  "title": "Services",  
+  "items": [
+    {
+      "id": 10,
+      "question": "What legal services do you offer?",
+      "answer": "Our law firm provides a wide range of services including litigation, legal consultation, mediation, contract drafting, legal reviews, and providing legal opinions."
     },
-    "price": {
-      "title": "Pricing",  
-      "items": [
-        {
-          "id": 9,
-          "question": "What are your service fees?",
-          "answer": "Our fees vary depending on the complexity of the case. Please contact us for a detailed quote."
-        },
-        {
-          "id": 10,
-          "question": "Do you offer payment plans?",
-          "answer": "Yes, we offer flexible payment plans considering your financial situation."
-        }
-      ]
+    {
+      "id": 11,
+      "question": "Do you only provide services within Turkey?",
+      "answer": "While we mainly handle legal matters within Turkey, we also offer international legal consultancy and cross-border legal services."
+    },
+    {
+      "id": 12,
+      "question": "Do you offer specialized legal consultancy services for companies?",
+      "answer": "Yes, we provide specialized legal consultancy for companies, including commercial law, labor law, and contract management, with a team of experts to support your business's legal needs."
+    },
+    {
+      "id": 13,
+      "question": "Do you offer online consultancy services?",
+      "answer": "Yes, we provide online consultancy and legal support services for both individual and corporate clients. This allows us to offer more accessible solutions by removing time and location constraints."
     }
+  ]
+},
+  "price": {
+  "title": "Pricing",
+  "items": [
+    {
+      "id": 14,
+      "question": "When is the lawyer's fee paid?",
+      "answer": "The lawyer's fee is typically requested in advance, either before the case begins or during the process, depending on the agreement. In some cases, payment can also be made once a favorable outcome is achieved at the end of the case."
+    },
+    {
+      "id": 15,
+      "question": "How are legal service fees determined?",
+      "answer": "Legal service fees are calculated based on the minimum fee schedule set by the Turkish Bar Association. Additionally, different pricing options may be offered depending on the type of case, its complexity, and the amount of time required."
+    }
+  ]
+}
   },
   "paragraph": "You can find the answers to common questions about our legal services in this section.",
   "H11": "Your ",
