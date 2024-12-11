@@ -14,19 +14,115 @@
   },
   "SliderTexts":{
     "slider1header":"Uzmanlık ve Güvenle Hukuki Çözümler",
-    "slider1paragh":"Sancar Hukuk, İstanbul merkezli olarak, bireysel ve kurumsal müvekkillerine kapsamlı hukuki danışmanlık ve temsil hizmetleri sunmaktadır. Her alanda profesyonel çözümlerle yanınızdayız.",
+    "slider1paragh":"YÜKSEL Hukuk, İstanbul merkezli olarak, bireysel ve kurumsal müvekkillerine kapsamlı hukuki danışmanlık ve temsil hizmetleri sunmaktadır. Her alanda profesyonel çözümlerle yanınızdayız.",
     "slider2header":"Etkin ve Şeffaf Hukuk Hizmetleri",
-    "slider2paragh":"Müvekkillerimizin haklarını en iyi şekilde savunmayı ilke edinen Sancar Hukuk, ticaret hukuku, iş hukuku ve aile hukuku gibi alanlarda uzmanlaşmıştır. Hukuki süreçlerinizi şeffaf bir şekilde yönetiyoruz.",
+    "slider2paragh":"Müvekkillerimizin haklarını en iyi şekilde savunmayı ilke edinen YÜKSEL Hukuk, ticaret hukuku, iş hukuku ve aile hukuku gibi alanlarda uzmanlaşmıştır. Hukuki süreçlerinizi şeffaf bir şekilde yönetiyoruz.",
     "slider3header":"İstanbul'da Hukukun Güvencesi",
-    "slider3paragh":"Sancar Hukuk, ulusal ve uluslararası hukuki meselelerde geniş bir yelpazede hizmet sunarak müvekkillerine stratejik ve etkili çözümler üretmektedir."
+    "slider3paragh":"YÜKSEL Hukuk, ulusal ve uluslararası hukuki meselelerde geniş bir yelpazede hizmet sunarak müvekkillerine stratejik ve etkili çözümler üretmektedir."
   },
   "HomePractices": {
     "title": "Hizmetlerimiz",
+    "H11":"Güçlü Savunma, ",
+    "H12":"Etkin Sonuçlar",
+    "P1":"Bireysel ve kurumsal çözümlerle sizlere hizmet veriyoruz.",
     "practicesHome1": "Ticaret Hukuku",
     "practicesHome2": "Aile Hukuku",
     "practicesHome3": "İcra Hukuku",
     "practicesHome4": "Ceza Hukuku"
   },
+  "HomePracticesParagraph":{
+    "HomePracticesParagraph1":"Şirketlere özel ticari çözümler ve hukuki destek.",
+    "HomePracticesParagraph2":"Aile içi uyuşmazlıklar için güvenilir danışmanlık.",
+    "HomePracticesParagraph3":"Hızlı ve etkili alacak takibi çözümleri."
+   },
+   "HomePublications":{
+    "title":"Yayınlarımız",
+    "H11":"Adaletin Gündeminde ",
+    "H12":"Neler Var?",
+    "P1":"Yeni yasalar, kararlar ve hukuk dünyasındaki değişiklikler.",
+    "Text":"Blog yazılarımız aracılığıyla, sektördeki önemli konular hakkında bilgi edinebilir ve hukuk alanındaki son gelişmelerden haberdar olabilirsiniz.",
+    "Latest Insights":"Son Yayınlar",
+    "View all":"Tümünü Görüntüle"
+   },
+  "faq": {
+  "title": "Sık Sorulan Sorular",
+  "sections": {
+    "basic": {
+      "title": "Temel Sorular", 
+      "items": [
+        {
+          "id": 1,
+          "question": "Hukuk bürosu hangi tür davalarla ilgileniyor?",
+          "answer": "Hukuk büromuz, Ticaret Hukuku, İş ve Çalışma Hukuku, Fikri Mülkiyet, Aile ve Evlilik Hukuku, Gayrimenkul Hukuku ve Sağlık Hukuku gibi birçok alanda hizmet vermektedir."
+        },
+        {
+          "id": 2,
+          "question": "Danışmanlık için ücret alıyor musunuz?",
+          "answer": "İlk görüşme ücretsizdir. Davanızı konuşarak size nasıl yardımcı olabileceğimizi belirliyoruz."
+        },
+        {
+          "id": 3,
+          "question": "Bu süreç ne kadar sürecek?",
+          "answer": "Sürecin süresi, davanın karmaşıklığına göre değişir. En verimli şekilde çözüme ulaşmayı hedefliyoruz."
+        },
+        {
+          "id": 4,
+          "question": "Ölen bir aile üyem adına dava açabilir miyim?",
+          "answer": "Evet, ölen bir aile üyem adına dava açabilirsiniz. Daha fazla bilgi için bizimle iletişime geçebilirsiniz."
+        }
+      ]
+    },
+    "lawyers": {
+      "title": "Avukatlar",  
+      "items": [
+        {
+          "id": 5,
+          "question": "Avukatlarınızın deneyimi nedir?",
+          "answer": "Avukatlarımız, farklı hukuk alanlarında 20 yılı aşkın deneyime sahiptir."
+        },
+        {
+          "id": 6,
+          "question": "Avukatımı seçebilir miyim?",
+          "answer": "Evet, avukatınızı uzmanlık alanlarına ve özel ihtiyaçlarınıza göre seçebilirsiniz."
+        }
+      ]
+    },
+    "service": {
+      "title": "Hizmetler",  
+      "items": [
+        {
+          "id": 7,
+          "question": "Hangi hizmetleri sunuyorsunuz?",
+          "answer": "Danışmanlık, dava takibi ve arabuluculuk gibi geniş bir yelpazede hukuki hizmetler sunmaktayız."
+        },
+        {
+          "id": 8,
+          "question": "Online danışmanlık hizmetiniz var mı?",
+          "answer": "Evet, sizin için online danışmanlık hizmeti sunuyoruz."
+        }
+      ]
+    },
+    "price": {
+      "title": "Ücretlendirme",  
+      "items": [
+        {
+          "id": 9,
+          "question": "Hizmet ücretleriniz nedir?",
+          "answer": "Ücretlerimiz, davanın karmaşıklığına göre değişmektedir. Detaylı bir teklif almak için bizimle iletişime geçebilirsiniz."
+        },
+        {
+          "id": 10,
+          "question": "Ödeme planı sunuyor musunuz?",
+          "answer": "Evet, finansal durumunuzu göz önünde bulundurarak esnek ödeme planları sunuyoruz."
+        }
+      ]
+    }
+  },
+  "paragraph": "Avukatlık hizmetlerimizle ilgili merak ettiğiniz soruları bu bölümde bulabilirsiniz.",
+  "H11": "Merak ",
+  "H12": "Ettikleriniz"
+},
+  
   "breadcrumb": {
     "home": "Anasayfa",
     "about": "Hakkımızda",

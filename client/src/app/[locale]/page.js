@@ -17,7 +17,7 @@ export default function Home() {
         <Practices/>
         <HomeInsights/>
         <Faq/>
-        <Brands/>    
+        {/* <Brands/>     */}
       </div>
        </>
   )
