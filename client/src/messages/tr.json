@@ -57,18 +57,23 @@
         },
         {
           "id": 2,
-          "question": "Danışmanlık için ücret alıyor musunuz?",
-          "answer": "İlk görüşme ücretsizdir. Davanızı konuşarak size nasıl yardımcı olabileceğimizi belirliyoruz."
+          "question": "Bir davada avukata ne zaman başvurmalıyım?",
+          "answer": "Davanızı açmadan önce ya da dava süreci başlatıldıktan sonra, haklarınızı savunmak ve doğru strateji geliştirmek için bir avukata başvurmanız önemlidir."
         },
         {
           "id": 3,
-          "question": "Bu süreç ne kadar sürecek?",
-          "answer": "Sürecin süresi, davanın karmaşıklığına göre değişir. En verimli şekilde çözüme ulaşmayı hedefliyoruz."
+          "question": "Eğer suçsuz olduğumu kanıtlamak istiyorsam, ne tür kanıtlar sunmam gerekir?",
+          "answer": "Suçsuz olduğunuzu kanıtlamak için sunduğunuz kanıtlar oldukça önemlidir. Tanık ifadeleri, dijital izler, güvenlik kameraları gibi fiziksel kanıtlar suçsuzluğunuzu destekleyebilir. Ayrıca, alibi ispatlayan belgeler veya olay anında bulunduğunuz yerle ilgili veriler de delil olarak sunulabilir. Avukatınız, davanızı en iyi şekilde savunmak için hangi kanıtların geçerli olacağı konusunda size rehberlik edecektir."
         },
         {
           "id": 4,
           "question": "Ölen bir aile üyem adına dava açabilir miyim?",
           "answer": "Evet, ölen bir aile üyem adına dava açabilirsiniz. Daha fazla bilgi için bizimle iletişime geçebilirsiniz."
+        },
+        {
+          "id": 5,
+          "question": "Ceza davası ile karşılaşırsam ne yapmalıyım?",
+          "answer": " Ceza davası ile karşılaşırsanız, ilk adım olarak bir avukat ile iletişime geçmeniz gerekmektedir. Avukatınız, suçlamaları anlamanıza yardımcı olacak, mahkemede sizi temsil edecek ve en iyi savunma stratejisini belirlemenize rehberlik edecektir."
         }
       ]
     },
@@ -76,14 +81,24 @@
       "title": "Avukatlar",  
       "items": [
         {
-          "id": 5,
-          "question": "Avukatlarınızın deneyimi nedir?",
-          "answer": "Avukatlarımız, farklı hukuk alanlarında 20 yılı aşkın deneyime sahiptir."
+          "id": 6,
+          "question": "Neden bir avukata ihtiyacımız var?",
+          "answer": "Bir avukata ihtiyacınız, hukuki sorunlarınızın doğru bir şekilde çözülmesini sağlamak, haklarınızı savunmak ve davanızın en iyi şekilde yönetilmesini garanti altına almak içindir. Avukatlar, uzmanlık alanlarına göre stratejik rehberlik sunar, yasal süreçlerde size en uygun çözümü sunar ve mahkeme gibi resmi ortamlarda sizi temsil eder. Profesyonel bir avukat, davanızı hızlı ve etkin bir şekilde sonuçlandırarak olası riskleri minimize eder."
         },
         {
-          "id": 6,
-          "question": "Avukatımı seçebilir miyim?",
-          "answer": "Evet, avukatınızı uzmanlık alanlarına ve özel ihtiyaçlarınıza göre seçebilirsiniz."
+          "id": 7,
+          "question": "Avukatımı nasıl seçebilirim?",
+          "answer": "Avukat seçerken, alanındaki deneyimi, geçmiş başarıları ve müvekkilleriyle olan iletişimi önemlidir. Ayrıca, avukatın size uygun ücretlendirme politikaları sunduğundan emin olmanız gerekir."
+        },
+        {
+          "id": 8,
+          "question": "Avukatlar dava sürecinde nasıl yardımcı olur?",
+          "answer": "Avukatlar, dava açma sürecinden duruşmaların yönetilmesine kadar tüm aşamalarda müvekkillerine rehberlik eder. Ayrıca, yasal belgelerin hazırlanması ve hukuki stratejilerin belirlenmesinde de yardımcı olurlar."
+        },
+        {
+          "id": 9,
+          "question": "Avukatlar gerçekten gizlilik sözleşmesine bağlı mı? Ne kadar güvenilirler?",
+          "answer": "Evet, avukatlar müvekkilleriyle olan iletişimlerinde gizlilik ilkesine sıkı sıkıya bağlıdırlar. Hukuk etiği gereği, müvekkil bilgilerini paylaşmak veya ifşa etmek yasaktır. Bu gizlilik, avukat-müvekkil ilişkisini güvene dayalı hale getirir."
         }
       ]
     },
@@ -91,14 +106,24 @@
       "title": "Hizmetler",  
       "items": [
         {
-          "id": 7,
-          "question": "Hangi hizmetleri sunuyorsunuz?",
-          "answer": "Danışmanlık, dava takibi ve arabuluculuk gibi geniş bir yelpazede hukuki hizmetler sunmaktayız."
+          "id": 10,
+          "question": "Hangi hukuki hizmetleri sunuyorsunuz?",
+          "answer": "Hukuk büromuz, dava takibi, danışmanlık, arabuluculuk, sözleşme hazırlanması, hukuki inceleme ve görüş bildirme gibi geniş bir yelpazede hizmetler sunmaktadır."
         },
         {
-          "id": 8,
+          "id": 11,
+          "question": "Hizmetlerinizi yalnızca Türkiye içinde mi sunuyorsunuz?",
+          "answer": "Çoğunlukla Türkiye içindeki hukuki işlemlerle ilgilenmekle birlikte, uluslararası hukuki danışmanlık ve sınır ötesi davalar için de hizmet sunuyoruz."
+        },
+        {
+          "id": 12,
+          "question": "Şirketler için özel hukuk danışmanlığı hizmetiniz var mı?",
+          "answer": "Evet, şirketlerin hukuki ihtiyaçlarını karşılamak için özel danışmanlık hizmetleri sunuyoruz. Ticaret hukuku, iş hukuku ve sözleşme yönetimi konularında uzman kadromuzla destek sağlıyoruz."
+        },
+        {
+          "id": 13,
           "question": "Online danışmanlık hizmetiniz var mı?",
-          "answer": "Evet, sizin için online danışmanlık hizmeti sunuyoruz."
+          "answer": "Evet, hem bireysel hem de kurumsal müvekkillerimiz için online danışmanlık ve hukuki destek hizmetleri sağlıyoruz. Bu, zaman ve mekân kısıtlamalarını ortadan kaldırarak daha erişilebilir bir çözüm sunmamıza olanak tanıyor."
         }
       ]
     },
@@ -106,14 +131,14 @@
       "title": "Ücretlendirme",  
       "items": [
         {
-          "id": 9,
-          "question": "Hizmet ücretleriniz nedir?",
-          "answer": "Ücretlerimiz, davanın karmaşıklığına göre değişmektedir. Detaylı bir teklif almak için bizimle iletişime geçebilirsiniz."
+          "id": 14,
+          "question": "Avukatlık ücreti ne zaman ödenir?",
+          "answer": "Avukatlık ücreti, genellikle anlaşmaya bağlı olarak dava öncesinde veya dava süreci sırasında peşin olarak talep edilebilir. Bazı durumlarda, davanın sonunda sonuç alındığında ödeme yapılması da mümkün olabilmektedir."
         },
         {
-          "id": 10,
-          "question": "Ödeme planı sunuyor musunuz?",
-          "answer": "Evet, finansal durumunuzu göz önünde bulundurarak esnek ödeme planları sunuyoruz."
+          "id": 15,
+          "question": "Hukuki hizmetlerin ücretleri nasıl belirleniyor?",
+          "answer": "Hukuki hizmetlerin ücretleri, Türkiye Barolar Birliği'nin belirlediği avukatlık asgari ücret tarifesine dayanarak hesaplanmaktadır. Bunun yanı sıra, dava türüne, karmaşıklığına ve harcanan süreye göre farklı ücretlendirme seçenekleri sunulabilmektedir."
         }
       ]
     }
