@@ -147,6 +147,34 @@
   "H11": "Merak ",
   "H12": "Ettikleriniz"
 },
+
+"aboutPage": {
+  "title": "Yüksel Hukuk Bürosu",
+  "sections": {
+    "mission": {
+      "title": "Misyon Hedefi",
+      "content": "Yüksel Hukuk Bürosu olarak misyonumuz, müvekkillerimize kapsamlı, etik ve güvenilir hukuki hizmetler sunmaktır. Müvekkillerimizin haklarını koruyarak ve adalet arayışlarında etkin bir şekilde yanlarında durarak, hukukun üstünlüğünü savunmayı temel ilkemiz olarak benimsiyoruz. Her bir dava, bizim için yalnızca bir hukuki süreç değil, aynı zamanda müvekkilimizin yaşamında önemli bir dönüm noktasıdır."
+    },
+    "vision": {
+      "title": "Geleceğe Bakış",
+      "content": "Vizyonumuz, hukuk sektöründe yenilikçi ve çözüm odaklı yaklaşımlarımızla lider bir hukuk bürosu olmaktır. Etik değerlerden ödün vermeden, müvekkillerimizin güvenini kazanarak, hukuki çözümlerle onların beklentilerini aşmayı hedefliyoruz. Sektörde sürdürülebilir büyümeyi sağlarken, müvekkillerimize en iyi hizmeti sunmayı misyon edinmiş bir ekip olarak ilerliyoruz."
+    },
+    "practices": {
+      "title": "Uzmanlık Alanlarımız",
+      "content": "Yüksel Hukuk Bürosu, ceza hukuku, aile hukuku, ticaret hukuku, iş hukuku, gayrimenkul hukuku ve sözleşme hukuku gibi birçok alanda hizmet vermektedir. Alanında uzman avukatlarımız, her müvekkilimizin ihtiyacına özel stratejiler geliştirerek hukuki sorunlarına çözüm sunmaktadır. Büromuz, kapsamlı bir hizmet anlayışıyla, hem bireysel hem de kurumsal müvekkillerin beklentilerini karşılamayı taahhüt etmektedir."
+    },
+    "team": {
+      "title": "Uzman Kadromuz",
+      "content": "Yüksel Hukuk Bürosu, deneyimli ve uzman avukat kadrosuyla, müvekkillerine hukuki süreçlerin her aşamasında en iyi hizmeti sunmayı amaçlamaktadır. Ekibimiz, sürekli değişen hukuki düzenlemelere uyum sağlamak adına kendilerini sürekli geliştirmekte ve yenilikçi yaklaşımlar benimsemektedir. Her biri alanında uzman olan ekip üyelerimiz, hukukun çeşitli alanlarında müvekkillerimizin karşılaştığı sorunlara etkin ve pratik çözümler sunar."
+    }
+  }
+},
+"aboutPageTeam": {
+  "team": {
+    "heading": "Ekibimizle Tanışın",
+    "description": "Farklı geçmişlere sahip ekibimiz, olağanüstü sonuçlar ve yenilikçi çözümler sunmaya kararlıdır."
+  }
+  },
   
   "breadcrumb": {
     "home": "Anasayfa",

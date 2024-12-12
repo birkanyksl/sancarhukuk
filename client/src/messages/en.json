@@ -148,6 +148,34 @@
   "H11": "Your ",
   "H12": "Questions"
 },
+
+"aboutPage": {
+  "title": "Yüksel Law Firm",
+  "sections": {
+    "mission": {
+      "title": "Mission Objective",
+      "content": "As Yüksel Law Office, our mission is to provide our clients with comprehensive, ethical, and reliable legal services. By protecting our clients' rights and standing effectively by their side in their pursuit of justice, we embrace advocating the rule of law as our fundamental principle. Each case is not just a legal process for us but also a significant turning point in our client's life."
+    },
+    "vision": {
+      "title": "Future Vision",
+      "content": "Our vision is to become a leading law firm in the legal sector with our innovative and solution-oriented approaches. By upholding ethical values and earning our clients' trust, we aim to exceed their expectations with legal solutions. While ensuring sustainable growth in the industry, we progress as a team committed to providing the best service to our clients."
+    },
+    "practices": {
+      "title": "Our Expertise Areas",
+      "content": "Yüksel Law Office provides services in many areas, including criminal law, family law, commercial law, labor law, real estate law, and contract law. Our expert attorneys develop tailored strategies for each client's needs and offer solutions to their legal issues. With a comprehensive service approach, our office is committed to meeting the expectations of both individual and corporate clients."
+    },
+    "team": {
+      "title": "Our Expert Team",
+      "content": "Yüksel Law Office aims to provide the best service at every stage of legal processes with its experienced and expert attorney team. Our team continuously develops and adopts innovative approaches to adapt to ever-changing legal regulations. Each of our team members, being experts in their respective fields, provides effective and practical solutions to the problems our clients face in various areas of law."
+    }
+  }
+},
+"aboutPageTeam": {
+  "team": {
+    "heading": "Meet Our Team",
+    "description": "Our diverse team is committed to delivering outstanding results and innovative solutions."
+  }
+},
   "breadcrumb": {
     "home": "Home",
     "about": "About Us",
