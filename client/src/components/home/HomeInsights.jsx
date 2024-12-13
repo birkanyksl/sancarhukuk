@@ -49,7 +49,7 @@ const HomeInsights = () => {
 
       <div className="flex flex-col lg:flex-row xl:px-12 gap-16 w-full md:gap-20 pt-4 md:mb-16">
         {/* LEFT */}
-        <div className="flex flex-col w-full lg:w-2/3">
+        <div className="flex flex-col w-full lg:w-1/2 xl:w-2/3">
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           {t("Text")}
           </p>
@@ -93,7 +93,7 @@ const HomeInsights = () => {
         </div>
 
         {/* RIGHT */}
-        <div className="flex flex-col w-full lg:w-1/3 gap-8 overflow-y-auto mx-auto">
+        <div className="flex flex-col w-full lg:w-1/2 xl:w-1/3 gap-8 overflow-y-auto mx-auto">
           <div className="flex justify-between items-center sticky top-0 bg-white py-2">
             <h3 className="text-sm md:text-md font-semibold">
             {t("Latest Insights")}

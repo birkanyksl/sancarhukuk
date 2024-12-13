@@ -1,12 +1,14 @@
+import { useTranslations } from 'next-intl';
 import Image from 'next/image'
 import React from 'react'
 
 const AboutPageTeam = () => {
+  const  t  = useTranslations("aboutPageTeam");
   return (
     <div className='px-6 pb-8 md:px-8 lg:px-16 xl:px-32 2xl:px-64 flex flex-row gap-2 my-8 items-center md:my-20'>
       
       <div className='flex flex-col w-1/2 lg:w-1/3 h-48 p-4  [border-radius:0px_200px_200px_0px] bg-amber-200 text-center justify-center items-center cursor-pointer shadow-lg '>
-        <h2 className='text-lg lg:text-xl  font-semibold mr-4 text-color1'>Meet Our Team</h2>
+        <h2 className='text-base font-semibold mr-4 text-color1'>{t("team.heading")}</h2>
        
       </div>
 
@@ -36,7 +38,7 @@ const AboutPageTeam = () => {
       </div>
       <div className='hidden w-1/3 h-72 pl-12 border lg:flex [border-radius:200px_0px_0px_200px] bg-amber-200 justify-center items-center cursor-pointer shadow-lg'>
       <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-      Our diverse team is committed to delivering outstanding results and innovative solutions.</p>
+      {t("team.description")}</p>
        
       </div>
       

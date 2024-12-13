@@ -121,7 +121,7 @@ const Faq = () => {
     
       <div className="flex-col w-full p-4 justify-center mb-10">
         <HeadingWithDivider title={t("title")} />
-        <div className="mb-12 md:my-20 lg:mb:24 flex flex-col md:flex-row lg:my-24 md:items-end justify-center gap-4">
+        <div className="mb-12 md:my-20 lg:mb:24 flex flex-col lg:flex-row lg:my-24 md:items-end justify-center gap-4">
           <div className="flex flex-col text-center items-center w-full gap-4">
             <h1 className="text-center text-2xl lg:text-3xl font-bold">
               {" "}
@@ -133,7 +133,7 @@ const Faq = () => {
             </p>
           </div>
 
-          <div className="flex flex-col md:flex-row w-full flex-wrap justify-end">
+          <div className="flex flex-col lg:flex-row w-full  justify-end">
             {Object.keys(sections).map((section) => (
               <div key={section} className="flex">
                 <button

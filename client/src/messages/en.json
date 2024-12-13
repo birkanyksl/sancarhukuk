@@ -24,7 +24,7 @@
     "title": "Practices",
     "H11": "Strong Defense, ",
     "H12": "Effective Results",
-    "P1":"We provide services with individual and corporate solutions.",
+    "P1": "We provide services with individual and corporate solutions.",
     "practicesHome1": "Commercial Law",
     "practicesHome2": "Family Law",
     "practicesHome3": "Enforcement Law",
@@ -36,118 +36,168 @@
     "HomePracticesParagraph3": "Fast and effective debt collection solutions."
   },
   "HomePublications": {
-  "title": "Publications",
-  "H11": "What's on the Agenda of Justice? ",
-  "H12": "What's New?",
-  "P1": "New laws, rulings, and changes in the legal field.",
-  "Text":"Through our blog posts, you can gain insights into important topics in the industry and stay updated on the latest developments in the field of law.",
-  "Latest Insights":"Latest Insights",
-  "View all":"View all"
-  
-},
-"faq": {
-  "title": "Frequently Asked Questions",
-  "sections": {
-    "basic": {
-      "title": "Basic", 
-      "items": [
-    {
-        "id": 1,
-        "question": "What types of cases does the law firm handle?",
-        "answer": "Our law firm provides services in various areas such as Commercial Law, Labor and Employment Law, Intellectual Property, Family and Matrimonial Law, Real Estate Law, and Health Law."
-    },
-    {
-        "id": 2,
-        "question": "When should I consult a lawyer in a case?",
-        "answer": "It is important to consult a lawyer either before filing a lawsuit or after the lawsuit has started, in order to protect your rights and develop the right strategy."
-    },
-    {
-        "id": 3,
-        "question": "If I want to prove my innocence, what kind of evidence should I present?",
-        "answer": "The evidence you present is crucial in proving your innocence. Witness statements, digital traces, security cameras, and other physical evidence can support your claim of innocence. Additionally, documents proving your alibi or data related to your whereabouts at the time of the event can also be used as evidence. Your lawyer will guide you on which evidence will be valid for your case."
-    },
-    {
-        "id": 4,
-        "question": "Can I file a lawsuit on behalf of a deceased family member?",
-        "answer": "Yes, you can file a lawsuit on behalf of a deceased family member. Please contact us for more information."
-    },
-    {
-        "id": 5,
-        "question": "What should I do if I am facing a criminal case?",
-        "answer": "If you are facing a criminal case, the first step is to contact a lawyer. Your lawyer will help you understand the charges, represent you in court, and guide you in developing the best defense strategy."
-    }
-]
-    },
-    "lawyers": {
-      "title": "Lawyers",  
-     "items": [
-    {
-      "id": 6,
-      "question": "Why do I need a lawyer?",
-      "answer": "You need a lawyer to ensure that your legal issues are resolved correctly, to defend your rights, and to guarantee that your case is managed in the best possible way. Lawyers offer strategic guidance based on their areas of expertise, provide you with the most appropriate solutions in legal processes, and represent you in official environments such as courts. A professional lawyer will resolve your case efficiently and effectively, minimizing potential risks."
-    },
-    {
-      "id": 7,
-      "question": "How can I choose my lawyer?",
-      "answer": "When choosing a lawyer, it is important to consider their experience in the relevant field, their past successes, and their communication with clients. Additionally, make sure the lawyer offers suitable pricing policies for your needs."
-    },
-    {
-      "id": 8,
-      "question": "How do lawyers assist during the lawsuit process?",
-      "answer": "Lawyers guide their clients through every stage of the litigation process, from filing a lawsuit to managing hearings. They also help in preparing legal documents and determining legal strategies."
-    },
-    {
-      "id": 9,
-      "question": "Are lawyers really bound by confidentiality agreements? How reliable are they?",
-      "answer": "Yes, lawyers are strictly bound by confidentiality when communicating with their clients. According to legal ethics, it is prohibited to share or disclose client information. This confidentiality makes the lawyer-client relationship based on trust."
-    }
-]
-    },
-    "service": {
-  "title": "Services",  
-  "items": [
-    {
-      "id": 10,
-      "question": "What legal services do you offer?",
-      "answer": "Our law firm provides a wide range of services including litigation, legal consultation, mediation, contract drafting, legal reviews, and providing legal opinions."
-    },
-    {
-      "id": 11,
-      "question": "Do you only provide services within Turkey?",
-      "answer": "While we mainly handle legal matters within Turkey, we also offer international legal consultancy and cross-border legal services."
-    },
-    {
-      "id": 12,
-      "question": "Do you offer specialized legal consultancy services for companies?",
-      "answer": "Yes, we provide specialized legal consultancy for companies, including commercial law, labor law, and contract management, with a team of experts to support your business's legal needs."
-    },
-    {
-      "id": 13,
-      "question": "Do you offer online consultancy services?",
-      "answer": "Yes, we provide online consultancy and legal support services for both individual and corporate clients. This allows us to offer more accessible solutions by removing time and location constraints."
-    }
-  ]
-},
-  "price": {
-  "title": "Pricing",
-  "items": [
-    {
-      "id": 14,
-      "question": "When is the lawyer's fee paid?",
-      "answer": "The lawyer's fee is typically requested in advance, either before the case begins or during the process, depending on the agreement. In some cases, payment can also be made once a favorable outcome is achieved at the end of the case."
-    },
-    {
-      "id": 15,
-      "question": "How are legal service fees determined?",
-      "answer": "Legal service fees are calculated based on the minimum fee schedule set by the Turkish Bar Association. Additionally, different pricing options may be offered depending on the type of case, its complexity, and the amount of time required."
-    }
-  ]
-}
+    "title": "Publications",
+    "H11": "What's on the Agenda of Justice? ",
+    "H12": "What's New?",
+    "P1": "New laws, rulings, and changes in the legal field.",
+    "Text": "Through our blog posts, you can gain insights into important topics in the industry and stay updated on the latest developments in the field of law.",
+    "Latest Insights": "Latest Insights",
+    "View all": "View all"
   },
-  "paragraph": "You can find the answers to common questions about our legal services in this section.",
-  "H11": "Your ",
-  "H12": "Questions"
-},
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "sections": {
+      "basic": {
+        "title": "Basic",
+        "items": [
+          {
+            "id": 1,
+            "question": "What types of cases does the law firm handle?",
+            "answer": "Our law firm provides services in various areas such as Commercial Law, Labor and Employment Law, Intellectual Property, Family and Matrimonial Law, Real Estate Law, and Health Law."
+          },
+          {
+            "id": 2,
+            "question": "When should I consult a lawyer in a case?",
+            "answer": "It is important to consult a lawyer either before filing a lawsuit or after the lawsuit has started, in order to protect your rights and develop the right strategy."
+          },
+          {
+            "id": 3,
+            "question": "If I want to prove my innocence, what kind of evidence should I present?",
+            "answer": "The evidence you present is crucial in proving your innocence. Witness statements, digital traces, security cameras, and other physical evidence can support your claim of innocence. Additionally, documents proving your alibi or data related to your whereabouts at the time of the event can also be used as evidence. Your lawyer will guide you on which evidence will be valid for your case."
+          },
+          {
+            "id": 4,
+            "question": "Can I file a lawsuit on behalf of a deceased family member?",
+            "answer": "Yes, you can file a lawsuit on behalf of a deceased family member. Please contact us for more information."
+          },
+          {
+            "id": 5,
+            "question": "What should I do if I am facing a criminal case?",
+            "answer": "If you are facing a criminal case, the first step is to contact a lawyer. Your lawyer will help you understand the charges, represent you in court, and guide you in developing the best defense strategy."
+          }
+        ]
+      },
+      "lawyers": {
+        "title": "Lawyers",
+        "items": [
+          {
+            "id": 6,
+            "question": "Why do I need a lawyer?",
+            "answer": "You need a lawyer to ensure that your legal issues are resolved correctly, to defend your rights, and to guarantee that your case is managed in the best possible way. Lawyers offer strategic guidance based on their areas of expertise, provide you with the most appropriate solutions in legal processes, and represent you in official environments such as courts. A professional lawyer will resolve your case efficiently and effectively, minimizing potential risks."
+          },
+          {
+            "id": 7,
+            "question": "How can I choose my lawyer?",
+            "answer": "When choosing a lawyer, it is important to consider their experience in the relevant field, their past successes, and their communication with clients. Additionally, make sure the lawyer offers suitable pricing policies for your needs."
+          },
+          {
+            "id": 8,
+            "question": "How do lawyers assist during the lawsuit process?",
+            "answer": "Lawyers guide their clients through every stage of the litigation process, from filing a lawsuit to managing hearings. They also help in preparing legal documents and determining legal strategies."
+          },
+          {
+            "id": 9,
+            "question": "Are lawyers really bound by confidentiality agreements? How reliable are they?",
+            "answer": "Yes, lawyers are strictly bound by confidentiality when communicating with their clients. According to legal ethics, it is prohibited to share or disclose client information. This confidentiality makes the lawyer-client relationship based on trust."
+          }
+        ]
+      },
+      "service": {
+        "title": "Services",
+        "items": [
+          {
+            "id": 10,
+            "question": "What legal services do you offer?",
+            "answer": "Our law firm provides a wide range of services including litigation, legal consultation, mediation, contract drafting, legal reviews, and providing legal opinions."
+          },
+          {
+            "id": 11,
+            "question": "Do you only provide services within Turkey?",
+            "answer": "While we mainly handle legal matters within Turkey, we also offer international legal consultancy and cross-border legal services."
+          },
+          {
+            "id": 12,
+            "question": "Do you offer specialized legal consultancy services for companies?",
+            "answer": "Yes, we provide specialized legal consultancy for companies, including commercial law, labor law, and contract management, with a team of experts to support your business's legal needs."
+          },
+          {
+            "id": 13,
+            "question": "Do you offer online consultancy services?",
+            "answer": "Yes, we provide online consultancy and legal support services for both individual and corporate clients. This allows us to offer more accessible solutions by removing time and location constraints."
+          }
+        ]
+      },
+      "price": {
+        "title": "Pricing",
+        "items": [
+          {
+            "id": 14,
+            "question": "When is the lawyer's fee paid?",
+            "answer": "The lawyer's fee is typically requested in advance, either before the case begins or during the process, depending on the agreement. In some cases, payment can also be made once a favorable outcome is achieved at the end of the case."
+          },
+          {
+            "id": 15,
+            "question": "How are legal service fees determined?",
+            "answer": "Legal service fees are calculated based on the minimum fee schedule set by the Turkish Bar Association. Additionally, different pricing options may be offered depending on the type of case, its complexity, and the amount of time required."
+          }
+        ]
+      }
+    },
+    "paragraph": "You can find the answers to common questions about our legal services in this section.",
+    "H11": "Your ",
+    "H12": "Questions"
+  },
+
+  "aboutPage": {
+    "title": "Yüksel Law Firm",
+    "headerText": "About Us",
+    "headerSubText": "Our company provides comprehensive legal consultancy and litigation services, offering reliable solutions to its clients.",
+    "sections": {
+      "mission": {
+        "title": "Mission Objective",
+        "content": "As Yüksel Law Office, our mission is to provide our clients with comprehensive, ethical, and reliable legal services. By protecting our clients' rights and standing effectively by their side in their pursuit of justice, we embrace advocating the rule of law as our fundamental principle. Each case is not just a legal process for us but also a significant turning point in our client's life."
+      },
+      "vision": {
+        "title": "Future Vision",
+        "content": "Our vision is to become a leading law firm in the legal sector with our innovative and solution-oriented approaches. By upholding ethical values and earning our clients' trust, we aim to exceed their expectations with legal solutions. While ensuring sustainable growth in the industry, we progress as a team committed to providing the best service to our clients."
+      },
+      "practices": {
+        "title": "Our Expertise Areas",
+        "content": "Yüksel Law Office provides services in many areas, including criminal law, family law, commercial law, labor law, real estate law, and contract law. Our expert attorneys develop tailored strategies for each client's needs and offer solutions to their legal issues. With a comprehensive service approach, our office is committed to meeting the expectations of both individual and corporate clients."
+      },
+      "team": {
+        "title": "Our Expert Team",
+        "content": "Yüksel Law Office aims to provide the best service at every stage of legal processes with its experienced and expert attorney team. Our team continuously develops and adopts innovative approaches to adapt to ever-changing legal regulations. Each of our team members, being experts in their respective fields, provides effective and practical solutions to the problems our clients face in various areas of law."
+      }
+    }
+  },
+  "aboutPageTeam": {
+    "team": {
+      "heading": "Meet Our Team",
+      "description": "Our diverse team is committed to delivering outstanding results and innovative solutions."
+    }
+  },
+  "teamPage": {
+    "headerText": "Respected Team",
+    "headerSubText": "We respond to all your legal needs with a solution-oriented and transparent approach without compromising our ethical values. Our strength comes from professionalism, reliability, and teamwork.",
+    "founderPartner": "Founder Partner",
+    "textErkan": "Attorney Erkan Yüksel has adopted the principle of providing professional services to his clients at high standards since the beginning of his legal career. After graduating from Istanbul University Faculty of Law, he has specialized in areas such as commercial law, family law, labor law, and contract law with the experience gained in various law firms. Yüksel carefully analyzes every stage of the legal process in each case and offers the most appropriate solutions to his clients.",
+    "textErkan2": "Known for his customer satisfaction and solution-oriented approach, Erkan Yüksel provides not only litigation services but also strategic solutions and preventive legal counseling to his clients. In his legal practice, Yüksel never compromises on ethical values, always adhering to the principles of transparency and honesty.",
+    "textErkan3": "Attorney Erkan Yüksel has earned the trust of his clients and successfully established long-term and healthy business relationships, creating a strong strategy to achieve the best results for every legal issue and potential. Yüksel, who offers high-quality and reliable services in a wide range of fields from business to individual consultancy, also excels in speed and efficiency in legal processes.",
+    "bio": "Read Full Bio",
+    "header2Text": "Defining Success Together",
+    "header2SubText": "In order to ensure the highest quality of service in the field of corruption practices, we have assembled a team of experienced professionals with a mix of international background.",
+    "businessLaw": "Commercial Law",
+    "businessLawText": "Having top calibre legal support has become a necessity.",
+    "disputeSupport": "Dispute Support",
+    "disputeSupportText": "We advise many of the leading companies in legal services.",
+    "copyright": "Copyright",
+    "copyrightText": "Including infringement warnings and civil law proceedings.",
+    "textMehmetAli": "Attorney Mehmet Ali Kümüş has adopted an in-depth approach to legal processes since the beginning of his professional career. After graduating from Istanbul University Faculty of Law, he specialized in areas such as commercial law, labor law, and contract law with the experience gained at several national and international law firms. Kümüş aims to provide the most effective solutions to his clients and targets the highest success in every case.",
+    "textMehmetAli2": "Known for his client-oriented approach, Mehmet Ali Kümüş provides valuable guidance not only in litigation but also in legal strategies and risk management. Always adhering to ethical values and transparency in his legal practice, Kümüş offers a solution-oriented and reliable advisory process.",
+    "textMehmetAli3": "Attorney Mehmet Ali Kümüş provides services across a wide range, from the business world to individual consultancy, and has built long-term relationships by earning the trust of his clients. By offering fast, effective, and accurate solutions, he aims to achieve successful outcomes in all legal matters.",
+    "ManagerPartner": "Manager Partner"
+  },
   "breadcrumb": {
     "home": "Home",
     "about": "About Us",
