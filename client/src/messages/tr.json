@@ -150,6 +150,8 @@
 
 "aboutPage": {
   "title": "Yüksel Hukuk Bürosu",
+  "headerText":"Hakkımızda Notlar",
+  "headerSubText":" Şirketimiz, kapsamlı hukuki danışmanlık ve dava hizmetleri sunarak müvekkillerine güvenilir çözümler sağlar.",
   "sections": {
     "mission": {
       "title": "Misyon Hedefi",
@@ -175,7 +177,28 @@
     "description": "Farklı geçmişlere sahip ekibimiz, olağanüstü sonuçlar ve yenilikçi çözümler sunmaya kararlıdır."
   }
   },
-  
+ "teamPage": {
+    "headerText": "Değerli Ekibimiz",
+    "headerSubText": "Etik değerlerimizden ödün vermeden, çözüm odaklı ve şeffaf bir yaklaşımla her türlü hukuki ihtiyacınıza yanıt veriyoruz. Gücümüzü profesyonellikten, güvenilirlikten ve ekip çalışmasından alıyoruz.",
+    "founderPartner": "Kurucu Ortak",
+    "textErkan": "Avukat Erkan Yüksel, hukuk kariyerine başladığı günden itibaren, müvekkillerine yüksek standartlarda profesyonel hizmet sunmayı ilke edinmiştir. İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olduktan sonra, çeşitli hukuk firmalarında kazandığı deneyimlerle, ticaret hukuku, aile hukuku, iş hukuku ve sözleşmeler hukuku gibi alanlarda derinleşmiştir. Yüksel, her davada hukuki sürecin her aşamasını titizlikle analiz ederek, müvekkillerine en uygun çözüm yollarını sunmaktadır.",
+    "textErkan2": "Müşteri memnuniyeti ve çözüm odaklı yaklaşımıyla tanınan Erkan Yüksel, hukuki danışmanlık alanında yalnızca dava süreçlerine değil, aynı zamanda müvekkillerine stratejik çözümler ve önleyici hukuk danışmanlığı da sağlamaktadır. Avukatlık pratiğinde etik değerlerden asla taviz vermeyen Yüksel, her zaman şeffaflık ve dürüstlük ilkesine sadık kalır.",
+    "textErkan3": "Avukat Erkan Yüksel, müvekkillerinin güvenini kazanarak, uzun vadeli ve sağlıklı iş ilişkileri kurmayı başarmış, her türlü hukuki sorun ve ihtimale karşı en iyi sonuçları elde etmek için güçlü bir strateji oluşturmuştur. İş dünyasından bireysel danışmanlık hizmetlerine kadar geniş bir yelpazede kaliteli ve güvenilir hizmet sunan Yüksel, aynı zamanda hukuki süreçlerde hız ve etkinlik konusunda da yüksek bir başarıya sahiptir.",
+    "bio":"Biyografiyi Oku",
+    "header2Text": "Başarıyı Birlikte Tanımlıyoruz",
+    "header2SubText": "Yolsuzluk uygulamaları alanında en yüksek kaliteli hizmeti sağlamak için, uluslararası geçmişe sahip deneyimli profesyonellerden oluşan bir ekip kurduk.",
+    "businessLaw": "Ticaret Hukuku",
+    "businessLawText": "Yüksek kalibreli hukuki destek almak artık bir ihtiyaç haline gelmiştir.",
+    "disputeSupport": "Uyuşmazlık Desteği",
+    "disputeSupportText": "Pek çok lider şirkete hukuki hizmetlerde danışmanlık yapıyoruz.",
+    "copyright": "Telif Hakkı",
+    "copyrightText": "İhlal uyarıları ve medeni hukuk davalarını içermektedir.",
+     "textMehmetAli": "Avukat Mehmet Ali Kümüş, profesyonel kariyerine başladığı günden itibaren hukuki süreçlere derinlemesine bir yaklaşım benimsemiştir. İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olduktan sonra, birçok ulusal ve uluslararası hukuk firmasında edindiği deneyimle ticaret hukuku, iş hukuku ve sözleşmeler hukuku gibi alanlarda uzmanlaşmıştır. Kümüş, müvekkillerine en etkili çözüm yollarını sunarak, her davada en yüksek başarıyı hedeflemektedir.",
+    "textMehmetAli2": "Müşteri odaklı yaklaşımıyla tanınan Mehmet Ali Kümüş, sadece dava süreçlerinde değil, aynı zamanda hukuki stratejiler ve risk yönetimi konusunda da değerli rehberlik sunmaktadır. Hukuk pratiğinde her zaman etik değerlere ve şeffaflığa sıkı sıkıya bağlı kalan Kümüş, çözüm odaklı ve güvenilir bir danışmanlık süreci sunmaktadır.",
+    "textMehmetAli3": "Avukat Mehmet Ali Kümüş, iş dünyasından bireysel danışmanlığa kadar geniş bir yelpazede hizmet vermekte ve müvekkillerinin güvenini kazanarak uzun vadeli ilişkiler kurmaktadır. Hızlı, etkili ve doğru çözümler sunarak, her türlü hukuki meselede başarılı sonuçlar elde etmeyi amaçlamaktadır.",
+    "ManagerPartner": "Yönetici Ortak"
+  },
+
   "breadcrumb": {
     "home": "Anasayfa",
     "about": "Hakkımızda",

@@ -19,7 +19,7 @@ return (
           <div className="flex flex-col  gap-4">
           <h2 className="text-base md:text-lg font-bold">
               <span className="text-color6">{t("sections.mission.title").split(" ")[0]}</span>{" "}
-              <span className="text-color1">{t("sections.mission.title").split(" ")[1]}</span>
+              <span className="text-black">{t("sections.mission.title").split(" ")[1]}</span>
               
             </h2>
             <p className="text-sm  mb-4 text-gray-800 leading-6">
@@ -34,7 +34,7 @@ return (
           <div className="flex flex-col gap-4">
           <h2 className="text-base md:text-lg font-bold">
               <span className="text-color6">{t("sections.vision.title").split(" ")[0]}</span>{" "}
-              <span className="text-color1">{t("sections.vision.title").split(" ")[1]}</span>
+              <span className="text-black">{t("sections.vision.title").split(" ")[1]}</span>
             </h2>
             <p className="text-sm  mb-4 text-gray-800 leading-6">
             {t("sections.vision.content")}
@@ -48,7 +48,7 @@ return (
           <div className="flex flex-col gap-4">
           <h2 className="text-base md:text-lg font-bold">
               <span className="text-color6">{t("sections.practices.title").split(" ")[0]}</span>{" "}
-              <span className="text-color1">{t("sections.practices.title").split(" ")[1]}</span>
+              <span className="text-black">{t("sections.practices.title").split(" ")[1]}</span>
             </h2>
             <p className="text-sm  mb-4 text-gray-800 leading-6">
             {t("sections.practices.content")}
@@ -63,7 +63,7 @@ return (
           <div className="flex flex-col  gap-4">
           <h2 className="text-base md:text-lg font-bold">
               <span className="text-color6">{t("sections.team.title").split(" ")[0]}</span>{" "}
-              <span className="text-color1">{t("sections.team.title").split(" ")[1]}</span>
+              <span className="text-black">{t("sections.team.title").split(" ")[1]}</span>
             </h2>
             <p className="text-sm  mb-4 text-gray-800 leading-6">
             {t("sections.team.content")}
