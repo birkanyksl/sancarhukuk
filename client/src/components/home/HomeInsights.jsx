@@ -56,9 +56,9 @@ const HomeInsights = () => {
 
           {leftArticles.map((article, index) => (
             <div key={index} className="mb-1 md:px-4">
-              <div className="flex flex-row gap-4 justify-between items-center p-2 md:pb-8 shadow-bottom">
-                <div className="flex flex-col gap-2 w-[60%] md:gap-6">
-                  <div className="flex flex-col gap-2 md:flex-row">
+              <div className="flex flex-col gap-4 p-2 pb-8 shadow-bottom">
+                <div className="flex flex-row gap-2 justify-between">
+                  <div className="flex gap-2 md:flex-row">
                     <span className="text-[10px] font-light text-gray-400 md:font-normal lg:font-medium">
                       {new Date(article.specificDate || article.createdAt).toLocaleDateString(
                         locale === "tr" ? "tr-TR" : "en-GB",
@@ -77,16 +77,17 @@ const HomeInsights = () => {
                         : "NO CATEGORY"}
                     </span>
                   </div>
-
-                  <h2 className="text-sm font-semibold color1 lg:font-bold overflow-hidden text-ellipsis whitespace-nowrap">
+                    
+                  <Link href={`/insight/${article._id}`} className="w-max mr-6 text-xs text-gray-800 font-semibold hover:text-color6">
+                <IoIosArrowForward className="w-5 h-5"/>
+                </Link>
+                  
+                </div>
+                <h2 className="flex flex-wrap text-sm w-[90%] font-semibold lg:font-bold text-ellipsis leading-loose ">
                   {locale === "tr" ? article.title : article.titleEN}
                     
                   </h2>
-                </div>
-
-                <Link href={`/insight/${article._id}`} className="w-max mr-6 text-xs text-gray-800 font-semibold hover:text-color6">
-                <IoIosArrowForward className="w-5 h-5"/>
-                </Link>
+                
               </div>
             </div>
           ))}
