@@ -7,7 +7,7 @@ const Post = ({ post }) => {
   const locale = useLocale();
 
   return (
-    <div className="flex flex-col gap-4 w-full my-3 cursor-pointer p-4 shadow-sm bg-white">
+    <div className="flex flex-col gap-6 w-full my-3 cursor-pointer p-4 shadow-sm bg-white">
       <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
         {post.photo && (
           <Image
@@ -37,7 +37,7 @@ const Post = ({ post }) => {
               .join(" | ")
           : "NO CATEGORY"}
       </span>
-      <h2 className="w-[90%] text-sm md:text-base font-bold mb-4 overflow-hidden text-ellipsis whitespace-nowrap">
+      <h2 className="w-full h-[60px] text-sm  font-semibold overflow-hidden line-clamp-3">
         {locale === "tr" ? post.title : post.titleEN}
       </h2>
 

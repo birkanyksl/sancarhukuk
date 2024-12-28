@@ -32,7 +32,7 @@ const Posts = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 items-center px-6 md:px-8 lg:px-16 gap-8 mb-20">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 items-center px-6 md:px-8 lg:px-16 gap-8 mb-20">
       {post.map((p) => (
         <Link key={p._id} href={`/${locale}/insight/${p._id}`}>
           <Post post={p} />
