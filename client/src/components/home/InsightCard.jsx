@@ -3,9 +3,9 @@ import React from "react";
 
 const InsightCard = ({ article, locale }) => {
   return (
-    <div className="flex flex-row gap-6 shadow-bottom p-4 mb-6 w-full overflow-x-hidden">
+    <div className="flex flex-row gap-6 shadow-bottom p-4 mb-6 w-full overflow-x-hidden items-center">
 
-      <div className="relative w-32 min-w-32 h-32 ">
+      <div className="relative w-24 h-24 min-w-24 md:w-32 md:min-w-32 md:h-32 ">
         <Image
           src={article.photo}
           alt="blog-image"
@@ -27,7 +27,7 @@ const InsightCard = ({ article, locale }) => {
           }
         )}
       </span>
-      <h2 className="w-full text-sm font-semibold color1 px-4 postParagrafRightBar">
+      <h2 className="w-full text-sm font-semibold px-4 postParagrafRightBar">
         {locale === "tr" ? article.title : article.titleEN}
       </h2>
       <div className="flex items-center justify-between px-4">

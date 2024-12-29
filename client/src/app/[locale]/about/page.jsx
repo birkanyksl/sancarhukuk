@@ -3,6 +3,18 @@ import AboutPageTeam from "@/components/about/AboutPageTeam";
 import BreadCrumb from "@/components/BreadCrumb";
 import { useTranslations } from "next-intl";
 
+export const metadata = {
+  title: "Hakkımızda - Yüksel Hukuk Bürosu | İstanbul",
+  description: "Yüksel Hukuk Bürosu, İstanbul'da hukuki danışmanlık ve dava hizmetleri sunmaktadır. Ekibimizle tanışın ve profesyonel çözümlerimiz hakkında bilgi edinin.",
+  openGraph: {
+    title: "Hakkımızda - Yüksel Hukuk Bürosu | İstanbul",
+    description: "Yüksel Hukuk Bürosu, İstanbul'da hukuki danışmanlık ve dava hizmetleri sunmaktadır. Ekibimizle tanışın ve profesyonel çözümlerimiz hakkında bilgi edinin.",
+    url: "",
+    site_name: "Yüksel Hukuk Bürosu",
+    locale: "tr_TR",
+    // image: "https://yukselhukuk.com/og-image.jpg", 
+  },
+};
 const Page = () => {
   const t = useTranslations("aboutPage")
   return (
