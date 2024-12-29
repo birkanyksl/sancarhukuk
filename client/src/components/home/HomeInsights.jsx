@@ -76,17 +76,19 @@ const HomeInsights = () => {
                             .join(" | ")
                         : "NO CATEGORY"}
                     </span>
-                  </div>
-                    
-                  <Link href={`/insight/${article._id}`} className="w-max mr-6 text-xs text-gray-800 font-semibold hover:text-color6">
-                <IoIosArrowForward className="w-5 h-5"/>
-                </Link>
+                  </div>                            
                   
                 </div>
+                <div className="flex flex-row">
                 <h2 className="flex flex-wrap text-sm w-[90%] font-semibold lg:font-bold text-ellipsis leading-loose ">
                   {locale === "tr" ? article.title : article.titleEN}
-                    
                   </h2>
+                  
+                  <Link href={`/insight/${article._id}`} className="w-max mr-6  text-xs text-gray-800 font-semibold hover:text-color6">
+                <IoIosArrowForward className="w-5 h-5"/>
+                </Link>
+                </div>
+                    
                 
               </div>
             </div>
