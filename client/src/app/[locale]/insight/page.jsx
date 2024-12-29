@@ -2,6 +2,19 @@ import React from "react";
 import Posts from "@/components/insight/posts/Posts";
 import Breadcrumb from "@/components/BreadCrumb";
 
+export const metadata = {
+  title: "Yayınlar - Yüksel Hukuk Bürosu | İstanbul",
+  description: "Yüksel Hukuk Bürosu'nun İstanbul'daki en son hukuki analizlerini ve yayınlarını keşfedin. Hukuk alanındaki güncel gelişmeleri takip edin.",
+  openGraph: {
+    title: "Yayınlar - Yüksel Hukuk Bürosu | İstanbul",
+    description: "Yüksel Hukuk Bürosu'nun İstanbul'daki en son hukuki analizlerini ve yayınlarını keşfedin. Hukuk alanındaki güncel gelişmeleri takip edin.",
+    url: "",
+    site_name: "Yüksel Hukuk Bürosu",
+    locale: "tr_TR",
+    // image: "https://yukselhukuk.com/og-image.jpg",
+  },
+};
+
 const page = () => {
   return (
     <div className="">

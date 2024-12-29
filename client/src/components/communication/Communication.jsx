@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {APIProvider, Map} from '@vis.gl/react-google-maps';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -29,11 +29,25 @@ const Communication = () => {
       const response = await axios.post("/api/send-email", formData);
       if (response.status === 200) {
         setStatus({ submitting: false, success: true, error: null });
+        setFormData({ name: "", email: "", subject: "", message: "" })
+        
       }
     } catch (error) {
       setStatus({ submitting: false, success: false, error: error.message });
     }
   };
+   
+
+  useEffect(() => {
+    if (status.success || status.error) {
+      const timer = setTimeout(() => {
+        setStatus({ ...status, success: false, error: null });
+      }, 3000); 
+
+      return () => clearTimeout(timer); 
+    }
+  }, [status.success, status.error]);
+
 
   return (
     <div className="flex flex-col lg:flex-row items-start justify-between bg-white px-6 py-8 md:px-12 lg:px-24 xl:px-48 2xl:px-64 mb-20">

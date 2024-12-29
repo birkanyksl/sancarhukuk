@@ -3,6 +3,39 @@ import SinglePractice from "@/components/practice/singlePractice";
 import practiceDetails from "@/data/practiceDetails";
 import React from "react";
 
+
+export async function generateMetadata({ params }) {
+  const { singlePractice } = params;
+  const practiceDetail = practiceDetails[singlePractice];
+
+  if (!practiceDetail) {
+    return {
+      title: "Hizmet Bulunamadı - Yüksel Hukuk Bürosu | İstanbul",
+      description: "Aradığınız hizmet bilgisi bulunamadı. Yüksel Hukuk Bürosu ile iletişime geçin.",
+      openGraph: {
+        title: "Hizmet Bulunamadı - Yüksel Hukuk Bürosu | İstanbul",
+        description: "Aradığınız hizmet bilgisi bulunamadı. Yüksel Hukuk Bürosu ile iletişime geçin.",
+        url: "",
+        site_name: "Yüksel Hukuk Bürosu",
+        locale: "tr_TR",
+      },
+    };
+  }
+
+  return {
+    title: `${practiceDetail.title} - Yüksel Hukuk Bürosu | İstanbul`,
+    description: practiceDetail.description || "Yüksel Hukuk Bürosu'nun sunduğu detaylı hizmet hakkında bilgi edinin.",
+    openGraph: {
+      title: `${practiceDetail.title} - Yüksel Hukuk Bürosu | İstanbul`,
+      description: practiceDetail.description || "Yüksel Hukuk Bürosu'nun sunduğu detaylı hizmet hakkında bilgi edinin.",
+      url: "",  // 
+      site_name: "Yüksel Hukuk Bürosu",
+      locale: "tr_TR",
+      // image: practiceDetail.image || "https://yukselhukuk.com/og-image.jpg",  
+    },
+  };
+}
+
 const page = ({params}) => {
  
   const {singlePractice} = params

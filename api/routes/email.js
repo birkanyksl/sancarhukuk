@@ -10,7 +10,7 @@ router.post('/send-email', async (req, res) => {
   
     try {
       const response = await resend.emails.send({
-        from: email,
+        from: 'noreply@resend.dev',
         to: 'birkanyksl613@gmail.com',
         subject: `Yeni mesaj: ${subject}`, 
         text: `Ad: ${name}\nE-posta: ${email}\nMesaj: ${message}`,

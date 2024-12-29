@@ -2,6 +2,18 @@ import Breadcrumb from "@/components/BreadCrumb";
 import Practice from "@/components/practice/Practice";
 import React from "react";
 
+export const metadata = {
+  title: "Hizmetler - Yüksel Hukuk Bürosu | İstanbul",
+  description: "İstanbul'da hukuki danışmanlık ve dava hizmetleri sunan Yüksel Hukuk Bürosu, çeşitli hukuk alanlarında profesyonel çözümler sunmaktadır. İhtiyaçlarınıza uygun hizmetleri keşfedin.",
+  openGraph: {
+    title: "Hizmetler - Yüksel Hukuk Bürosu | İstanbul",
+    description: "İstanbul'da hukuki danışmanlık ve dava hizmetleri sunan Yüksel Hukuk Bürosu, çeşitli hukuk alanlarında profesyonel çözümler sunmaktadır. İhtiyaçlarınıza uygun hizmetleri keşfedin.",
+    url: "",
+    site_name: "Yüksel Hukuk Bürosu",
+    locale: "tr_TR",
+    // image: "https://yukselhukuk.com/og-image.jpg", 
+  },
+};
 const PracticePage = () => {
   return (
     <>

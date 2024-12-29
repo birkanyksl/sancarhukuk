@@ -2,6 +2,19 @@ import Breadcrumb from '@/components/BreadCrumb';
 import Communication from '@/components/communication/Communication';
 import React from 'react'
 
+export const metadata = {
+  title: "İletişim - Yüksel Hukuk Bürosu | İstanbul",
+  description: "Yüksel Hukuk Bürosu ile İstanbul'da iletişime geçin. Hukuki danışmanlık hizmetlerimiz hakkında bilgi alabilir, randevu talep edebilirsiniz.",
+  openGraph: {
+    title: "İletişim - Yüksel Hukuk Bürosu | İstanbul",
+    description: "Yüksel Hukuk Bürosu ile İstanbul'da iletişime geçin. Hukuki danışmanlık hizmetlerimiz hakkında bilgi alabilir, randevu talep edebilirsiniz.",
+    url: "",
+    site_name: "Yüksel Hukuk Bürosu",
+    locale: "tr_TR",
+    // image: "https://yukselhukuk.com/og-image.jpg", 
+  },
+};
+
 const CommunicationPage = () => {
     return (
           <>
