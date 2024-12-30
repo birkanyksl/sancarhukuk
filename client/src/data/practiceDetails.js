@@ -1,5 +1,6 @@
 const practiceDetails = {
   "yabanci-yatirimlar": {
+    id: 1,
     title: "Yabancı Yatırımlar",
     content: (
       <div className="p-4 w-full">
@@ -149,6 +150,7 @@ const practiceDetails = {
     ),
   },
   "birlesme-ve-devralma": {
+    id: 2,
     title: "Birleşme ve Devralma",
     content: (
       <div className="p-4 w-full">
@@ -296,6 +298,7 @@ const practiceDetails = {
     ),
   },
   "sirketler-hukuku-ve-kurumsal-yonetim": {
+    id: 3,
     title: "Şirketler Hukuku ve Kurumsal Yönetim",
     content: (
       <div className="p-4 w-full">
@@ -414,6 +417,7 @@ const practiceDetails = {
     ),
   },
   "uyusmazlik-cozumu": {
+    id: 4,
     title: "Uyuşmazlık Çözümü",
     content: (
       <div className="p-4 w-full">
@@ -508,6 +512,7 @@ const practiceDetails = {
     ),
   },
   "bilgi-teknolojileri-ve-telekomunikasyon": {
+    id: 5,
     title: "Bilgi Teknolojileri ve Telekomünikasyon",
     content: (
       <div className="p-4 w-full">
@@ -687,6 +692,7 @@ const practiceDetails = {
     ),
   },
   "bankacilik-ve-finans": {
+    id: 6,
     title: "Bankacılık & Finans",
     content: (
       <div className="p-4 w-full">
@@ -808,6 +814,7 @@ const practiceDetails = {
     ),
   },
   "sermaye-piyasasi": {
+    id: 7,
     title: "Sermaye Piyasası",
     content: (
       <div className="p-4 w-full">
@@ -929,6 +936,7 @@ const practiceDetails = {
     ),
   },
   "havacilik-ve-savunma-sanayi": {
+    id: 8,
     title: "Havacılık & Savunma Sanayii",
     content: (
       <div className="p-4 w-full">
@@ -1106,7 +1114,8 @@ const practiceDetails = {
       </div>
     ),
   },
-  "projeler": {
+  projeler: {
+    id: 9,
     title: "Projeler",
     content: (
       <div className="p-4 w-full">
@@ -1259,6 +1268,7 @@ const practiceDetails = {
     ),
   },
   "vatandaslik-ve-goc": {
+    id: 10,
     title: "Vatandaşlık & Göç",
     content: (
       <div className="p-4 w-full">
@@ -1373,6 +1383,7 @@ const practiceDetails = {
     ),
   },
   "is-hukuku": {
+    id: 11,
     title: "İş Hukuku",
     content: (
       <div className="p-4 w-full">
@@ -1505,6 +1516,7 @@ const practiceDetails = {
     ),
   },
   "insaat-ve-altyapi": {
+    id: 12,
     title: "İnşaat & Altyapı",
     content: (
       <div className="p-4 w-full">
@@ -1610,7 +1622,8 @@ const practiceDetails = {
       </div>
     ),
   },
-  "enerji": {
+  enerji: {
+    id: 13,
     title: "Enerji",
     content: (
       <div className="p-4 w-full">
@@ -1750,6 +1763,7 @@ const practiceDetails = {
     ),
   },
   "konaklama-ve-eglence": {
+    id: 14,
     title: "Konaklama & Eğlence",
     content: (
       <div className="p-4 w-full">
@@ -1866,6 +1880,7 @@ const practiceDetails = {
     ),
   },
   "kisisel-verilerin-korunmasi": {
+    id: 15,
     title: "Kişisel Verilerin Korunması",
     content: (
       <div className="p-4 w-full">
@@ -2027,6 +2042,7 @@ const practiceDetails = {
     ),
   },
   "fikri-mulkiyet": {
+    id: 16,
     title: "Fikri Mülkiyet",
     content: (
       <div className="p-4 w-full">
@@ -2148,6 +2164,7 @@ const practiceDetails = {
     ),
   },
   "rekabet-hukuku": {
+    id: 17,
     title: "Rekabet Hukuku",
     content: (
       <div className="p-4 w-full">
@@ -2262,6 +2279,7 @@ const practiceDetails = {
     ),
   },
   "yapay-zeka-ve-otomatik-sistemler": {
+    id: 18,
     title: "Yapay Zeka ve Otomatik Sistemler",
     content: (
       <div className="p-4 w-full">
@@ -2391,6 +2409,7 @@ const practiceDetails = {
     ),
   },
   "veri-gizliligi-ve-guvenligi": {
+    id: 19,
     title: "Veri Gizliliği ve Güvenliği",
     content: (
       <div className="p-4 w-full">
@@ -2520,6 +2539,7 @@ const practiceDetails = {
     ),
   },
   "medya-ve-eglence": {
+    id: 20,
     title: "Medya ve Eğlence",
     content: (
       <div className="p-4 w-full">
@@ -2645,6 +2665,7 @@ const practiceDetails = {
     ),
   },
   "uluslararasi-ticaret": {
+    id: 21,
     title: "Uluslararası Ticaret",
     content: (
       <div className="p-4 w-full">
@@ -2775,6 +2796,7 @@ const practiceDetails = {
     ),
   },
   "vergi-hukuku": {
+    id: 22,
     title: "Vergi Hukuku, İdare Hukuku ve Düzenleyici İşlemler",
     content: (
       <div className="p-4 w-full">
@@ -2885,6 +2907,7 @@ const practiceDetails = {
     ),
   },
   "gayrimenkul-ve-kira-hukuku": {
+    id: 23,
     title: "Gayrimenkul ve Kira Hukuku",
     content: (
       <div className="p-4 w-full">
@@ -2989,6 +3012,7 @@ const practiceDetails = {
     ),
   },
   "miras-hukuku": {
+    id: 24,
     title: "Miras Hukuku",
     content: (
       <div className="p-4 w-full">
@@ -3124,6 +3148,7 @@ const practiceDetails = {
     ),
   },
   "dernekler-hukuku": {
+    id: 25,
     title: "Dernekler Hukuku",
     content: (
       <div className="p-4 w-full">
@@ -3258,6 +3283,7 @@ const practiceDetails = {
     ),
   },
   "alacakli-haklari-ve-iflas": {
+    id: 26,
     title: "Alacaklı Hakları ve İflas",
     content: (
       <div className="p-4 w-full">
@@ -3415,6 +3441,7 @@ const practiceDetails = {
     ),
   },
   "e-ticaret": {
+    id: 27,
     title: "E-Ticaret",
     content: (
       <div className="p-4 w-full">
@@ -3536,6 +3563,7 @@ const practiceDetails = {
     ),
   },
   "saglik-ve-yasam-bilimleri": {
+    id: 28,
     title: "Sağlık ve Yaşam Bilimleri",
     content: (
       <div className="p-4 w-full">
