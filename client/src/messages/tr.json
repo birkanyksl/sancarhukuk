@@ -199,6 +199,12 @@
     "ManagerPartner": "Yönetici Ortak"
   },
 
+  "practicePage": {
+  "headerText":"Hizmetlerimiz",
+  "headerSubText":"Hukuk ve danışmanlık alanındaki uzmanlığımızla, bireysel ve kurumsal ihtiyaçlara özel çözümler üretmeyi hedefliyoruz."
+ 
+},
+
   "breadcrumb": {
     "home": "Anasayfa",
     "about": "Hakkımızda",
@@ -213,7 +219,7 @@
     "bilgi-teknolojileri-ve-telekomunikasyon": "Bilgi Teknolojileri ve Telekomünikasyon",
     "bankacilik-ve-finans": "Bankacılık ve Finans",
     "sermaye-piyasasi": "Sermaye Piyasası",
-    "havacilik-ve-savunma-sanayii": "Havacılık ve Savunma Sanayii",
+    "havacilik-ve-savunma-sanayi": "Havacılık ve Savunma Sanayi",
     "projeler": "Projeler",
     "vatandaslik-ve-goc": "Vatandaşlık ve Göç",
     "is-hukuku": "İş Hukuku",
@@ -222,6 +228,7 @@
     "konaklama-ve-eglence": "Konaklama ve Eğlence",
     "kisisel-verilerin-korunmasi": "Kişisel Verilerin Korunması",
     "fikri-mulkiyet": "Fikri Mülkiyet",
+    "rekabet-hukuku": "Rekabet Hukuku",
     "yapay-zeka-ve-otomatik-sistemler": "Yapay Zeka ve Otomatik Sistemler",
     "veri-gizliligi-ve-guvenligi": "Veri Gizliliği ve Güvenliği",
     "medya-ve-eglence": "Medya ve Eğlence",
@@ -233,5 +240,6 @@
     "alacakli-haklari-ve-iflas": "Alacaklı Hakları ve İflas",
     "e-ticaret": "E-Ticaret",
     "saglik-ve-yasam-bilimleri": "Sağlık ve Yaşam Bilimleri"
+
 }
 }
