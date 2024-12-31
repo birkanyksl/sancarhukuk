@@ -204,6 +204,43 @@
   "headerSubText":"Hukuk ve danışmanlık alanındaki uzmanlığımızla, bireysel ve kurumsal ihtiyaçlara özel çözümler üretmeyi hedefliyoruz."
  
 },
+"publicationsPage":{
+  "headerText":"Yayınlarımız",
+  "headerSubText":"Hukuk dünyasındaki gelişmeleri ve sektördeki yenilikleri takip edin. Blog yazılarımızı okuyun ve güncel bilgilerden haberdar olun."
+},
+"contactPage": {
+  "headerText": "İletişim",
+  "headerSubText": "Bir danışma randevusu planlamak veya sorularınızı sormak için bizimle iletişime geçin.",
+  "contactUs": "Bize Ulaşın",
+  "sendUsMessage": "Bize Mesaj Gönderin",
+  "name": "Adınız",
+  "email": "E-posta",
+  "phone": "Telefon",
+  "address": "Adres",
+  "subject": "Konu",
+  "message": "Mesajınız",
+  "namePlaceholder": "Adınızı girin",
+  "emailPlaceholder": "E-posta adresinizi girin",
+  "subjectPlaceholder": "Konu başlığını girin",
+  "messagePlaceholder": "Mesajınızı buraya yazın",
+  "send": "Gönder",
+  "messageSent": "Mesaj başarıyla gönderildi.",
+  "errorOccurred": "Mesaj gönderilemedi."
+},
+"footer": {
+  "browse": "Gözat",
+  "aboutUs": "Hakkımızda",
+  "team": "Takım",
+  "practices": "Hizmetler",
+  "publications": "Yayınlar",
+  "contact": "İletişim",
+  "email": "E-Posta: info@sancarlaw.com",
+  "phone": "Telefon: +90 555 555 55 55",
+  "more": "Daha fazlası...",
+  "privacyPolicy": "Gizilik Politikası",
+  "legalNotice": "Yasal Uyarı",
+  "rightsReserved": "© 2024-2025 Tüm hakları saklıdır |"
+},
 
   "breadcrumb": {
     "home": "Anasayfa",

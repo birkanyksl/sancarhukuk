@@ -203,6 +203,43 @@
   "headerText": "Services",
   "headerSubText": "With our expertise in law and consultancy, we aim to offer tailored solutions for individual and corporate needs."
 },
+ "publicationsPage": {
+  "headerText": "Publications",
+  "headerSubText": "Stay informed about the latest legal developments and news with our expert insights and analysis."
+ },
+ "contactPage": {
+  "headerText": "Contact Us",
+  "headerSubText": "We are here to help you with your legal needs. Contact us to schedule a consultation or ask any questions you may have.",
+  "contactUs": "Contact Us",
+  "sendUsMessage": "Send Us a Message",
+  "name": "Name",
+  "email": "Email",
+  "phone": "Phone",
+  "address": "Address",
+  "subject": "Subject",
+  "message": "Message",
+  "namePlaceholder": "Enter your name",
+  "emailPlaceholder": "Enter your email address",
+  "subjectPlaceholder": "Enter the subject",
+  "messagePlaceholder": "Write your message here",
+  "send": "Send",
+  "messageSent": "Message sent successfully.",
+  "errorOccurred": "Message could not be sent."
+ },
+ "footer": {
+  "browse": "Browse",
+  "aboutUs": "About Us",
+  "team": "Team",
+  "practices": "Practices",
+  "publications": "Publications",
+  "contact": "Contact",
+  "email": "E-Mail: info@sancarlaw.com",
+  "phone": "Phone: +90 555 555 55 55",
+  "more": "More...",
+  "privacyPolicy": "Privacy Policy",
+  "legalNotice": "Legal Notice",
+  "rightsReserved": "© 2024-2025 All rights reserved |"
+},
 
   "breadcrumb": {
     "home": "Home",

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import {  faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import axios from "axios";
+import { useTranslations } from "next-intl";
 
 
 const Communication = () => {
@@ -15,6 +16,7 @@ const Communication = () => {
     message: ""
   });
   const [status, setStatus] = useState({ submitting: false, success: false, error: null });
+  const t = useTranslations("contactPage");
    
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -52,7 +54,7 @@ const Communication = () => {
   return (
     <div className="flex flex-col lg:flex-row items-start justify-between bg-white px-6 py-8 md:px-12 lg:px-24 xl:px-48 2xl:px-64 mb-20">
       <div className="lg:w-1/2 w-full mb-6 lg:mb-0 px-8 ">
-      <h2 className="text-3xl font-semibold lg:text-4xl text-color1 mb-10">Bize Ulaşın</h2>
+      <h2 className="text-3xl font-semibold lg:text-4xl text-color1 mb-10">{t("contactUs")} </h2>
         <div className="relative w-full h-96 mb-10 ">
           <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
             <Map
@@ -68,13 +70,13 @@ const Communication = () => {
         <div className="grid grid-cols-1 gap-4">
           <div className="grid md:grid-cols-2 gap-4">
             <div className="flex flex-col p-4 rounded-lg shadow-sm">
-              <h3 className="font-semibold text-lg"><FontAwesomeIcon icon={faEnvelope} className="mr-2" />Email</h3>
+              <h3 className="font-semibold text-lg"><FontAwesomeIcon icon={faEnvelope} className="mr-2" />{t("email")}</h3>
               <p className="text-sm md:text-base  text-gray-800">info@example.com</p>
             </div>
             <div className=" p-4 rounded-lg shadow-sm">
               <h3 className="font-semibold text-lg">
               <FontAwesomeIcon icon={faPhone} className="mr-4" />
-                Telefon
+                {t("phone")}
                 </h3>
                 <p className="text-sm md:text-base  text-gray-800">+90 123 456 7890</p>
             </div>
@@ -84,7 +86,7 @@ const Communication = () => {
             <div className="flex flex-col p-4 rounded-lg shadow-sm">
               <h3 className="font-semibold text-lg">
               <FontAwesomeIcon icon={faLocationDot} className="mr-4" />
-                Adres
+              {t("address")}
                 </h3>
               <p className="text-sm md:text-base  text-gray-800">1234 Örnek Cad. No: 56</p>
             </div>
@@ -99,12 +101,12 @@ const Communication = () => {
 
       <div className="lg:w-1/2 w-full lg:pl-10">
       <h2 className="text-3xl font-semibold lg:text-4xl text-color1 mb-10">
-          Bize Mesaj Gönderin
+          {t("sendUsMessage")}
         </h2>
         <form onSubmit={handleSubmit} className="bg-slate-50 p-8">
           <div className="mb-4">
             <label className="block text-sm font-normal text-gray-700 mb-2" htmlFor="name">
-              Adınız
+              {t("name")}
             </label>
             <input
               type="text"
@@ -114,13 +116,13 @@ const Communication = () => {
               onChange={handleChange}
               required
               className="w-full border border-gray-300 rounded-sm p-3 focus:outline-none focus:ring-2 focus:ring-color6 transition duration-200"
-              placeholder="Adınızı girin"
+              placeholder={t("namePlaceholder")}
             />
             
           </div>
           <div className="mb-4">
             <label className="block text-sm font-normal text-gray-700 mb-2" htmlFor="email">
-              E-posta
+              {t("email")}
             </label>
             <input
               type="email"
@@ -130,13 +132,13 @@ const Communication = () => {
               onChange={handleChange}
               required
               className="w-full border border-gray-300 rounded-sm p-3 focus:outline-none focus:ring-2 focus:ring-color6 transition duration-200"
-              placeholder="E-posta adresinizi girin"
+              placeholder={t("emailPlaceholder")}
             />
            
           </div>
           <div className="mb-4">
             <label className="block text-sm font-normal text-gray-700 mb-2" htmlFor="subject">
-              Konu
+              {t("subject")}
             </label>
             <input
               type="text"
@@ -146,12 +148,12 @@ const Communication = () => {
               value={formData.subject}
               onChange={handleChange}
               className="w-full border border-gray-300 rounded-sm p-3 focus:outline-none focus:ring-2 focus:ring-color6 transition duration-200"
-              placeholder="Konu başlığını girin"
+              placeholder={t("subjectPlaceholder")}
             />
           </div>
           <div className="mb-4">
             <label className="block text-sm font-normal text-gray-700 mb-2" htmlFor="message">
-              Mesajınız
+             {t("message")}
             </label>
             <textarea
               id="message"
@@ -161,7 +163,7 @@ const Communication = () => {
               required
               rows="4"
               className="w-full border border-gray-300 rounded-sm p-3 focus:outline-none focus:ring-2 focus:ring-color6 transition duration-200"
-              placeholder="Mesajınızı buraya yazın"
+              placeholder={t("messagePlaceholder")}
             ></textarea>
          
           </div>
@@ -170,10 +172,10 @@ const Communication = () => {
             className="w-32 text-color6 font-normal py-2 border border-color6 rounded-sm transition-all duration-300 hover:font-semibold "
             disabled={status.submitting}
           >
-            Gönder
+            {t("send")}
           </button>
-          {status.success && <p className="text-green-600 mt-4">Mesaj başarıyla gönderildi.</p>}
-          {status.error && <p className="text-red-600 mt-4">Bir hata oluştu: {status.error}</p>}
+          {status.success && <p className="text-green-600 mt-4">{t("messageSent")}</p>}
+          {status.error && <p className="text-red-600 mt-4">{t("errorOccured")}</p>}
         </form>
       </div>
     </div>
