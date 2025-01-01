@@ -141,12 +141,12 @@
           "answer": "Hukuki hizmetlerin ücretleri, Türkiye Barolar Birliği'nin belirlediği avukatlık asgari ücret tarifesine dayanarak hesaplanmaktadır. Bunun yanı sıra, dava türüne, karmaşıklığına ve harcanan süreye göre farklı ücretlendirme seçenekleri sunulabilmektedir."
         }
       ]
-    }
   },
   "paragraph": "Avukatlık hizmetlerimizle ilgili merak ettiğiniz soruları bu bölümde bulabilirsiniz.",
   "H11": "Merak ",
   "H12": "Ettikleriniz"
-},
+}
+  },
 
 "aboutPage": {
   "title": "Yüksel Hukuk Bürosu",
@@ -155,7 +155,7 @@
   "sections": {
     "mission": {
       "title": "Misyon Hedefi",
-      "content": "Yüksel Hukuk Bürosu olarak misyonumuz, müvekkillerimize kapsamlı, etik ve güvenilir hukuki hizmetler sunmaktır. Müvekkillerimizin haklarını koruyarak ve adalet arayışlarında etkin bir şekilde yanlarında durarak, hukukun üstünlüğünü savunmayı temel ilkemiz olarak benimsiyoruz. Her bir dava, bizim için yalnızca bir hukuki süreç değil, aynı zamanda müvekkilimizin yaşamında önemli bir dönüm noktasıdır."
+      "content": "Ana hedeflerimiz, dünya çapında en üst düzeyde hukuk hizmetleri sunmak; müvekkillerimizin başarısına stratejik ve etkin katkılar sağlamaktır. Uzun vadeli ve güven esaslı iş birlikleri oluşturmayı amaçlıyor; müvekkillerimizin hukuk alanındaki tüm ihtiyaçları için kapsamlı çözümler sunmaya öncelik veriyoruz."
     },
     "vision": {
       "title": "Geleceğe Bakış",
@@ -241,7 +241,14 @@
   "legalNotice": "Yasal Uyarı",
   "rightsReserved": "© 2024-2025 Tüm hakları saklıdır |"
 },
-
+"privacyPolicyPage": {
+    "headerText": "Gizlilik Politikası",
+    "headerSubText": "Gizliliğinizi ve kişisel bilgilerinizi koruma taahhüdümüz vardır. Gizlilik politikamız hakkında daha fazla bilgi edinin.",
+    "h1":"Değerli Ziyaretçilerimiz,",
+    "p1": "Bu web sitesinde yer alan bilgiler yalnızca bilgilendirme amacı taşımakta olup, herhangi bir hukuki danışmanlık ya da görüş verme amacı gütmemektedir. Site, avukat-müvekkil ilişkisi kurma niyetiyle tasarlanmamıştır. Bu nedenle, burada sunulan bilgiler, mevcut kanunlar ve ikincil düzenlemelerdeki değişiklikler nedeniyle zamanla güncelliğini yitirebilir ve güncel yasal durumları yansıtmayabilir. Bu bilgileri kullanarak herhangi bir işlem yapmadan önce, yetkili bir uzmandan yasal danışmanlık almanız önemlidir. Bu sitedeki bilgilerin güvenilir kaynaklardan alındığına özen gösterilmiştir, fakat KY Hukuk Bürosu, bu bilgilerin doğruluğundaki eksiklikler veya yanlışlıklar ve bu bilgilerin kullanımından doğabilecek sonuçlardan sorumlu tutulamaz.",
+    "p2": "Site, Türkiye Barolar Birliği’nin Meslek Kuralları ve ilgili mevzuata uygun olarak hazırlanmış olup, reklam yasağına dair düzenlemelere de riayet edilmiştir. Site, ticari kazanım elde etme veya reklam amaçlı kullanılamaz. Bu siteyi kullanan her ziyaretçi, Kullanım Şartları’ndaki koşulları kabul etmiş sayılır. Bu web sitesindeki tüm içerik ve materyaller KY Hukuk Bürosu’na aittir. Fikri mülkiyet hakkına sahip yazılı içerikler, belgeler ve logolar, KY Hukuk Bürosu’nun izni olmadan çoğaltılamaz, kopyalanamaz ya da kullanılmaz. Faks veya e-posta yoluyla KY Hukuk Bürosu'na gönderilen herhangi bir bilgi, bu siteyi kullanan kişi ile avukat-müvekkil ilişkisi oluşturmaz. Ayrıca, mevcut müvekkiller ile de herhangi bir yeni avukat-müvekkil ilişkisi başlatmaz.",
+    "p3": "Site, sadece kişisel kullanım amacıyla sağlanan bilgileri içerir ve ticari dağıtım için tasarlanmamıştır. Ziyaretçiler, sunulan bilgilerin yanlış olduğunu veya bu bilgilerden ötürü zarar gördüklerini iddia edemezler. KY Hukuk Bürosu, sitede bulunan bilgilere dayalı olarak alınan kararlar ya da yapılan işlemler nedeniyle hiçbir sorumluluk kabul etmez. KY Hukuk Bürosu, üçüncü şahıslar tarafından yayımlanan içeriklere ilişkin herhangi bir sorumluluk taşımaz ve bu içerikler içinde yer alan beyanları onaylamaz. KY Hukuk Bürosu, uygun bulmadığı içerikleri siteden çıkarma hakkını saklı tutar." 
+},
   "breadcrumb": {
     "home": "Anasayfa",
     "about": "Hakkımızda",
@@ -249,6 +256,7 @@
     "practice": "Hizmetler",
     "insight":"Yayınlar",
     "communication": "İletişim",
+    "privacypolicy": "Gizlilik Politikası",
     "yabanci-yatirimlar": "Yabancı Yatırımlar",
     "birlesme-ve-devralma": "Birleşme ve Devralma",
     "sirketler-hukuku-ve-kurumsal-yonetim": "Şirketler Hukuku ve Kurumsal Yönetim",

@@ -6,11 +6,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "@/navigation";
 import { useLocale } from "next-intl";
-import { useRouter } from "@/navigation";
+
 
 const SinglePractice = ({ params }) => {
   const locale = useLocale();
-  const router = useRouter();
+
   const { singlePractice } = params;
   const [selectedPractice, setSelectedPractice] = useState(singlePractice);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

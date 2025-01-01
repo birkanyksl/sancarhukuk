@@ -155,7 +155,7 @@
     "sections": {
       "mission": {
         "title": "Mission Objective",
-        "content": "As Yüksel Law Office, our mission is to provide our clients with comprehensive, ethical, and reliable legal services. By protecting our clients' rights and standing effectively by their side in their pursuit of justice, we embrace advocating the rule of law as our fundamental principle. Each case is not just a legal process for us but also a significant turning point in our client's life."
+        "content": "Our primary goals are to provide top-tier legal services worldwide and to make strategic and effective contributions to our clients' success. We aim to build long-term, trust-based partnerships and prioritize offering comprehensive solutions for all of our clients' legal needs."
       },
       "vision": {
         "title": "Future Vision",
@@ -226,6 +226,15 @@
   "messageSent": "Message sent successfully.",
   "errorOccurred": "Message could not be sent."
  },
+ "privacyPolicyPage": {
+    "headerText": "Privacy Policy",
+    "headerSubText": "We are committed to protecting your privacy and personal information. Learn more about our privacy policy here.",
+    "h1":"Dear Visitors,",
+    "p1": "The information provided on this website is for informational purposes only and should not be construed as legal advice or an opinion. This site is not designed to establish an attorney-client relationship. Therefore, the information presented here may become outdated due to changes in applicable laws and secondary regulations and may not reflect the current legal status. Before taking any action based on the information provided, it is essential to seek legal advice from a qualified professional. Every effort has been made to ensure that the information on this site comes from reliable sources; however, KY Partners cannot be held responsible for any inaccuracies, omissions, or any consequences arising from the use of this information.",
+    "p2": "This website has been prepared in compliance with the Code of Conduct of the Union of Turkish Bar Associations and relevant legislation, and in accordance with regulations regarding advertising restrictions. This site may not be used for commercial gain or advertising purposes. By using this site, all visitors are deemed to have accepted the terms and conditions outlined in the Terms of Use. All content and materials on this website are the property of KY Partners. Written content, documents, logos, and other intellectual property are owned by KY Partners, and may not be copied, reproduced, or used without its prior written consent. Any information sent to KY Partners via fax or email does not establish an attorney-client relationship. Additionally, it does not create a partial attorney-client relationship with existing clients of the firm.",
+    "p3": "This site contains information provided for personal use only and is not intended for commercial distribution. Visitors may not claim that the information provided is inaccurate or that they have suffered any damage as a result of it. KY Partners assumes no responsibility for any decisions made or actions taken based on the information on this site. KY Partners accepts no responsibility for content published by third parties and does not endorse the statements or opinions contained therein, either directly or indirectly. KY Partners reserves the right to remove any content that it deems inappropriate."
+  
+},
  "footer": {
   "browse": "Browse",
   "aboutUs": "About Us",
@@ -248,6 +257,7 @@
     "practice": "Practices",
     "insight": "Publications",
     "communication": "Contact",
+    "privacypolicy": "Privacy Policy",
     "foreign-investments": "Foreign Investments",
     "mergers-and-acquisitions": "Mergers and Acquisitions",
     "corporate-law-and-governance": "Corporate Law and Governance",
