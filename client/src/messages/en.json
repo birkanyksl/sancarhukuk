@@ -290,6 +290,65 @@
       }
     }
   },
+  "PDPA": {
+    "headerText": "Personal Data Protection Authority",
+    "headerSubText": "This page provides information on the Personal Data Protection Authority and the legal framework for personal data protection.",
+    "h1": "INFORMATION NOTICE FOR REQUEST FORM",
+    "subHead1":"I. Data Controller",
+    "subP1":"In accordance with the Personal Data Protection Law No. 6698 (\"Law\"), your personal data is processed by KY Law Office (M. Ali Kümüş – Erkan Yüksel) (\"Law Office\"), the data controller, as described below.",
+     "subHead2":"II. Methods of Collection and Legal Grounds of Personal Data",
+     "subP2":"The Law Office processes the personal data you provide through the contact form found in the \"Contact\" section of the www.kypartners.av.tr website in case you contact us. The personal data processed includes:",
+     "subHead2UL": {
+      "list": [
+        "Name and surname,",
+        "Email address,",
+        "Phone number,",
+        "Other information provided in the contact form."
+      ]
+    },
+    "subP3":"This data is processed for legal reasons, such as the performance of contract relationships, legal obligations, or the legitimate interests of the data controller.",
+    "subHead3":"III. Purpose of Processing Personal Data",
+    "subP4":"Your personal data is processed solely for the following purposes:",
+    "subHead3UL": {
+      "list": [
+        "Establishing communication,",
+        "Fulfilling your requests,",
+        "Establishing and fulfilling contracts."
+      ]
+    },
+    "subHead4":"IV. Sharing Personal Data",
+    "subP5":"The Law Office processes your personal data in compliance with the principles of \"need to know\" and \"need to use\" and in accordance with the data minimization principle. Your data may be shared with third parties, authorized public institutions, and private organizations when necessary to fulfill the processing purposes in accordance with Article 8 of the Law.",
+    "subHead5":"V. Rights of the Data Subject",
+    "subP6":"If your personal data is processed, you have the right to exercise the rights listed in Article 11 of the Personal Data Protection Law No. 6698. These rights include the right to learn whether your personal data has been processed, request information about the processing, verify the accuracy of the data, request its deletion, and other similar rights. To exercise your rights, you can contact us at info@kypartners.av.tr.",
+    "h2":"INFORMATION NOTICE FOR JOB APPLICANT",
+    "subP7":"The Law Office processes the personal data you provide through the job application form found in the \"Career\" section of the www.kypartners.av.tr website when you apply for a job. The personal data processed includes:",
+    "subHead4UL": {
+      "list": [
+        "Name and surname",
+        "Email address",
+        "Phone number",
+        "Education background",
+        "Professional experience",
+        "Other information in the CV."
+        
+
+      ]
+    },
+     "subP8":"This data is processed for legal reasons, such as the execution of the application process for the position you applied for, the establishment of a contract, and conducting job interviews.",
+     "subHead5UL": {
+      "list": [
+"Managing human resources processes",
+"Conducting employee selection and placement processes",
+"Evaluating and concluding the application processes",
+"Conducting job interviews and verifying candidates' education and professional experience",
+"Storing data for future consideration for suitable positions",
+"Making arrangements regarding salary and other benefits."
+
+        
+
+      ]
+    }
+  },
 
   "breadcrumb": {
     "home": "Home",
@@ -300,6 +359,7 @@
     "communication": "Contact",
     "disclaimer": "Disclaimer",
     "privacy-policy": "Privacy Policy",
+    "personal-data-protection-authority": "Personal Data Protection Authority",
     "foreign-investments": "Foreign Investments",
     "mergers-and-acquisitions": "Mergers and Acquisitions",
     "corporate-law-and-governance": "Corporate Law and Governance",

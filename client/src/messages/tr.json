@@ -195,7 +195,7 @@
     "copyrightText": "İhlal uyarıları ve medeni hukuk davalarını içermektedir.",
     "textMehmetAli": "Avukat Mehmet Ali Kümüş, profesyonel kariyerine başladığı günden itibaren hukuki süreçlere derinlemesine bir yaklaşım benimsemiştir. İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olduktan sonra, birçok ulusal ve uluslararası hukuk firmasında edindiği deneyimle ticaret hukuku, iş hukuku ve sözleşmeler hukuku gibi alanlarda uzmanlaşmıştır. Kümüş, müvekkillerine en etkili çözüm yollarını sunarak, her davada en yüksek başarıyı hedeflemektedir.",
     "textMehmetAli2": "Müşteri odaklı yaklaşımıyla tanınan Mehmet Ali Kümüş, sadece dava süreçlerinde değil, aynı zamanda hukuki stratejiler ve risk yönetimi konusunda da değerli rehberlik sunmaktadır. Hukuk pratiğinde her zaman etik değerlere ve şeffaflığa sıkı sıkıya bağlı kalan Kümüş, çözüm odaklı ve güvenilir bir danışmanlık süreci sunmaktadır.",
-    "textMehmetAli3": "Avukat Mehmet Ali Kümüş, iş dünyasından bireysel danışmanlığa kadar geniş bir yelpazede hizmet vermekte ve müvekkillerinin güvenini kazanarak uzun vadeli ilişkiler kurmaktadır. Hızlı, etkili ve doğru çözümler sunarak, her türlü hukuki meselede başarılı sonuçlar elde etmeyi amaçlamaktadır." 
+    "textMehmetAli3": "Avukat Mehmet Ali Kümüş, iş dünyasından bireysel danışmanlığa kadar geniş bir yelpazede hizmet vermekte ve müvekkillerinin güvenini kazanarak uzun vadeli ilişkiler kurmaktadır. Hızlı, etkili ve doğru çözümler sunarak, her türlü hukuki meselede başarılı sonuçlar elde etmeyi amaçlamaktadır."
   },
 
   "practicePage": {
@@ -292,7 +292,59 @@
   "PDPA": {
     "headerText": "Kişisel Verilerin Korunması",
     "headerSubText": "Kişisel verilerin korunması, büromuzun en önemli önceliklerinden biridir. Bu metin, kişisel verilerin nasıl işlendiği ve korunduğu hakkında bilgi vermektedir.",
-    "h1": "Değerli Ziyaretçilerimiz,"
+    "h1": "TALEP FORMU AYDINLATMA METNİ",
+    "subHead1": "I. Veri Sorumlusu",
+    "subP1": "6698 sayılı Kişisel Verilerin Korunması Kanunu (\"Kanun\") uyarınca, kişisel verileriniz; veri sorumlusu olarak KY Hukuk Bürosu (M. Ali Kümüş – Erkan Yüksel) (\"Hukuk Bürosu\") tarafından aşağıda belirtilen kapsamda işlenmektedir.",
+    "subHead2": "II. Kişisel Verilerin Toplanma Yöntemleri ve Hukuki Sebepler",
+    "subP2": "Hukuk Bürosu, www.kypartners.av.tr internet sitesindeki \"İletişim\" bölümünde bulunan iletişim formu aracılığıyla bizimle iletişime geçmeniz durumunda aşağıda belirtilen kişisel verilerinizi işlemektedir:",
+    "subHead2UL": {
+      "list": [
+        "Ad ve soyad,",
+        "E-posta adresi,",
+        "Telefon numarası,",
+        "İletişim formunda yer alan diğer bilgiler."
+      ]
+    },
+    "subP3": "Bu veriler, sözleşme ilişkileri veya hukuki gereklilikler doğrultusunda işlem yapılabilmesi ve veri sorumlusunun meşru menfaatleri gibi yasal sebeplerle işlenmektedir.",
+    "subHead3": "III. Kişisel Verilerin İşlenme Amaçları",
+    "subP4": "Kişisel verileriniz yalnızca şu amaçlarla işlenmektedir:",
+    "subHead3UL": {
+      "list": [
+        " İletişim kurulması,",
+        "Taleplerinizin yerine getirilmesi,",
+        "Sözleşmenin kurulması ve ifası."
+      ]
+    },
+    "subHead4":"IV. Kişisel Verilerin Paylaşılması",
+    "subP5":"Hukuk Bürosu, kişisel verilerinizi yalnızca \"bilme gereği\" ve \"kullanma gereği\" prensiplerine uygun şekilde ve veri minimizasyonu ilkesine dikkat ederek işlemektedir. Verileriniz, Kanun’un 8. maddesi çerçevesinde, belirtilen işleme amaçlarını gerçekleştirebilmek için gerekli olan üçüncü şahıslarla, yetkili kamu kurumları ve özel kuruluşlarla paylaşılabilir.",
+    "subHead5":"V. İlgili Kişinin Hakları",
+    "subP6":"Kişisel verileriniz işlenmişse, 6698 sayılı Kanun'un 11. maddesinde yer alan haklarınızı kullanma hakkınız bulunmaktadır. Bu haklar, kişisel verilerinizin işlenip işlenmediğini öğrenme, işleme ile ilgili bilgi talep etme, verilerin doğru olup olmadığını kontrol etme, verilerin silinmesini isteme ve diğer benzer hakları kapsar. Haklarınızı kullanmak için, info@kypartners.av.tr adresinden bizimle iletişime geçebilirsiniz.",
+    "h2":"ÇALIŞAN ADAYI AYDINLATMA METNİ",
+    "subP7":"Hukuk Bürosu, www.kypartners.av.tr internet sitesindeki \"Kariyer\" bölümünde bulunan iş başvuru formu aracılığıyla iş başvurusu yapmanız halinde, aşağıda belirtilen kişisel verilerinizi işlemektedir:",
+    "subHead4UL": {
+      "list": [
+"Ad ve soyad",
+"E-posta adresi",
+"Telefon numarası",
+"Eğitim durumu",
+"Mesleki deneyim",
+"CV'deki diğer bilgiler"
+
+      ]
+    },
+    "subP8":"Bu veriler, başvurduğunuz pozisyonla ilgili başvuru sürecinin yürütülmesi, sözleşme oluşturulması ve iş görüşmeleri için gerekli olmasından kaynaklanan yasal sebeplerle işlenmektedir.",
+    "subHead5UL": {
+      "list": [
+        "İnsan kaynakları süreçlerinin yönetilmesi",
+        "Çalışan adayı seçim ve yerleştirme süreçlerinin gerçekleştirilmesi",
+        "Başvuru süreçlerinin değerlendirilmesi ve sonuçlandırılması",
+        "İş görüşmelerinin yapılması ve adayların eğitim durumu, mesleki tecrübeleri ile ilgili bilgilerinin doğrulanması",
+        "Gelecekte uygun bir pozisyon için değerlendirilmek üzere veri saklanması",
+        "Maaş ve diğer yan haklar ile ilgili düzenlemeler yapılması."
+        
+
+      ]
+    }
   },
   "breadcrumb": {
     "home": "Anasayfa",
@@ -303,6 +355,7 @@
     "communication": "İletişim",
     "disclaimer": "Yasal Uyarı",
     "privacy-policy": "Gizlilik Politikası",
+    "personal-data-protection-authority": "Kişisel Verilerin Korunması",
     "yabanci-yatirimlar": "Yabancı Yatırımlar",
     "birlesme-ve-devralma": "Birleşme ve Devralma",
     "sirketler-hukuku-ve-kurumsal-yonetim": "Şirketler Hukuku ve Kurumsal Yönetim",
