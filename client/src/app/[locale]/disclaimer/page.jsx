@@ -2,14 +2,28 @@ import Breadcrumb from "@/components/BreadCrumb";
 import React from "react";
 import { useTranslations } from "next-intl";
 
-const PrivacyPolicy = () => {
-    const t = useTranslations("privacyPolicyPage"); 
+export const metadata = {
+    title: "Yasal Uyarı - KY Hukuk Bürosu | İstanbul",
+    description: "KY Hukuk Bürosu'nun yasal uyarı sayfası. İstanbul'da bulunan hukuk büromuzun yasal bildirimleri ve uyarıları hakkında bilgi edinin.",
+    openGraph: {
+        title: "Yasal Uyarı - KY Hukuk Bürosu | İstanbul",
+        description: "KY Hukuk Bürosu'nun yasal uyarı sayfası. İstanbul'da bulunan hukuk büromuzun yasal bildirimleri ve uyarıları hakkında bilgi edinin.",
+        url: "",
+        site_name: "KY Hukuk Bürosu",
+        locale: "tr_TR",
+        // image: "https://yukselhukuk.com/og-image.jpg", 
+    },
+};
 
+
+const LegalNotice = () => {
+    const t = useTranslations("legalNoticePage"); 
+ 
 return (
     <>
         <div className="relative w-full h-48 bg-slate-50">
             <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-color1 p-4 text-center">
+                <div className="p-4 text-center">
                     <h1 className="text-4xl lg:text-5xl font-medium">
                     <span className="text-color6">{t("headerText").split(" ")[0]}</span>{" "}
                     <span className="text-black">{t("headerText").split(" ")[1]}</span>
@@ -40,4 +54,4 @@ return (
 );
 };
 
-export default PrivacyPolicy;
+export default LegalNotice;

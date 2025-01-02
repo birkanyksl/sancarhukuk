@@ -102,9 +102,16 @@ const Footer = () => {
             Birkan{" "}
           </span>
         </h1>
-        <ul className="text-xs text-gray-400 font-light flex gap-6 ">
-          <li className="cursor-pointer">{t("privacyPolicy")}</li>
-          <li className="cursor-pointer">{t("legalNotice")}</li>
+        <ul className="text-xs text-gray-400 font-light flex gap-6">
+          <Link href={"/privacy-policy"}>
+            <li className="cursor-pointer">{t("privacyPolicy")}</li>
+          </Link>
+          <Link href={"/legal-notice"}>
+            <li className="cursor-pointer">{t("legalNotice")}</li>
+          </Link>
+          <Link href={"/legal-notice"}>
+            <li className="cursor-pointer">{t("KVKK")}</li>
+          </Link>
         </ul>
       </div>
     </>

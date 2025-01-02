@@ -230,7 +230,7 @@
 "footer": {
   "browse": "Gözat",
   "aboutUs": "Hakkımızda",
-  "team": "Takım",
+  "team": "Ekibimiz",
   "practices": "Hizmetler",
   "publications": "Yayınlar",
   "contact": "İletişim",
@@ -239,15 +239,58 @@
   "more": "Daha fazlası...",
   "privacyPolicy": "Gizilik Politikası",
   "legalNotice": "Yasal Uyarı",
+  "KVKK": "KVKK Aydınlatma Metni",
   "rightsReserved": "© 2024-2025 Tüm hakları saklıdır |"
 },
-"privacyPolicyPage": {
-    "headerText": "Gizlilik Politikası",
-    "headerSubText": "Gizliliğinizi ve kişisel bilgilerinizi koruma taahhüdümüz vardır. Gizlilik politikamız hakkında daha fazla bilgi edinin.",
+"legalNoticePage": {
+    "headerText": "Yasal Uyarı",
+    "headerSubText": "Bu sayfa, web sitemize erişiminiz ve kullanımınız sırasında geçerli olan yasal hak ve sorumluluklarınızı açıklamaktadır. Hizmetlerimizi kullanmadan önce lütfen bu uyarıları ve koşulları dikkatlice okuyunuz.",
     "h1":"Değerli Ziyaretçilerimiz,",
     "p1": "Bu web sitesinde yer alan bilgiler yalnızca bilgilendirme amacı taşımakta olup, herhangi bir hukuki danışmanlık ya da görüş verme amacı gütmemektedir. Site, avukat-müvekkil ilişkisi kurma niyetiyle tasarlanmamıştır. Bu nedenle, burada sunulan bilgiler, mevcut kanunlar ve ikincil düzenlemelerdeki değişiklikler nedeniyle zamanla güncelliğini yitirebilir ve güncel yasal durumları yansıtmayabilir. Bu bilgileri kullanarak herhangi bir işlem yapmadan önce, yetkili bir uzmandan yasal danışmanlık almanız önemlidir. Bu sitedeki bilgilerin güvenilir kaynaklardan alındığına özen gösterilmiştir, fakat KY Hukuk Bürosu, bu bilgilerin doğruluğundaki eksiklikler veya yanlışlıklar ve bu bilgilerin kullanımından doğabilecek sonuçlardan sorumlu tutulamaz.",
     "p2": "Site, Türkiye Barolar Birliği’nin Meslek Kuralları ve ilgili mevzuata uygun olarak hazırlanmış olup, reklam yasağına dair düzenlemelere de riayet edilmiştir. Site, ticari kazanım elde etme veya reklam amaçlı kullanılamaz. Bu siteyi kullanan her ziyaretçi, Kullanım Şartları’ndaki koşulları kabul etmiş sayılır. Bu web sitesindeki tüm içerik ve materyaller KY Hukuk Bürosu’na aittir. Fikri mülkiyet hakkına sahip yazılı içerikler, belgeler ve logolar, KY Hukuk Bürosu’nun izni olmadan çoğaltılamaz, kopyalanamaz ya da kullanılmaz. Faks veya e-posta yoluyla KY Hukuk Bürosu'na gönderilen herhangi bir bilgi, bu siteyi kullanan kişi ile avukat-müvekkil ilişkisi oluşturmaz. Ayrıca, mevcut müvekkiller ile de herhangi bir yeni avukat-müvekkil ilişkisi başlatmaz.",
     "p3": "Site, sadece kişisel kullanım amacıyla sağlanan bilgileri içerir ve ticari dağıtım için tasarlanmamıştır. Ziyaretçiler, sunulan bilgilerin yanlış olduğunu veya bu bilgilerden ötürü zarar gördüklerini iddia edemezler. KY Hukuk Bürosu, sitede bulunan bilgilere dayalı olarak alınan kararlar ya da yapılan işlemler nedeniyle hiçbir sorumluluk kabul etmez. KY Hukuk Bürosu, üçüncü şahıslar tarafından yayımlanan içeriklere ilişkin herhangi bir sorumluluk taşımaz ve bu içerikler içinde yer alan beyanları onaylamaz. KY Hukuk Bürosu, uygun bulmadığı içerikleri siteden çıkarma hakkını saklı tutar." 
+},
+"privacyPolicyPage": {
+  "headerText": "Gizlilik Politikası",
+  "headerSubText": "Web sitemizi kullanmadan önce gizlilik politikamızı dikkatlice okumanızı öneririz.",
+  "h1":"Değerli Ziyaretçilerimiz,",
+  "intro": "Büromuz, [Adres] adresinde yer almakta olup, burada verilen tüm hizmetler tamamen bu adreste faaliyet gösteren hukuk büromuz tarafından sunulmaktadır. Büromuz, çeşitli amaçlarla kişisel verileri toplayabilir. Bu metin, toplanan kişisel verilerin nasıl elde edildiği, nasıl korunduğu ve hangi koşullar altında işleme faaliyetlerine tabi tutulduğu hakkında bilgi vermektedir.",
+  "sections": {
+    "collection": {
+      "title": "Kişisel Verilerin Toplanması",
+      "content": "İnternet sitemiz üzerinde yer alan çeşitli form ve anketler aracılığıyla, kullanıcılar kendileriyle ilgili kişisel bilgileri (isim-soyad, firma bilgileri, telefon numarası, adres, e-posta gibi) büromuz tarafından işin doğası gereği sağlamakta ve bu veriler toplanmaktadır."
+    },
+    "confidentiality": {
+      "title": "Gizlilik Taahhüdü",
+      "content": "Büromuz, gizli bilgileri her zaman gizli tutmayı taahhüt eder. Gizliliğin korunması amacıyla gerekli tüm tedbirleri almakta ve bilgilerin yetkisiz kişilere açılmasını engellemeye yönelik her türlü özeni göstermektedir. Gizli bilgilerin tümü veya herhangi bir kısmının kamusal alanda yer alması, yetkisiz kişilerce kullanılması veya üçüncü şahıslara ifşa edilmesi önlenmesi için gerekli tüm önlemler alınmaktadır."
+    },
+    "thirdParty": {
+      "title": "Üçüncü Taraf Web Siteleri ve Uygulamalar",
+      "content": "Büromuz web sitesinde, başka sitelere yönlendiren bağlantılar verebilir. Ancak, bu tür bağlantılar aracılığıyla erişilen üçüncü taraf web sitelerinin gizlilik politikalarından veya içeriklerinden büromuz sorumlu değildir."
+    },
+    "exceptions": {
+      "title": "İstisnai Haller",
+      "content": "Aşağıda belirtilen sınırlı hallerde, büromuz kullanıcı bilgilerini üçüncü şahıslara açıklayabilir:",
+      "list": [
+        "Yürürlükteki kanun, yönetmelik, kanun hükmünde kararname gibi yasal düzenlemelere uyum sağlamak.",
+        "Yetkili idari veya adli otoriteler tarafından yürütülen araştırmalar veya soruşturmalar kapsamında bilgi talep edilmesi.",
+        "Kullanıcıların haklarını veya güvenliklerini korumak adına bilgi paylaşımının gerekli olması."
+      ]
+    },
+    "emailSecurity": {
+      "title": "E-posta Güvenliği",
+      "content": "Büromuza göndereceğiniz e-postalar aracılığıyla, kredi kartı numaranız veya şifreleriniz gibi hassas bilgileri paylaşmamanız önemlidir. E-posta iletileriniz üçüncü şahıslar tarafından görüntülenebilir, dolayısıyla büromuz e-posta yoluyla gönderilen bilgilerin güvenliğini garanti edemez."
+    },
+    "cookies": {
+      "title": "Çerez Kullanımı",
+      "content": [
+        "Büromuz, web sitesi ziyaretçilerinden elde ettiği verileri, çerez (cookie) adı verilen küçük metin dosyaları aracılığıyla toplayabilir. Çerezler, web sitesinin kullanıcılar için daha verimli hale gelmesini sağlayan teknik dosyalardır. Çerezler sayesinde, ziyaretçi davranışları ve siteyi kullanım şekilleri analiz edilerek, kullanıcı deneyimi iyileştirilebilir. Çerezler, kişisel bilgileri toplamak amacıyla değil, sadece kullanıcı tercihlerini ve site içi kullanım verilerini depolamak için kullanılır.",
+        " Çoğu tarayıcı, çerezleri otomatik olarak kabul edecek şekilde yapılandırılmıştır. Ancak kullanıcılar, çerezlerin gönderilmesini engelleyebilir veya çerez gönderildiğinde uyarı alacak şekilde ayarlarını değiştirebilir. Büromuz, gizlilik politikası hükümlerinde değişiklik yapma hakkına sahiptir. Yapılacak değişiklikler, site üzerinden yayımlandığı tarihte geçerlilik kazanır.",
+        "Gizlilik politikamız ile ilgili her türlü soru ve önerileriniz için, info@kypartners.av.tr adresine e-posta gönderebilir veya aşağıdaki iletişim bilgilerimizden bizimle irtibata geçebilirsiniz."
+      ]
+    }
+  }
+  
 },
   "breadcrumb": {
     "home": "Anasayfa",
@@ -256,7 +299,8 @@
     "practice": "Hizmetler",
     "insight":"Yayınlar",
     "communication": "İletişim",
-    "privacypolicy": "Gizlilik Politikası",
+    "disclaimer": "Yasal Uyarı",
+    "privacy-policy": "Gizlilik Politikası",
     "yabanci-yatirimlar": "Yabancı Yatırımlar",
     "birlesme-ve-devralma": "Birleşme ve Devralma",
     "sirketler-hukuku-ve-kurumsal-yonetim": "Şirketler Hukuku ve Kurumsal Yönetim",

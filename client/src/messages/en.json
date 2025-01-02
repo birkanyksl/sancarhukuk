@@ -200,55 +200,97 @@
   },
 
   "practicePage": {
-  "headerText": "Services",
-  "headerSubText": "With our expertise in law and consultancy, we aim to offer tailored solutions for individual and corporate needs."
-},
- "publicationsPage": {
-  "headerText": "Publications",
-  "headerSubText": "Stay informed about the latest legal developments and news with our expert insights and analysis."
- },
- "contactPage": {
-  "headerText": "Contact Us",
-  "headerSubText": "We are here to help you with your legal needs. Contact us to schedule a consultation or ask any questions you may have.",
-  "contactUs": "Contact Us",
-  "sendUsMessage": "Send Us a Message",
-  "name": "Name",
-  "email": "Email",
-  "phone": "Phone",
-  "address": "Address",
-  "subject": "Subject",
-  "message": "Message",
-  "namePlaceholder": "Enter your name",
-  "emailPlaceholder": "Enter your email address",
-  "subjectPlaceholder": "Enter the subject",
-  "messagePlaceholder": "Write your message here",
-  "send": "Send",
-  "messageSent": "Message sent successfully.",
-  "errorOccurred": "Message could not be sent."
- },
- "privacyPolicyPage": {
-    "headerText": "Privacy Policy",
-    "headerSubText": "We are committed to protecting your privacy and personal information. Learn more about our privacy policy here.",
-    "h1":"Dear Visitors,",
+    "headerText": "Services",
+    "headerSubText": "With our expertise in law and consultancy, we aim to offer tailored solutions for individual and corporate needs."
+  },
+  "publicationsPage": {
+    "headerText": "Publications",
+    "headerSubText": "Stay informed about the latest legal developments and news with our expert insights and analysis."
+  },
+  "contactPage": {
+    "headerText": "Contact Us",
+    "headerSubText": "We are here to help you with your legal needs. Contact us to schedule a consultation or ask any questions you may have.",
+    "contactUs": "Contact Us",
+    "sendUsMessage": "Send Us a Message",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "subject": "Subject",
+    "message": "Message",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "Enter your email address",
+    "subjectPlaceholder": "Enter the subject",
+    "messagePlaceholder": "Write your message here",
+    "send": "Send",
+    "messageSent": "Message sent successfully.",
+    "errorOccurred": "Message could not be sent."
+  },
+  "footer": {
+    "browse": "Browse",
+    "aboutUs": "About Us",
+    "team": "Team",
+    "practices": "Practices",
+    "publications": "Publications",
+    "contact": "Contact",
+    "email": "E-Mail: info@sancarlaw.com",
+    "phone": "Phone: +90 555 555 55 55",
+    "more": "More...",
+    "privacyPolicy": "Privacy Policy",
+    "legalNotice": "Disclaimer",
+    "KVKK": " Personal Data Protection Authority",
+    "rightsReserved": "© 2024-2025 All rights reserved |"
+  },
+
+  "legalNoticePage": {
+    "headerText": "Legal Notice",
+    "headerSubText": "This page outlines the legal rights and responsibilities applicable to your access and use of our website. Please read these disclaimers and terms carefully before using our services.",
+    "h1": "Dear Visitors,",
     "p1": "The information provided on this website is for informational purposes only and should not be construed as legal advice or an opinion. This site is not designed to establish an attorney-client relationship. Therefore, the information presented here may become outdated due to changes in applicable laws and secondary regulations and may not reflect the current legal status. Before taking any action based on the information provided, it is essential to seek legal advice from a qualified professional. Every effort has been made to ensure that the information on this site comes from reliable sources; however, KY Partners cannot be held responsible for any inaccuracies, omissions, or any consequences arising from the use of this information.",
     "p2": "This website has been prepared in compliance with the Code of Conduct of the Union of Turkish Bar Associations and relevant legislation, and in accordance with regulations regarding advertising restrictions. This site may not be used for commercial gain or advertising purposes. By using this site, all visitors are deemed to have accepted the terms and conditions outlined in the Terms of Use. All content and materials on this website are the property of KY Partners. Written content, documents, logos, and other intellectual property are owned by KY Partners, and may not be copied, reproduced, or used without its prior written consent. Any information sent to KY Partners via fax or email does not establish an attorney-client relationship. Additionally, it does not create a partial attorney-client relationship with existing clients of the firm.",
     "p3": "This site contains information provided for personal use only and is not intended for commercial distribution. Visitors may not claim that the information provided is inaccurate or that they have suffered any damage as a result of it. KY Partners assumes no responsibility for any decisions made or actions taken based on the information on this site. KY Partners accepts no responsibility for content published by third parties and does not endorse the statements or opinions contained therein, either directly or indirectly. KY Partners reserves the right to remove any content that it deems inappropriate."
-  
-},
- "footer": {
-  "browse": "Browse",
-  "aboutUs": "About Us",
-  "team": "Team",
-  "practices": "Practices",
-  "publications": "Publications",
-  "contact": "Contact",
-  "email": "E-Mail: info@sancarlaw.com",
-  "phone": "Phone: +90 555 555 55 55",
-  "more": "More...",
-  "privacyPolicy": "Privacy Policy",
-  "legalNotice": "Legal Notice",
-  "rightsReserved": "© 2024-2025 All rights reserved |"
-},
+  },
+  "privacyPolicyPage": {
+    "headerText": "Privacy Policy",
+    "headerSubText": "We recommend that you carefully review our privacy policy before using our website.",
+      "h1": "Dear Visitors,",
+      "intro": "Our law firm is located at [Address], and all services provided at this location are operated by our law office. Our office may collect personal data for various purposes. This document outlines how the collected personal data is obtained, how it is protected, and under what conditions it is processed.",
+      "sections": {
+        "collection": {
+          "title": "Collection of Personal Data",
+          "content": "Various forms and surveys on our website collect personal information (such as name, surname, company information, phone number, address, email, etc.) from users, which is provided by the users themselves and collected by our office as required by the nature of the work."
+        },
+        "confidentiality": {
+          "title": "Confidentiality and Protection of Personal Data",
+          "content": "Our office is committed to maintaining the confidentiality of all information at all times. Necessary precautions are taken to ensure the protection of this confidentiality, and all due care is exercised to prevent unauthorized access or disclosure of confidential information. All necessary measures are taken to prevent the public disclosure or unauthorized use of any part or all of the confidential information or its disclosure to third parties."
+        },
+        "thirdParty": {
+          "title": "Third-Party Websites and Applications",
+          "content": "Our website may contain links to other websites. However, we are not responsible for the privacy practices or content of these third-party websites accessed via these links."
+        },
+        "exceptions": {
+          "title": "Exceptions",
+          "content": "In the limited cases below, our office may disclose user information to third parties:",
+          "list": [
+            "To comply with applicable laws, regulations, decrees, and other legal obligations,",
+            "If requested by the competent administrative or judicial authorities for the purposes of an investigation or inquiry,",
+            "When it is necessary to share information in order to protect the rights or safety of users."
+          ]
+        },
+        "emailSecurity": {
+          "title": "Email Security",
+          "content": "It is important not to share sensitive information, such as your credit card number or passwords, in the emails you send to our office. Emails may be visible to third parties, and therefore, our office cannot guarantee the security of the information transmitted via email."
+        },
+        "cookies": {
+          "title": "Cookie Usage",
+          "content": [
+            "Our office may collect data from website visitors using small text files called cookies. Cookies are technical files that help make the website more efficient for users. Cookies allow for the analysis of visitor behavior and usage patterns on the site, improving the user experience. Cookies are used only to store user preferences and site usage data and are not designed to collect personal information.",
+            "Most browsers are configured to automatically accept cookies. However, users can adjust their settings to block cookies or receive a notification when cookies are sent. Our office reserves the right to make changes to the privacy policy. Any changes will become effective as of the date of publication on the site.",
+            "For any questions or suggestions regarding our privacy policy, you may contact us by email at info@kypartners.av.tr or by using the contact details below."
+          ]
+        }
+      }
+  },
 
   "breadcrumb": {
     "home": "Home",
@@ -257,7 +299,8 @@
     "practice": "Practices",
     "insight": "Publications",
     "communication": "Contact",
-    "privacypolicy": "Privacy Policy",
+    "disclaimer": "Disclaimer",
+    "privacy-policy": "Privacy Policy",
     "foreign-investments": "Foreign Investments",
     "mergers-and-acquisitions": "Mergers and Acquisitions",
     "corporate-law-and-governance": "Corporate Law and Governance",
@@ -283,7 +326,7 @@
     "real-estate-and-rental-law": "Real Estate and Lease Law",
     "inheritance-law": "Inheritance Law",
     "associations-law": "Associations Law",
-    "creditor-rights-and-bankruptcy":"Creditor Rights and Bankruptcy",
+    "creditor-rights-and-bankruptcy": "Creditor Rights and Bankruptcy",
     "e-commerce": "E-Commerce",
     "healthcare-and-life-sciences": "Health and Life Sciences"
   }
