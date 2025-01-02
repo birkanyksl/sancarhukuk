@@ -35,7 +35,7 @@ useEffect(() => {
              className='absolute left-0 top-24 w-full h-[calc(100vh-96px)] bg-white bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center gap-8 font-medium text-xl z-10'
            
            >
-                <div className="bg-contain bg-center bg-no-repeat w-full h-full absolute top-0 left-0 z-0 opacity-40" style={{ backgroundImage: "url('/law-background.jpg')" }}></div>
+                <div className=" w-full h-full absolute top-0 left-0 z-0 opacity-40" ></div>
                 <Link href="/about" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out z-20'>Hakkımızda</Link>
                 <Link href="/team" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out z-20'>Ekibimiz</Link>
                 <Link href="/practice" className=' flex items-center justify-center w-48 h-16 hover:scale-110 transition-all duration-300 ease-in-out z-20'>Hizmetler</Link>
