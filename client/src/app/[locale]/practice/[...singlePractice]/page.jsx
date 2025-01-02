@@ -12,32 +12,32 @@ export async function generateMetadata({ params }) {
 
   if (!practiceDetail) {
     return {
-      title: "Hizmet Bulunamadı - Yüksel Hukuk Bürosu | İstanbul",
+      title: "Hizmet Bulunamadı - Kümüş & Yüksel (KY) Hukuk Bürosu | İstanbul",
       description:
-        "Aradığınız hizmet bilgisi bulunamadı. Yüksel Hukuk Bürosu ile iletişime geçin.",
+        "Aradığınız hizmet bilgisi bulunamadı. Kümüş & Yüksel (KY) Hukuk Bürosu ile iletişime geçin.",
       openGraph: {
-        title: "Hizmet Bulunamadı - Yüksel Hukuk Bürosu | İstanbul",
+        title: "Hizmet Bulunamadı - Kümüş & Yüksel (KY) Hukuk Bürosu | İstanbul",
         description:
-          "Aradığınız hizmet bilgisi bulunamadı. Yüksel Hukuk Bürosu ile iletişime geçin.",
+          "Aradığınız hizmet bilgisi bulunamadı. Kümüş & Yüksel (KY) Hukuk Bürosu ile iletişime geçin.",
         url: "",
-        site_name: "Yüksel Hukuk Bürosu",
+        site_name: "Kümüş & Yüksel (KY) Hukuk Bürosu",
         locale: "tr_TR",
       },
     };
   }
 
   return {
-    title: `${practiceDetail.title} - Yüksel Hukuk Bürosu | İstanbul`,
+    title: `${practiceDetail.title} - Kümüş & Yüksel (KY) Hukuk Bürosu | İstanbul`,
     description:
       practiceDetail.description ||
-      "Yüksel Hukuk Bürosu'nun sunduğu detaylı hizmet hakkında bilgi edinin.",
+      "Kümüş & Yüksel (KY) Hukuk Bürosu'nun sunduğu detaylı hizmet hakkında bilgi edinin.",
     openGraph: {
-      title: `${practiceDetail.title} - Yüksel Hukuk Bürosu | İstanbul`,
+      title: `${practiceDetail.title} - Kümüş & Yüksel (KY) Hukuk Bürosu | İstanbul`,
       description:
         practiceDetail.description ||
-        "Yüksel Hukuk Bürosu'nun sunduğu detaylı hizmet hakkında bilgi edinin.",
+        "Kümüş & Yüksel (KY) Hukuk Bürosu'nun sunduğu detaylı hizmet hakkında bilgi edinin.",
       url: "", //
-      site_name: "Yüksel Hukuk Bürosu",
+      site_name: "Kümüş & Yüksel (KY) Hukuk Bürosu",
       locale: "tr_TR",
       // image: practiceDetail.image || "https://yukselhukuk.com/og-image.jpg",
     },

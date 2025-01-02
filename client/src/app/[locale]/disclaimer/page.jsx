@@ -3,13 +3,13 @@ import React from "react";
 import { useTranslations } from "next-intl";
 
 export const metadata = {
-    title: "Yasal Uyarı - KY Hukuk Bürosu | İstanbul",
-    description: "KY Hukuk Bürosu'nun yasal uyarı sayfası. İstanbul'da bulunan hukuk büromuzun yasal bildirimleri ve uyarıları hakkında bilgi edinin.",
+    title: "Yasal Uyarı - Kümüş & Yüksel (KY) Hukuk Bürosu | İstanbul",
+    description: "Kümüş & Yüksel (KY) Hukuk Bürosu'nun yasal uyarı sayfası. İstanbul'da bulunan hukuk büromuzun yasal bildirimleri ve uyarıları hakkında bilgi edinin.",
     openGraph: {
-        title: "Yasal Uyarı - KY Hukuk Bürosu | İstanbul",
-        description: "KY Hukuk Bürosu'nun yasal uyarı sayfası. İstanbul'da bulunan hukuk büromuzun yasal bildirimleri ve uyarıları hakkında bilgi edinin.",
+        title: "Yasal Uyarı - Kümüş & Yüksel (KY) Hukuk Bürosu | İstanbul",
+        description: "Kümüş & Yüksel (KY) Hukuk Bürosu'nun yasal uyarı sayfası. İstanbul'da bulunan hukuk büromuzun yasal bildirimleri ve uyarıları hakkında bilgi edinin.",
         url: "",
-        site_name: "KY Hukuk Bürosu",
+        site_name: "Kümüş & Yüksel (KY) Hukuk Bürosu",
         locale: "tr_TR",
         // image: "https://yukselhukuk.com/og-image.jpg", 
     },

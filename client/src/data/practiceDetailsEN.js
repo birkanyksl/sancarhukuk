@@ -26,10 +26,10 @@ const practiceDetailsEN = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Law Firm's Expertise in Foreign Investments
+          KY Partners Law Firm's Expertise in Foreign Investments
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6 ">
-          At Sancar Law Firm, we assist international investors in overcoming
+          At KY Partners Law Firm, we assist international investors in overcoming
           the legal challenges they face during their investment processes in
           Turkey. By providing comprehensive legal consultancy at every stage of
           your investment plans, we accelerate your compliance processes in
@@ -121,7 +121,7 @@ const practiceDetailsEN = {
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6 ">
           Foreign investors may face various legal challenges while operating in
           Turkey. Issues such as tax obligations, local regulations, work
-          permits, and property acquisition processes can be complex. At Sancar
+          permits, and property acquisition processes can be complex. At KY Partners
           Law Firm, we are here to minimize these challenges and accelerate your
           investment processes. We help you manage your investments most
           effectively while eliminating obstacles you may encounter in legal
@@ -167,10 +167,10 @@ const practiceDetailsEN = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Law Firm's Expertise in M&A
+          KY Partners Law Firm's Expertise in M&A
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          At Sancar Law Firm, we provide comprehensive legal consultancy
+          At KY Partners Law Firm, we provide comprehensive legal consultancy
           services to our clients with extensive experience in mergers and
           acquisitions. We offer strategic legal guidance at every stage of M&A
           transactions, including mergers, demergers, acquisitions, shareholder
@@ -207,7 +207,7 @@ const practiceDetailsEN = {
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Following M&A transactions, significant changes may occur in the
             organizational structure and operational processes of companies.
-            Sancar Law Firm provides legal guidance tailored to the needs of
+            KY Partners Law Firm provides legal guidance tailored to the needs of
             clients during restructuring processes to facilitate this transition
             period.
           </p>
@@ -231,7 +231,7 @@ const practiceDetailsEN = {
           <li className="mb-2 font-semibold">Competition Law Compliance</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             In Turkey, the approval process of the Competition Authority plays a
-            critical role in M&A transactions. Sancar Law Firm ensures that
+            critical role in M&A transactions. KY Partners Law Firm ensures that
             transactions comply with Turkey's competition law regulations,
             leveraging its expertise in competition law.
           </p>
@@ -258,7 +258,7 @@ const practiceDetailsEN = {
           numerous legal and commercial challenges. The diversity of legal
           regulations, structural incompatibilities of companies, tax
           liabilities, and potential conflicts among shareholders can complicate
-          the processes. At Sancar Law Firm, we leverage our extensive
+          the processes. At KY Partners Law Firm, we leverage our extensive
           experience to address these challenges and help our clients find the
           best solutions.
         </p>
@@ -267,7 +267,7 @@ const practiceDetailsEN = {
           Strengthen Your M&A Strategy
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Law Firm provides strategic consultancy for investors, company
+          KY Partners Law Firm provides strategic consultancy for investors, company
           owners, and boards of directors during M&A processes to ensure that
           transactions are conducted in the most accurate and effective manner.
           Legally secure M&A transactions support the achievement of both
@@ -295,7 +295,7 @@ const practiceDetailsEN = {
           risks, and fulfill compliance obligations.
         </p>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          At Sancar Law Firm, we not only meet the legal needs of companies but
+          At KY Partners Law Firm, we not only meet the legal needs of companies but
           also assist them in establishing a successful and sustainable
           management system in the long term. Corporate governance not only
           ensures compliance with legal obligations but also enhances the
@@ -308,7 +308,7 @@ const practiceDetailsEN = {
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
           <li className="mb-2 font-semibold">Company Formation</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-            Sancar Law Firm provides legal consultancy to clients in the
+            KY Partners Law Firm provides legal consultancy to clients in the
             establishment processes of various types of companies, including
             joint-stock, limited liability, commandite, and cooperative
             companies. We offer comprehensive guidance by preparing articles of
@@ -329,7 +329,7 @@ const practiceDetailsEN = {
           <li className="mb-2 font-semibold">Resolving Shareholder Disputes</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Disputes among shareholders can threaten a company's financial
-            stability and corporate structure. Sancar Law Firm effectively
+            stability and corporate structure. KY Partners Law Firm effectively
             manages reconciliation and negotiation processes to resolve
             potential disputes among shareholders.
           </p>
@@ -352,7 +352,7 @@ const practiceDetailsEN = {
             General assemblies and board meetings form the cornerstone of a
             company's decision-making mechanism. Ensuring these processes comply
             with legal requirements is crucial for the future success of a
-            company. Sancar Law Firm provides legal consultancy for organizing
+            company. KY Partners Law Firm provides legal consultancy for organizing
             general assemblies and board meetings, making accurate decisions,
             and implementing them effectively.
           </p>
@@ -370,7 +370,7 @@ const practiceDetailsEN = {
           risks.
         </p>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Law Firm assists companies in ensuring compliance with local
+          KY Partners Law Firm assists companies in ensuring compliance with local
           and international regulations, developing risk management strategies,
           and establishing effective corporate governance systems to secure
           their operations.
@@ -381,7 +381,7 @@ const practiceDetailsEN = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           It is essential for international companies to comply with local legal
-          regulations in the countries where they operate. Sancar Law Firm
+          regulations in the countries where they operate. KY Partners Law Firm
           provides the necessary legal support for international companies'
           operations in Turkey, ensuring foreign investors' investments in
           Turkey are safeguarded.
@@ -407,7 +407,7 @@ const practiceDetailsEN = {
           directly impacts the long-term success of the business.
         </p>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Law Firm provides legal support to its clients in dispute
+          KY Partners Law Firm provides legal support to its clients in dispute
           resolution, offering both litigation services and alternative dispute
           resolution methods (mediation, arbitration, etc.). Recognizing the
           unique dynamics of each dispute, we develop tailored strategies and
@@ -422,7 +422,7 @@ const practiceDetailsEN = {
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Disputes between commercial entities can disrupt their business
             activities. Effective and strategic defense in commercial litigation
-            is vital to protecting a company's long-term interests. Sancar Law
+            is vital to protecting a company's long-term interests. KY Partners Law
             Firm represents its clients with extensive experience in commercial
             litigation and provides legal solutions.
           </p>
@@ -440,7 +440,7 @@ const practiceDetailsEN = {
           <li className="mb-2 font-semibold">Arbitration</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             With the increasing prevalence of international trade, arbitration
-            has become a prominent alternative in dispute resolution. Sancar Law
+            has become a prominent alternative in dispute resolution. KY Partners Law
             Firm supports its clients in local and international arbitration
             processes, aiming for the swiftest and most favorable outcomes.
           </p>
@@ -448,7 +448,7 @@ const practiceDetailsEN = {
           <li className="mb-2 font-semibold">Administrative Litigation</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Legal disputes between companies and administrative bodies can bring
-            business operations to a halt. Sancar Law Firm, with its extensive
+            business operations to a halt. KY Partners Law Firm, with its extensive
             knowledge and experience in administrative law, effectively
             represents its clients in annulment and full remedy actions.
           </p>
@@ -459,7 +459,7 @@ const practiceDetailsEN = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Alternative methods to court proceedings in dispute resolution offer
-          significant time and cost savings for our clients. Sancar Law Firm has
+          significant time and cost savings for our clients. KY Partners Law Firm has
           extensive experience in mediation and arbitration, providing the
           necessary legal support to ensure our clients achieve the best
           outcomes in these processes.
@@ -491,7 +491,7 @@ const practiceDetailsEN = {
           dynamic sectors that form the backbone of the modern business world.
           The rapid development of technology and the process of digitalization
           provide businesses with a competitive edge, but also expose them to
-          complex legal regulations and challenges. Sancar Law Office aims to
+          complex legal regulations and challenges. KY Partners Law Office aims to
           create a sustainable and reliable business environment by providing
           comprehensive legal support to its clients with its specialized team
           in the fields of information technology and telecommunications.
@@ -508,12 +508,12 @@ const practiceDetailsEN = {
           strict rules on data security and privacy. Therefore, it is critical
           for businesses to seek legal consultancy to comply with these
           regulations. Providing legal solutions tailored to each business's
-          specific needs in the digitalization process is one of Sancar Law
+          specific needs in the digitalization process is one of KY Partners Law
           Office's priorities.
         </p>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Competitive Advantage Effective legal management allows businesses to
-          gain a competitive edge. Sancar Law Office helps its clients stand out
+          gain a competitive edge. KY Partners Law Office helps its clients stand out
           in competitive markets by optimizing their legal processes. A strong
           legal infrastructure in information technology and telecommunications
           helps businesses take advantage of market opportunities. In addition,
@@ -523,7 +523,7 @@ const practiceDetailsEN = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Services Provided by Sancar Law Office
+          Services Provided by KY Partners Law Office
         </h2>
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
           <li className="mb-2 font-semibold">
@@ -531,7 +531,7 @@ const practiceDetailsEN = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Data protection is one of the most important issues in today's
-            business world. Sancar Law Office provides legal support to its
+            business world. KY Partners Law Office provides legal support to its
             clients in developing data protection policies, processing and
             storing personal data. We offer strategic consultancy services to
             ensure compliance with laws such as GDPR and KVKK, helping
@@ -544,7 +544,7 @@ const practiceDetailsEN = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Cyberattacks and data breaches can damage a business's reputation
-            and cause financial losses. Sancar Law Office provides legal
+            and cause financial losses. KY Partners Law Office provides legal
             consultancy services in cybersecurity to help clients manage their
             cyber risks. We guide clients through legal processes in crisis
             situations and support the development and implementation of
@@ -555,7 +555,7 @@ const practiceDetailsEN = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             The telecommunications sector is subject to complex regulations and
-            contracts. Sancar Law Office supports clients in preparing contracts
+            contracts. KY Partners Law Office supports clients in preparing contracts
             for telecommunications services and licensing applications, making
             it easier to comply with legal requirements. We ensure the
             protection of our clients' rights in this process and provide
@@ -568,7 +568,7 @@ const practiceDetailsEN = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Software development and technology agreements play a critical role
-            in the growth of businesses. Sancar Law Office offers legal
+            in the growth of businesses. KY Partners Law Office offers legal
             consultancy services on software licensing, technical support, and
             business partnerships to protect the interests of its clients. We
             provide solutions to minimize legal risks at every stage of
@@ -583,7 +583,7 @@ const practiceDetailsEN = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Ensuring legal compliance is a critical element in building a
-          sustainable business model. Sancar Law Office conducts comprehensive
+          sustainable business model. KY Partners Law Office conducts comprehensive
           risk assessments to help clients comply with local and international
           regulations. By preventing potential legal issues, we contribute to
           the secure growth of businesses. We also organize educational programs
@@ -596,7 +596,7 @@ const practiceDetailsEN = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Businesses operating in international markets may face different legal
-          systems. Sancar Law Office, with its expert team in international
+          systems. KY Partners Law Office, with its expert team in international
           trade, investment, and legal consultancy, provides the necessary legal
           support to secure foreign investments in Turkey. We create the
           necessary legal infrastructure for your business to grow
@@ -610,7 +610,7 @@ const practiceDetailsEN = {
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Corporate governance principles play a crucial role in the long-term
           success of a company. A good corporate governance structure makes
-          decision-making processes transparent and accountable. Sancar Law
+          decision-making processes transparent and accountable. KY Partners Law
           Office provides comprehensive legal consultancy to ensure that clients
           operate in accordance with corporate governance principles. This
           includes the creation of board structures, the determination of
@@ -623,7 +623,7 @@ const practiceDetailsEN = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Innovation is key to enhancing the competitive strength of businesses
-          for a sustainable future. Sancar Law Office supports clients in the
+          for a sustainable future. KY Partners Law Office supports clients in the
           legal aspects of their innovative projects, helping them create new
           opportunities. With strategic consultancy services, we remove legal
           barriers and guide clients in evaluating new market opportunities,
@@ -633,7 +633,7 @@ const practiceDetailsEN = {
         </p>
 
         <p className="text-sm md:text-base text-gray-800 leading-6">
-          Sancar Law Office, with its specialized team in the fields of
+          KY Partners Law Office, with its specialized team in the fields of
           information technology and telecommunications, is always by your side
           to meet your legal needs. Take advantage of our legal consultancy
           services to help your business step into a sustainable future. Contact
@@ -655,7 +655,7 @@ const practiceDetailsEN = {
           economies. This field defines the legal framework for relationships
           between financial institutions, banks, investment companies, and
           individual clients, while also ensuring safety and transparency in
-          financial markets. Sancar Law Office, with its expertise in banking
+          financial markets. KY Partners Law Office, with its expertise in banking
           and finance law, provides comprehensive legal support to its clients,
           helping them carry out financial transactions in a secure and
           sustainable manner.
@@ -670,7 +670,7 @@ const practiceDetailsEN = {
           policies. Regulatory authorities such as the Central Bank of the
           Republic of Turkey and the Banking Regulation and Supervision Agency
           (BRSA) conduct various regulations and audits to ensure the safe and
-          orderly execution of all transactions in the sector. Sancar Law Office
+          orderly execution of all transactions in the sector. KY Partners Law Office
           guides its clients to comply with these regulations, assisting them in
           fulfilling their legal obligations.
         </p>
@@ -680,14 +680,14 @@ const practiceDetailsEN = {
           Financial transactions carry significant risks. Legal disputes in
           areas such as securing loans, investment agreements, and financial
           contracts can damage the reputation of businesses and lead to
-          financial losses. Sancar Law Office provides effective risk management
+          financial losses. KY Partners Law Office provides effective risk management
           services to its clients, minimizing potential risks and offering legal
           support throughout the process. Good risk management helps businesses
           maintain financial sustainability.
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Services We Offer as Sancar Law Office
+          Services We Offer as KY Partners Law Office
         </h2>
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
           <li className="mb-2 font-semibold">
@@ -695,7 +695,7 @@ const practiceDetailsEN = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Financial contracts form the basis of banking and finance
-            transactions. Sancar Law Office specializes in preparing loan
+            transactions. KY Partners Law Office specializes in preparing loan
             agreements, investment contracts, collateral agreements, and other
             financial documents. Each contract is tailored to the needs of our
             clients and legal requirements, ensuring the protection of the
@@ -707,7 +707,7 @@ const practiceDetailsEN = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Organizations operating in the banking and finance sector maintain
-            close relationships with various regulatory authorities. Sancar Law
+            close relationships with various regulatory authorities. KY Partners Law
             Office provides comprehensive consulting services to ensure that
             clients comply with financial regulations. We inform clients about
             legal obligations, reporting processes, and auditing issues,
@@ -719,7 +719,7 @@ const practiceDetailsEN = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Credit processes are among the most critical relationships between
-            financial institutions and their clients. Sancar Law Office offers
+            financial institutions and their clients. KY Partners Law Office offers
             legal support in evaluating loan applications, preparing loan
             agreements, and managing collateral. We assist clients in ensuring
             the validity and legal nature of collateral, as well as resolving
@@ -731,7 +731,7 @@ const practiceDetailsEN = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Legal disputes related to financial transactions can create serious
-            problems for businesses. Sancar Law Office provides legal consulting
+            problems for businesses. KY Partners Law Office provides legal consulting
             services for the prevention and resolution of such disputes. By
             using alternative dispute resolution methods (such as mediation,
             arbitration), we aim to resolve our clients' issues quickly and
@@ -741,7 +741,7 @@ const practiceDetailsEN = {
             Investment Consulting and Project Financing
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-            Investments are crucial for growth and development. Sancar Law
+            Investments are crucial for growth and development. KY Partners Law
             Office offers legal support to clients in developing investment
             strategies, managing project financing processes, and preparing
             investment contracts. We guide clients in minimizing financial risks
@@ -753,7 +753,7 @@ const practiceDetailsEN = {
           Sustainable Financial Practices
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Today, sustainability is at the core of financial decisions. Sancar
+          Today, sustainability is at the core of financial decisions. KY Partners
           Law Office provides legal support to clients adopting sustainable
           financial practices, taking into account social and environmental
           impacts. Sustainable financial practices not only fulfill legal
@@ -775,7 +775,7 @@ const practiceDetailsEN = {
           The capital market plays a critical role in ensuring economic growth
           and financial stability. This field involves the trading of stocks,
           bonds, and other financial instruments, facilitating the efficient
-          distribution of resources between investors and businesses. Sancar Law
+          distribution of resources between investors and businesses. KY Partners Law
           Firm, with its deep knowledge and experience in capital markets law,
           provides comprehensive legal consultancy to create secure,
           transparent, and sustainable investment processes.
@@ -792,7 +792,7 @@ const practiceDetailsEN = {
           Capital markets are subject to strict legal frameworks set by the
           Capital Markets Board of Turkey (SPK) and other regulatory
           authorities. These regulations ensure that market transactions are
-          conducted fairly and orderly. Sancar Law Firm offers detailed guidance
+          conducted fairly and orderly. KY Partners Law Firm offers detailed guidance
           to ensure its clients comply with these regulations.
         </p>
 
@@ -803,7 +803,7 @@ const practiceDetailsEN = {
           Transactions in the capital markets carry significant risks. Legal
           disputes may arise in areas such as investment agreements, stock
           trading, and borrowing processes, which could negatively impact the
-          financial health of businesses. Sancar Law Firm provides legal support
+          financial health of businesses. KY Partners Law Firm provides legal support
           to effectively manage financial transactions, minimize potential
           risks, and guide clients through these processes.
         </p>
@@ -817,7 +817,7 @@ const practiceDetailsEN = {
             Preparation of Financial Contracts
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-            Contracts form the foundation of capital market transactions. Sancar
+            Contracts form the foundation of capital market transactions. KY Partners
             Law Firm specializes in preparing share trading contracts, bond
             issuance, and other financial documents, tailoring each contract to
             the specific needs of our clients. Meticulously preparing contract
@@ -828,7 +828,7 @@ const practiceDetailsEN = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             For companies operating in the capital markets, regulatory
-            compliance is one of the keys to success. Sancar Law Firm supports
+            compliance is one of the keys to success. KY Partners Law Firm supports
             its clients by providing guidance on legal obligations, reporting
             processes, and auditing issues, helping them build healthy
             relationships with regulatory authorities.
@@ -838,7 +838,7 @@ const practiceDetailsEN = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Legal disputes in the capital markets can have serious consequences
-            for businesses. Sancar Law Firm aims to resolve its clients'
+            for businesses. KY Partners Law Firm aims to resolve its clients'
             problems quickly and effectively using alternative dispute
             resolution methods (mediation, arbitration, etc.). This approach
             provides advantages in terms of time and cost.
@@ -848,7 +848,7 @@ const practiceDetailsEN = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Investments are crucial for the growth and sustainability of
-            businesses. Sancar Law Firm provides legal support in the creation
+            businesses. KY Partners Law Firm provides legal support in the creation
             of investment strategies, the management of project financing
             processes, and the preparation of investment agreements. Minimizing
             financial risks and meeting legal obligations are our top priorities
@@ -861,7 +861,7 @@ const practiceDetailsEN = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Today, sustainability is becoming increasingly important in capital
-          markets. Sancar Law Firm offers legal support to help clients adopt
+          markets. KY Partners Law Firm offers legal support to help clients adopt
           sustainable financial practices, considering social and environmental
           impacts. This approach not only ensures compliance with legal
           obligations but also enhances businesses' reputation, building trust
@@ -871,7 +871,7 @@ const practiceDetailsEN = {
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Capital markets law plays a critical role in helping businesses
           achieve their growth objectives. With its professional legal support,
-          Sancar Law Firm is committed to contributing to the creation of a
+          KY Partners Law Firm is committed to contributing to the creation of a
           secure and sustainable investment environment. Our expert team manages
           complex legal processes and offers solutions tailored to the needs of
           our clients.
@@ -919,7 +919,7 @@ const practiceDetailsEN = {
           The defense industry strengthens international relations but also
           complicates them. Various defense agreements, technology transfers,
           joint production projects, and export contracts are matters that
-          require careful consideration under international law. As Sancar Law
+          require careful consideration under international law. As KY Partners Law
           Office, we ensure that our clients are protected from legal risks in
           international agreements and help them achieve the best conditions.
         </p>
@@ -948,7 +948,7 @@ const practiceDetailsEN = {
           industry. Access to sensitive information, data security, and managing
           cybersecurity risks are strategic priorities for all actors in the
           sector. Confidentiality and security agreements prepared within this
-          scope are mandatory to protect sensitive information. At Sancar Law
+          scope are mandatory to protect sensitive information. At KY Partners Law
           Office, we prepare agreements that comply with our clients'
           information security requirements.
         </p>
@@ -964,7 +964,7 @@ const practiceDetailsEN = {
           The aviation and defense industry is subject to certification and
           licensing processes, which are strictly monitored under national and
           international regulations. Relevant regulations and standards require
-          compliance at every stage, from production to distribution. Sancar Law
+          compliance at every stage, from production to distribution. KY Partners Law
           Office provides comprehensive legal support to ensure that these
           processes are completed smoothly for our clients.
         </p>
@@ -976,7 +976,7 @@ const practiceDetailsEN = {
           Failing to comply with legal regulations in the defense sector can
           create significant risks. Laws and regulations regarding the defense
           industry in Turkey are frequently updated, and it is crucial that
-          activities in this sector comply with the legislation. As Sancar Law
+          activities in this sector comply with the legislation. As KY Partners Law
           Office, we provide comprehensive support to our clients in risk
           management and legal compliance.
         </p>
@@ -993,7 +993,7 @@ const practiceDetailsEN = {
           innovation. Patents, designs, software, and other intellectual
           property rights are some of the most valuable assets in the sector.
           Protecting these assets requires developing the right intellectual
-          property strategies. Sancar Law Office offers professional consulting
+          property strategies. KY Partners Law Office offers professional consulting
           in the protection and licensing of intellectual property rights,
           helping our clients safeguard their innovations.
         </p>
@@ -1005,7 +1005,7 @@ const practiceDetailsEN = {
           The export of defense products is subject to various international
           regulations and often involves complex legal processes. In export and
           import transactions, compliance with security and international
-          cooperation requirements is essential. Sancar Law Office provides
+          cooperation requirements is essential. KY Partners Law Office provides
           legal support to our clients in the export and import process,
           minimizing compliance risks in international trade.
         </p>
@@ -1020,7 +1020,7 @@ const practiceDetailsEN = {
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Disputes in the defense sector often involve confidentiality and
           complex resolution processes. International arbitration is a widely
-          preferred method for resolving disputes within the sector. As Sancar
+          preferred method for resolving disputes within the sector. As KY Partners
           Law Office, we manage arbitration processes to protect our clients'
           rights and interests in the most effective way.
         </p>
@@ -1032,7 +1032,7 @@ const practiceDetailsEN = {
           Legal processes in the defense industry can be complex and lengthy;
           therefore, using alternative dispute resolution methods can speed up
           the process. Mediation, for example, helps resolve disputes more
-          quickly while ensuring the security of sensitive information. Sancar
+          quickly while ensuring the security of sensitive information. KY Partners
           Law Office provides fast and effective solutions to our clients.
         </p>
 
@@ -1044,7 +1044,7 @@ const practiceDetailsEN = {
           role for all companies operating in the sector. Ensuring security,
           conducting technological developments within legal frameworks, and
           foreseeing potential risks are possible with professional legal
-          support. As Sancar Law Office, we offer comprehensive legal services
+          support. As KY Partners Law Office, we offer comprehensive legal services
           to our clients in the aviation and defense industry, ensuring they
           operate safely and in legal compliance.
         </p>
@@ -1079,7 +1079,7 @@ const practiceDetailsEN = {
           obligations of the parties involved. Comprehensive preparation of
           contracts, clearly defining the roles and responsibilities of the
           parties, and determining legal obligations is crucial to preventing
-          disputes. As Sancar Law Firm, we provide transparent and detailed
+          disputes. As KY Partners Law Firm, we provide transparent and detailed
           contract management to protect the interests of our clients.
         </p>
         <li className="text-base md:text-lg font-normal mb-2 list-disc list-inside">
@@ -1090,7 +1090,7 @@ const practiceDetailsEN = {
           infrastructure projects, licensing and permit processes are legally
           mandatory. Failure to obtain the necessary permits or making false
           declarations may cause delays and heavy sanctions during the project.
-          Sancar Law Firm guides its clients through the licensing processes to
+          KY Partners Law Firm guides its clients through the licensing processes to
           ensure compliance with legal requirements.
         </p>
 
@@ -1117,7 +1117,7 @@ const practiceDetailsEN = {
           According to legal regulations, protecting workers' rights regarding
           health and safety is part of companies' legal and social
           responsibilities. Non-compliance with occupational safety regulations
-          may bring severe penalties and project delays. As Sancar Law Firm, we
+          may bring severe penalties and project delays. As KY Partners Law Firm, we
           provide legal support to ensure the fulfillment of occupational safety
           obligations, protecting our clients from accidents and legal
           sanctions.
@@ -1130,7 +1130,7 @@ const practiceDetailsEN = {
           In project development and management, correctly calculating tax
           liabilities is crucial for cost management. Ensuring tax compliance
           maintains financial sustainability and supports project profitability.
-          Sancar Law Firm guides its clients to comply with tax regulations in
+          KY Partners Law Firm guides its clients to comply with tax regulations in
           projects, minimizing financial and tax risks.
         </p>
 
@@ -1157,7 +1157,7 @@ const practiceDetailsEN = {
           compensation and liability claims arising from unmet contractual
           obligations. In case of disputes, it is essential to establish
           agreements that regulate compensation liabilities and minimize damages
-          for the parties involved. Sancar Law Firm offers professional
+          for the parties involved. KY Partners Law Firm offers professional
           consultancy for resolving post-project disputes.
         </p>
 
@@ -1180,7 +1180,7 @@ const practiceDetailsEN = {
           Disputes in project management can impose significant costs on the
           project. Rather than court processes, faster and more cost-effective
           methods such as mediation and arbitration can be used to resolve these
-          disputes. As Sancar Law Firm, we provide the most effective dispute
+          disputes. As KY Partners Law Firm, we provide the most effective dispute
           resolution methods to our clients, fostering healthy dialogue between
           the parties and ensuring the sustainability of projects under legal
           protection.
@@ -1193,7 +1193,7 @@ const practiceDetailsEN = {
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Project development and management are more successful and sustainable
           when supported by proper legal consultancy and legal assurance. At
-          Sancar Law Firm, we provide comprehensive and professional legal
+          KY Partners Law Firm, we provide comprehensive and professional legal
           support at every stage of our clients' projects, ensuring they achieve
           their project goals.
         </p>
@@ -1220,10 +1220,10 @@ const practiceDetailsEN = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Law Office's Expertise in Citizenship and Migration
+          KY Partners Law Office's Expertise in Citizenship and Migration
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          As Sancar Law Office, we have extensive experience in the field of
+          As KY Partners Law Office, we have extensive experience in the field of
           citizenship and migration law and provide comprehensive legal
           consultancy services to our clients. We offer guidance at every stage
           for individuals and businesses in matters such as acquiring
@@ -1295,7 +1295,7 @@ const practiceDetailsEN = {
           level, bring many legal and administrative challenges. The diversity
           of national laws, incomplete documents required for visa and residence
           permits, time constraints, and the uncertainty of the processes can
-          create difficulties for individuals and companies. At Sancar Law
+          create difficulties for individuals and companies. At KY Partners Law
           Office, we have vast experience in overcoming these challenges and
           helping our clients find the most appropriate solutions.
         </p>
@@ -1304,7 +1304,7 @@ const practiceDetailsEN = {
           Strengthen Your Citizenship and Migration Strategy
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Law Office provides strategic consultancy in citizenship and
+          KY Partners Law Office provides strategic consultancy in citizenship and
           migration processes for individuals and businesses, ensuring that the
           procedures are carried out in the most accurate and effective manner.
           Legal guarantees for citizenship and migration processes support
@@ -1336,10 +1336,10 @@ const practiceDetailsEN = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Law Office: Your Trusted Consultant in Labor Law
+          KY Partners Law Office: Your Trusted Consultant in Labor Law
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          As Sancar Law Office, we are here to meet our clients' legal needs
+          As KY Partners Law Office, we are here to meet our clients' legal needs
           with a wide range of services in labor law. Our expert team possesses
           in-depth knowledge and experience in labor law matters and offers
           customized solutions for all legal needs. Our goal is to protect the
@@ -1366,7 +1366,7 @@ const practiceDetailsEN = {
           <li className="mb-2 font-semibold">Employee Rights Training</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Raising awareness among employees about their rights and obligations
-            is important for creating a peaceful work environment. Sancar Law
+            is important for creating a peaceful work environment. KY Partners Law
             Office organizes training programs for employees in workplaces,
             providing information on labor law and employee rights.
           </p>
@@ -1394,7 +1394,7 @@ const practiceDetailsEN = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Termination procedures are sensitive processes that must be
-            conducted within a legal framework. Sancar Law Office manages
+            conducted within a legal framework. KY Partners Law Office manages
             termination processes in accordance with the law, protecting the
             rights of both employers and employees. We offer detailed guidance
             on the steps to be followed in the termination process, notice
@@ -1422,7 +1422,7 @@ const practiceDetailsEN = {
           management, working conditions, and employee rights. Similarly,
           employees may encounter problems such as not being sufficiently aware
           of their rights in the workplace or failing to obtain legal support.
-          Sancar Law Office has extensive experience in overcoming these
+          KY Partners Law Office has extensive experience in overcoming these
           challenges and providing the most appropriate solutions to our
           clients.
         </p>
@@ -1431,7 +1431,7 @@ const practiceDetailsEN = {
           Our Priority in Labor Law Consultancy
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          As Sancar Law Office, we ensure that our clients confidently navigate
+          As KY Partners Law Office, we ensure that our clients confidently navigate
           the legal processes in their work lives with the consultancy services
           we provide in labor law. Proper management of labor law processes is
           crucial for ensuring that employers fulfill their legal obligations
@@ -1493,10 +1493,10 @@ const practiceDetailsEN = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Law Firm’s Consulting Services
+          KY Partners Law Firm’s Consulting Services
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Law Firm offers comprehensive consulting services in the field
+          KY Partners Law Firm offers comprehensive consulting services in the field
           of construction and infrastructure, responding to the needs of its
           clients.
         </p>
@@ -1545,7 +1545,7 @@ const practiceDetailsEN = {
           Construction projects require a series of strategic steps to be
           completed successfully. Receiving legal consulting at each stage of
           the project helps identify and address potential issues early on. At
-          Sancar Law Firm, we provide professional support based on our
+          KY Partners Law Firm, we provide professional support based on our
           extensive experience in the construction sector to ensure our clients'
           projects are secured.
         </p>
@@ -1612,11 +1612,11 @@ const practiceDetailsEN = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Legal Consultancy Services Provided by Sancar Law Office in the Energy
+          Legal Consultancy Services Provided by KY Partners Law Office in the Energy
           Sector
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Law Office offers specialized expertise in the complex legal
+          KY Partners Law Office offers specialized expertise in the complex legal
           processes of the energy sector, providing the following comprehensive
           services to its clients:
         </p>
@@ -1677,7 +1677,7 @@ const practiceDetailsEN = {
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           The energy sector is one of the most dynamic and fast-growing areas of
           the future. However, to succeed in this sector, it is essential to
-          manage legal risks properly. As Sancar Law Office, we provide legal
+          manage legal risks properly. As KY Partners Law Office, we provide legal
           assurance at every stage of your energy projects, contributing to your
           sustainable growth.
         </p>
@@ -1730,17 +1730,17 @@ const practiceDetailsEN = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Legal Consulting Services of Sancar Law Firm
+          Legal Consulting Services of KY Partners Law Firm
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Law Firm offers the following comprehensive services to help
+          KY Partners Law Firm offers the following comprehensive services to help
           accommodation businesses meet their legal obligations:
         </p>
 
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
           <li className="mb-2 font-semibold">License and Permit Procedures</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-            Sancar Law Firm provides guidance in the licensing and permit
+            KY Partners Law Firm provides guidance in the licensing and permit
             procedures of accommodation businesses, ensuring that all legal
             requirements are met and minimizing the risk of legal issues.
           </p>
@@ -1748,7 +1748,7 @@ const practiceDetailsEN = {
             Contract Drafting and Negotiation
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-            Sancar Law Firm offers legal consultancy in all contract processes,
+            KY Partners Law Firm offers legal consultancy in all contract processes,
             ensuring the security of contracts for both the parties and the
             business. We develop the best strategies to protect the business's
             interests in negotiation processes.
@@ -1780,7 +1780,7 @@ const practiceDetailsEN = {
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           The accommodation and entertainment industry is complex and requires
-          legal consultancy. As Sancar Law Firm, we provide comprehensive
+          legal consultancy. As KY Partners Law Firm, we provide comprehensive
           consultancy services tailored to the industry's needs, helping
           businesses fulfill their legal obligations. Taking the right steps in
           legal processes ensures the long-term success of businesses.
@@ -2301,11 +2301,11 @@ const practiceDetailsEN = {
         </ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Role of Sancar Law Office
+          Role of KY Partners Law Office
         </h2>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          At Sancar Law Office, we provide comprehensive legal consultancy
+          At KY Partners Law Office, we provide comprehensive legal consultancy
           services in the field of artificial intelligence and automated
           systems. Our expert lawyers offer consultancy on the legal aspects of
           AI, helping your business minimize legal risks while benefiting from
@@ -2435,7 +2435,7 @@ const practiceDetailsEN = {
           Data privacy and security are critically important in today's business
           world. Businesses can both meet their legal obligations and enhance
           customer trust by obtaining professional consulting services in this
-          area. At Sancar Law Firm, we provide comprehensive consulting services
+          area. At KY Partners Law Firm, we provide comprehensive consulting services
           on data privacy and security. Our goal is to develop tailored
           solutions for your business, ensuring secure data management while
           minimizing legal risks.
@@ -2458,7 +2458,7 @@ const practiceDetailsEN = {
           most dynamic fields today. This sector, which encompasses various
           branches such as television, cinema, music, digital content, and
           social media, faces numerous legal issues both locally and
-          internationally. At Sancar Law Firm, we aim to secure our clients'
+          internationally. At KY Partners Law Firm, we aim to secure our clients'
           legal processes by providing legal consultancy services in this field.
         </p>
 
@@ -2472,7 +2472,7 @@ const practiceDetailsEN = {
             Intellectual property plays a crucial role in the media and
             entertainment sector. Content creators must take steps to protect
             their works, including copyright registration, trademark
-            registration, and patent applications. Sancar Law Firm provides
+            registration, and patent applications. KY Partners Law Firm provides
             consultancy services to help clients protect their intellectual
             property rights.
           </p>
@@ -2487,7 +2487,7 @@ const practiceDetailsEN = {
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             With digitalization, the protection of user data has become more
             critical. Businesses operating in the media and entertainment sector
-            must comply with laws such as GDPR and KVKK. Sancar Law Firm
+            must comply with laws such as GDPR and KVKK. KY Partners Law Firm
             supports clients in data protection and privacy policies.
           </p>
           <li className="mb-2 font-semibold">Competition Law</li>
@@ -2495,7 +2495,7 @@ const practiceDetailsEN = {
             Competition law is also important in the media sector.
             Anti-competitive behaviors can lead to significant penalties. Media
             companies must be aware of the legal boundaries to protect their
-            market position. Sancar Law Firm provides consultancy in competition
+            market position. KY Partners Law Firm provides consultancy in competition
             law to protect its clients.
           </p>
           <li className="mb-2 font-semibold">
@@ -2511,7 +2511,7 @@ const practiceDetailsEN = {
         </ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Consultancy Services Provided by Sancar Law Firm
+          Consultancy Services Provided by KY Partners Law Firm
         </h2>
 
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
@@ -2558,7 +2558,7 @@ const practiceDetailsEN = {
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           The media and entertainment sector is an area with high legal risks,
-          making professional legal consultancy services necessary. Sancar Law
+          making professional legal consultancy services necessary. KY Partners Law
           Firm, with its experience in the sector and expert team, offers
           reliable and effective solutions to its clients. You can contact us to
           develop the best solutions tailored to your needs. We are here to
@@ -2582,7 +2582,7 @@ const practiceDetailsEN = {
           critical importance for businesses to operate across borders. With the
           increase in cross-border trade, dealing with legal issues and complex
           regulations has become a significant challenge for companies. At
-          Sancar Law Office, we assist businesses in taking safe and effective
+          KY Partners Law Office, we assist businesses in taking safe and effective
           steps in the global market by offering legal consultancy services in
           international trade law.
         </p>
@@ -2660,7 +2660,7 @@ const practiceDetailsEN = {
         </ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Why Sancar Law Office?
+          Why KY Partners Law Office?
         </h2>
 
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
@@ -2686,7 +2686,7 @@ const practiceDetailsEN = {
         </ul>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          International trade law is the key to success in global trade. Sancar
+          International trade law is the key to success in global trade. KY Partners
           Law Office is here to help you overcome legal challenges you may face
           in the international market. Get in touch with us for solutions
           tailored to your needs and take safe steps in international trade.
@@ -2706,7 +2706,7 @@ const practiceDetailsEN = {
         </h2>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Law Office offers a comprehensive service approach in tax and
+          KY Partners Law Office offers a comprehensive service approach in tax and
           administrative law, ensuring that companies can operate confidently in
           both local and international legal processes. We leverage our
           professional experience and sector-specific knowledge to provide
@@ -2719,7 +2719,7 @@ const practiceDetailsEN = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Tax law is one of the most important components of business activities
-          and requires strategic planning. As Sancar Law Office, we stand by our
+          and requires strategic planning. As KY Partners Law Office, we stand by our
           clients in all tax-related processes, helping them manage their legal
           obligations and optimize their costs.
         </p>
@@ -2798,7 +2798,7 @@ const practiceDetailsEN = {
         </p>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          At Sancar Law Office, we effectively meet the legal needs of companies
+          At KY Partners Law Office, we effectively meet the legal needs of companies
           and individuals through our wide range of services in tax and
           administrative law. Thanks to our expert lawyers, we guide our clients
           through complex legal processes, contribute to long-term business
@@ -2818,7 +2818,7 @@ const practiceDetailsEN = {
         </h2>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Law provides a comprehensive range of services related to real
+          KY Partners Law provides a comprehensive range of services related to real
           estate and rental law in Turkey, aiming to protect the rights of our
           clients and minimize risks. We offer professional consultancy services
           for successful investments in real estate and a healthy rental
@@ -2909,7 +2909,7 @@ const practiceDetailsEN = {
           Experienced Team in Real Estate and Rental Law
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          At Sancar Law, we provide solution-oriented services tailored to the
+          At KY Partners Law, we provide solution-oriented services tailored to the
           needs of our clients, aiming to protect their rights in real estate
           investments and rental processes. Our expert team carefully evaluates
           the legal process and determines the most appropriate strategy.
@@ -2932,7 +2932,7 @@ const practiceDetailsEN = {
           potential legal disputes that may arise during this process. In
           Turkey, inheritance law is of great importance for securing the assets
           of individuals and families and preventing uncertainties regarding the
-          future. At Sancar Law, we provide comprehensive consultancy services
+          future. At KY Partners Law, we provide comprehensive consultancy services
           to protect our clients' inheritance rights and manage asset transfers
           most effectively.
         </p>
@@ -2995,7 +2995,7 @@ const practiceDetailsEN = {
           Our Consultancy Services in Inheritance Law
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          At Sancar Law, we provide effective solutions for complex issues that
+          At KY Partners Law, we provide effective solutions for complex issues that
           may arise during inheritance law processes. Our services include:
         </p>
 
@@ -3039,7 +3039,7 @@ const practiceDetailsEN = {
           Particularly in family inheritance disputes, ensuring that the process
           proceeds amicably and constructively while protecting the rights of
           all parties requires a meticulous approach beyond legal support. At
-          Sancar Law, our expert team is here to safeguard our clients'
+          KY Partners Law, our expert team is here to safeguard our clients'
           inheritance rights, secure their assets, and minimize family
           conflicts.
         </p>
@@ -3061,7 +3061,7 @@ const practiceDetailsEN = {
           public interest. The activities of associations in Turkey are
           regulated by the Associations Law and related legislation. It is
           essential to ensure legal compliance at every stage from the
-          establishment of the association onward. At Sancar Law, we provide
+          establishment of the association onward. At KY Partners Law, we provide
           extensive legal consultancy services to ensure that associations
           comply fully with legal requirements. Our experienced lawyers are here
           to help your association operate sustainably, protect against
@@ -3176,7 +3176,7 @@ const practiceDetailsEN = {
           continue its operations without legal sanctions, full compliance with
           the legislation is necessary. Receiving support from a professional
           law firm enables you to manage these processes more securely and
-          efficiently. At Sancar Law, we are delighted to assist your
+          efficiently. At KY Partners Law, we are delighted to assist your
           association in all its legal processes with our expertise and
           extensive experience in associations law.
         </p>
@@ -3193,7 +3193,7 @@ const practiceDetailsEN = {
         </h2>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Law provides professional legal support for safeguarding
+          KY Partners Law provides professional legal support for safeguarding
           creditor rights and managing bankruptcy processes with a team of
           experts specializing in the protection and collection of commercial
           and individual receivables. Debt collection and bankruptcy processes
@@ -3257,7 +3257,7 @@ const practiceDetailsEN = {
             Obtaining injunctive measures to protect creditor rights and prevent
             potential risks on the debtor's assets is a critical phase of the
             legal process. With an injunction, transactions on the debtor's
-            assets can be halted, and creditors can avoid losses. Sancar Law has
+            assets can be halted, and creditors can avoid losses. KY Partners Law has
             expertise in obtaining and enforcing injunctive measures and manages
             all stages of the process while protecting its clients' interests.
           </p>
@@ -3347,7 +3347,7 @@ const practiceDetailsEN = {
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           With the rise of e-commerce in the digital age, legal issues and
-          requirements have also increased. Sancar Law aims to ensure the legal
+          requirements have also increased. KY Partners Law aims to ensure the legal
           compliance of businesses in the digital environment with the
           consultancy services it provides in the field of e-commerce law.
           E-commerce law encompasses many areas such as consumer rights,
@@ -3364,7 +3364,7 @@ const practiceDetailsEN = {
           conduct of online commerce. E-commerce covers the buying and selling
           of goods and services over the internet. In this process, the legal
           obligations of businesses, consumer rights, data protection laws, and
-          electronic contracts are of great importance. Sancar Law assists
+          electronic contracts are of great importance. KY Partners Law assists
           e-commerce businesses in fulfilling all these legal requirements.
         </p>
 
@@ -3435,7 +3435,7 @@ const practiceDetailsEN = {
           </p>
         </ul>
 
-        <h2 className="text-base md:text-lg font-bold mb-4">Why Sancar Law?</h2>
+        <h2 className="text-base md:text-lg font-bold mb-4">Why KY Partners Law?</h2>
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
           <li className="mb-2">
             Expert Team: Our experienced lawyers in e-commerce law offer
@@ -3460,14 +3460,14 @@ const practiceDetailsEN = {
     content: (
       <div className="p-4 w-full">
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Healthcare and Life Sciences: Your Trustworthy Partner, Sancar Law
+          Healthcare and Life Sciences: Your Trustworthy Partner, KY Partners Law
         </h2>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           The healthcare sector has become increasingly complex with rapidly
           evolving technology and changing regulations. Effectively managing
           legal processes is critical for healthcare providers to succeed in
-          this dynamic environment. Sancar Law offers comprehensive consultancy
+          this dynamic environment. KY Partners Law offers comprehensive consultancy
           services in healthcare and life sciences, providing its clients with a
           solid legal foundation.
         </p>
@@ -3479,7 +3479,7 @@ const practiceDetailsEN = {
           <li className="mb-2 font-semibold">Compliance Consultancy</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Healthcare providers are required to comply with legal and
-            regulatory obligations. Sancar Law guides its clients in legal
+            regulatory obligations. KY Partners Law guides its clients in legal
             requirements, regulatory tracking, and the development of hospital
             policies.
           </p>
@@ -3493,7 +3493,7 @@ const practiceDetailsEN = {
           <li className="mb-2 font-semibold">Regulatory Support</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Strict regulations exist for medical devices, pharmaceuticals, and
-            other healthcare products. Sancar Law provides support in market
+            other healthcare products. KY Partners Law provides support in market
             approvals, risk management, and monitoring processes.
           </p>
 
@@ -3537,7 +3537,7 @@ const practiceDetailsEN = {
           </p>
         </ul>
 
-        <h2 className="text-base md:text-lg font-bold mb-4">Why Sancar Law?</h2>
+        <h2 className="text-base md:text-lg font-bold mb-4">Why KY Partners Law?</h2>
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
           <li className="mb-2">
             Expert Team: Our experienced lawyers in healthcare law provide

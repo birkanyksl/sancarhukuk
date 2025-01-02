@@ -28,10 +28,10 @@ const practiceDetails = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Hukuk Bürosu'nun Yabancı Yatırımlar Konusundaki Uzmanlığı
+           KY Hukuk Bürosu'nun Yabancı Yatırımlar Konusundaki Uzmanlığı
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6 ">
-          Sancar Hukuk Bürosu olarak, uluslararası yatırımcıların Türkiye’deki
+           KY Hukuk Bürosu olarak, uluslararası yatırımcıların Türkiye’deki
           yatırım süreçlerinde karşılaştıkları hukuki zorlukları aşmalarına
           yardımcı oluyoruz. Yatırım planlarınızın her aşamasında kapsamlı
           hukuki danışmanlık sunarak, Türkiye'de yasal uyum süreçlerinizi
@@ -130,7 +130,7 @@ const practiceDetails = {
           Yabancı yatırımcılar, Türkiye’de faaliyet gösterirken çeşitli hukuki
           zorluklarla karşılaşabilir. Vergi yükümlülükleri, yerel düzenlemeler,
           çalışma izinleri ve mülk edinme süreçleri gibi konular karmaşık
-          olabilir. Sancar Hukuk Bürosu olarak, bu zorlukları en aza indirgemek
+          olabilir.  KY Hukuk Bürosu olarak, bu zorlukları en aza indirgemek
           ve yatırım süreçlerinizi hızlandırmak için yanınızdayız.
           Yatırımlarınızı en etkin şekilde yönetmenizi sağlarken, yasal
           süreçlerde karşılaşabileceğiniz engelleri ortadan kaldırıyoruz.
@@ -177,10 +177,10 @@ const practiceDetails = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Hukuk Bürosu'nun M&A Uzmanlığı
+           KY Hukuk Bürosu'nun M&A Uzmanlığı
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6 ">
-          Sancar Hukuk Bürosu olarak, birleşme ve devralma süreçlerinde uzun
+           KY Hukuk Bürosu olarak, birleşme ve devralma süreçlerinde uzun
           yıllara dayanan tecrübemizle müvekkillerimize kapsamlı hukuki
           danışmanlık hizmeti sunuyoruz. Şirketlerin birleşme, bölünme,
           devralma, hissedar değişikliği ve yeniden yapılandırma gibi tüm M&A
@@ -223,7 +223,7 @@ const practiceDetails = {
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Birleşme ve devralma işlemlerinden sonra şirketlerin organizasyonel
             yapısında ve operasyonel süreçlerinde önemli değişiklikler olabilir.
-            Sancar Hukuk Bürosu, müvekkillerinin ihtiyaçlarına göre yeniden
+             KY Hukuk Bürosu, müvekkillerinin ihtiyaçlarına göre yeniden
             yapılanma süreçlerinde hukuki rehberlik sunarak bu geçiş dönemini
             kolaylaştırmaktadır.
           </p>
@@ -251,7 +251,7 @@ const practiceDetails = {
           <li className="mb-2 font-semibold">Rekabet Hukuku Uyumu</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Türkiye'deki birleşme ve devralma işlemlerinde, Rekabet Kurumu’nun
-            onay süreci kritik bir rol oynar. Sancar Hukuk Bürosu, rekabet
+            onay süreci kritik bir rol oynar.  KY Hukuk Bürosu, rekabet
             hukuku alanındaki uzmanlığı ile işlemlerin Türkiye’deki rekabet
             hukuku düzenlemelerine uyumlu bir şekilde yürütülmesini sağlar.
           </p>
@@ -278,7 +278,7 @@ const practiceDetails = {
           birçok hukuki ve ticari zorluğu beraberinde getirir. Hukuki
           düzenlemelerin çeşitliliği, şirketlerin yapısal uyumsuzlukları, vergi
           yükümlülükleri ve hissedarlar arasındaki olası çatışmalar gibi
-          sorunlar, süreçleri karmaşık hale getirebilir. Sancar Hukuk Bürosu
+          sorunlar, süreçleri karmaşık hale getirebilir.  KY Hukuk Bürosu
           olarak, bu tür zorlukların üstesinden gelmek ve müvekkillerimizin en
           uygun çözümleri bulmalarına yardımcı olmak için geniş bir deneyime
           sahibiz.
@@ -288,7 +288,7 @@ const practiceDetails = {
           M&A Stratejinizi Güçlendirin
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6 ">
-          Sancar Hukuk Bürosu, birleşme ve devralma süreçlerinde yatırımcılar,
+           KY Hukuk Bürosu, birleşme ve devralma süreçlerinde yatırımcılar,
           şirket sahipleri ve yönetim kurulları için stratejik danışmanlık
           sağlayarak, işlemlerin en doğru ve etkili şekilde yürütülmesini
           sağlamaktadır. Hukuki güvence altına alınan M&A işlemleri, hem kısa
@@ -316,7 +316,7 @@ const practiceDetails = {
           yönetmeli ve uyumluluk yükümlülüklerini yerine getirmelidir.
         </p>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk Bürosu olarak, şirketlerin hukuki ihtiyaçlarını
+           KY Hukuk Bürosu olarak, şirketlerin hukuki ihtiyaçlarını
           karşılamanın yanı sıra, uzun vadede başarılı ve sürdürülebilir bir
           yönetim sistemi kurmalarına yardımcı oluyoruz. Kurumsal yönetim,
           sadece hukuki yükümlülüklerin yerine getirilmesini sağlamakla kalmaz,
@@ -330,7 +330,7 @@ const practiceDetails = {
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
           <li className="mb-2 font-semibold">Şirket Kuruluşu</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-            Sancar Hukuk Bürosu, anonim, limited, komandit ve kooperatif gibi
+             KY Hukuk Bürosu, anonim, limited, komandit ve kooperatif gibi
             farklı şirket türlerinin kuruluş süreçlerinde müvekkillerine hukuki
             danışmanlık sunmaktadır. Şirketin türüne uygun olarak ana
             sözleşmelerin hazırlanması, Ticaret Sicil işlemlerinin tamamlanması
@@ -355,7 +355,7 @@ const practiceDetails = {
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Şirket içindeki hissedarlar arasında ortaya çıkabilecek
             anlaşmazlıklar, hem şirketin finansal istikrarını hem de kurumsal
-            yapısını tehdit edebilir. Sancar Hukuk Bürosu, hissedarlar arasında
+            yapısını tehdit edebilir.  KY Hukuk Bürosu, hissedarlar arasında
             doğabilecek uyuşmazlıkların çözümü için uzlaşma ve müzakere
             süreçlerini etkin bir şekilde yönetir.
           </p>
@@ -377,7 +377,7 @@ const practiceDetails = {
             Şirket genel kurulları ve yönetim kurulu toplantıları, şirketin
             karar alma mekanizmasının temel taşlarını oluşturur. Bu süreçlerin
             hukuki gerekliliklere uygun şekilde yürütülmesi, şirketin
-            gelecekteki başarısı açısından büyük önem taşır. Sancar Hukuk
+            gelecekteki başarısı açısından büyük önem taşır.  KY Hukuk
             Bürosu, genel kurul ve yönetim kurulu toplantılarının organize
             edilmesi, kararların doğru bir şekilde alınması ve uygulanmasına
             yönelik hukuki danışmanlık sağlar.
@@ -396,7 +396,7 @@ const practiceDetails = {
           tanır.
         </p>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk Bürosu, şirketlerin yerel ve uluslararası düzenlemelere
+           KY Hukuk Bürosu, şirketlerin yerel ve uluslararası düzenlemelere
           uyum sağlamalarını, risk yönetim stratejilerini geliştirmelerini ve
           etkili bir kurumsal yönetim sistemi oluşturmalarını sağlayarak,
           müvekkillerimizin işlerini güvence altına almalarına yardımcı olur.
@@ -408,7 +408,7 @@ const practiceDetails = {
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Uluslararası piyasada faaliyet gösteren şirketlerin, faaliyet
           gösterdikleri ülkelerin yerel hukuki düzenlemelerine uyum sağlamaları
-          büyük önem taşır. Sancar Hukuk Bürosu, uluslararası şirketlerin
+          büyük önem taşır.  KY Hukuk Bürosu, uluslararası şirketlerin
           Türkiye’deki faaliyetlerinde ihtiyaç duydukları hukuki desteği
           sunarak, yabancı yatırımcıların Türkiye’deki yatırımlarını güvence
           altına alır.
@@ -435,7 +435,7 @@ const practiceDetails = {
           üzerinde doğrudan etkilidir.
         </p>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk Bürosu, uyuşmazlıkların çözümünde hem dava süreçleri hem
+           KY Hukuk Bürosu, uyuşmazlıkların çözümünde hem dava süreçleri hem
           de alternatif uyuşmazlık çözüm yöntemleri (arabuluculuk, tahkim vb.)
           ile müvekkillerine hukuki destek sunmaktadır. Her uyuşmazlığın kendine
           özgü dinamikleri olduğunu bilerek, müvekkillerimize özel stratejiler
@@ -451,7 +451,7 @@ const practiceDetails = {
             Ticari işletmeler arasındaki anlaşmazlıklar, şirketlerin ticari
             faaliyetlerini sekteye uğratabilir. Ticari davalarda etkin ve
             stratejik bir savunma, şirketlerin uzun vadeli çıkarlarını korumak
-            açısından hayati önem taşır. Sancar Hukuk Bürosu, ticari davalarda
+            açısından hayati önem taşır.  KY Hukuk Bürosu, ticari davalarda
             geniş deneyimiyle müvekkillerini temsil eder ve hukuki çözüm yolları
             sunar.
           </p>
@@ -469,7 +469,7 @@ const practiceDetails = {
           <li className="mb-2 font-semibold">Tahkim</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Uluslararası ticaretin yaygınlaşmasıyla birlikte, tahkim, uyuşmazlık
-            çözümünde önemli bir alternatif olarak öne çıkmaktadır. Sancar Hukuk
+            çözümünde önemli bir alternatif olarak öne çıkmaktadır.  KY Hukuk
             Bürosu, yerel ve uluslararası tahkim süreçlerinde müvekkillerine
             hukuki destek sağlayarak, uyuşmazlıkların en kısa sürede ve müvekkil
             lehine sonuçlanmasını hedeflemektedir.
@@ -478,7 +478,7 @@ const practiceDetails = {
           <li className="mb-2 font-semibold">İdari Davalar</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             İdare ile şirketler arasındaki hukuki uyuşmazlıklar, şirketlerin
-            faaliyetlerini durma noktasına getirebilir. Sancar Hukuk Bürosu,
+            faaliyetlerini durma noktasına getirebilir.  KY Hukuk Bürosu,
             idare hukuku alanında geniş bilgi birikimi ve deneyime sahip olup,
             idari işlemlerin iptali ve tam yargı davalarında müvekkillerini
             etkin bir şekilde savunmaktadır.
@@ -491,7 +491,7 @@ const practiceDetails = {
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Uyuşmazlıkların çözümünde mahkeme süreçlerine alternatif olarak
           kullanılan yöntemler, müvekkillerimize büyük zaman ve maliyet
-          tasarrufu sağlar. Sancar Hukuk Bürosu, arabuluculuk ve tahkim gibi
+          tasarrufu sağlar.  KY Hukuk Bürosu, arabuluculuk ve tahkim gibi
           alternatif uyuşmazlık çözüm yöntemlerinde geniş deneyime sahip olup,
           müvekkillerimizin bu süreçlerden en iyi sonucu elde etmelerini
           sağlamak için gerekli hukuki desteği sunmaktadır.
@@ -525,7 +525,7 @@ const practiceDetails = {
           Teknolojinin hızlı gelişimi ve dijitalleşme süreci, işletmelerin
           rekabet avantajı elde etmelerini sağlarken, aynı zamanda karmaşık
           hukuki düzenlemeler ve zorluklarla da karşı karşıya kalmalarına neden
-          olmaktadır. Sancar Hukuk Bürosu, bilgi teknolojileri ve
+          olmaktadır.  KY Hukuk Bürosu, bilgi teknolojileri ve
           telekomünikasyon alanlarında uzmanlaşmış kadrosu ile müvekkillerine
           kapsamlı hukuki destek sunarak, sürdürülebilir ve güvenilir bir ticari
           ortam oluşturmayı hedeflemektedir.
@@ -543,12 +543,12 @@ const practiceDetails = {
           işletmelerin hukuki danışmanlık alması, yasal yükümlülüklerini yerine
           getirebilmeleri açısından kritik bir öneme sahiptir. Her bir
           işletmenin, dijitalleşme sürecinde karşılaştığı özel gereksinimlere
-          göre yapılandırılmış hukuki çözümler sunmak, Sancar Hukuk Bürosu'nun
+          göre yapılandırılmış hukuki çözümler sunmak,  KY Hukuk Bürosu'nun
           önceliklerindendir.
         </p>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Rekabet Avantajı Etkin bir hukuki yönetim, işletmelerin rekabet
-          avantajı elde etmelerini sağlar. Sancar Hukuk Bürosu, müvekkillerinin
+          avantajı elde etmelerini sağlar.  KY Hukuk Bürosu, müvekkillerinin
           hukuki süreçlerini optimize ederek, rekabetçi piyasalarda öne
           çıkmalarına yardımcı olur. Bilgi teknolojileri ve telekomünikasyon
           alanında güçlü bir hukuki altyapı, işletmelerin piyasa fırsatlarını
@@ -559,7 +559,7 @@ const practiceDetails = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Hukuk Bürosu Olarak Sundugumuz Hizmetler
+           KY Hukuk Bürosu Olarak Sundugumuz Hizmetler
         </h2>
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
           <li className="mb-2 font-semibold">
@@ -567,7 +567,7 @@ const practiceDetails = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Veri koruma, günümüz iş dünyasında en önemli konular arasında yer
-            almaktadır. Sancar Hukuk Bürosu, müvekkillerine veri koruma
+            almaktadır.  KY Hukuk Bürosu, müvekkillerine veri koruma
             politikalarının geliştirilmesi, kişisel verilerin işlenmesi ve
             saklanması süreçlerinde yasal destek sunar. GDPR ve KVKK gibi
             yasaların gerekliliklerine uyum sağlamak için stratejik danışmanlık
@@ -582,7 +582,7 @@ const practiceDetails = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Siber saldırılar ve veri ihlalleri, işletmelerin itibarını
-            zedeleyebilir ve finansal kayıplara neden olabilir. Sancar Hukuk
+            zedeleyebilir ve finansal kayıplara neden olabilir.  KY Hukuk
             Bürosu, siber güvenlik alanında hukuki danışmanlık hizmetleri
             sunarak, müvekkillerinin siber risklerini yönetmelerine yardımcı
             olur. Kriz durumlarında, hukuki süreçlerin etkin bir şekilde
@@ -596,7 +596,7 @@ const practiceDetails = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Telekomünikasyon sektörü, karmaşık düzenlemelere ve sözleşmelere
-            tabidir. Sancar Hukuk Bürosu, müvekkillerinin telekomünikasyon
+            tabidir.  KY Hukuk Bürosu, müvekkillerinin telekomünikasyon
             hizmetleri için gerekli olan sözleşmelerin hazırlanması ve lisans
             başvurularında destek sağlamakta, yasal gerekliliklerin yerine
             getirilmesini kolaylaştırmaktadır. Bu süreçte müvekkillerimizin
@@ -610,7 +610,7 @@ const practiceDetails = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Yazılım geliştirme ve teknoloji anlaşmaları, işletmelerin
-            büyümesinde kritik bir rol oynamaktadır. Sancar Hukuk Bürosu,
+            büyümesinde kritik bir rol oynamaktadır.  KY Hukuk Bürosu,
             yazılım lisanslama, teknik destek ve iş ortaklıkları gibi konularda
             hukuki danışmanlık hizmetleri sunarak, müvekkillerinin çıkarlarını
             korur. Sözleşmelerin her aşamasında, yasal riskleri minimize edecek
@@ -627,7 +627,7 @@ const practiceDetails = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Sürdürülebilir bir iş modeli oluşturmak için hukuki uyum sağlamak
-          kritik bir unsurdur. Sancar Hukuk Bürosu, müvekkillerinin yerel ve
+          kritik bir unsurdur.  KY Hukuk Bürosu, müvekkillerinin yerel ve
           uluslararası düzenlemelere uyum sağlamaları için kapsamlı risk
           değerlendirmeleri gerçekleştirir. Bu sayede, potansiyel hukuki
           sorunların önüne geçerek, işletmelerin güvenli bir şekilde
@@ -641,7 +641,7 @@ const practiceDetails = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Yurt dışı pazarlarda faaliyet gösteren işletmeler, farklı hukuk
-          sistemleri ile karşılaşabilir. Sancar Hukuk Bürosu, uluslararası
+          sistemleri ile karşılaşabilir.  KY Hukuk Bürosu, uluslararası
           ticaret, yatırım ve hukuki danışmanlık alanında uzman kadrosuyla,
           yabancı yatırımcıların Türkiye'deki yatırımlarını güvence altına almak
           için gerekli hukuki destek sağlar. İşletmenizin uluslararası alanda
@@ -657,7 +657,7 @@ const practiceDetails = {
           Kurumsal yönetim ilkeleri, bir şirketin uzun vadeli başarısı için
           kritik bir rol oynamaktadır. İyi bir kurumsal yönetim yapısı, şirket
           içi karar alma süreçlerini şeffaf ve hesap verebilir hale getirir.
-          Sancar Hukuk Bürosu, müvekkillerinin kurumsal yönetim ilkelerine uygun
+           KY Hukuk Bürosu, müvekkillerinin kurumsal yönetim ilkelerine uygun
           şekilde hareket etmelerini sağlamak amacıyla yönetim kurulu
           yapılarının oluşturulması, iç denetim süreçlerinin belirlenmesi ve
           etik kuralların uygulanması gibi konularda kapsamlı hukuki danışmanlık
@@ -670,7 +670,7 @@ const practiceDetails = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Sürdürülebilir bir gelecek için inovasyon, işletmelerin rekabet gücünü
-          artırmanın anahtarıdır. Sancar Hukuk Bürosu, müvekkillerinin yenilikçi
+          artırmanın anahtarıdır.  KY Hukuk Bürosu, müvekkillerinin yenilikçi
           projelerini hukuki açıdan destekleyerek, yeni fırsatlar yaratmalarına
           yardımcı olur. Stratejik danışmanlık hizmetleriyle, müvekkillerimizin
           büyüme hedeflerine ulaşmalarını desteklemek için hukuki engelleri
@@ -681,7 +681,7 @@ const practiceDetails = {
         </p>
 
         <p className="text-sm md:text-base text-gray-800 leading-6">
-          Sancar Hukuk Bürosu, bilgi teknolojileri ve telekomünikasyon
+           KY Hukuk Bürosu, bilgi teknolojileri ve telekomünikasyon
           alanlarında uzmanlaşmış kadrosuyla, müvekkillerinin hukuki
           ihtiyaçlarını karşılamak için her zaman yanlarında. İşletmenizin
           sürdürülebilir bir geleceğe adım atması için hukuki danışmanlık
@@ -704,7 +704,7 @@ const practiceDetails = {
           taşlarından biridir. Bu alan, finansal kuruluşlar, bankalar, yatırım
           şirketleri ve bireysel müşteriler arasındaki ilişkilerin hukuki
           çerçevesini belirlemekte, aynı zamanda finansal piyasalarda güvenliği
-          ve şeffaflığı sağlamaktadır. Sancar Hukuk Bürosu, bankacılık ve finans
+          ve şeffaflığı sağlamaktadır.  KY Hukuk Bürosu, bankacılık ve finans
           hukuku alanındaki uzmanlığı ile müvekkillerine kapsamlı hukuki destek
           sunarak, finansal işlemlerinin güvenli ve sürdürülebilir bir şekilde
           gerçekleştirilmesine katkıda bulunmaktadır.
@@ -719,7 +719,7 @@ const practiceDetails = {
           Cumhuriyeti Merkez Bankası ve Bankacılık Düzenleme ve Denetleme Kurumu
           (BDDK) gibi düzenleyici otoriteler, sektördeki tüm işlemlerin güvenli
           ve düzenli bir şekilde yürütülmesini sağlamak için çeşitli
-          düzenlemeler ve denetimler yapmaktadır. Sancar Hukuk Bürosu, bu
+          düzenlemeler ve denetimler yapmaktadır.  KY Hukuk Bürosu, bu
           düzenlemelere uyum sağlamak için müvekkillerine rehberlik ederek,
           yasal yükümlülüklerini yerine getirmelerine yardımcı olur.
         </p>
@@ -730,14 +730,14 @@ const practiceDetails = {
           Kredilerin teminatlandırılması, yatırım anlaşmaları ve finansal
           sözleşmeler gibi alanlarda oluşabilecek hukuki uyuşmazlıklar,
           işletmelerin itibarını zedeleyebilir ve mali kayıplara yol açabilir.
-          Sancar Hukuk Bürosu, müvekkillerinin finansal işlemlerini etkili bir
+           KY Hukuk Bürosu, müvekkillerinin finansal işlemlerini etkili bir
           şekilde yöneterek, olası riskleri minimize etmekte ve bu süreçte
           hukuki destek sunmaktadır. İyi bir risk yönetimi, işletmelerin
           finansal sürdürülebilirliklerini korumalarına yardımcı olur.
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Hukuk Bürosu Olarak Sundugumuz Hizmetler
+           KY Hukuk Bürosu Olarak Sundugumuz Hizmetler
         </h2>
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
           <li className="mb-2 font-semibold">
@@ -745,7 +745,7 @@ const practiceDetails = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Finansal sözleşmeler, bankacılık ve finans işlemlerinin temelini
-            oluşturur. Sancar Hukuk Bürosu, kredi sözleşmeleri, yatırım
+            oluşturur.  KY Hukuk Bürosu, kredi sözleşmeleri, yatırım
             anlaşmaları, teminat sözleşmeleri ve diğer finansal belgelerin
             hazırlanmasında uzmanlaşmıştır. Her bir sözleşme, müvekkillerimizin
             ihtiyaçlarına ve yasal gerekliliklere uygun olarak özelleştirilmekte
@@ -757,7 +757,7 @@ const practiceDetails = {
           <li className="mb-2 font-semibold">Düzenleyici Uyum Danışmanlığı</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Bankacılık ve finans alanında faaliyet gösteren kuruluşlar, çeşitli
-            düzenleyici otoritelerle sıkı bir ilişki içindedir. Sancar Hukuk
+            düzenleyici otoritelerle sıkı bir ilişki içindedir.  KY Hukuk
             Bürosu, müvekkillerinin finansal düzenlemelere uyum sağlamalarını
             sağlamak amacıyla kapsamlı danışmanlık hizmetleri sunar. Bu
             kapsamda, yasal yükümlülükler, raporlama süreçleri ve denetimle
@@ -768,7 +768,7 @@ const practiceDetails = {
           <li className="mb-2 font-semibold">Kredi ve Teminat Yönetimi</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Kredi süreçleri, finansal kuruluşlar ile müşterileri arasındaki en
-            kritik ilişkilerdir. Sancar Hukuk Bürosu, kredi başvurularının
+            kritik ilişkilerdir.  KY Hukuk Bürosu, kredi başvurularının
             değerlendirilmesi, kredi sözleşmelerinin hazırlanması ve
             teminatların yönetimi konularında hukuki destek sunar. Teminatların
             geçerliliği, hukuki niteliği ve olası uyuşmazlıkların çözümünde
@@ -779,7 +779,7 @@ const practiceDetails = {
           <li className="mb-2 font-semibold">Finansal İhtilafların Çözümü</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Finansal işlemlerle ilgili hukuki ihtilaflar, işletmeler için ciddi
-            sorunlar yaratabilir. Sancar Hukuk Bürosu, müvekkillerine
+            sorunlar yaratabilir.  KY Hukuk Bürosu, müvekkillerine
             ihtilafların önlenmesi ve çözümü konusunda hukuki danışmanlık
             hizmetleri sunmaktadır. Alternatif uyuşmazlık çözüm yöntemleri
             (arabuluculuk, tahkim vb.) kullanarak, müvekkillerimizin sorunlarını
@@ -789,7 +789,7 @@ const practiceDetails = {
             Yatırım Danışmanlığı ve Proje Finansmanı
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-            Yatırımlar, büyüme ve gelişim için kritik bir unsurdur. Sancar Hukuk
+            Yatırımlar, büyüme ve gelişim için kritik bir unsurdur.  KY Hukuk
             Bürosu, müvekkillerinin yatırım stratejilerinin oluşturulması, proje
             finansmanı süreçlerinin yönetimi ve yatırım sözleşmelerinin
             hazırlanmasında hukuki destek sağlar. Bu süreçte, finansal risklerin
@@ -803,7 +803,7 @@ const practiceDetails = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Günümüzde, sürdürülebilirlik finansal kararların merkezinde yer
-          alıyor. Sancar Hukuk Bürosu, müvekkillerinin sürdürülebilir finansal
+          alıyor.  KY Hukuk Bürosu, müvekkillerinin sürdürülebilir finansal
           uygulamaları benimsemelerine yönelik hukuki destek sunarak, sosyal ve
           çevresel etki alanlarını göz önünde bulundurmaktadır. Sürdürülebilir
           finansal uygulamalar, yalnızca yasal yükümlülükleri yerine getirmekle
@@ -826,7 +826,7 @@ const practiceDetails = {
           kritik bir rol oynayan karmaşık bir yapıdır. Bu alan, hisse senetleri,
           tahviller ve diğer finansal enstrümanların alım satımını içermekte
           olup, yatırımcılar ile işletmeler arasında kaynakların etkin bir
-          şekilde dağıtılmasını sağlamaktadır. Sancar Hukuk Bürosu, sermaye
+          şekilde dağıtılmasını sağlamaktadır.  KY Hukuk Bürosu, sermaye
           piyasası hukuku alanındaki derin bilgi ve deneyimi ile müvekkillerine
           kapsamlı hukuki danışmanlık sunarak, güvenli, şeffaf ve sürdürülebilir
           yatırım süreçleri oluşturulmasına katkıda bulunmaktadır.
@@ -843,7 +843,7 @@ const practiceDetails = {
           Sermaye piyasaları, Türkiye Cumhuriyeti Sermaye Piyasası Kurulu (SPK)
           ve diğer düzenleyici otoriteler tarafından belirlenen sıkı yasal
           çerçevelere tabidir. Bu düzenlemeler, piyasa işlemlerinin adil ve
-          düzenli bir şekilde gerçekleştirilmesini temin etmektedir. Sancar
+          düzenli bir şekilde gerçekleştirilmesini temin etmektedir.  KY
           Hukuk Bürosu, müvekkillerinin yasal yükümlülüklerini yerine
           getirmelerini sağlamak amacıyla, bu düzenlemelere uyum konusunda
           detaylı rehberlik sunmaktadır.
@@ -856,7 +856,7 @@ const practiceDetails = {
           Sermaye piyasasında gerçekleştirilen işlemler, önemli riskler
           içermektedir. Yatırım anlaşmaları, hisse senedi işlemleri ve borçlanma
           süreçleri gibi alanlarda hukuki uyuşmazlıkların ortaya çıkması,
-          işletmelerin mali durumu üzerinde olumsuz etkiler yaratabilir. Sancar
+          işletmelerin mali durumu üzerinde olumsuz etkiler yaratabilir.  KY
           Hukuk Bürosu, müvekkillerinin finansal işlemlerini etkin bir şekilde
           yöneterek, potansiyel riskleri minimize etmekte ve bu süreçte hukuki
           destek sunmaktadır.
@@ -872,7 +872,7 @@ const practiceDetails = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Sözleşmeler, sermaye piyasası işlemlerinin temelini oluşturmaktadır.
-            Sancar Hukuk Bürosu, hisse senedi alım-satım sözleşmeleri, tahvil
+             KY Hukuk Bürosu, hisse senedi alım-satım sözleşmeleri, tahvil
             ihracı ve diğer finansal belgelerin hazırlanmasında uzmanlaşmış
             olup, her sözleşmeyi müvekkillerimizin özel ihtiyaçlarına göre
             özelleştirmektedir. Sözleşme detaylarının titizlikle hazırlanması,
@@ -882,7 +882,7 @@ const practiceDetails = {
           <li className="mb-2 font-semibold">Düzenleyici Uyum Danışmanlığı</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Sermaye piyasasında faaliyet gösteren şirketler için düzenleyici
-            uyum, başarının anahtarlarından biridir. Sancar Hukuk Bürosu,
+            uyum, başarının anahtarlarından biridir.  KY Hukuk Bürosu,
             müvekkillerine yasal yükümlülükleri, raporlama süreçleri ve denetim
             konularında rehberlik ederek, düzenleyici otoritelerle sağlıklı bir
             ilişki kurmalarını desteklemektedir.
@@ -890,7 +890,7 @@ const practiceDetails = {
           <li className="mb-2 font-semibold">Finansal İhtilafların Çözümü</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Sermaye piyasasında karşılaşılan hukuki ihtilaflar, işletmeler için
-            ciddi sonuçlar doğurabilir. Sancar Hukuk Bürosu, alternatif
+            ciddi sonuçlar doğurabilir.  KY Hukuk Bürosu, alternatif
             uyuşmazlık çözüm yöntemlerini (arabuluculuk, tahkim vb.) kullanarak,
             müvekkillerinin sorunlarını hızlı ve etkili bir şekilde çözmeyi
             hedeflemektedir. Bu yaklaşım, zaman ve maliyet açısından avantaj
@@ -901,7 +901,7 @@ const practiceDetails = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Yatırımlar, işletmelerin büyümesi ve sürdürülebilirliği için kritik
-            öneme sahiptir. Sancar Hukuk Bürosu, müvekkillerinin yatırım
+            öneme sahiptir.  KY Hukuk Bürosu, müvekkillerinin yatırım
             stratejilerinin oluşturulması, proje finansmanı süreçlerinin
             yönetimi ve yatırım sözleşmelerinin hazırlanmasında hukuki destek
             sunmaktadır. Finansal risklerin en aza indirilmesi ve yasal
@@ -915,7 +915,7 @@ const practiceDetails = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Günümüzde, sürdürülebilirlik, sermaye piyasalarında giderek daha fazla
-          önem kazanmaktadır. Sancar Hukuk Bürosu, müvekkillerine sürdürülebilir
+          önem kazanmaktadır.  KY Hukuk Bürosu, müvekkillerine sürdürülebilir
           finansal uygulamaların benimsenmesi için hukuki destek sunarak, sosyal
           ve çevresel etkileri dikkate alarak hareket etmelerine yardımcı
           olmaktadır. Bu yaklaşım, sadece yasal yükümlülükleri yerine getirmekle
@@ -925,7 +925,7 @@ const practiceDetails = {
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Sermaye piyasası hukuku, işletmelerin büyüme hedeflerine ulaşmasında
-          kritik bir rol oynamaktadır. Sancar Hukuk Bürosu, müvekkillerine
+          kritik bir rol oynamaktadır.  KY Hukuk Bürosu, müvekkillerine
           sağladığı profesyonel hukuki destek ile, güvenli ve sürdürülebilir bir
           yatırım ortamının oluşturulmasına katkıda bulunmayı taahhüt
           etmektedir. Alanında uzman ekibimiz, karmaşık yasal süreçleri
@@ -977,7 +977,7 @@ const practiceDetails = {
           karmaşık hale getiren bir sektördür. Çeşitli savunma anlaşmaları,
           teknoloji transferi, ortak üretim projeleri ve ihracat sözleşmeleri,
           uluslararası hukuk kapsamında dikkatle ele alınması gereken
-          konulardır. Sancar Hukuk Bürosu olarak, müvekkillerimizin uluslararası
+          konulardır.  KY Hukuk Bürosu olarak, müvekkillerimizin uluslararası
           anlaşmalarda yasal risklerden korunmalarını ve en uygun koşulları elde
           etmelerini sağlıyoruz.
         </p>
@@ -1006,7 +1006,7 @@ const practiceDetails = {
           Gizli bilgilere erişim, veri güvenliği ve siber güvenlik risklerinin
           yönetimi, sektör içindeki tüm aktörler için stratejik bir önceliktir.
           Bu kapsamda hazırlanan gizlilik ve güvenlik sözleşmeleri, hassas
-          bilgilerin korunması için zorunludur. Sancar Hukuk Bürosu olarak,
+          bilgilerin korunması için zorunludur.  KY Hukuk Bürosu olarak,
           müvekkillerimizin bilgi güvenliği gerekliliklerine uygun sözleşmeler
           hazırlamaktayız.
         </p>
@@ -1022,7 +1022,7 @@ const practiceDetails = {
           Havacılık ve savunma sanayii, sertifikasyon ve lisanslama süreçlerine
           tabi olup, bu süreçler ulusal ve uluslararası mevzuatlar çerçevesinde
           sıkı bir denetime tabidir. İlgili düzenlemeler ve standartlar,
-          üretimden dağıtıma kadar her aşamada uyum gerektirir. Sancar Hukuk
+          üretimden dağıtıma kadar her aşamada uyum gerektirir.  KY Hukuk
           Bürosu, müvekkillerinin tüm sertifikasyon ve lisanslama süreçlerinde
           kapsamlı bir hukuki destek sağlayarak, bu süreçlerin sorunsuz bir
           şekilde tamamlanmasını sağlamaktadır.
@@ -1035,7 +1035,7 @@ const practiceDetails = {
           Savunma sektöründe, yasal düzenlemelere uyum sağlayamamak ciddi
           riskler oluşturabilir. Türkiye’de savunma sanayiine yönelik yasa ve
           yönetmelikler sıkça güncellenmekte olup, bu alandaki faaliyetlerin
-          mevzuata uyumlu olması büyük önem taşır. Sancar Hukuk Bürosu olarak,
+          mevzuata uyumlu olması büyük önem taşır.  KY Hukuk Bürosu olarak,
           müvekkillerimize risk yönetimi ve yasal uyum konularında kapsamlı bir
           destek sunuyoruz.
         </p>
@@ -1052,7 +1052,7 @@ const practiceDetails = {
           alır. Patentler, tasarımlar, yazılımlar ve diğer fikri mülkiyet
           hakları, sektördeki en değerli varlıklardan biridir. Bu varlıkların
           korunması için, doğru fikri mülkiyet stratejileri geliştirilmesi
-          gereklidir. Sancar Hukuk Bürosu, fikri mülkiyet haklarının korunması
+          gereklidir.  KY Hukuk Bürosu, fikri mülkiyet haklarının korunması
           ve lisanslanması süreçlerinde profesyonel danışmanlık sunarak,
           müvekkillerimizin yeniliklerini koruma altına alır.
         </p>
@@ -1064,7 +1064,7 @@ const practiceDetails = {
           Savunma ürünlerinin ihracatı, çeşitli uluslararası düzenlemelere
           tabidir ve genellikle karmaşık yasal süreçler içerir. İhracat ve
           ithalat işlemlerinde, ülke güvenliği ve uluslararası iş birlikleri
-          açısından uygunluk şarttır. Sancar Hukuk Bürosu, müvekkillerine
+          açısından uygunluk şarttır.  KY Hukuk Bürosu, müvekkillerine
           ihracat ve ithalat sürecinde ihtiyaç duyulan hukuki desteği
           sağlayarak, uluslararası ticaretteki uyum risklerini minimize
           etmektedir.
@@ -1081,7 +1081,7 @@ const practiceDetails = {
           Savunma sektöründe yaşanan ihtilaflar, çoğunlukla gizlilik gerektiren
           ve çözümü karmaşık olan süreçler içerir. Uluslararası tahkim, sektör
           içindeki uyuşmazlıkların çözümü için yaygın olarak tercih edilen bir
-          yöntemdir. Sancar Hukuk Bürosu olarak, müvekkillerimizin tahkim
+          yöntemdir.  KY Hukuk Bürosu olarak, müvekkillerimizin tahkim
           süreçlerini yöneterek, hak ve menfaatlerini en etkin şekilde korumayı
           hedefliyoruz.
         </p>
@@ -1094,7 +1094,7 @@ const practiceDetails = {
           nedenle ihtilafların çözümünde alternatif yollar kullanmak, süreçleri
           hızlandırabilir. Arabuluculuk gibi yöntemler, anlaşmazlıkların daha
           kısa sürede çözülmesine yardımcı olurken, hassas bilgilerin
-          güvenliğini de sağlamaktadır. Sancar Hukuk Bürosu, müvekkillerine
+          güvenliğini de sağlamaktadır.  KY Hukuk Bürosu, müvekkillerine
           hızlı ve etkili çözüm önerileri sunmaktadır.
         </p>
 
@@ -1106,7 +1106,7 @@ const practiceDetails = {
           gösteren tüm şirketler için hayati bir role sahiptir. Güvenliğin
           sağlanması, teknolojik gelişmelerin yasal çerçeveler içinde
           gerçekleşmesi ve olası risklerin öngörülmesi, profesyonel bir hukuki
-          destek ile mümkündür. Sancar Hukuk Bürosu olarak, müvekkillerimize
+          destek ile mümkündür.  KY Hukuk Bürosu olarak, müvekkillerimize
           havacılık ve savunma sektöründe ihtiyaç duydukları kapsamlı hukuki
           hizmetleri sunarak, sektörde güvenli ve yasal uyumlu bir faaliyet
           göstermelerini sağlamaktayız.
@@ -1143,7 +1143,7 @@ const practiceDetails = {
           ve yükümlülükleri netleştirir. Sözleşmelerin kapsamlı bir şekilde
           hazırlanması, tarafların rol ve sorumluluklarının açıkça tanımlanması
           ve hukuki yükümlülüklerin belirlenmesi, olası anlaşmazlıkları önlemek
-          adına önemlidir. Sancar Hukuk Bürosu olarak, müvekkillerimizin
+          adına önemlidir.  KY Hukuk Bürosu olarak, müvekkillerimizin
           çıkarlarını korumak için şeffaf ve detaylı sözleşme yönetimi
           sağlıyoruz.
         </p>
@@ -1154,7 +1154,7 @@ const practiceDetails = {
           Proje geliştirme sürecinde, özellikle inşaat, enerji ve altyapı
           projelerinde ruhsatlandırma ve izin süreçleri yasal bir zorunluluktur.
           Gerekli izinlerin alınmaması veya yanlış beyanlar proje sürecinde
-          gecikmelere ve ağır yaptırımlara yol açabilir. Sancar Hukuk Bürosu,
+          gecikmelere ve ağır yaptırımlara yol açabilir.  KY Hukuk Bürosu,
           projelerin yasal gerekliliklerini karşılayabilmeleri için
           ruhsatlandırma süreçlerinde müvekkillerine rehberlik etmektedir.
         </p>
@@ -1184,7 +1184,7 @@ const practiceDetails = {
           haklarının korunması, şirketlerin hukuki ve sosyal sorumlulukları
           arasındadır. İş güvenliği yönetmeliklerine uyulmaması, ağır para
           cezaları ve projede duraklama gibi riskleri beraberinde getirebilir.
-          Sancar Hukuk Bürosu olarak, projelerde iş güvenliği yükümlülüklerinin
+           KY Hukuk Bürosu olarak, projelerde iş güvenliği yükümlülüklerinin
           yerine getirilmesini sağlayan hukuki destek sunarak, müvekkillerimizin
           iş kazaları ve yasal yaptırımlardan korunmalarına yardımcı oluyoruz.
         </p>
@@ -1196,7 +1196,7 @@ const practiceDetails = {
           Proje geliştirme ve yönetiminde vergi yükümlülüklerinin doğru
           hesaplanması, projenin maliyet yönetimi açısından büyük önem taşır.
           Vergi uyumluluğunun sağlanması, finansal açıdan sürdürülebilirliği
-          korur ve proje karlılığını destekler. Sancar Hukuk Bürosu,
+          korur ve proje karlılığını destekler.  KY Hukuk Bürosu,
           müvekkillerinin projelerde vergi mevzuatına uygun hareket etmelerine
           rehberlik ederek, mali ve vergi risklerini en aza indirmeyi amaçlar.
         </p>
@@ -1224,7 +1224,7 @@ const practiceDetails = {
           getirilmemesi durumunda ortaya çıkabilecek tazminat ve sorumluluk
           davalarına karşı hukuki destek gereklidir. Olası ihtilaflarda,
           tazminat yükümlülüklerini düzenleyen ve tarafların zararlarını
-          minimize eden anlaşmalar yapılması önemlidir. Sancar Hukuk Bürosu,
+          minimize eden anlaşmalar yapılması önemlidir.  KY Hukuk Bürosu,
           proje sonrası ihtilafların çözümünde müvekkillerine profesyonel
           danışmanlık sunar.
         </p>
@@ -1248,7 +1248,7 @@ const practiceDetails = {
           Proje yönetiminde meydana gelen anlaşmazlıklar, projeye büyük
           maliyetler yükleyebilir. Bu anlaşmazlıkların çözümünde mahkeme
           süreçleri yerine daha hızlı ve maliyet etkin olan arabuluculuk ve
-          tahkim yöntemleri kullanılabilir. Sancar Hukuk Bürosu olarak, proje
+          tahkim yöntemleri kullanılabilir.  KY Hukuk Bürosu olarak, proje
           ihtilaflarında en etkili çözüm yöntemlerini müvekkillerimize sunuyor,
           taraflar arasında sağlıklı bir diyalog kurarak projelerin yasal
           güvence altında sürdürülebilirliğini sağlıyoruz.
@@ -1260,7 +1260,7 @@ const practiceDetails = {
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Proje geliştirme ve yönetimi, doğru bir hukuki danışmanlık ile
           sağlanan yasal güvence altında daha başarılı ve sürdürülebilir olur.
-          Sancar Hukuk Bürosu olarak, müvekkillerimize projelerinin her
+           KY Hukuk Bürosu olarak, müvekkillerimize projelerinin her
           aşamasında kapsamlı ve profesyonel bir hukuki destek sunarak, proje
           hedeflerine ulaşmalarını sağlamak için yanlarındayız.
         </p>
@@ -1287,10 +1287,10 @@ const practiceDetails = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Hukuk Bürosu'nun Vatandaşlık ve Göç Uzmanlığı
+           KY Hukuk Bürosu'nun Vatandaşlık ve Göç Uzmanlığı
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk Bürosu olarak, vatandaşlık ve göç hukuku alanında geniş
+           KY Hukuk Bürosu olarak, vatandaşlık ve göç hukuku alanında geniş
           bir tecrübeye sahibiz ve müvekkillerimize kapsamlı hukuki danışmanlık
           hizmetleri sunuyoruz. Hem bireyler hem de işletmeler için, vatandaşlık
           edinme, oturma izni başvuruları, göçmenlik süreçleri ve ilgili hukuki
@@ -1363,7 +1363,7 @@ const practiceDetails = {
           hukuki ve yönetsel zorluğu beraberinde getirir. Ülke yasalarının
           çeşitliliği, vize ve oturma izinleri için gereken belgelerin
           eksiklikleri, süre kısıtlamaları ve süreçlerin belirsizliği, bireyler
-          ve şirketler için zorluk oluşturabilir. Sancar Hukuk Bürosu olarak, bu
+          ve şirketler için zorluk oluşturabilir.  KY Hukuk Bürosu olarak, bu
           tür zorlukların üstesinden gelmek ve müvekkillerimizin en uygun
           çözümleri bulmalarına yardımcı olmak için geniş bir deneyime sahibiz.
         </p>
@@ -1372,7 +1372,7 @@ const practiceDetails = {
           Vatandaşlık ve Göç Stratejinizi Güçlendirin
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk Bürosu, vatandaşlık ve göç süreçlerinde bireylere ve
+           KY Hukuk Bürosu, vatandaşlık ve göç süreçlerinde bireylere ve
           işletmelere stratejik danışmanlık sağlayarak, işlemlerin en doğru ve
           etkili şekilde yürütülmesini sağlamaktadır. Hukuki güvence altına
           alınan vatandaşlık ve göç işlemleri, bireylerin ve ailelerin
@@ -1403,10 +1403,10 @@ const practiceDetails = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Hukuk Bürosu: İş Hukukunda Güvenilir Danışmanınız
+           KY Hukuk Bürosu: İş Hukukunda Güvenilir Danışmanınız
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk Bürosu olarak, iş hukuku alanında sunduğumuz geniş hizmet
+           KY Hukuk Bürosu olarak, iş hukuku alanında sunduğumuz geniş hizmet
           yelpazesi ile müvekkillerimizin hukuki ihtiyaçlarını karşılamak için
           buradayız. Uzman kadromuz, iş hukuku konularında derin bilgi ve
           deneyime sahip olup, her türlü hukuki ihtiyaca yönelik özelleştirilmiş
@@ -1434,7 +1434,7 @@ const practiceDetails = {
           <li className="mb-2 font-semibold">Çalışan Hakları Eğitimi</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Çalışanların hakları ve yükümlülükleri konusunda bilinçlenmeleri, iş
-            yerinde huzurlu bir ortam yaratmak için önemlidir. Sancar Hukuk
+            yerinde huzurlu bir ortam yaratmak için önemlidir.  KY Hukuk
             Bürosu, iş yerlerinde çalışanlara yönelik eğitim programları
             düzenleyerek, iş hukuku ve çalışan hakları konusunda bilgi
             sağlamaktadır.
@@ -1464,7 +1464,7 @@ const practiceDetails = {
           </li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             İşten çıkarma işlemleri, yasal çerçevede yürütülmesi gereken hassas
-            süreçlerdir. Sancar Hukuk Bürosu, işten çıkarma süreçlerini yasalara
+            süreçlerdir.  KY Hukuk Bürosu, işten çıkarma süreçlerini yasalara
             uygun bir şekilde yöneterek, hem işverenlerin hem de çalışanların
             haklarını koruma altına alır. İşten çıkarma sürecinde izlenmesi
             gereken adımlar, ihbar süreleri ve tazminat hesaplamaları gibi
@@ -1492,7 +1492,7 @@ const practiceDetails = {
           İşverenler, iş gücü yönetimi, çalışma koşulları ve çalışan hakları
           gibi konularda çeşitli hukuki engellerle karşılaşabilirler. Aynı
           şekilde, çalışanlar da iş yerindeki haklarını yeterince bilmemek veya
-          hukuki destek almamak gibi sorunlarla karşılaşabilirler. Sancar Hukuk
+          hukuki destek almamak gibi sorunlarla karşılaşabilirler.  KY Hukuk
           Bürosu, bu zorlukların üstesinden gelmek ve müvekkillerine en uygun
           çözümleri sağlamak için geniş bir deneyime sahiptir.
         </p>
@@ -1501,7 +1501,7 @@ const practiceDetails = {
           İş Hukuku Danışmanlığında Önceliğimiz
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk Bürosu olarak, iş hukuku alanında sunduğumuz danışmanlık
+           KY Hukuk Bürosu olarak, iş hukuku alanında sunduğumuz danışmanlık
           hizmetleri ile müvekkillerimizin iş yaşamındaki hukuki süreçlerini
           güvenle yürütmelerini sağlamaktayız. İş hukuku süreçlerinin doğru bir
           şekilde yönetilmesi, işverenlerin yasal yükümlülüklerini yerine
@@ -1564,10 +1564,10 @@ const practiceDetails = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Hukuk Bürosu’nun Danışmanlık Hizmetleri
+           KY Hukuk Bürosu’nun Danışmanlık Hizmetleri
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk Bürosu, inşaat projeleri ve altyapı alanında sunduğu
+           KY Hukuk Bürosu, inşaat projeleri ve altyapı alanında sunduğu
           geniş kapsamlı danışmanlık hizmetleri ile müvekkillerinin
           ihtiyaçlarına cevap vermektedir.
         </p>
@@ -1615,7 +1615,7 @@ const practiceDetails = {
           İnşaat projeleri, başarılı bir şekilde tamamlanabilmesi için bir dizi
           stratejik adım gerektirir. Proje sürecinin her aşamasında hukuki
           danışmanlık almak, olası sorunları önceden tespit etmeye ve çözmeye
-          yardımcı olur. Sancar Hukuk Bürosu olarak, inşaat sektöründeki
+          yardımcı olur.  KY Hukuk Bürosu olarak, inşaat sektöründeki
           deneyimimizle müvekkillerimize profesyonel destek sunarak projelerini
           güvence altına alıyoruz.
         </p>
@@ -1686,11 +1686,11 @@ const practiceDetails = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Hukuk Bürosu’nun Enerji Sektöründe Verdiği Danışmanlık
+           KY Hukuk Bürosu’nun Enerji Sektöründe Verdiği Danışmanlık
           Hizmetleri
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Enerji sektöründeki karmaşık hukuki süreçlerde uzmanlık sunan Sancar
+          Enerji sektöründeki karmaşık hukuki süreçlerde uzmanlık sunan  KY
           Hukuk Bürosu, müvekkillerine aşağıdaki kapsamlı hizmetleri
           sunmaktadır:
         </p>
@@ -1755,7 +1755,7 @@ const practiceDetails = {
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Enerji sektörü, geleceğin en dinamik ve hızlı büyüyen alanlarından
           biridir. Ancak, bu sektörde başarılı olabilmek için hukuki riskleri
-          doğru bir şekilde yönetmek şarttır. Sancar Hukuk Bürosu olarak, enerji
+          doğru bir şekilde yönetmek şarttır.  KY Hukuk Bürosu olarak, enerji
           projelerinizin her aşamasında hukuki güvence sağlayarak,
           sürdürülebilir büyümenize katkıda bulunuyoruz.
         </p>
@@ -1811,17 +1811,17 @@ const practiceDetails = {
         </p>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Hukuk Bürosu’nun Danışmanlık Hizmetleri
+           KY Hukuk Bürosu’nun Danışmanlık Hizmetleri
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk Bürosu, konaklama işletmelerinin yasal yükümlülüklerini
+           KY Hukuk Bürosu, konaklama işletmelerinin yasal yükümlülüklerini
           yerine getirmesi için aşağıdaki kapsamlı hizmetleri sunmaktadır:
         </p>
 
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
           <li className="mb-2 font-semibold">Ruhsat ve İzin İşlemleri</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-            Sancar Hukuk Bürosu, konaklama işletmelerinin ruhsat ve izin
+             KY Hukuk Bürosu, konaklama işletmelerinin ruhsat ve izin
             işlemlerinde rehberlik ederek, yasal gerekliliklerin eksiksiz bir
             şekilde yerine getirilmesini sağlar. Böylece, işletmelerin yasal
             sorunlarla karşılaşma riski en aza indirilir.
@@ -1829,7 +1829,7 @@ const practiceDetails = {
           <li className="mb-2 font-semibold">Sözleşme Tasarımı ve Müzakere</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             İşletmelerin tüm sözleşme süreçlerinde hukuki danışmanlık sunan
-            Sancar Hukuk Bürosu, sözleşmelerin hem taraflar hem de işletme
+             KY Hukuk Bürosu, sözleşmelerin hem taraflar hem de işletme
             açısından güvence altına alınmasını sağlar. Müzakere süreçlerinde
             işletmenin menfaatlerini koruma amacıyla en iyi stratejileri
             geliştiririz.
@@ -1863,7 +1863,7 @@ const practiceDetails = {
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Konaklama ve eğlence sektörü, hukuki danışmanlık gerektiren karmaşık
-          bir alandır. Sancar Hukuk Bürosu olarak, sektörün ihtiyaçlarına
+          bir alandır.  KY Hukuk Bürosu olarak, sektörün ihtiyaçlarına
           yönelik kapsamlı danışmanlık hizmetleri sunarak, işletmelerin yasal
           yükümlülüklerini yerine getirmesine yardımcı olmaktayız. Hukuki
           süreçlerde doğru adımlar atmak, işletmelerin uzun vadeli başarısını
@@ -1872,7 +1872,7 @@ const practiceDetails = {
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Eğer konaklama ve eğlence sektöründe hukuki danışmanlık hizmetlerine
-          ihtiyaç duyuyorsanız, Sancar Hukuk Bürosu olarak sizinle çalışmaktan
+          ihtiyaç duyuyorsanız,  KY Hukuk Bürosu olarak sizinle çalışmaktan
           memnuniyet duyarız. Bize ulaşın ve sektörünüzdeki hukuki zorlukların
           üstesinden gelmenize yardımcı olalım.
         </p>
@@ -2393,11 +2393,11 @@ const practiceDetails = {
         </ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Hukuk Bürosu’nun Rolü
+           KY Hukuk Bürosu’nun Rolü
         </h2>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk Bürosu olarak, yapay zeka ve otomatik sistemler alanında
+           KY Hukuk Bürosu olarak, yapay zeka ve otomatik sistemler alanında
           kapsamlı hukuki danışmanlık hizmetleri sunmaktayız. Alanında uzman
           avukatlarımız, YZ'nin hukuki boyutlarıyla ilgili danışmanlık yaparak,
           işletmenizin bu yeni teknolojilerden yararlanırken yasal risklerini
@@ -2529,7 +2529,7 @@ const practiceDetails = {
           Veri gizliliği ve güvenliği, modern iş dünyasında kritik bir öneme
           sahiptir. İşletmeler, bu alanda profesyonel danışmanlık hizmetleri
           alarak, hem yasal yükümlülüklerini yerine getirebilir hem de müşteri
-          güvenini artırabilir. Sancar Hukuk Bürosu olarak, veri gizliliği ve
+          güvenini artırabilir.  KY Hukuk Bürosu olarak, veri gizliliği ve
           güvenliği konularında kapsamlı danışmanlık hizmetleri sunmaktayız.
           Amacımız, işletmenizin ihtiyaçlarına özel çözümler geliştirerek,
           güvenli bir veri yönetimi sağlamak ve yasal riskleri minimize
@@ -2553,7 +2553,7 @@ const practiceDetails = {
           alanlarından biridir. Televizyon, sinema, müzik, dijital içerik ve
           sosyal medya gibi birçok farklı branşı içinde barındıran bu sektör,
           hem yerel hem de uluslararası düzeyde birçok hukuki sorunla karşı
-          karşıya kalmaktadır. Sancar Hukuk Bürosu olarak, bu alanda sunduğumuz
+          karşıya kalmaktadır.  KY Hukuk Bürosu olarak, bu alanda sunduğumuz
           hukuki danışmanlık hizmetleriyle müvekkillerimizin yasal süreçlerini
           güvence altına almayı hedefliyoruz.
         </p>
@@ -2567,7 +2567,7 @@ const practiceDetails = {
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Fikri mülkiyet, medya ve eğlence sektöründe önemli bir yer tutar.
             İçerik üreticileri, eserlerini korumak için telif hakkı, marka
-            tescili ve patent başvuruları yapmalıdır. Sancar Hukuk Bürosu,
+            tescili ve patent başvuruları yapmalıdır.  KY Hukuk Bürosu,
             müvekkillerine fikri mülkiyet haklarını koruma konusunda danışmanlık
             hizmeti sunmaktadır.
           </p>
@@ -2582,7 +2582,7 @@ const practiceDetails = {
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Dijitalleşme ile kullanıcı verilerinin korunması daha kritik bir hal
             almıştır. Medya ve eğlence sektöründe faaliyet gösteren işletmeler,
-            GDPR ve KVKK gibi yasalarla uyumlu olmalıdır. Sancar Hukuk Bürosu,
+            GDPR ve KVKK gibi yasalarla uyumlu olmalıdır.  KY Hukuk Bürosu,
             veri koruma ve gizlilik politikaları konusunda müvekkillerine destek
             olmaktadır.
           </p>
@@ -2590,7 +2590,7 @@ const practiceDetails = {
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Rekabet hukuku, medya sektöründe de önemlidir. Anti-rekabetçi
             davranışlar büyük yaptırımlara yol açabilir. Medya şirketleri,
-            piyasa konumlarını korumak için yasal sınırları bilmelidir. Sancar
+            piyasa konumlarını korumak için yasal sınırları bilmelidir.  KY
             Hukuk Bürosu, rekabet hukuku alanında danışmanlık yaparak
             müvekkillerini korumaktadır.
           </p>
@@ -2605,7 +2605,7 @@ const practiceDetails = {
         </ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sancar Hukuk Bürosu’nun Sağladığı Danışmanlık Hizmetleri
+           KY Hukuk Bürosu’nun Sağladığı Danışmanlık Hizmetleri
         </h2>
 
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
@@ -2654,7 +2654,7 @@ const practiceDetails = {
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Medya ve eğlence sektörü, hukuki risklerin yüksek olduğu bir alan
           olarak dikkat çekmektedir. Bu nedenle, profesyonel bir hukuki
-          danışmanlık hizmetine ihtiyaç duyulmaktadır. Sancar Hukuk Bürosu,
+          danışmanlık hizmetine ihtiyaç duyulmaktadır.  KY Hukuk Bürosu,
           sektördeki deneyimi ve uzman kadrosu ile müvekkillerine güvenilir ve
           etkili çözümler sunmaktadır. İhtiyaçlarınıza uygun en iyi çözümleri
           geliştirmek için bizimle iletişime geçebilirsiniz. Markanızın
@@ -2678,7 +2678,7 @@ const practiceDetails = {
           işletmelerin sınır ötesinde faaliyetlerini sürdürebilmeleri için
           kritik bir öneme sahiptir. Sınır ötesi ticaretin artışıyla birlikte,
           hukuki sorunlar ve karmaşık düzenlemelerle başa çıkmak, firmalar için
-          büyük bir zorluk teşkil etmektedir. Sancar Hukuk Bürosu olarak,
+          büyük bir zorluk teşkil etmektedir.  KY Hukuk Bürosu olarak,
           uluslararası ticaret hukuku alanında sunduğumuz danışmanlık
           hizmetleriyle, işletmelerinizin global pazarda güvenli ve etkili bir
           şekilde yer almasına yardımcı oluyoruz.
@@ -2758,7 +2758,7 @@ const practiceDetails = {
         </ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Neden Sancar Hukuk Bürosu?
+          Neden  KY Hukuk Bürosu?
         </h2>
 
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
@@ -2785,7 +2785,7 @@ const practiceDetails = {
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Uluslararası ticaret hukuku, küresel ticarette başarılı olmanın
-          anahtarıdır. Sancar Hukuk Bürosu, uluslararası pazarda
+          anahtarıdır.  KY Hukuk Bürosu, uluslararası pazarda
           karşılaşabileceğiniz hukuki zorlukları aşmanıza yardımcı olmak için
           burada. İhtiyacınıza uygun çözümler için bizimle iletişime geçin ve
           uluslararası ticarette güvenli adımlar atın. İleriye dönük
@@ -2805,7 +2805,7 @@ const practiceDetails = {
         </h2>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk Bürosu, vergi ve idare hukuku alanında kapsamlı bir
+           KY Hukuk Bürosu, vergi ve idare hukuku alanında kapsamlı bir
           hizmet anlayışı sunarak şirketlerin hem yerel hem de uluslararası
           yasal süreçlerde güvenle hareket etmelerini sağlamaktadır. Karmaşık
           vergi mevzuatından düzenleyici kuralların denetimine kadar her alanda
@@ -2818,7 +2818,7 @@ const practiceDetails = {
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Vergi hukuku, ticari faaliyetlerin en önemli bileşenlerinden biridir
-          ve işletmeler için stratejik planlamalar gerektirir. Sancar Hukuk
+          ve işletmeler için stratejik planlamalar gerektirir.  KY Hukuk
           Bürosu olarak, vergiye ilişkin tüm süreçlerde müvekkillerimizin
           yanında yer alarak yasal yükümlülüklerini yönetmelerine ve
           maliyetlerini optimize etmelerine yardımcı oluyoruz.
@@ -2896,7 +2896,7 @@ const practiceDetails = {
         </p>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk Bürosu olarak, vergi ve idare hukuku alanında sunduğumuz
+           KY Hukuk Bürosu olarak, vergi ve idare hukuku alanında sunduğumuz
           geniş yelpazedeki hizmetlerle, şirketlerin ve bireylerin hukuki
           gereksinimlerini etkin bir şekilde karşılamaktayız. Uzman
           avukatlarımız sayesinde karmaşık yasal süreçlerde müvekkillerimize
@@ -2917,7 +2917,7 @@ const practiceDetails = {
         </h2>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk, Türkiye'deki gayrimenkul ve kira hukukuna ilişkin
+           KY Hukuk, Türkiye'deki gayrimenkul ve kira hukukuna ilişkin
           kapsamlı bir hizmet yelpazesi sunarak müvekkillerimizin haklarını
           korumayı ve risklerini en aza indirmeyi hedeflemektedir. Gayrimenkul
           sektöründe başarılı bir yatırım ve sağlıklı bir kiralama süreci için
@@ -3003,7 +3003,7 @@ const practiceDetails = {
           Gayrimenkul ve Kira Hukuku Alanında Deneyimli Ekip
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk olarak, gayrimenkul yatırımları ve kira süreçlerinde,
+           KY Hukuk olarak, gayrimenkul yatırımları ve kira süreçlerinde,
           müvekkillerimizin haklarını koruma amacıyla ihtiyaçlarına yönelik
           çözüm odaklı hizmetler sunuyoruz. Uzman ekibimiz, hukuki süreci
           titizlikle değerlendirerek en uygun stratejiyi belirlemektedir.
@@ -3026,7 +3026,7 @@ const practiceDetails = {
           çıkabilecek hukuki ihtilafları düzenleyen bir hukuk dalıdır.
           Türkiye’de miras hukuku, hem bireylerin hem de ailelerin varlıklarının
           güvence altına alınması ve geleceğe dair belirsizliklerin önlenmesi
-          açısından büyük önem taşır. Sancar Hukuk olarak, müvekkillerimizin
+          açısından büyük önem taşır.  KY Hukuk olarak, müvekkillerimizin
           miras haklarını koruma altına almak ve varlık transferlerini en etkin
           şekilde yönetmek için kapsamlı danışmanlık hizmetleri sunuyoruz.
         </p>
@@ -3091,7 +3091,7 @@ const practiceDetails = {
           Miras Hukukunda Danışmanlık Hizmetlerimiz
         </h2>
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk olarak, miras hukuku süreçlerinde ortaya çıkabilecek
+           KY Hukuk olarak, miras hukuku süreçlerinde ortaya çıkabilecek
           karmaşık konulara dair etkin çözümler sunuyoruz. Hizmetlerimiz
           kapsamında:
         </p>
@@ -3139,7 +3139,7 @@ const practiceDetails = {
           karmaşık bir süreçtir. Özellikle aile içi miras anlaşmazlıklarında
           tarafların haklarını korurken süreci mümkün olduğunca anlaşmalı ve
           yapıcı bir zeminde ilerletmek, hukuki desteğin ötesinde titiz bir
-          yaklaşımı gerektirir. Sancar Hukuk olarak, uzman ekibimizle
+          yaklaşımı gerektirir.  KY Hukuk olarak, uzman ekibimizle
           müvekkillerimizin miras haklarını korumak, varlıklarını güvence altına
           almak ve aile içinde yaşanabilecek ihtilafları en aza indirmek için
           yanınızdayız.
@@ -3161,7 +3161,7 @@ const practiceDetails = {
           sağlamak ve kamu yararına hizmet etmek için kurulan önemli
           kuruluşlardır. Türkiye'deki derneklerin faaliyetleri, Dernekler Kanunu
           ve ilgili mevzuatla düzenlenmiştir ve derneklerin kuruluşundan
-          itibaren her aşamada hukuki uyum sağlamak oldukça önemlidir. Sancar
+          itibaren her aşamada hukuki uyum sağlamak oldukça önemlidir.  KY
           Hukuk olarak, derneklerin yasal gerekliliklere eksiksiz şekilde uyum
           göstermelerini sağlamak amacıyla geniş kapsamlı hukuki danışmanlık
           hizmetleri sunuyoruz. Derneğinizin sürdürülebilir bir yapıda faaliyet
@@ -3275,7 +3275,7 @@ const practiceDetails = {
           bir yasal yaptırıma maruz kalmadan faaliyetlerini sürdürebilmek için
           mevzuata tam uyum sağlanması gerekmektedir. Profesyonel bir hukuk
           bürosundan destek almak, bu süreçleri daha güvenli ve hızlı bir
-          şekilde yönetmenizi sağlar. Sancar Hukuk olarak, dernekler hukukundaki
+          şekilde yönetmenizi sağlar.  KY Hukuk olarak, dernekler hukukundaki
           bilgi birikimimiz ve geniş deneyimimizle derneğinizin tüm yasal
           süreçlerinde yanınızda olmaktan mutluluk duyarız.
         </p>
@@ -3293,7 +3293,7 @@ const practiceDetails = {
         </h2>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
-          Sancar Hukuk, ticari ve bireysel alacakların korunması ve tahsili
+           KY Hukuk, ticari ve bireysel alacakların korunması ve tahsili
           konusunda uzman bir ekip ile alacaklı haklarının güvence altına
           alınması ve iflas süreçlerinin yönetimi için profesyonel hukuki destek
           sunmaktadır. Alacak tahsili ve iflas işlemleri, yalnızca bir finansal
@@ -3357,7 +3357,7 @@ const practiceDetails = {
             muhtemel risklerin önlenmesi için ihtiyati tedbir kararı alınması,
             hukuki sürecin hayati bir aşamasıdır. İhtiyati tedbir kararı ile
             borçlunun malvarlığı üzerindeki işlemler durdurulabilir ve
-            alacaklının zarar görmesi önlenebilir. Sancar Hukuk, ihtiyati tedbir
+            alacaklının zarar görmesi önlenebilir.  KY Hukuk, ihtiyati tedbir
             kararlarının alınması ve uygulanması konularında deneyim sahibidir
             ve sürecin tüm aşamalarını müvekkillerinin çıkarlarını koruyarak
             yönetmektedir.
@@ -3451,7 +3451,7 @@ const practiceDetails = {
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Dijital çağda, e-ticaretin yükselişi ile birlikte hukuki sorunlar ve
-          gereklilikler de artmaktadır. Sancar Hukuk, e-ticaret hukuku alanında
+          gereklilikler de artmaktadır.  KY Hukuk, e-ticaret hukuku alanında
           sunduğu danışmanlık hizmetleri ile işletmelerin dijital ortamda yasal
           uyumluluğunu sağlamayı amaçlamaktadır. E-ticaret hukuku, tüketici
           hakları, sözleşmeler, veri koruma ve dijital pazarlama gibi birçok
@@ -3468,7 +3468,7 @@ const practiceDetails = {
           kuralları ve düzenlemeleri içermektedir. E-ticaret, mal ve hizmetlerin
           internet üzerinden alım-satımını kapsar. Bu süreçte, işletmelerin
           yasal yükümlülükleri, tüketici hakları, veri koruma yasaları ve
-          elektronik sözleşmeler gibi konular büyük önem taşımaktadır. Sancar
+          elektronik sözleşmeler gibi konular büyük önem taşımaktadır.  KY
           Hukuk, e-ticaret işletmelerinin tüm bu yasal gereklilikleri yerine
           getirmelerine yardımcı olur.
         </p>
@@ -3541,7 +3541,7 @@ const practiceDetails = {
         </ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Neden Sancar Hukuk?
+          Neden  KY Hukuk?
         </h2>
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
           <li className="mb-2">
@@ -3568,14 +3568,14 @@ const practiceDetails = {
     content: (
       <div className="p-4 w-full">
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Sağlık Sektörü ve Yaşam Bilimleri: Güvenceniz Sancar Hukuk
+          Sağlık Sektörü ve Yaşam Bilimleri: Güvenceniz  KY Hukuk
         </h2>
 
         <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
           Sağlık sektörü, hızla gelişen teknoloji ve değişen yasalarla birlikte
           karmaşık bir yapıya dönüşmüştür. Sağlık hizmeti sunan kuruluşlar için
           hukuki süreçlerin etkili bir şekilde yönetilmesi, bu dinamik ortamda
-          başarı için kritik öneme sahiptir. Sancar Hukuk, sağlık sektörü ve
+          başarı için kritik öneme sahiptir.  KY Hukuk, sağlık sektörü ve
           yaşam bilimleri alanında sunduğu geniş kapsamlı danışmanlık
           hizmetleriyle, müvekkillerine yasal konularda sağlam bir zemin
           sunmaktadır.
@@ -3588,7 +3588,7 @@ const practiceDetails = {
           <li className="mb-2 font-semibold">Uyumluluk Danışmanlığı</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Sağlık hizmetleri sunan kuruluşların, yasal ve düzenleyici
-            gerekliliklere uyması zorunludur. Sancar Hukuk, müvekkillerine yasal
+            gerekliliklere uyması zorunludur.  KY Hukuk, müvekkillerine yasal
             gereklilikler, regülasyonların takibi ve hastane politikalarının
             oluşturulmasında rehberlik eder.
           </p>
@@ -3603,7 +3603,7 @@ const practiceDetails = {
           <li className="mb-2 font-semibold">Regülasyon Desteği</li>
           <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
             Tıbbi cihazlar, ilaçlar ve diğer sağlık ürünleri üzerinde sıkı
-            düzenlemeler bulunmaktadır. Sancar Hukuk, piyasa izinleri, risk
+            düzenlemeler bulunmaktadır.  KY Hukuk, piyasa izinleri, risk
             yönetimi ve izleme süreçlerinde destek sunar.
           </p>
 
@@ -3648,7 +3648,7 @@ const practiceDetails = {
         </ul>
 
         <h2 className="text-base md:text-lg font-bold mb-4">
-          Neden Sancar Hukuk?
+          Neden  KY Hukuk?
         </h2>
         <ul className="mb-4 list-disc list-inside text-sm md:text-base leading-6 text-gray-800">
           <li className="mb-2">

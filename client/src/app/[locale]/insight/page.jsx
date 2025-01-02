@@ -4,13 +4,13 @@ import Breadcrumb from "@/components/BreadCrumb";
 import { useTranslations } from "next-intl";
 
 export const metadata = {
-  title: "Yayınlar - Yüksel Hukuk Bürosu | İstanbul",
-  description: "Yüksel Hukuk Bürosu'nun İstanbul'daki en son hukuki analizlerini ve yayınlarını keşfedin. Hukuk alanındaki güncel gelişmeleri takip edin.",
+  title: "Yayınlar - Kümüş & Yüksel (KY) Hukuk Bürosu | İstanbul",
+  description: "Kümüş & Yüksel (KY) Hukuk Bürosu'nun İstanbul'daki en son hukuki analizlerini ve yayınlarını keşfedin. Hukuk alanındaki güncel gelişmeleri takip edin.",
   openGraph: {
-    title: "Yayınlar - Yüksel Hukuk Bürosu | İstanbul",
-    description: "Yüksel Hukuk Bürosu'nun İstanbul'daki en son hukuki analizlerini ve yayınlarını keşfedin. Hukuk alanındaki güncel gelişmeleri takip edin.",
+    title: "Yayınlar - Kümüş & Yüksel (KY) Hukuk Bürosu | İstanbul",
+    description: "Kümüş & Yüksel (KY) Hukuk Bürosu'nun İstanbul'daki en son hukuki analizlerini ve yayınlarını keşfedin. Hukuk alanındaki güncel gelişmeleri takip edin.",
     url: "",
-    site_name: "Yüksel Hukuk Bürosu",
+    site_name: "Kümüş & Yüksel (KY) Hukuk Bürosu",
     locale: "tr_TR",
     // image: "https://yukselhukuk.com/og-image.jpg",
   },

@@ -6,15 +6,15 @@ import tr from "../../../messages/tr.json";
 import en from "../../../messages/en.json";
 
 export const metadata = {
-  title: "Gizlilik Politikası - KY Hukuk Bürosu | İstanbul",
+  title: "Gizlilik Politikası -Kümüş & Yüksel (KY) Hukuk Bürosu| İstanbul",
   description:
     "Bu gizlilik politikası, kişisel verilerinizin toplanma, işlenme ve korunma süreçlerini detaylandırır. Büromuzun veri gizliliği taahhütleri ve üçüncü taraf bağlantılarla ilgili bilgiler için okuyun.",
   openGraph: {
-    title: "Gizlilik Politikası - KY Hukuk Bürosu | İstanbul",
+    title: "Gizlilik Politikası - Kümüş & Yüksel (KY) Hukuk Bürosu | İstanbul",
     description:
       "Bu gizlilik politikası, kişisel verilerinizin toplanma, işlenme ve korunma süreçlerini detaylandırır. Büromuzun veri gizliliği taahhütleri ve üçüncü taraf bağlantılarla ilgili bilgiler için okuyun.",
     url: "",
-    site_name: "KY Hukuk Bürosu",
+    site_name: "Kümüş & Yüksel (KY) Hukuk Bürosu",
     locale: "tr_TR",
     // image: "https://yukselhukuk.com/og-image.jpg",
   },

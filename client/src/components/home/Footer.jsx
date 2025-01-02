@@ -108,7 +108,7 @@ const Footer = () => {
           <Link href={"/privacy-policy"}>
             <li className="cursor-pointer">{t("privacyPolicy")}</li>
           </Link>
-          <Link href={"/legal-notice"}>
+          <Link href={"/disclaimer"}>
             <li className="cursor-pointer">{t("legalNotice")}</li>
           </Link>
           <Link href={"/personal-data-protection-authority"}>

@@ -14,11 +14,11 @@
   },
   "SliderTexts": {
     "slider1header": "Legal Solutions with Expertise and Trust",
-    "slider1paragh": "Based in Istanbul, YUKSEL Law offers comprehensive legal consultancy and representation services to both individual and corporate clients. We provide professional solutions across all areas.",
+    "slider1paragh": "Based in Istanbul, KY Law offers comprehensive legal consultancy and representation services to both individual and corporate clients. We provide professional solutions across all areas.",
     "slider2header": "Effective and Transparent Legal Services",
-    "slider2paragh": "YUKSEL Law is committed to defending the rights of its clients with the highest standards, specializing in areas such as commercial law, labor law, and family law. We manage your legal processes transparently.",
+    "slider2paragh": "KY Law is committed to defending the rights of its clients with the highest standards, specializing in areas such as commercial law, labor law, and family law. We manage your legal processes transparently.",
     "slider3header": "The Assurance of Law in Istanbul",
-    "slider3paragh": "YUKSEL Law offers a wide range of services in both national and international legal matters, providing strategic and effective solutions to its clients."
+    "slider3paragh": "KY Law offers a wide range of services in both national and international legal matters, providing strategic and effective solutions to its clients."
   },
   "HomePractices": {
     "title": "Practices",
@@ -149,7 +149,7 @@
   },
 
   "aboutPage": {
-    "title": "Yüksel Law Firm",
+    "title": "Kümüş & Yüksel Partners",
     "headerText": "About Us",
     "headerSubText": "Our company provides comprehensive legal consultancy and litigation services, offering reliable solutions to its clients.",
     "sections": {
@@ -163,11 +163,11 @@
       },
       "practices": {
         "title": "Our Expertise Areas",
-        "content": "Yüksel Law Office provides services in many areas, including criminal law, family law, commercial law, labor law, real estate law, and contract law. Our expert attorneys develop tailored strategies for each client's needs and offer solutions to their legal issues. With a comprehensive service approach, our office is committed to meeting the expectations of both individual and corporate clients."
+        "content": "KY Law Office provides services in many areas, including criminal law, family law, commercial law, labor law, real estate law, and contract law. Our expert attorneys develop tailored strategies for each client's needs and offer solutions to their legal issues. With a comprehensive service approach, our office is committed to meeting the expectations of both individual and corporate clients."
       },
       "team": {
         "title": "Our Expert Team",
-        "content": "Yüksel Law Office aims to provide the best service at every stage of legal processes with its experienced and expert attorney team. Our team continuously develops and adopts innovative approaches to adapt to ever-changing legal regulations. Each of our team members, being experts in their respective fields, provides effective and practical solutions to the problems our clients face in various areas of law."
+        "content": "KY Law Office aims to provide the best service at every stage of legal processes with its experienced and expert attorney team. Our team continuously develops and adopts innovative approaches to adapt to ever-changing legal regulations. Each of our team members, being experts in their respective fields, provides effective and practical solutions to the problems our clients face in various areas of law."
       }
     }
   },
@@ -195,8 +195,7 @@
     "copyrightText": "Including infringement warnings and civil law proceedings.",
     "textMehmetAli": "Attorney Mehmet Ali Kümüş has adopted an in-depth approach to legal processes since the beginning of his professional career. After graduating from Istanbul University Faculty of Law, he specialized in areas such as commercial law, labor law, and contract law with the experience gained at several national and international law firms. Kümüş aims to provide the most effective solutions to his clients and targets the highest success in every case.",
     "textMehmetAli2": "Known for his client-oriented approach, Mehmet Ali Kümüş provides valuable guidance not only in litigation but also in legal strategies and risk management. Always adhering to ethical values and transparency in his legal practice, Kümüş offers a solution-oriented and reliable advisory process.",
-    "textMehmetAli3": "Attorney Mehmet Ali Kümüş provides services across a wide range, from the business world to individual consultancy, and has built long-term relationships by earning the trust of his clients. By offering fast, effective, and accurate solutions, he aims to achieve successful outcomes in all legal matters.",
-    "ManagerPartner": "Manager Partner"
+    "textMehmetAli3": "Attorney Mehmet Ali Kümüş provides services across a wide range, from the business world to individual consultancy, and has built long-term relationships by earning the trust of his clients. By offering fast, effective, and accurate solutions, he aims to achieve successful outcomes in all legal matters."
   },
 
   "practicePage": {
@@ -233,7 +232,7 @@
     "practices": "Practices",
     "publications": "Publications",
     "contact": "Contact",
-    "email": "E-Mail: info@sancarlaw.com",
+    "email": "E-Mail: info@kypartners.com",
     "phone": "Phone: +90 555 555 55 55",
     "more": "More...",
     "privacyPolicy": "Privacy Policy",

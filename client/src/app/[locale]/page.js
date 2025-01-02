@@ -6,8 +6,8 @@ import Practices from "@/components/home/Practices";
 
 
 export const metadata = {
-  title: "Yüksel Hukuk Bürosu",
-  description: "İstanbul'da yer alan Yüksel Hukuk Bürosu, uzman kadrosu ile sizlere hukuk alanında destek sunmaktadır.",
+  title: "Kümüş & Yüksel (KY) Hukuk Bürosu",
+  description: "İstanbul'da yer alan Kümüş & Yüksel (KY) Hukuk Bürosu, uzman kadrosu ile sizlere hukuk alanında destek sunmaktadır.",
 };
 
 export default function Home() {

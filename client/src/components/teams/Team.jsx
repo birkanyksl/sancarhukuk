@@ -138,8 +138,8 @@ const Team = () => {
           <div className="lg:w-1/2 w-full pt-20  justify-center mb-6 ">
             <div className="flex flex-col gap-4 mb-10 justify-center">
               <h2 className="text-sm font-normal text-color1">
-              <span className="text-color6">{t("ManagerPartner").split(" ")[0]}{" "}</span>
-              <span className="text-black">{t("ManagerPartner").split(" ")[1]}</span>
+              <span className="text-color6">{t("founderPartner").split(" ")[0]}{" "}</span>
+              <span className="text-black">{t("founderPartner").split(" ")[1]}</span>
               </h2>
               <h3 className="text-4xl font-medium text-color1">
                 Mehmet Ali KÜMÜŞ
