@@ -12,179 +12,179 @@
     "label": "Dil Seçiniz",
     "locale": "{locale, select, en {İngilizce} tr {Türkçe} other {Bilinmiyor}}"
   },
-  "SliderTexts":{
-    "slider1header":"Uzmanlık ve Güvenle Hukuki Çözümler",
-    "slider1paragh":"YÜKSEL Hukuk, İstanbul merkezli olarak, bireysel ve kurumsal müvekkillerine kapsamlı hukuki danışmanlık ve temsil hizmetleri sunmaktadır. Her alanda profesyonel çözümlerle yanınızdayız.",
-    "slider2header":"Etkin ve Şeffaf Hukuk Hizmetleri",
-    "slider2paragh":"Müvekkillerimizin haklarını en iyi şekilde savunmayı ilke edinen YÜKSEL Hukuk, ticaret hukuku, iş hukuku ve aile hukuku gibi alanlarda uzmanlaşmıştır. Hukuki süreçlerinizi şeffaf bir şekilde yönetiyoruz.",
-    "slider3header":"İstanbul'da Hukukun Güvencesi",
-    "slider3paragh":"YÜKSEL Hukuk, ulusal ve uluslararası hukuki meselelerde geniş bir yelpazede hizmet sunarak müvekkillerine stratejik ve etkili çözümler üretmektedir."
+  "SliderTexts": {
+    "slider1header": "Uzmanlık ve Güvenle Hukuki Çözümler",
+    "slider1paragh": "YÜKSEL Hukuk, İstanbul merkezli olarak, bireysel ve kurumsal müvekkillerine kapsamlı hukuki danışmanlık ve temsil hizmetleri sunmaktadır. Her alanda profesyonel çözümlerle yanınızdayız.",
+    "slider2header": "Etkin ve Şeffaf Hukuk Hizmetleri",
+    "slider2paragh": "Müvekkillerimizin haklarını en iyi şekilde savunmayı ilke edinen YÜKSEL Hukuk, ticaret hukuku, iş hukuku ve aile hukuku gibi alanlarda uzmanlaşmıştır. Hukuki süreçlerinizi şeffaf bir şekilde yönetiyoruz.",
+    "slider3header": "İstanbul'da Hukukun Güvencesi",
+    "slider3paragh": "YÜKSEL Hukuk, ulusal ve uluslararası hukuki meselelerde geniş bir yelpazede hizmet sunarak müvekkillerine stratejik ve etkili çözümler üretmektedir."
   },
   "HomePractices": {
     "title": "Hizmetlerimiz",
-    "H11":"Güçlü Savunma, ",
-    "H12":"Etkin Sonuçlar",
-    "P1":"Bireysel ve kurumsal çözümlerle sizlere hizmet veriyoruz.",
+    "H11": "Güçlü Savunma, ",
+    "H12": "Etkin Sonuçlar",
+    "P1": "Bireysel ve kurumsal çözümlerle sizlere hizmet veriyoruz.",
     "practicesHome1": "Ticaret Hukuku",
     "practicesHome2": "Aile Hukuku",
     "practicesHome3": "İcra Hukuku",
     "practicesHome4": "Ceza Hukuku"
   },
-  "HomePracticesParagraph":{
-    "HomePracticesParagraph1":"Şirketlere özel ticari çözümler ve hukuki destek.",
-    "HomePracticesParagraph2":"Aile içi uyuşmazlıklar için güvenilir danışmanlık.",
-    "HomePracticesParagraph3":"Hızlı ve etkili alacak takibi çözümleri."
-   },
-   "HomePublications":{
-    "title":"Yayınlarımız",
-    "H11":"Adaletin Gündeminde ",
-    "H12":"Neler Var?",
-    "P1":"Yeni yasalar, kararlar ve hukuk dünyasındaki değişiklikler.",
-    "Text":"Blog yazılarımız aracılığıyla, sektördeki önemli konular hakkında bilgi edinebilir ve hukuk alanındaki son gelişmelerden haberdar olabilirsiniz.",
-    "Latest Insights":"Son Yayınlar",
-    "View all":"Tümünü Görüntüle"
-   },
-  "faq": {
-  "title": "Sık Sorulan Sorular",
-  "sections": {
-    "basic": {
-      "title": "Temel Sorular", 
-      "items": [
-        {
-          "id": 1,
-          "question": "Hukuk bürosu hangi tür davalarla ilgileniyor?",
-          "answer": "Hukuk büromuz, Ticaret Hukuku, İş ve Çalışma Hukuku, Fikri Mülkiyet, Aile ve Evlilik Hukuku, Gayrimenkul Hukuku ve Sağlık Hukuku gibi birçok alanda hizmet vermektedir."
-        },
-        {
-          "id": 2,
-          "question": "Bir davada avukata ne zaman başvurmalıyım?",
-          "answer": "Davanızı açmadan önce ya da dava süreci başlatıldıktan sonra, haklarınızı savunmak ve doğru strateji geliştirmek için bir avukata başvurmanız önemlidir."
-        },
-        {
-          "id": 3,
-          "question": "Eğer suçsuz olduğumu kanıtlamak istiyorsam, ne tür kanıtlar sunmam gerekir?",
-          "answer": "Suçsuz olduğunuzu kanıtlamak için sunduğunuz kanıtlar oldukça önemlidir. Tanık ifadeleri, dijital izler, güvenlik kameraları gibi fiziksel kanıtlar suçsuzluğunuzu destekleyebilir. Ayrıca, alibi ispatlayan belgeler veya olay anında bulunduğunuz yerle ilgili veriler de delil olarak sunulabilir. Avukatınız, davanızı en iyi şekilde savunmak için hangi kanıtların geçerli olacağı konusunda size rehberlik edecektir."
-        },
-        {
-          "id": 4,
-          "question": "Ölen bir aile üyem adına dava açabilir miyim?",
-          "answer": "Evet, ölen bir aile üyem adına dava açabilirsiniz. Daha fazla bilgi için bizimle iletişime geçebilirsiniz."
-        },
-        {
-          "id": 5,
-          "question": "Ceza davası ile karşılaşırsam ne yapmalıyım?",
-          "answer": " Ceza davası ile karşılaşırsanız, ilk adım olarak bir avukat ile iletişime geçmeniz gerekmektedir. Avukatınız, suçlamaları anlamanıza yardımcı olacak, mahkemede sizi temsil edecek ve en iyi savunma stratejisini belirlemenize rehberlik edecektir."
-        }
-      ]
-    },
-    "lawyers": {
-      "title": "Avukatlar",  
-      "items": [
-        {
-          "id": 6,
-          "question": "Neden bir avukata ihtiyacımız var?",
-          "answer": "Bir avukata ihtiyacınız, hukuki sorunlarınızın doğru bir şekilde çözülmesini sağlamak, haklarınızı savunmak ve davanızın en iyi şekilde yönetilmesini garanti altına almak içindir. Avukatlar, uzmanlık alanlarına göre stratejik rehberlik sunar, yasal süreçlerde size en uygun çözümü sunar ve mahkeme gibi resmi ortamlarda sizi temsil eder. Profesyonel bir avukat, davanızı hızlı ve etkin bir şekilde sonuçlandırarak olası riskleri minimize eder."
-        },
-        {
-          "id": 7,
-          "question": "Avukatımı nasıl seçebilirim?",
-          "answer": "Avukat seçerken, alanındaki deneyimi, geçmiş başarıları ve müvekkilleriyle olan iletişimi önemlidir. Ayrıca, avukatın size uygun ücretlendirme politikaları sunduğundan emin olmanız gerekir."
-        },
-        {
-          "id": 8,
-          "question": "Avukatlar dava sürecinde nasıl yardımcı olur?",
-          "answer": "Avukatlar, dava açma sürecinden duruşmaların yönetilmesine kadar tüm aşamalarda müvekkillerine rehberlik eder. Ayrıca, yasal belgelerin hazırlanması ve hukuki stratejilerin belirlenmesinde de yardımcı olurlar."
-        },
-        {
-          "id": 9,
-          "question": "Avukatlar gerçekten gizlilik sözleşmesine bağlı mı? Ne kadar güvenilirler?",
-          "answer": "Evet, avukatlar müvekkilleriyle olan iletişimlerinde gizlilik ilkesine sıkı sıkıya bağlıdırlar. Hukuk etiği gereği, müvekkil bilgilerini paylaşmak veya ifşa etmek yasaktır. Bu gizlilik, avukat-müvekkil ilişkisini güvene dayalı hale getirir."
-        }
-      ]
-    },
-    "service": {
-      "title": "Hizmetler",  
-      "items": [
-        {
-          "id": 10,
-          "question": "Hangi hukuki hizmetleri sunuyorsunuz?",
-          "answer": "Hukuk büromuz, dava takibi, danışmanlık, arabuluculuk, sözleşme hazırlanması, hukuki inceleme ve görüş bildirme gibi geniş bir yelpazede hizmetler sunmaktadır."
-        },
-        {
-          "id": 11,
-          "question": "Hizmetlerinizi yalnızca Türkiye içinde mi sunuyorsunuz?",
-          "answer": "Çoğunlukla Türkiye içindeki hukuki işlemlerle ilgilenmekle birlikte, uluslararası hukuki danışmanlık ve sınır ötesi davalar için de hizmet sunuyoruz."
-        },
-        {
-          "id": 12,
-          "question": "Şirketler için özel hukuk danışmanlığı hizmetiniz var mı?",
-          "answer": "Evet, şirketlerin hukuki ihtiyaçlarını karşılamak için özel danışmanlık hizmetleri sunuyoruz. Ticaret hukuku, iş hukuku ve sözleşme yönetimi konularında uzman kadromuzla destek sağlıyoruz."
-        },
-        {
-          "id": 13,
-          "question": "Online danışmanlık hizmetiniz var mı?",
-          "answer": "Evet, hem bireysel hem de kurumsal müvekkillerimiz için online danışmanlık ve hukuki destek hizmetleri sağlıyoruz. Bu, zaman ve mekân kısıtlamalarını ortadan kaldırarak daha erişilebilir bir çözüm sunmamıza olanak tanıyor."
-        }
-      ]
-    },
-    "price": {
-      "title": "Ücretlendirme",  
-      "items": [
-        {
-          "id": 14,
-          "question": "Avukatlık ücreti ne zaman ödenir?",
-          "answer": "Avukatlık ücreti, genellikle anlaşmaya bağlı olarak dava öncesinde veya dava süreci sırasında peşin olarak talep edilebilir. Bazı durumlarda, davanın sonunda sonuç alındığında ödeme yapılması da mümkün olabilmektedir."
-        },
-        {
-          "id": 15,
-          "question": "Hukuki hizmetlerin ücretleri nasıl belirleniyor?",
-          "answer": "Hukuki hizmetlerin ücretleri, Türkiye Barolar Birliği'nin belirlediği avukatlık asgari ücret tarifesine dayanarak hesaplanmaktadır. Bunun yanı sıra, dava türüne, karmaşıklığına ve harcanan süreye göre farklı ücretlendirme seçenekleri sunulabilmektedir."
-        }
-      ]
+  "HomePracticesParagraph": {
+    "HomePracticesParagraph1": "Şirketlere özel ticari çözümler ve hukuki destek.",
+    "HomePracticesParagraph2": "Aile içi uyuşmazlıklar için güvenilir danışmanlık.",
+    "HomePracticesParagraph3": "Hızlı ve etkili alacak takibi çözümleri."
   },
-  "paragraph": "Avukatlık hizmetlerimizle ilgili merak ettiğiniz soruları bu bölümde bulabilirsiniz.",
-  "H11": "Merak ",
-  "H12": "Ettikleriniz"
-}
+  "HomePublications": {
+    "title": "Yayınlarımız",
+    "H11": "Adaletin Gündeminde ",
+    "H12": "Neler Var?",
+    "P1": "Yeni yasalar, kararlar ve hukuk dünyasındaki değişiklikler.",
+    "Text": "Blog yazılarımız aracılığıyla, sektördeki önemli konular hakkında bilgi edinebilir ve hukuk alanındaki son gelişmelerden haberdar olabilirsiniz.",
+    "Latest Insights": "Son Yayınlar",
+    "View all": "Tümünü Görüntüle"
+  },
+  "faq": {
+    "title": "Sık Sorulan Sorular",
+    "sections": {
+      "basic": {
+        "title": "Temel Sorular",
+        "items": [
+          {
+            "id": 1,
+            "question": "Hukuk bürosu hangi tür davalarla ilgileniyor?",
+            "answer": "Hukuk büromuz, Ticaret Hukuku, İş ve Çalışma Hukuku, Fikri Mülkiyet, Aile ve Evlilik Hukuku, Gayrimenkul Hukuku ve Sağlık Hukuku gibi birçok alanda hizmet vermektedir."
+          },
+          {
+            "id": 2,
+            "question": "Bir davada avukata ne zaman başvurmalıyım?",
+            "answer": "Davanızı açmadan önce ya da dava süreci başlatıldıktan sonra, haklarınızı savunmak ve doğru strateji geliştirmek için bir avukata başvurmanız önemlidir."
+          },
+          {
+            "id": 3,
+            "question": "Eğer suçsuz olduğumu kanıtlamak istiyorsam, ne tür kanıtlar sunmam gerekir?",
+            "answer": "Suçsuz olduğunuzu kanıtlamak için sunduğunuz kanıtlar oldukça önemlidir. Tanık ifadeleri, dijital izler, güvenlik kameraları gibi fiziksel kanıtlar suçsuzluğunuzu destekleyebilir. Ayrıca, alibi ispatlayan belgeler veya olay anında bulunduğunuz yerle ilgili veriler de delil olarak sunulabilir. Avukatınız, davanızı en iyi şekilde savunmak için hangi kanıtların geçerli olacağı konusunda size rehberlik edecektir."
+          },
+          {
+            "id": 4,
+            "question": "Ölen bir aile üyem adına dava açabilir miyim?",
+            "answer": "Evet, ölen bir aile üyem adına dava açabilirsiniz. Daha fazla bilgi için bizimle iletişime geçebilirsiniz."
+          },
+          {
+            "id": 5,
+            "question": "Ceza davası ile karşılaşırsam ne yapmalıyım?",
+            "answer": " Ceza davası ile karşılaşırsanız, ilk adım olarak bir avukat ile iletişime geçmeniz gerekmektedir. Avukatınız, suçlamaları anlamanıza yardımcı olacak, mahkemede sizi temsil edecek ve en iyi savunma stratejisini belirlemenize rehberlik edecektir."
+          }
+        ]
+      },
+      "lawyers": {
+        "title": "Avukatlar",
+        "items": [
+          {
+            "id": 6,
+            "question": "Neden bir avukata ihtiyacımız var?",
+            "answer": "Bir avukata ihtiyacınız, hukuki sorunlarınızın doğru bir şekilde çözülmesini sağlamak, haklarınızı savunmak ve davanızın en iyi şekilde yönetilmesini garanti altına almak içindir. Avukatlar, uzmanlık alanlarına göre stratejik rehberlik sunar, yasal süreçlerde size en uygun çözümü sunar ve mahkeme gibi resmi ortamlarda sizi temsil eder. Profesyonel bir avukat, davanızı hızlı ve etkin bir şekilde sonuçlandırarak olası riskleri minimize eder."
+          },
+          {
+            "id": 7,
+            "question": "Avukatımı nasıl seçebilirim?",
+            "answer": "Avukat seçerken, alanındaki deneyimi, geçmiş başarıları ve müvekkilleriyle olan iletişimi önemlidir. Ayrıca, avukatın size uygun ücretlendirme politikaları sunduğundan emin olmanız gerekir."
+          },
+          {
+            "id": 8,
+            "question": "Avukatlar dava sürecinde nasıl yardımcı olur?",
+            "answer": "Avukatlar, dava açma sürecinden duruşmaların yönetilmesine kadar tüm aşamalarda müvekkillerine rehberlik eder. Ayrıca, yasal belgelerin hazırlanması ve hukuki stratejilerin belirlenmesinde de yardımcı olurlar."
+          },
+          {
+            "id": 9,
+            "question": "Avukatlar gerçekten gizlilik sözleşmesine bağlı mı? Ne kadar güvenilirler?",
+            "answer": "Evet, avukatlar müvekkilleriyle olan iletişimlerinde gizlilik ilkesine sıkı sıkıya bağlıdırlar. Hukuk etiği gereği, müvekkil bilgilerini paylaşmak veya ifşa etmek yasaktır. Bu gizlilik, avukat-müvekkil ilişkisini güvene dayalı hale getirir."
+          }
+        ]
+      },
+      "service": {
+        "title": "Hizmetler",
+        "items": [
+          {
+            "id": 10,
+            "question": "Hangi hukuki hizmetleri sunuyorsunuz?",
+            "answer": "Hukuk büromuz, dava takibi, danışmanlık, arabuluculuk, sözleşme hazırlanması, hukuki inceleme ve görüş bildirme gibi geniş bir yelpazede hizmetler sunmaktadır."
+          },
+          {
+            "id": 11,
+            "question": "Hizmetlerinizi yalnızca Türkiye içinde mi sunuyorsunuz?",
+            "answer": "Çoğunlukla Türkiye içindeki hukuki işlemlerle ilgilenmekle birlikte, uluslararası hukuki danışmanlık ve sınır ötesi davalar için de hizmet sunuyoruz."
+          },
+          {
+            "id": 12,
+            "question": "Şirketler için özel hukuk danışmanlığı hizmetiniz var mı?",
+            "answer": "Evet, şirketlerin hukuki ihtiyaçlarını karşılamak için özel danışmanlık hizmetleri sunuyoruz. Ticaret hukuku, iş hukuku ve sözleşme yönetimi konularında uzman kadromuzla destek sağlıyoruz."
+          },
+          {
+            "id": 13,
+            "question": "Online danışmanlık hizmetiniz var mı?",
+            "answer": "Evet, hem bireysel hem de kurumsal müvekkillerimiz için online danışmanlık ve hukuki destek hizmetleri sağlıyoruz. Bu, zaman ve mekân kısıtlamalarını ortadan kaldırarak daha erişilebilir bir çözüm sunmamıza olanak tanıyor."
+          }
+        ]
+      },
+      "price": {
+        "title": "Ücretlendirme",
+        "items": [
+          {
+            "id": 14,
+            "question": "Avukatlık ücreti ne zaman ödenir?",
+            "answer": "Avukatlık ücreti, genellikle anlaşmaya bağlı olarak dava öncesinde veya dava süreci sırasında peşin olarak talep edilebilir. Bazı durumlarda, davanın sonunda sonuç alındığında ödeme yapılması da mümkün olabilmektedir."
+          },
+          {
+            "id": 15,
+            "question": "Hukuki hizmetlerin ücretleri nasıl belirleniyor?",
+            "answer": "Hukuki hizmetlerin ücretleri, Türkiye Barolar Birliği'nin belirlediği avukatlık asgari ücret tarifesine dayanarak hesaplanmaktadır. Bunun yanı sıra, dava türüne, karmaşıklığına ve harcanan süreye göre farklı ücretlendirme seçenekleri sunulabilmektedir."
+          }
+        ]
+      }
+    },
+    "paragraph": "Avukatlık hizmetlerimizle ilgili merak ettiğiniz soruları bu bölümde bulabilirsiniz.",
+      "Header1": "Merak ",
+      "Header2": "Ettikleriniz"
   },
 
-"aboutPage": {
-  "title": "Yüksel Hukuk Bürosu",
-  "headerText":"Hakkımızda Notlar",
-  "headerSubText":" Şirketimiz, kapsamlı hukuki danışmanlık ve dava hizmetleri sunarak müvekkillerine güvenilir çözümler sağlar.",
-  "sections": {
-    "mission": {
-      "title": "Misyon Hedefi",
-      "content": "Ana hedeflerimiz, dünya çapında en üst düzeyde hukuk hizmetleri sunmak; müvekkillerimizin başarısına stratejik ve etkin katkılar sağlamaktır. Uzun vadeli ve güven esaslı iş birlikleri oluşturmayı amaçlıyor; müvekkillerimizin hukuk alanındaki tüm ihtiyaçları için kapsamlı çözümler sunmaya öncelik veriyoruz."
-    },
-    "vision": {
-      "title": "Geleceğe Bakış",
-      "content": "Vizyonumuz, hukuk sektöründe yenilikçi ve çözüm odaklı yaklaşımlarımızla lider bir hukuk bürosu olmaktır. Etik değerlerden ödün vermeden, müvekkillerimizin güvenini kazanarak, hukuki çözümlerle onların beklentilerini aşmayı hedefliyoruz. Sektörde sürdürülebilir büyümeyi sağlarken, müvekkillerimize en iyi hizmeti sunmayı misyon edinmiş bir ekip olarak ilerliyoruz."
-    },
-    "practices": {
-      "title": "Uzmanlık Alanlarımız",
-      "content": "Yüksel Hukuk Bürosu, ceza hukuku, aile hukuku, ticaret hukuku, iş hukuku, gayrimenkul hukuku ve sözleşme hukuku gibi birçok alanda hizmet vermektedir. Alanında uzman avukatlarımız, her müvekkilimizin ihtiyacına özel stratejiler geliştirerek hukuki sorunlarına çözüm sunmaktadır. Büromuz, kapsamlı bir hizmet anlayışıyla, hem bireysel hem de kurumsal müvekkillerin beklentilerini karşılamayı taahhüt etmektedir."
-    },
-    "team": {
-      "title": "Uzman Kadromuz",
-      "content": "Yüksel Hukuk Bürosu, deneyimli ve uzman avukat kadrosuyla, müvekkillerine hukuki süreçlerin her aşamasında en iyi hizmeti sunmayı amaçlamaktadır. Ekibimiz, sürekli değişen hukuki düzenlemelere uyum sağlamak adına kendilerini sürekli geliştirmekte ve yenilikçi yaklaşımlar benimsemektedir. Her biri alanında uzman olan ekip üyelerimiz, hukukun çeşitli alanlarında müvekkillerimizin karşılaştığı sorunlara etkin ve pratik çözümler sunar."
+  "aboutPage": {
+    "title": "Yüksel Hukuk Bürosu",
+    "headerText": "Hakkımızda Notlar",
+    "headerSubText": " Şirketimiz, kapsamlı hukuki danışmanlık ve dava hizmetleri sunarak müvekkillerine güvenilir çözümler sağlar.",
+    "sections": {
+      "mission": {
+        "title": "Misyon Hedefi",
+        "content": "Ana hedeflerimiz, dünya çapında en üst düzeyde hukuk hizmetleri sunmak; müvekkillerimizin başarısına stratejik ve etkin katkılar sağlamaktır. Uzun vadeli ve güven esaslı iş birlikleri oluşturmayı amaçlıyor; müvekkillerimizin hukuk alanındaki tüm ihtiyaçları için kapsamlı çözümler sunmaya öncelik veriyoruz."
+      },
+      "vision": {
+        "title": "Geleceğe Bakış",
+        "content": "Vizyonumuz, hukuk sektöründe yenilikçi ve çözüm odaklı yaklaşımlarımızla lider bir hukuk bürosu olmaktır. Etik değerlerden ödün vermeden, müvekkillerimizin güvenini kazanarak, hukuki çözümlerle onların beklentilerini aşmayı hedefliyoruz. Sektörde sürdürülebilir büyümeyi sağlarken, müvekkillerimize en iyi hizmeti sunmayı misyon edinmiş bir ekip olarak ilerliyoruz."
+      },
+      "practices": {
+        "title": "Uzmanlık Alanlarımız",
+        "content": "Yüksel Hukuk Bürosu, ceza hukuku, aile hukuku, ticaret hukuku, iş hukuku, gayrimenkul hukuku ve sözleşme hukuku gibi birçok alanda hizmet vermektedir. Alanında uzman avukatlarımız, her müvekkilimizin ihtiyacına özel stratejiler geliştirerek hukuki sorunlarına çözüm sunmaktadır. Büromuz, kapsamlı bir hizmet anlayışıyla, hem bireysel hem de kurumsal müvekkillerin beklentilerini karşılamayı taahhüt etmektedir."
+      },
+      "team": {
+        "title": "Uzman Kadromuz",
+        "content": "Yüksel Hukuk Bürosu, deneyimli ve uzman avukat kadrosuyla, müvekkillerine hukuki süreçlerin her aşamasında en iyi hizmeti sunmayı amaçlamaktadır. Ekibimiz, sürekli değişen hukuki düzenlemelere uyum sağlamak adına kendilerini sürekli geliştirmekte ve yenilikçi yaklaşımlar benimsemektedir. Her biri alanında uzman olan ekip üyelerimiz, hukukun çeşitli alanlarında müvekkillerimizin karşılaştığı sorunlara etkin ve pratik çözümler sunar."
+      }
     }
-  }
-},
-"aboutPageTeam": {
-  "team": {
-    "heading": "Ekibimizle Tanışın",
-    "description": "Farklı geçmişlere sahip ekibimiz, olağanüstü sonuçlar ve yenilikçi çözümler sunmaya kararlıdır."
-  }
   },
- "teamPage": {
+  "aboutPageTeam": {
+    "team": {
+      "heading": "Ekibimizle Tanışın",
+      "description": "Farklı geçmişlere sahip ekibimiz, olağanüstü sonuçlar ve yenilikçi çözümler sunmaya kararlıdır."
+    }
+  },
+  "teamPage": {
     "headerText": "Değerli Ekibimiz",
     "headerSubText": "Etik değerlerimizden ödün vermeden, çözüm odaklı ve şeffaf bir yaklaşımla her türlü hukuki ihtiyacınıza yanıt veriyoruz. Gücümüzü profesyonellikten, güvenilirlikten ve ekip çalışmasından alıyoruz.",
     "founderPartner": "Kurucu Ortak",
     "textErkan": "Avukat Erkan Yüksel, hukuk kariyerine başladığı günden itibaren, müvekkillerine yüksek standartlarda profesyonel hizmet sunmayı ilke edinmiştir. İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olduktan sonra, çeşitli hukuk firmalarında kazandığı deneyimlerle, ticaret hukuku, aile hukuku, iş hukuku ve sözleşmeler hukuku gibi alanlarda derinleşmiştir. Yüksel, her davada hukuki sürecin her aşamasını titizlikle analiz ederek, müvekkillerine en uygun çözüm yollarını sunmaktadır.",
     "textErkan2": "Müşteri memnuniyeti ve çözüm odaklı yaklaşımıyla tanınan Erkan Yüksel, hukuki danışmanlık alanında yalnızca dava süreçlerine değil, aynı zamanda müvekkillerine stratejik çözümler ve önleyici hukuk danışmanlığı da sağlamaktadır. Avukatlık pratiğinde etik değerlerden asla taviz vermeyen Yüksel, her zaman şeffaflık ve dürüstlük ilkesine sadık kalır.",
     "textErkan3": "Avukat Erkan Yüksel, müvekkillerinin güvenini kazanarak, uzun vadeli ve sağlıklı iş ilişkileri kurmayı başarmış, her türlü hukuki sorun ve ihtimale karşı en iyi sonuçları elde etmek için güçlü bir strateji oluşturmuştur. İş dünyasından bireysel danışmanlık hizmetlerine kadar geniş bir yelpazede kaliteli ve güvenilir hizmet sunan Yüksel, aynı zamanda hukuki süreçlerde hız ve etkinlik konusunda da yüksek bir başarıya sahiptir.",
-    "bio":"Biyografiyi Oku",
+    "bio": "Biyografiyi Oku",
     "header2Text": "Başarıyı Birlikte Tanımlıyoruz",
     "header2SubText": "Yolsuzluk uygulamaları alanında en yüksek kaliteli hizmeti sağlamak için, uluslararası geçmişe sahip deneyimli profesyonellerden oluşan bir ekip kurduk.",
     "businessLaw": "Ticaret Hukuku",
@@ -193,111 +193,109 @@
     "disputeSupportText": "Pek çok lider şirkete hukuki hizmetlerde danışmanlık yapıyoruz.",
     "copyright": "Telif Hakkı",
     "copyrightText": "İhlal uyarıları ve medeni hukuk davalarını içermektedir.",
-     "textMehmetAli": "Avukat Mehmet Ali Kümüş, profesyonel kariyerine başladığı günden itibaren hukuki süreçlere derinlemesine bir yaklaşım benimsemiştir. İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olduktan sonra, birçok ulusal ve uluslararası hukuk firmasında edindiği deneyimle ticaret hukuku, iş hukuku ve sözleşmeler hukuku gibi alanlarda uzmanlaşmıştır. Kümüş, müvekkillerine en etkili çözüm yollarını sunarak, her davada en yüksek başarıyı hedeflemektedir.",
+    "textMehmetAli": "Avukat Mehmet Ali Kümüş, profesyonel kariyerine başladığı günden itibaren hukuki süreçlere derinlemesine bir yaklaşım benimsemiştir. İstanbul Üniversitesi Hukuk Fakültesi'nden mezun olduktan sonra, birçok ulusal ve uluslararası hukuk firmasında edindiği deneyimle ticaret hukuku, iş hukuku ve sözleşmeler hukuku gibi alanlarda uzmanlaşmıştır. Kümüş, müvekkillerine en etkili çözüm yollarını sunarak, her davada en yüksek başarıyı hedeflemektedir.",
     "textMehmetAli2": "Müşteri odaklı yaklaşımıyla tanınan Mehmet Ali Kümüş, sadece dava süreçlerinde değil, aynı zamanda hukuki stratejiler ve risk yönetimi konusunda da değerli rehberlik sunmaktadır. Hukuk pratiğinde her zaman etik değerlere ve şeffaflığa sıkı sıkıya bağlı kalan Kümüş, çözüm odaklı ve güvenilir bir danışmanlık süreci sunmaktadır.",
     "textMehmetAli3": "Avukat Mehmet Ali Kümüş, iş dünyasından bireysel danışmanlığa kadar geniş bir yelpazede hizmet vermekte ve müvekkillerinin güvenini kazanarak uzun vadeli ilişkiler kurmaktadır. Hızlı, etkili ve doğru çözümler sunarak, her türlü hukuki meselede başarılı sonuçlar elde etmeyi amaçlamaktadır.",
     "ManagerPartner": "Yönetici Ortak"
   },
 
   "practicePage": {
-  "headerText":"Hizmetlerimiz",
-  "headerSubText":"Hukuk ve danışmanlık alanındaki uzmanlığımızla, bireysel ve kurumsal ihtiyaçlara özel çözümler üretmeyi hedefliyoruz."
- 
-},
-"publicationsPage":{
-  "headerText":"Yayınlarımız",
-  "headerSubText":"Hukuk dünyasındaki gelişmeleri ve sektördeki yenilikleri takip edin. Blog yazılarımızı okuyun ve güncel bilgilerden haberdar olun."
-},
-"contactPage": {
-  "headerText": "İletişim",
-  "headerSubText": "Bir danışma randevusu planlamak veya sorularınızı sormak için bizimle iletişime geçin.",
-  "contactUs": "Bize Ulaşın",
-  "sendUsMessage": "Bize Mesaj Gönderin",
-  "name": "Adınız",
-  "email": "E-posta",
-  "phone": "Telefon",
-  "address": "Adres",
-  "subject": "Konu",
-  "message": "Mesajınız",
-  "namePlaceholder": "Adınızı girin",
-  "emailPlaceholder": "E-posta adresinizi girin",
-  "subjectPlaceholder": "Konu başlığını girin",
-  "messagePlaceholder": "Mesajınızı buraya yazın",
-  "send": "Gönder",
-  "messageSent": "Mesaj başarıyla gönderildi.",
-  "errorOccurred": "Mesaj gönderilemedi."
-},
-"footer": {
-  "browse": "Gözat",
-  "aboutUs": "Hakkımızda",
-  "team": "Ekibimiz",
-  "practices": "Hizmetler",
-  "publications": "Yayınlar",
-  "contact": "İletişim",
-  "email": "E-Posta: info@sancarlaw.com",
-  "phone": "Telefon: +90 555 555 55 55",
-  "more": "Daha fazlası...",
-  "privacyPolicy": "Gizilik Politikası",
-  "legalNotice": "Yasal Uyarı",
-  "KVKK": "KVKK Aydınlatma Metni",
-  "rightsReserved": "© 2024-2025 Tüm hakları saklıdır |"
-},
-"legalNoticePage": {
+    "headerText": "Hizmetlerimiz",
+    "headerSubText": "Hukuk ve danışmanlık alanındaki uzmanlığımızla, bireysel ve kurumsal ihtiyaçlara özel çözümler üretmeyi hedefliyoruz."
+  },
+  "publicationsPage": {
+    "headerText": "Yayınlarımız",
+    "headerSubText": "Hukuk dünyasındaki gelişmeleri ve sektördeki yenilikleri takip edin. Blog yazılarımızı okuyun ve güncel bilgilerden haberdar olun."
+  },
+  "contactPage": {
+    "headerText": "İletişim",
+    "headerSubText": "Bir danışma randevusu planlamak veya sorularınızı sormak için bizimle iletişime geçin.",
+    "contactUs": "Bize Ulaşın",
+    "sendUsMessage": "Bize Mesaj Gönderin",
+    "name": "Adınız",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "address": "Adres",
+    "subject": "Konu",
+    "message": "Mesajınız",
+    "namePlaceholder": "Adınızı girin",
+    "emailPlaceholder": "E-posta adresinizi girin",
+    "subjectPlaceholder": "Konu başlığını girin",
+    "messagePlaceholder": "Mesajınızı buraya yazın",
+    "send": "Gönder",
+    "messageSent": "Mesaj başarıyla gönderildi.",
+    "errorOccurred": "Mesaj gönderilemedi."
+  },
+  "footer": {
+    "browse": "Gözat",
+    "aboutUs": "Hakkımızda",
+    "team": "Ekibimiz",
+    "practices": "Hizmetler",
+    "publications": "Yayınlar",
+    "contact": "İletişim",
+    "email": "E-Posta: info@sancarlaw.com",
+    "phone": "Telefon: +90 555 555 55 55",
+    "more": "Daha fazlası...",
+    "privacyPolicy": "Gizilik Politikası",
+    "legalNotice": "Yasal Uyarı",
+    "KVKK": "KVKK Aydınlatma Metni",
+    "rightsReserved": "© 2024-2025 Tüm hakları saklıdır |"
+  },
+  "legalNoticePage": {
     "headerText": "Yasal Uyarı",
     "headerSubText": "Bu sayfa, web sitemize erişiminiz ve kullanımınız sırasında geçerli olan yasal hak ve sorumluluklarınızı açıklamaktadır. Hizmetlerimizi kullanmadan önce lütfen bu uyarıları ve koşulları dikkatlice okuyunuz.",
-    "h1":"Değerli Ziyaretçilerimiz,",
+    "h1": "Değerli Ziyaretçilerimiz,",
     "p1": "Bu web sitesinde yer alan bilgiler yalnızca bilgilendirme amacı taşımakta olup, herhangi bir hukuki danışmanlık ya da görüş verme amacı gütmemektedir. Site, avukat-müvekkil ilişkisi kurma niyetiyle tasarlanmamıştır. Bu nedenle, burada sunulan bilgiler, mevcut kanunlar ve ikincil düzenlemelerdeki değişiklikler nedeniyle zamanla güncelliğini yitirebilir ve güncel yasal durumları yansıtmayabilir. Bu bilgileri kullanarak herhangi bir işlem yapmadan önce, yetkili bir uzmandan yasal danışmanlık almanız önemlidir. Bu sitedeki bilgilerin güvenilir kaynaklardan alındığına özen gösterilmiştir, fakat KY Hukuk Bürosu, bu bilgilerin doğruluğundaki eksiklikler veya yanlışlıklar ve bu bilgilerin kullanımından doğabilecek sonuçlardan sorumlu tutulamaz.",
     "p2": "Site, Türkiye Barolar Birliği’nin Meslek Kuralları ve ilgili mevzuata uygun olarak hazırlanmış olup, reklam yasağına dair düzenlemelere de riayet edilmiştir. Site, ticari kazanım elde etme veya reklam amaçlı kullanılamaz. Bu siteyi kullanan her ziyaretçi, Kullanım Şartları’ndaki koşulları kabul etmiş sayılır. Bu web sitesindeki tüm içerik ve materyaller KY Hukuk Bürosu’na aittir. Fikri mülkiyet hakkına sahip yazılı içerikler, belgeler ve logolar, KY Hukuk Bürosu’nun izni olmadan çoğaltılamaz, kopyalanamaz ya da kullanılmaz. Faks veya e-posta yoluyla KY Hukuk Bürosu'na gönderilen herhangi bir bilgi, bu siteyi kullanan kişi ile avukat-müvekkil ilişkisi oluşturmaz. Ayrıca, mevcut müvekkiller ile de herhangi bir yeni avukat-müvekkil ilişkisi başlatmaz.",
-    "p3": "Site, sadece kişisel kullanım amacıyla sağlanan bilgileri içerir ve ticari dağıtım için tasarlanmamıştır. Ziyaretçiler, sunulan bilgilerin yanlış olduğunu veya bu bilgilerden ötürü zarar gördüklerini iddia edemezler. KY Hukuk Bürosu, sitede bulunan bilgilere dayalı olarak alınan kararlar ya da yapılan işlemler nedeniyle hiçbir sorumluluk kabul etmez. KY Hukuk Bürosu, üçüncü şahıslar tarafından yayımlanan içeriklere ilişkin herhangi bir sorumluluk taşımaz ve bu içerikler içinde yer alan beyanları onaylamaz. KY Hukuk Bürosu, uygun bulmadığı içerikleri siteden çıkarma hakkını saklı tutar." 
-},
-"privacyPolicyPage": {
-  "headerText": "Gizlilik Politikası",
-  "headerSubText": "Web sitemizi kullanmadan önce gizlilik politikamızı dikkatlice okumanızı öneririz.",
-  "h1":"Değerli Ziyaretçilerimiz,",
-  "intro": "Büromuz, [Adres] adresinde yer almakta olup, burada verilen tüm hizmetler tamamen bu adreste faaliyet gösteren hukuk büromuz tarafından sunulmaktadır. Büromuz, çeşitli amaçlarla kişisel verileri toplayabilir. Bu metin, toplanan kişisel verilerin nasıl elde edildiği, nasıl korunduğu ve hangi koşullar altında işleme faaliyetlerine tabi tutulduğu hakkında bilgi vermektedir.",
-  "sections": {
-    "collection": {
-      "title": "Kişisel Verilerin Toplanması",
-      "content": "İnternet sitemiz üzerinde yer alan çeşitli form ve anketler aracılığıyla, kullanıcılar kendileriyle ilgili kişisel bilgileri (isim-soyad, firma bilgileri, telefon numarası, adres, e-posta gibi) büromuz tarafından işin doğası gereği sağlamakta ve bu veriler toplanmaktadır."
-    },
-    "confidentiality": {
-      "title": "Gizlilik Taahhüdü",
-      "content": "Büromuz, gizli bilgileri her zaman gizli tutmayı taahhüt eder. Gizliliğin korunması amacıyla gerekli tüm tedbirleri almakta ve bilgilerin yetkisiz kişilere açılmasını engellemeye yönelik her türlü özeni göstermektedir. Gizli bilgilerin tümü veya herhangi bir kısmının kamusal alanda yer alması, yetkisiz kişilerce kullanılması veya üçüncü şahıslara ifşa edilmesi önlenmesi için gerekli tüm önlemler alınmaktadır."
-    },
-    "thirdParty": {
-      "title": "Üçüncü Taraf Web Siteleri ve Uygulamalar",
-      "content": "Büromuz web sitesinde, başka sitelere yönlendiren bağlantılar verebilir. Ancak, bu tür bağlantılar aracılığıyla erişilen üçüncü taraf web sitelerinin gizlilik politikalarından veya içeriklerinden büromuz sorumlu değildir."
-    },
-    "exceptions": {
-      "title": "İstisnai Haller",
-      "content": "Aşağıda belirtilen sınırlı hallerde, büromuz kullanıcı bilgilerini üçüncü şahıslara açıklayabilir:",
-      "list": [
-        "Yürürlükteki kanun, yönetmelik, kanun hükmünde kararname gibi yasal düzenlemelere uyum sağlamak.",
-        "Yetkili idari veya adli otoriteler tarafından yürütülen araştırmalar veya soruşturmalar kapsamında bilgi talep edilmesi.",
-        "Kullanıcıların haklarını veya güvenliklerini korumak adına bilgi paylaşımının gerekli olması."
-      ]
-    },
-    "emailSecurity": {
-      "title": "E-posta Güvenliği",
-      "content": "Büromuza göndereceğiniz e-postalar aracılığıyla, kredi kartı numaranız veya şifreleriniz gibi hassas bilgileri paylaşmamanız önemlidir. E-posta iletileriniz üçüncü şahıslar tarafından görüntülenebilir, dolayısıyla büromuz e-posta yoluyla gönderilen bilgilerin güvenliğini garanti edemez."
-    },
-    "cookies": {
-      "title": "Çerez Kullanımı",
-      "content": [
-        "Büromuz, web sitesi ziyaretçilerinden elde ettiği verileri, çerez (cookie) adı verilen küçük metin dosyaları aracılığıyla toplayabilir. Çerezler, web sitesinin kullanıcılar için daha verimli hale gelmesini sağlayan teknik dosyalardır. Çerezler sayesinde, ziyaretçi davranışları ve siteyi kullanım şekilleri analiz edilerek, kullanıcı deneyimi iyileştirilebilir. Çerezler, kişisel bilgileri toplamak amacıyla değil, sadece kullanıcı tercihlerini ve site içi kullanım verilerini depolamak için kullanılır.",
-        " Çoğu tarayıcı, çerezleri otomatik olarak kabul edecek şekilde yapılandırılmıştır. Ancak kullanıcılar, çerezlerin gönderilmesini engelleyebilir veya çerez gönderildiğinde uyarı alacak şekilde ayarlarını değiştirebilir. Büromuz, gizlilik politikası hükümlerinde değişiklik yapma hakkına sahiptir. Yapılacak değişiklikler, site üzerinden yayımlandığı tarihte geçerlilik kazanır.",
-        "Gizlilik politikamız ile ilgili her türlü soru ve önerileriniz için, info@kypartners.av.tr adresine e-posta gönderebilir veya aşağıdaki iletişim bilgilerimizden bizimle irtibata geçebilirsiniz."
-      ]
+    "p3": "Site, sadece kişisel kullanım amacıyla sağlanan bilgileri içerir ve ticari dağıtım için tasarlanmamıştır. Ziyaretçiler, sunulan bilgilerin yanlış olduğunu veya bu bilgilerden ötürü zarar gördüklerini iddia edemezler. KY Hukuk Bürosu, sitede bulunan bilgilere dayalı olarak alınan kararlar ya da yapılan işlemler nedeniyle hiçbir sorumluluk kabul etmez. KY Hukuk Bürosu, üçüncü şahıslar tarafından yayımlanan içeriklere ilişkin herhangi bir sorumluluk taşımaz ve bu içerikler içinde yer alan beyanları onaylamaz. KY Hukuk Bürosu, uygun bulmadığı içerikleri siteden çıkarma hakkını saklı tutar."
+  },
+  "privacyPolicyPage": {
+    "headerText": "Gizlilik Politikası",
+    "headerSubText": "Web sitemizi kullanmadan önce gizlilik politikamızı dikkatlice okumanızı öneririz.",
+    "h1": "Değerli Ziyaretçilerimiz,",
+    "intro": "Büromuz, [Adres] adresinde yer almakta olup, burada verilen tüm hizmetler tamamen bu adreste faaliyet gösteren hukuk büromuz tarafından sunulmaktadır. Büromuz, çeşitli amaçlarla kişisel verileri toplayabilir. Bu metin, toplanan kişisel verilerin nasıl elde edildiği, nasıl korunduğu ve hangi koşullar altında işleme faaliyetlerine tabi tutulduğu hakkında bilgi vermektedir.",
+    "sections": {
+      "collection": {
+        "title": "Kişisel Verilerin Toplanması",
+        "content": "İnternet sitemiz üzerinde yer alan çeşitli form ve anketler aracılığıyla, kullanıcılar kendileriyle ilgili kişisel bilgileri (isim-soyad, firma bilgileri, telefon numarası, adres, e-posta gibi) büromuz tarafından işin doğası gereği sağlamakta ve bu veriler toplanmaktadır."
+      },
+      "confidentiality": {
+        "title": "Gizlilik Taahhüdü",
+        "content": "Büromuz, gizli bilgileri her zaman gizli tutmayı taahhüt eder. Gizliliğin korunması amacıyla gerekli tüm tedbirleri almakta ve bilgilerin yetkisiz kişilere açılmasını engellemeye yönelik her türlü özeni göstermektedir. Gizli bilgilerin tümü veya herhangi bir kısmının kamusal alanda yer alması, yetkisiz kişilerce kullanılması veya üçüncü şahıslara ifşa edilmesi önlenmesi için gerekli tüm önlemler alınmaktadır."
+      },
+      "thirdParty": {
+        "title": "Üçüncü Taraf Web Siteleri ve Uygulamalar",
+        "content": "Büromuz web sitesinde, başka sitelere yönlendiren bağlantılar verebilir. Ancak, bu tür bağlantılar aracılığıyla erişilen üçüncü taraf web sitelerinin gizlilik politikalarından veya içeriklerinden büromuz sorumlu değildir."
+      },
+      "exceptions": {
+        "title": "İstisnai Haller",
+        "content": "Aşağıda belirtilen sınırlı hallerde, büromuz kullanıcı bilgilerini üçüncü şahıslara açıklayabilir:",
+        "list": [
+          "Yürürlükteki kanun, yönetmelik, kanun hükmünde kararname gibi yasal düzenlemelere uyum sağlamak.",
+          "Yetkili idari veya adli otoriteler tarafından yürütülen araştırmalar veya soruşturmalar kapsamında bilgi talep edilmesi.",
+          "Kullanıcıların haklarını veya güvenliklerini korumak adına bilgi paylaşımının gerekli olması."
+        ]
+      },
+      "emailSecurity": {
+        "title": "E-posta Güvenliği",
+        "content": "Büromuza göndereceğiniz e-postalar aracılığıyla, kredi kartı numaranız veya şifreleriniz gibi hassas bilgileri paylaşmamanız önemlidir. E-posta iletileriniz üçüncü şahıslar tarafından görüntülenebilir, dolayısıyla büromuz e-posta yoluyla gönderilen bilgilerin güvenliğini garanti edemez."
+      },
+      "cookies": {
+        "title": "Çerez Kullanımı",
+        "content": [
+          "Büromuz, web sitesi ziyaretçilerinden elde ettiği verileri, çerez (cookie) adı verilen küçük metin dosyaları aracılığıyla toplayabilir. Çerezler, web sitesinin kullanıcılar için daha verimli hale gelmesini sağlayan teknik dosyalardır. Çerezler sayesinde, ziyaretçi davranışları ve siteyi kullanım şekilleri analiz edilerek, kullanıcı deneyimi iyileştirilebilir. Çerezler, kişisel bilgileri toplamak amacıyla değil, sadece kullanıcı tercihlerini ve site içi kullanım verilerini depolamak için kullanılır.",
+          " Çoğu tarayıcı, çerezleri otomatik olarak kabul edecek şekilde yapılandırılmıştır. Ancak kullanıcılar, çerezlerin gönderilmesini engelleyebilir veya çerez gönderildiğinde uyarı alacak şekilde ayarlarını değiştirebilir. Büromuz, gizlilik politikası hükümlerinde değişiklik yapma hakkına sahiptir. Yapılacak değişiklikler, site üzerinden yayımlandığı tarihte geçerlilik kazanır.",
+          "Gizlilik politikamız ile ilgili her türlü soru ve önerileriniz için, info@kypartners.av.tr adresine e-posta gönderebilir veya aşağıdaki iletişim bilgilerimizden bizimle irtibata geçebilirsiniz."
+        ]
+      }
     }
-  }
-  
-},
+  },
   "breadcrumb": {
     "home": "Anasayfa",
     "about": "Hakkımızda",
     "team": "Ekibimiz",
     "practice": "Hizmetler",
-    "insight":"Yayınlar",
+    "insight": "Yayınlar",
     "communication": "İletişim",
     "disclaimer": "Yasal Uyarı",
     "privacy-policy": "Gizlilik Politikası",
@@ -329,6 +327,5 @@
     "alacakli-haklari-ve-iflas": "Alacaklı Hakları ve İflas",
     "e-ticaret": "E-Ticaret",
     "saglik-ve-yasam-bilimleri": "Sağlık ve Yaşam Bilimleri"
-
-}
+  }
 }

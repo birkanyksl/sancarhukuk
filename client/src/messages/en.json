@@ -144,8 +144,8 @@
       }
     },
     "paragraph": "You can find the answers to common questions about our legal services in this section.",
-    "H11": "Your ",
-    "H12": "Questions"
+    "Header1": "Your ",
+    "Header2": "Questions"
   },
 
   "aboutPage": {
@@ -253,43 +253,43 @@
   "privacyPolicyPage": {
     "headerText": "Privacy Policy",
     "headerSubText": "We recommend that you carefully review our privacy policy before using our website.",
-      "h1": "Dear Visitors,",
-      "intro": "Our law firm is located at [Address], and all services provided at this location are operated by our law office. Our office may collect personal data for various purposes. This document outlines how the collected personal data is obtained, how it is protected, and under what conditions it is processed.",
-      "sections": {
-        "collection": {
-          "title": "Collection of Personal Data",
-          "content": "Various forms and surveys on our website collect personal information (such as name, surname, company information, phone number, address, email, etc.) from users, which is provided by the users themselves and collected by our office as required by the nature of the work."
-        },
-        "confidentiality": {
-          "title": "Confidentiality and Protection of Personal Data",
-          "content": "Our office is committed to maintaining the confidentiality of all information at all times. Necessary precautions are taken to ensure the protection of this confidentiality, and all due care is exercised to prevent unauthorized access or disclosure of confidential information. All necessary measures are taken to prevent the public disclosure or unauthorized use of any part or all of the confidential information or its disclosure to third parties."
-        },
-        "thirdParty": {
-          "title": "Third-Party Websites and Applications",
-          "content": "Our website may contain links to other websites. However, we are not responsible for the privacy practices or content of these third-party websites accessed via these links."
-        },
-        "exceptions": {
-          "title": "Exceptions",
-          "content": "In the limited cases below, our office may disclose user information to third parties:",
-          "list": [
-            "To comply with applicable laws, regulations, decrees, and other legal obligations,",
-            "If requested by the competent administrative or judicial authorities for the purposes of an investigation or inquiry,",
-            "When it is necessary to share information in order to protect the rights or safety of users."
-          ]
-        },
-        "emailSecurity": {
-          "title": "Email Security",
-          "content": "It is important not to share sensitive information, such as your credit card number or passwords, in the emails you send to our office. Emails may be visible to third parties, and therefore, our office cannot guarantee the security of the information transmitted via email."
-        },
-        "cookies": {
-          "title": "Cookie Usage",
-          "content": [
-            "Our office may collect data from website visitors using small text files called cookies. Cookies are technical files that help make the website more efficient for users. Cookies allow for the analysis of visitor behavior and usage patterns on the site, improving the user experience. Cookies are used only to store user preferences and site usage data and are not designed to collect personal information.",
-            "Most browsers are configured to automatically accept cookies. However, users can adjust their settings to block cookies or receive a notification when cookies are sent. Our office reserves the right to make changes to the privacy policy. Any changes will become effective as of the date of publication on the site.",
-            "For any questions or suggestions regarding our privacy policy, you may contact us by email at info@kypartners.av.tr or by using the contact details below."
-          ]
-        }
+    "h1": "Dear Visitors,",
+    "intro": "Our law firm is located at [Address], and all services provided at this location are operated by our law office. Our office may collect personal data for various purposes. This document outlines how the collected personal data is obtained, how it is protected, and under what conditions it is processed.",
+    "sections": {
+      "collection": {
+        "title": "Collection of Personal Data",
+        "content": "Various forms and surveys on our website collect personal information (such as name, surname, company information, phone number, address, email, etc.) from users, which is provided by the users themselves and collected by our office as required by the nature of the work."
+      },
+      "confidentiality": {
+        "title": "Confidentiality and Protection of Personal Data",
+        "content": "Our office is committed to maintaining the confidentiality of all information at all times. Necessary precautions are taken to ensure the protection of this confidentiality, and all due care is exercised to prevent unauthorized access or disclosure of confidential information. All necessary measures are taken to prevent the public disclosure or unauthorized use of any part or all of the confidential information or its disclosure to third parties."
+      },
+      "thirdParty": {
+        "title": "Third-Party Websites and Applications",
+        "content": "Our website may contain links to other websites. However, we are not responsible for the privacy practices or content of these third-party websites accessed via these links."
+      },
+      "exceptions": {
+        "title": "Exceptions",
+        "content": "In the limited cases below, our office may disclose user information to third parties:",
+        "list": [
+          "To comply with applicable laws, regulations, decrees, and other legal obligations,",
+          "If requested by the competent administrative or judicial authorities for the purposes of an investigation or inquiry,",
+          "When it is necessary to share information in order to protect the rights or safety of users."
+        ]
+      },
+      "emailSecurity": {
+        "title": "Email Security",
+        "content": "It is important not to share sensitive information, such as your credit card number or passwords, in the emails you send to our office. Emails may be visible to third parties, and therefore, our office cannot guarantee the security of the information transmitted via email."
+      },
+      "cookies": {
+        "title": "Cookie Usage",
+        "content": [
+          "Our office may collect data from website visitors using small text files called cookies. Cookies are technical files that help make the website more efficient for users. Cookies allow for the analysis of visitor behavior and usage patterns on the site, improving the user experience. Cookies are used only to store user preferences and site usage data and are not designed to collect personal information.",
+          "Most browsers are configured to automatically accept cookies. However, users can adjust their settings to block cookies or receive a notification when cookies are sent. Our office reserves the right to make changes to the privacy policy. Any changes will become effective as of the date of publication on the site.",
+          "For any questions or suggestions regarding our privacy policy, you may contact us by email at info@kypartners.av.tr or by using the contact details below."
+        ]
       }
+    }
   },
 
   "breadcrumb": {

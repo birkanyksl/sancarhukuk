@@ -123,10 +123,9 @@ const Faq = () => {
         <HeadingWithDivider title={t("title")} />
         <div className="mb-12 md:my-20 lg:mb:24 flex flex-col lg:flex-row lg:my-24 md:items-end justify-center gap-4">
           <div className="flex flex-col text-center items-center w-full gap-4">
-            <h1 className="text-center text-2xl lg:text-3xl font-bold">
-              {" "}
-              <span className="text-color6">{t("H11")}</span>
-              <span className="text-color1">{t("H12")}</span>
+            <h1 className="text-center text-2xl lg:text-3xl font-bold">             
+              <span className="text-color6">{t("Header1")}</span>
+              <span className="text-color1">{t("Header2")}</span>
             </h1>
             <p className="text-sm md:text-base mb-4 text-gray-800 leading-6">
               {t("paragraph")}

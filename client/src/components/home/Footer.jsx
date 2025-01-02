@@ -3,9 +3,11 @@ import Image from "next/image";
 import React from "react";
 import { FaInstagram, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { useTranslations } from "next-intl";
+import {useLocale} from "next-intl";
 
 const Footer = () => {
   const t = useTranslations("footer");
+  const locale = useLocale();
 
   return (
     <>
@@ -14,10 +16,10 @@ const Footer = () => {
           <ul>
             <div className="flex gap-2 flex-col">
               {/* <FaInstagram className="text-sm cursor-pointer hover:text-yellow-600" /> */}
-              <div className="relative w-96 h-48 -ml-20">
+              <div className="relative w-64 h-48 -ml-8 ">
                 <Link href="/">
                   <Image
-                    src="/logo.png"
+                     src={locale === 'tr' ? '/logo-tr.png' : '/logo-en.png'}
                     alt="Sancar Hukuk Logo"
                     fill
                     className=" object-cover"
@@ -109,7 +111,7 @@ const Footer = () => {
           <Link href={"/legal-notice"}>
             <li className="cursor-pointer">{t("legalNotice")}</li>
           </Link>
-          <Link href={"/legal-notice"}>
+          <Link href={"/personal-data-protection-authority"}>
             <li className="cursor-pointer">{t("KVKK")}</li>
           </Link>
         </ul>

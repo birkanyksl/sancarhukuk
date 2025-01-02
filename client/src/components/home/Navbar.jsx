@@ -4,10 +4,12 @@ import { useTranslations } from "next-intl";
 import LocaleSwitcher from "../LocaleSwitcher";
 import UserImage from "./UserImage";
 import Image from "next/image";
+import {useLocale} from "next-intl";
 
 
 const Navbar = () => {
   const t = useTranslations("navbarlinks");
+  const locale = useLocale();
 
   const navLinks = [
     { key: "about", path: "/about" },
@@ -19,12 +21,12 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="h-24 flex items-center justify-between  ">
+    <div className="h-32 flex items-center justify-between  ">
       {/* LEFT */}
-      <div className="relative w-56 h-24 lg:block mt-6 -ml-12">
+      <div className="relative w-40 h-32 my-auto ">
   <Link href="/">
     <Image 
-      src="/logo.png" 
+      src={locale === 'tr' ? '/logo-tr.png' : '/logo-en.png'}
       alt="Sancar Hukuk Logo" 
       fill 
       className="object-cover"
